@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  --white: rgb(249, 250, 255);
+  --cyan: rgb(49, 102, 142);
+  --light-gray: rgb(234, 231, 220);
+  --gray: rgb(176, 176, 176);
+  --dark-gray: rgb(142, 141, 138);
+  /* calmer pink */
+  --pink: rgb(233, 128, 116);
+  /* more saturated pink */
+  --pink: rgb(247, 102, 102);
+  --red: rgb(232, 90, 79);
+  --yellow: rgb(248, 233, 161);
+  --light-blue: rgb(168, 208, 230);
+  --blue: rgb(54, 71, 133);
+  --dark-blue: rgb(36, 48, 94);
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-size: 14pt;
+}
+#main-header {
+  height: 10%;
+  min-height: 50px;
+  background-color: var(--blue);
+}
+#mcgill-logo {
+  height: 70%;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-gray);
+}
+.content-header {
+  top: 0px;
+  width: 100%;
+  background-color: var(--dark-gray);
+  text-align: center;
+}
+#content-wrapper {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+#side-panel {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: var(--red);
+  overflow: hidden;
+}
+#collapse-button-wrapper {
+  float: right;
+  height: 3%;
+  min-height: 30px;
+  width: 100%;
+  opacity: 0.8;
+}
+#collapse-button {
+  height: 100%;
+  float: right;
+}
+#side-panel-content {
+  float: inherit;
+  width: 100%;
+  height: 97%;
+  padding: 5%;
+  font-size: 12pt;
+}
+.side-panel-options {
+  float: inherit;
+  display: block;
+  text-align: left;
+  width: 50%;
+}
+.radio-buttons {
+  padding-left: 30px;
+}
+#course-selector {
+  float: inherit;
+  display: block;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: var(--light-gray);
+  margin-top: 30px;
+}
+.text-box {
+  padding: 10px;
+  align-content: center;
+}
+#course-input {
+  display: inline-block;
+  width: 185px;
+}
+#foo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cy {
+  float: left;
+  width: 80%;
+  height: 100%;
+  background-color: var(--light-blue);
+}
