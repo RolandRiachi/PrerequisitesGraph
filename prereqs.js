@@ -13,7 +13,6 @@ var cy = cytoscape({
   ]
 });
 
-document.getElementById('cy').width = '30%'
-// console.log(document.getElementById('cy').height);
-cy.resize();
-cy.fit();
+// document.getElementById('cy').width = '500px'
+// cy.resize();
+// cy.fit();

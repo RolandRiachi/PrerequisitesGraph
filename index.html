@@ -3,6 +3,14 @@
 <head>
     <title>Prerequisites</title>
     <script src='cytoscape.min.js'></script>
+    <script src="sidebar.js"></script>
+    <script type="text/javascript">
+      submitForms = function() {
+        document.getElementById("in-out").submit();
+        document.getElementById("pcr").submit();
+        document.getElementById("course").submit();
+      }
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,35 +22,41 @@
         Choose Courses
       </div>
       <div id="collapse-button-wrapper">
-        <img src="left_arrow.png" id="collapse-button" alt="Left Arrow" style="opacity: 0.4">
+        <img src="left_arrow.png" id="collapse-button" alt="Left Arrow" style="opacity: 0.4" onclick="collapseSidebar()">
       </div>
       <div id="side-panel-content">
         <div class="side-panel-options">
-          <form class="radio-buttons" action="index.html" id="in-out">
+          <form class="radio-buttons" id="in-out">
             <input type="radio" name="in-out" value="out" title="Displays all the courses which require the selected course as a prerequisite">Out of<br>
             <input type="radio" name="in-out" value="in" title="Displays all the courses which are prerequisites to the selected course">Into<br>
           </form>
         </div>
         <div class="side-panel-options">
-          <form class="checkboxes" action="index.html" id="pcr">
+          <form class="checkboxes" id="pcr">
             <input type="checkbox" name="pcr" value="prereqs" title="Prerequisites are courses which must be completed before taking the selected course">Prerequisites<br>
             <input type="checkbox" name="pcr" value="coreqs" title="Corequisites are coursees which must be completed before or at the same time as the selected course">Corequisites<br>
             <input type="checkbox" name="pcr" value="restrict" title="Restrictions are courses which cannot have been completed before or at the same time as the selected course">Restrictions<br>
           </form>
         </div>
         <div id="course-selector">
-            <form class="text-box" action="index.html">
-              <input type="text" id="course-input" name="course" placeholder="Select Course Number or Title">
+            <form class="text-box" id="course">
+              <div class="autocomplete">
+                <input type="text" id="course-input" name="course" autocomplete="off" placeholder="Select Course Number or Title" role="combobox">
+              </div>
               <input type="submit" name="submit" onclick="submitForms()" title="Hello">
             </form>
+            <script src="searchCourses.js"></script>
         </div>
       </div>
     </div>
-    <div id="cy">
+    <div id="main-panel">
       <div class="content-header">
         Graph
       </div>
-      <script src='prereqs.js'></script>
+      <div id="cy">
+          <img src="right_arrow.png" id="expand-button" alt="Right Arrow" style="opacity: 0.4" onclick="expandSidebar()">
+          <script src='prereqs.js'></script>
+      </div>
     </div>
   </div>
 </body>
