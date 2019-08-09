@@ -32,8 +32,9 @@ body {
 }
 
 #main-header {
-  height: 10%;
-  min-height: 50px;
+  /* height: 10%;
+  min-height: 50px; */
+  height: 0%;
   background-color: var(--blue);
 }
 
@@ -55,7 +56,8 @@ body {
 
 #content-wrapper {
   width: 100%;
-  height: 90%;
+  /* height: 90%; */
+  height: 100%;
   overflow: hidden;
 }
 
@@ -103,7 +105,7 @@ body {
   width: 50%;
 }
 
-.radio-buttons {
+#course-behaviour {
   padding-left: 30px;
 }
 
@@ -115,6 +117,8 @@ body {
   width: 100%;
   background-color: var(--light-gray);
   margin-top: 30px;
+  padding: 10px;
+  align-content: center;
 }
 
 .text-box {
@@ -139,10 +143,12 @@ body {
 
 .autocomplete-items {
   position: absolute;
-  border: 1px solid #d4d4d4;
+  /* border: 1px solid #d4d4d4; */
   border-bottom: none;
   border-top: none;
   z-index: 99;
+  overflow-y: auto;
+  height: 13rem;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
@@ -154,6 +160,7 @@ body {
   cursor: pointer;
   background-color: var(--white);
   border-bottom: 1px solid #d4d4d4;
+  height: auto;
 }
 
 /*when hovering an item:*/
@@ -163,13 +170,22 @@ body {
 
 /*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
-  background-color: DodgerBlue !important;
+  background-color: var(--light-blue) !important;
 }
 
-#foo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#sys-msg {
+  float: inherit;
+  width: 100%;
+  padding-top: 2rem;
+  text-align: center;
+  color: var(--blue);
+  font-weight: bold;
+  animation: slide-up 1s;
+}
+
+@keyframes slide-up {
+  from {margin-top: 20%; opacity: 0}
+  to {margin-top: 0%; opacity: 1}
 }
 
 #main-panel {
@@ -181,4 +197,5 @@ body {
 
 #cy {
   height: 100%;
+  width: 100%;
 }
