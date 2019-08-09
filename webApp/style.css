@@ -143,12 +143,9 @@ body {
 
 .autocomplete-items {
   position: absolute;
-  /* border: 1px solid #d4d4d4; */
-  border-bottom: none;
-  border-top: none;
   z-index: 99;
   overflow-y: auto;
-  height: 13rem;
+  max-height: 23.5rem;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
@@ -159,13 +156,7 @@ body {
   padding: 10px;
   cursor: pointer;
   background-color: var(--white);
-  border-bottom: 1px solid #d4d4d4;
   height: auto;
-}
-
-/*when hovering an item:*/
-.autocomplete-items div:hover {
-  background-color: #e9e9e9;
 }
 
 /*when navigating through the items using the arrow keys:*/
