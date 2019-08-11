@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="searchCourses_2.js"></script>
+  </head>
+  <body>
+    <div class="autocomplete">
+      <input type="text" id="course-input" name="course" autocomplete="off" placeholder="Select Course Number or Title" role="combobox">
+    </div>
+    <input type="submit" name="submit" onclick="submit()">
+    <script type="text/javascript">
+      var courses = [];
+      for (var i = 0; i < 100; i++) {
+        courses.push("MATH " + i);
+      }
+
+      autocomplete(document.getElementById("course-input"), courses);
+    </script>
+    </div>
+  </body>
+</html>
