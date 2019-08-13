@@ -146,7 +146,6 @@ body {
   z-index: 99;
   overflow-y: auto;
   max-height: 23.5rem;
-  /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
   right: 0;
@@ -159,12 +158,11 @@ body {
   height: auto;
 }
 
-/*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
   background-color: var(--light-blue) !important;
 }
 
-#sys-msg {
+.sys-msg {
   float: inherit;
   width: 100%;
   padding-top: 2rem;

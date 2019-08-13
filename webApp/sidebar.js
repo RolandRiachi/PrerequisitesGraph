@@ -32,8 +32,8 @@ function autocomplete() {
 
   //Array of suggestions to consider (PLACEHOLDER FOR NOW)
   var arr = [];
-  for (var i = 0; i < 100; i++) {
-    arr.push("MATH " + i);
+  for ( var course in math_tar ){
+    arr.push(course)
   }
 
   //Number of suggestions to display
@@ -160,7 +160,7 @@ function autocomplete() {
 }
 
 function submit(){
-  var  course, isSourceChecked, isTargetChecked, options = [];
+  var  course, isSourceChecked, isTargetChecked, behaviour, options = [];
 
   //Get values from Course text input
   course = document.getElementById("course-input").value;
@@ -171,50 +171,73 @@ function submit(){
   //Get values from Source-Target checkboxes
   isSourceChecked = document.getElementById("source").checked;
   isTargetChecked = document.getElementById("target").checked;
-  //If neither checkbox is checked, raise error message
+
+  //Check if course inputted is valid
   //Source -> 1, Target -> 0
-  if ( !isSourceChecked && !isTargetChecked) {
-    raiseErrorMsg();
-    return;
+  if ( isSourceChecked ) {
+    //Check if course is valid
+    if ( !(course in math_src) ) raiseCourseError();
+    else lowerCourseError();
+
+    behaviour = 1;
+  } else {
+    //Check if course is valid
+    if ( !(course in math_tar) ) raiseCourseError();
+    else lowerCourseError();
+
+    behaviour = 0;
   }
-  else if ( isSourceChecked ) options.push(1);
-  else options.push(0);
 
   //Get values from Prerequisites-Corequisites-Restrictions checkboxes
-  if ( document.getElementById("prereqs").checked ) options.push(1);
-  else options.push(0);
+  if ( document.getElementById("prereqs").checked ) options.push('prereqs');
+  if ( document.getElementById("coreqs").checked ) options.push('coreqs');
+  if ( document.getElementById("restricts").checked ) options.push('restricts');
 
-  if ( document.getElementById("coreqs").checked ) options.push(1);
-  else options.push(0);
+  //If either list has none of its checkboxes checked, raise error message
+  if ( options.length == 0 || (!isSourceChecked && !isTargetChecked) ) raiseOptionError();
+  else lowerOptionError();
 
-  if ( document.getElementById("restricts").checked ) options.push(1);
-  else options.push(0);
-
-  //If none of the checkboxes are checked, raise error message
-  if ( !options[1] && !options[2] && !options[3] ) {
-    raiseErrorMsg();
-    return;
+  //If no errors, generate new graph
+  if ( document.getElementsByClassName("sys-msg")[0] ) return;
+  else {
+    DFS(course, behaviour, options);
   }
-
-  //If option has been inputted, lower the error and generate new graph
-  if ( document.getElementById("sys-msg") ) lowerErrorMsg();
-  //Call to prereq.js
 };
 
-function raiseErrorMsg(){
+function raiseOptionError(){
   //Check if error has already been raised
-  if ( document.getElementById("sys-msg") ) return;
+  if ( document.getElementById("sys-msg-opt") ) return;
 
   //If no error is already up, raise the error
   var slide = document.createElement("div");
   slide.appendChild(document.createTextNode("Make sure to choose a course behaviour and a type of connection!"));
-  slide.id = "sys-msg";
+  slide.setAttribute("class", "sys-msg");
+  slide.setAttribute("id", "sys-msg-opt");
 
   var parent = document.getElementById("side-panel-content");
   parent.appendChild(slide);
 }
 
-function lowerErrorMsg(){
-  //Remove error message now that everything is working
-  document.getElementById("side-panel-content").removeChild(document.getElementById("sys-msg"));
+function lowerOptionError(){
+  var msg = document.getElementById("sys-msg-opt");
+  if ( msg ) document.getElementById("side-panel-content").removeChild(msg);
+}
+
+function raiseCourseError(){
+  //Check if error has already been raised
+  if ( document.getElementById("sys-msg-crs") ) return;
+
+  //If no error is already up, raise the error
+  var slide = document.createElement("div");
+  slide.appendChild(document.createTextNode("Could not find the course you selected!"));
+  slide.setAttribute("class", "sys-msg");
+  slide.setAttribute("id", "sys-msg-crs");
+
+  var parent = document.getElementById("side-panel-content");
+  parent.appendChild(slide);
+}
+
+function lowerCourseError(){
+  var msg = document.getElementById("sys-msg-crs");
+  if ( msg ) document.getElementById("side-panel-content").removeChild(msg);
 }
