@@ -1,2 +1,4 @@
 ﻿./webApp/foo.html
-./webApp/searchCourses_2.js
+./courseData/*.json
+./courseData/*.py
+./notes.txt
