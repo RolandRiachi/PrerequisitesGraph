@@ -30,11 +30,7 @@ function autocomplete() {
   //Text field
   var inp = document.getElementById("course-input");
 
-  //Array of suggestions to consider (PLACEHOLDER FOR NOW)
-  var arr = [];
-  for ( var course in math_tar ){
-    arr.push(course)
-  }
+  console.log(arr);
 
   //Number of suggestions to display
   var numSuggestionsShown = 10;
@@ -176,13 +172,13 @@ function submit(){
   //Source -> 1, Target -> 0
   if ( isSourceChecked ) {
     //Check if course is valid
-    if ( !(course in math_src) ) raiseCourseError();
+    if ( !(arr.includes(course)) ) raiseCourseError();
     else lowerCourseError();
 
     behaviour = 1;
   } else {
     //Check if course is valid
-    if ( !(course in math_tar) ) raiseCourseError();
+    if ( !(arr.includes(course)) ) raiseCourseError();
     else lowerCourseError();
 
     behaviour = 0;

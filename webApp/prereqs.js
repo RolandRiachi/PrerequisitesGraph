@@ -29,9 +29,9 @@ var cy = cytoscape({
       style: {
         'curve-style': 'straight',
         'line-color': 'orange',
-        'target-arrow-shape': 'triangle',
-        'arrow-scale': 2,
-        'target-arrow-color': 'orange'
+        // 'target-arrow-shape': 'triangle',
+        // 'target-arrow-color': 'orange',
+        'arrow-scale': 2
       }
     },
     {
@@ -87,11 +87,8 @@ function DFS(course, behaviour, opts) {
   var dict, from, to, type, item, i, j;
   var temp = [], nodes = [], edges = [];
 
-  dict = courses[course.substr(0, 4)][behaviour]
-
-  // //Choose dictionary based on chosen behaviour
-  // if ( behaviour ) dict = math_src;
-  // else dict = math_tar;
+  //Choose which dictionary to use based on faculty of course and behaviour chosen
+  dict = faculties[course.substr(0, 4)][behaviour]
 
   //Init stack and push children of course
   for ( i = 0; i < opts.length; i++ ){
