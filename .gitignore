@@ -1,4 +1,3 @@
-﻿./webApp/foo.html
-./courseData/*.json
-./courseData/*.py
-./notes.txt
+﻿*.txt
+courseData/*.py
+courseData/*.json
