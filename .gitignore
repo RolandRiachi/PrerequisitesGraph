@@ -1,3 +1,4 @@
 ﻿*.txt
 courseData/*.py
+courseData/*.pyc
 courseData/*.json
