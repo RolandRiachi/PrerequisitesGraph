@@ -3,14 +3,14 @@ require('./math_src.js')
 require('./bio_tar.js')
 require('./bio_src.js')
 
-global.faculties = {
+global.departments = {
     'MATH': [math_tar, math_src],
     'BIOL': [bio_tar, bio_src]
 }
 
-global.arr = [];
-for ( var faculty in faculties ){
-  for ( course in faculties[faculty][1] ) {
-    if ( !arr.includes(course) ) arr.push(course);
+global.courses = [];
+for ( var d in departments ){
+  for ( course in departments[d][1] ) {
+    if ( !courses.includes(course) ) courses.push(course);
   }
 }
