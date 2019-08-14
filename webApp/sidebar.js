@@ -54,9 +54,9 @@ function autocomplete() {
       this.parentNode.appendChild(list);
 
       //for each item in the array
-      for (i = 0; i < arr.length; i++) {
+      for (i = 0; i < courses.length; i++) {
         //Check if the text field value is a substring of the item
-        n = arr[i].toUpperCase().indexOf(val.toUpperCase());
+        n = courses[i].toUpperCase().indexOf(val.toUpperCase());
 
         //Add 1 to include subtrings starting at beginning of item
         if ( n + 1 ){
@@ -64,12 +64,12 @@ function autocomplete() {
           item = document.createElement("DIV");
 
           //make the matching letters bold:
-          item.innerHTML = arr[i].substr(0, n);
-          item.innerHTML += "<strong>" + arr[i].substr(n, val.length) + "</strong>";
-          item.innerHTML += arr[i].substr(n + val.length);
+          item.innerHTML = courses[i].substr(0, n);
+          item.innerHTML += "<strong>" + courses[i].substr(n, val.length) + "</strong>";
+          item.innerHTML += courses[i].substr(n + val.length);
 
           //insert a input field that will hold the current array item's value:
-          item.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          item.innerHTML += "<input type='hidden' value='" + courses[i] + "'>";
 
           //Insert the value for the complete text field when someone clicks on the item value (DIV element)
           item.addEventListener("click", function(e) {
@@ -169,7 +169,7 @@ function autocomplete() {
 }
 
 function submit(){
-  var  course, isSourceChecked, isTargetChecked, behaviour, options = [];
+  var  course, isSourceChecked, isTargetChecked, behaviour, interDepartmentOn, options = [];
 
   //Get values from Course text input
   course = document.getElementById("course-input").value;
@@ -185,13 +185,13 @@ function submit(){
   //Source -> 1, Target -> 0
   if ( isSourceChecked ) {
     //Check if course is valid
-    if ( !(arr.includes(course)) ) raiseCourseError();
+    if ( !(courses.includes(course)) ) raiseCourseError();
     else lowerCourseError();
 
     behaviour = 1;
   } else {
     //Check if course is valid
-    if ( !(arr.includes(course)) ) raiseCourseError();
+    if ( !(courses.includes(course)) ) raiseCourseError();
     else lowerCourseError();
 
     behaviour = 0;
@@ -202,6 +202,9 @@ function submit(){
   if ( document.getElementById("coreqs").checked ) options.push('coreqs');
   if ( document.getElementById("restricts").checked ) options.push('restricts');
 
+  //Get value of inter-department search checkbox, no need to error check
+  interDepartmentOn = document.getElementById("inter-department").checked
+
   //If either list has none of its checkboxes checked, raise error message
   if ( options.length == 0 || (!isSourceChecked && !isTargetChecked) ) raiseOptionError();
   else lowerOptionError();
@@ -209,7 +212,7 @@ function submit(){
   //If no errors, generate new graph
   if ( document.getElementsByClassName("sys-msg")[0] ) return;
   else {
-    DFS(course, behaviour, options);
+    DFS(course, behaviour, options, interDepartmentOn);
   }
 };
 

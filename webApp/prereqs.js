@@ -64,13 +64,13 @@ cy.on('resize', function(){
   cy.fit( cy.data(), 50);
 });
 
-function DFS(course, behaviour, opts) {
+function DFS(course, behaviour, opts, interDepartment) {
   //For now just work if math dictionaries, later have to figure out how to scale
   var dict, from, to, type, neigh_type, item;
   var temp = [], nodes = [], edges = [];
 
-  //Choose which dictionary to use based on faculty of course and behaviour chosen
-  dict = faculties[course.substr(0, 4)][behaviour]
+  //Choose which dictionary to use based on department of course and behaviour chosen
+  dict = departments[course.substr(0, 4)][behaviour]
 
   //Init stack and push children of course
   for ( var i = 0; i < opts.length; i++ ){
@@ -97,8 +97,8 @@ function DFS(course, behaviour, opts) {
       nodes.push( { group: 'nodes', data: { id: s } } );
       edges.push( { group: 'edges', data: { id: from + '-' + to, source: from, target: to }, classes: curr_type } );
 
-      //If you want inter-faculty search
-      // dict = faculties[s.substr(0, 4)][behaviour];
+      //If you inter-departmental search is on
+      if ( interDepartment ) dict = departments[s.substr(0, 4)][behaviour];
 
       //Push all children onto the stack
       for ( var i = 0; i < opts.length; i++ ){
