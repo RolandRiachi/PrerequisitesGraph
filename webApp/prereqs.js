@@ -79,7 +79,7 @@ cy.on('resize', function(){
 });
 
 cy.on('click', 'node', function(e){
-  var course, behaviour, id, incoming, outgoing, successiveNodes, preceedingNodes, visitedCollections = [];
+  var course, behaviour, id, visitedCollections = [];
   //Reduce visibility of node
   this.addClass('hidden-node');
 
@@ -96,16 +96,19 @@ cy.on('click', 'node', function(e){
   //If nothing is stored in the scratch, then the node hasn't been removed
   if ( this.scratch(id) == null ){
     if ( behaviour ){
-      //Save all nodes reachable from node and edges leaving node
-      outgoing = cy.elements('edge[source = "' + id + '"]');
+      var successiveNodes, successiveEdges, outgoing;
+
+      //Save all nodes reachable from clicked node and edges leaving clicked node
       successiveNodes = cy.$('[id = "' + id + '"]').successors('node');
+      successiveEdges = cy.$('[id = "' + id + '"]').successors('edge');
       visitedCollections.push(successiveNodes);
-      visitedCollections.push(outgoing);
+      visitedCollections.push(successiveEdges);
 
       //Remove outgoing edges
+      outgoing = cy.$('[source = "' + id + '"]');
       outgoing.remove();
 
-      //For each descendant, if it's reachable from root, don't touch it
+      // For each descendant, if it's reachable from root, don't touch it
       for ( var i = 0; i < successiveNodes.length; i++ ) {
           nodeId = successiveNodes[i].id();
           //Breadth first search for node in tree
@@ -116,12 +119,10 @@ cy.on('click', 'node', function(e){
             },
             directed: true
           });
-          //If not found, save node and outgoing edges then remove
+          //If not found, remove node and outgoing edges
           if ( bfs.found.length == 0 ){
             node = cy.$('[id = "' + nodeId + '"]');
-            visitedCollections.push(node)
             edges = cy.$('edge[source = "' + nodeId + '"]');
-            visitedCollections.push(edges);
 
             edges.remove();
             node.remove();
@@ -130,28 +131,16 @@ cy.on('click', 'node', function(e){
       //Store everything in temp storage attached to node
       this.scratch(id, visitedCollections);
     }else {
-      // //Save edges leave node
-      // outgoing = cy.elements('edge[source = "' + id + '"]');
-      // visitedCollections.push(outgoing);
-      //
-      // //Save all nodes and edges that lead to node
-      // preceedingNodes = cy.$('[id = "' + id + '"]').incomers('node[id != "' + options['root'] + '"]');
-      // visitedCollections.push(preceedingNodes);
-      // visitedCollections.push(preceedingNodes.connectedEdges());
-      // this.scratch(id, visitedCollections);
-      //
-      // //Remove all elements once they've been saved
-      // for ( var i = 0; i < visitedCollections.length; i++ ) visitedCollections[i].remove();
-      // outgoing = cy.elements('edge[source = "' + id + '"]');
-      incoming = cy.elements('edge[target = "' + id + '"]');
+      var preceedingNodes, preceedingEdges, incoming;
+
+      //Save all nodes that can reach clicked node and edges entering clicked node
       preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('node');
-      console.log(preceedingNodes);
+      preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('edge');
       visitedCollections.push(preceedingNodes);
-      // visitedCollections.push(outgoing);
-      visitedCollections.push(incoming);
+      visitedCollections.push(preceedingEdges);
 
       //Remove incoming edges
-      // outgoing.remove();
+      incoming = cy.elements('edge[target = "' + id + '"]');
       incoming.remove();
 
       //For each ancestor, if root is reachable from it, don't touch it
@@ -165,12 +154,10 @@ cy.on('click', 'node', function(e){
             },
             directed: true
           });
-          //If not found, save node and outgoing edges then remove
+          //If not found, remove node and incoming edges
           if ( bfs.found.length == 0 ){
             node = cy.$('[id = "' + nodeId + '"]');
-            visitedCollections.push(node)
             edges = cy.$('edge[target = "' + nodeId + '"]');
-            visitedCollections.push(edges);
 
             edges.remove();
             node.remove();
@@ -184,16 +171,34 @@ cy.on('click', 'node', function(e){
     this.removeClass('hidden-node');
     visitedCollections = this.scratch(id);
 
-    for ( var i = 0; i < visitedCollections.length; i++ ) visitedCollections[i].restore();
+    visitedCollections[0].restore();
+    visitedCollections[1].restore();
 
     this.scratch(id, null);
   }
 });
-//Hide node on click
-//Clicked node -> change style to be grayed out
-//Remove outgoing edges from clicked nodes
-//Remove incoming edges to clicked nodes -> display none, then display: none the source node is there's
-//no more path from the source node to the chosen course
+
+//Display course information in side-panel on hover
+cy.on("mouseover", "node", function(e) {
+  var textbox, info;
+  if ( document.getElementById('course-info') ) document.getElementById('side-panel-content').removeChild(document.getElementById('course-info'));
+
+  //Create div element for course information text
+  textbox = document.createElement('div');
+  textbox.setAttribute('id', 'course-info');
+
+  info = departments[this.id().substr(0, 4)][0][this.id()]['text'];
+  textbox.innerHTML = "<p>" + info['title'] + "</p>";
+  textbox.innerHTML += "<p>" + info['overview'] + "</p>";
+  textbox.innerHTML += "<p>" + info['terms'] + "</p>";
+  textbox.innerHTML += "<p>" + info['prereq_text'] + "</p>";
+  textbox.innerHTML += "<p>" + info['coreq_text'] + "</p>";
+  textbox.innerHTML += "<p>" + info['restrict_text'] + "</p>";
+  textbox.innerHTML += "<p>" + info['instructors'] + "</p>";
+
+  // textbox.innerHTML = 'Programs, Courses &amp; University Regulations Fall&nbsp;2018\\xe2\\x80\\x93Summer&nbsp;2019Offered by: Mathematics and Statistics (<a href="/study/2018-2019/faculties/science">Faculty of Science</a>)\\n      Mathematics &amp; Statistics (Sci) : Sets and functions. Numeration systems. Whole numbers and integers, algorithms for whole-number computations, elementary number theory. Fractions and proportional reasoning. Real numbers, decimals and percents. A brief introduction to probability and statistics.    \\n      Terms:      Winter 2019    \\n      Instructors:      Biji Wong (Winter)    WinterRestriction: Open only to students in the B.Ed. program, not open to students who have successfully completed CEGEP course 201-101 or an equivalent. Not available for credit with <a href="/study/2018-2019/courses/math-112">MATH 112</a>Offered by the Faculty of Science. Note: all Science courses have limited enrolment';
+  document.getElementById('side-panel-content').appendChild(textbox);
+});
 
 function DFS(course, behaviour, opts, interDepartment) {
   //For now just work if math dictionaries, later have to figure out how to scale

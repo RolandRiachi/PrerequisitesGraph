@@ -31,6 +31,10 @@ body {
   font-size: 14pt;
 }
 
+p {
+  margin-top: 0;
+}
+
 #main-header {
   /* height: 10%;
   min-height: 50px; */
@@ -177,6 +181,15 @@ body {
 @keyframes slide-up {
   from {margin-top: 20%; opacity: 0}
   to {margin-top: 0%; opacity: 1}
+}
+
+#course-info {
+  float: inherit;
+  margin-top: 20px;
+  background-color: var(--yellow);
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(0,0,0);
 }
 
 #main-panel {

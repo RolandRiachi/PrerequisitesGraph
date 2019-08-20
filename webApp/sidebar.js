@@ -61,7 +61,7 @@ function autocomplete() {
         //Add 1 to include subtrings starting at beginning of item
         if ( n + 1 ){
           //create a DIV element for each matching element:
-          item = document.createElement("DIV");
+          item = document.createElement("div");
 
           //make the matching letters bold:
           item.innerHTML = courses[i].substr(0, n);
@@ -91,13 +91,15 @@ function autocomplete() {
           list.appendChild(item);
         }
       }
+      //If no children, close list
+      if ( list.children.length == 0 ) closeAllLists(list);
   });
 
   //Scroll through list with arrowkeys
   inp.addEventListener("keydown", function(e) {
     //Check if autosuggestion box is open
     var list = document.getElementById("autocomplete-list");
-    if ( list ) listHeight = list.offsetHeight;
+    if ( list && list.offsetHeight > 0 ) listHeight = list.offsetHeight;
     else return;
 
     //Get current active element
