@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  --white: rgb(249, 250, 255);
+  --cyan: rgb(49, 102, 142);
+  --light-gray: rgb(234, 231, 220);
+  --gray: rgb(176, 176, 176);
+  --dark-gray: rgb(142, 141, 138);
+  /* calmer pink */
+  --pink: rgb(233, 128, 116);
+  /* more saturated pink */
+  --pink: rgb(247, 102, 102);
+  --red: rgb(232, 90, 79);
+  --yellow: rgb(248, 233, 161);
+  --light-blue: rgb(168, 208, 230);
+  --blue: rgb(54, 71, 133);
+  --dark-blue: rgb(36, 48, 94);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 14pt;
+}
+
+p {
+  margin-top: 0;
+}
+
+#main-header {
+  /* height: 10%;
+  min-height: 50px; */
+  height: 0%;
+  background-color: var(--blue);
+}
+
+#mcgill-logo {
+  height: 70%;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-gray);
+}
+
+.content-header {
+  top: 0px;
+  width: 100%;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  text-align: center;
+}
+
+#content-wrapper {
+  width: 100%;
+  /* height: 90%; */
+  height: 100%;
+  overflow: hidden;
+}
+
+#side-panel {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: var(--red);
+  overflow: hidden;
+}
+
+#collapse-button-wrapper {
+  float: right;
+  height: 3%;
+  min-height: 30px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#collapse-button {
+  height: 100%;
+  float: right;
+  cursor: pointer;
+}
+
+#expand-button {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  width: 0;
+}
+
+#side-panel-content {
+  float: inherit;
+  width: 100%;
+  height: 97%;
+  padding: 5%;
+  font-size: 12pt;
+}
+
+.side-panel-options {
+  float: inherit;
+  display: block;
+  text-align: left;
+  width: auto;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#course-behaviour {
+  padding-left: 30px;
+}
+
+#course-selector {
+  float: inherit;
+  display: block;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: var(--light-gray);
+  margin-top: 30px;
+  padding: 10px;
+  align-content: center;
+}
+
+.text-box {
+  padding: 10px;
+  align-content: center;
+}
+
+#course-input {
+  display: inline-block;
+  width: 185px;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+#courses-input {
+  background-color: var(--white);
+  width: 100%;
+}
+
+.autocomplete-items {
+  position: absolute;
+  z-index: 99;
+  overflow-y: auto;
+  max-height: 23.5rem;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--white);
+  height: auto;
+}
+
+.autocomplete-active {
+  background-color: var(--light-blue) !important;
+}
+
+.sys-msg {
+  float: inherit;
+  width: 100%;
+  padding-top: 2rem;
+  text-align: center;
+  color: var(--blue);
+  font-weight: bold;
+  animation: slide-up 1s;
+}
+
+@keyframes slide-up {
+  from {margin-top: 20%; opacity: 0}
+  to {margin-top: 0%; opacity: 1}
+}
+
+#course-info {
+  float: inherit;
+  margin-top: 20px;
+  background-color: var(--yellow);
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(0,0,0);
+}
+
+#main-panel {
+  float: left;
+  width: 80%;
+  height: 100%;
+  background-color: var(--light-blue);
+}
+
+#cy {
+  height: 100%;
+  width: 100%;
+}
