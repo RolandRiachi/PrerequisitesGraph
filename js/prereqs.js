@@ -135,7 +135,7 @@ cy.on('click', 'node', function(e){
 
       //Save all nodes that can reach clicked node and edges entering clicked node
       preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('node');
-      preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('edge');
+      preceedingEdges = cy.$('[id = "' + id + '"]').predecessors('edge');
       visitedCollections.push(preceedingNodes);
       visitedCollections.push(preceedingEdges);
 
