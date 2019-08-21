@@ -1,6 +1,7 @@
 import requests
 import re
 import json
+import os
 
 #Finding links to courses - re.findall('<a href="(/study/2019-2020/courses/.{4}-\d\d\d)">.*?</a>', str(r.text))
 #Finding link to next page - re.search('<li class="pager-next"><a href="(.*?)">', str(r.text))
@@ -170,7 +171,7 @@ def tar_to_src_dict(tar_dict):
 
     return out
 
-def to_json(sbj, start):
+def to_js(sbj, start):
     '''
     Writes information scraped from course webpage to json format for web app to use
     '''
@@ -181,11 +182,14 @@ def to_json(sbj, start):
         course_title = link.split('/')[-1].upper().replace('-', ' ')
         tar_dict[course_title] = course_info(link)
 
-    with open(sbj + '_tar.json', 'w+') as t, open(sbj + '_src.json', 'w+') as s:
+    with open(sbj + '_tar.js', 'w+') as t, open(sbj + '_src.js', 'w+') as s:
+        t.write('global.' + sbj + '_tar = ')
         json.dump(tar_dict, t, ensure_ascii=False, indent=4)
+
+        s.write('global.' + sbj + '_src = ')
         json.dump(tar_to_src_dict(tar_dict), s, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    to_json('phys', 'https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0293')
+    to_js('phys', 'https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0293')
     # courses = links_to_courses('https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0290')
     # print(course_info(courses[16]))
