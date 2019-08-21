@@ -2,5 +2,3 @@
 courseData/*.py
 courseData/*/*.pyc
 courseData/*.json
-package-lock.json
-node_modules
