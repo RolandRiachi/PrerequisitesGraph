@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prerequisites</title>
+  <script src='cytoscape.min.js'></script>
+  <script src="sidebar.js"></script>
+  <script src="bundle.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-header">
+  </div>
+  <div id="content-wrapper">
+    <div id="side-panel">
+      <div class="content-header">
+        Choose Courses
+      </div>
+      <div id="collapse-button-wrapper">
+        <img src="left_arrow.png" id="collapse-button" alt="Left Arrow" style="opacity: 0.4" onclick="collapseSidebar()">
+      </div>
+      <div id="side-panel-content">
+        <div class="side-panel-options" id="course-behaviour">
+          Course Behaviour<br>
+          <input type="checkbox" name="st" id="source" onchange="toggle(source, target)" title="Displays all the courses which require the selected course as a prerequisite">Source<br>
+          <input type="checkbox" name="st" id="target" onchange="toggle(target, source)" title="Displays all the courses which are prerequisites to the selected course">Target<br>
+        </div>
+        <div class="side-panel-options">
+          Connection Types<br>
+            <input type="checkbox" name="pcr" id="prereqs" title="Prerequisites are courses which must be completed before taking the selected course">Prerequisites<br>
+            <input type="checkbox" name="pcr" id="coreqs" title="Corequisites are coursees which must be completed before or at the same time as the selected course">Corequisites<br>
+            <input type="checkbox" name="pcr" id="restricts" title="Restrictions are courses which cannot have been completed before or at the same time as the selected course">Restrictions<br>
+        </div>
+        <div class="side-panel-options" id="course-behaviour">
+          <input type="checkbox" name="id" id="inter-department" title="Show prerequisites/corequisites/restrictions of courses outside of chosen course's department">Inter-departmental search ON<br>
+        </div>
+        <div id="course-selector">
+            <div class="autocomplete">
+              <input type="text" id="course-input" name="course" autocomplete="off" placeholder="Select Course Number or Title" role="combobox">
+              <script>autocomplete()</script>
+            </div>
+            <input type="submit" name="submit" onclick="submit()">
+        </div>
+      </div>
+    </div>
+    <div id="main-panel">
+      <div class="content-header">
+        Graph
+      </div>
+      <div id="cy">
+          <img src="right_arrow.png" id="expand-button" alt="Right Arrow" style="opacity: 0.4" onclick="expandSidebar()">
+          <script src='prereqs.js'></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
