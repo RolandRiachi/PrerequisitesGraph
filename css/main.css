@@ -134,7 +134,7 @@ p {
 
 #course-input {
   display: inline-block;
-  width: 185px;
+  width: 100%;
 }
 
 .autocomplete {
