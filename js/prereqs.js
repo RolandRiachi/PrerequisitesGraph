@@ -37,8 +37,13 @@ var cy = cytoscape({
     {
       selector: 'node',
       style: {
-        'background-color': '#666',
-        'label': 'data(id)'
+        'width': 'data(width)',
+        'height': 'data(height)',
+        'padding': '10px',
+        'background-color': 'gray',
+        'label': 'data(id)',
+        'text-halign': 'center',
+        'text-valign': 'center'
       }
     },
     {
@@ -49,9 +54,9 @@ var cy = cytoscape({
       }
     },
     {
-      selector: '.hidden-edge',
+      selector: '.main-course',
       style: {
-        opacity: 0
+        'background-color': 'pink'
       }
     }
   ]
@@ -181,6 +186,7 @@ cy.on('click', 'node', function(e){
 //Display course information in side-panel on hover
 cy.on("mouseover", "node", function(e) {
   var textbox, info;
+
   if ( document.getElementById('course-info') ) document.getElementById('side-panel-content').removeChild(document.getElementById('course-info'));
 
   //Create div element for course information text
@@ -191,13 +197,20 @@ cy.on("mouseover", "node", function(e) {
   textbox.innerHTML = "<p>" + info['title'] + "</p>";
   textbox.innerHTML += "<p>" + info['overview'] + "</p>";
   textbox.innerHTML += "<p>" + info['terms'] + "</p>";
-  textbox.innerHTML += "<p>" + info['prereq_text'] + "</p>";
-  textbox.innerHTML += "<p>" + info['coreq_text'] + "</p>";
-  textbox.innerHTML += "<p>" + info['restrict_text'] + "</p>";
   textbox.innerHTML += "<p>" + info['instructors'] + "</p>";
+  textbox.innerHTML += info['notes'];
 
-  // textbox.innerHTML = 'Programs, Courses &amp; University Regulations Fall&nbsp;2018\\xe2\\x80\\x93Summer&nbsp;2019Offered by: Mathematics and Statistics (<a href="/study/2018-2019/faculties/science">Faculty of Science</a>)\\n      Mathematics &amp; Statistics (Sci) : Sets and functions. Numeration systems. Whole numbers and integers, algorithms for whole-number computations, elementary number theory. Fractions and proportional reasoning. Real numbers, decimals and percents. A brief introduction to probability and statistics.    \\n      Terms:      Winter 2019    \\n      Instructors:      Biji Wong (Winter)    WinterRestriction: Open only to students in the B.Ed. program, not open to students who have successfully completed CEGEP course 201-101 or an equivalent. Not available for credit with <a href="/study/2018-2019/courses/math-112">MATH 112</a>Offered by the Faculty of Science. Note: all Science courses have limited enrolment';
   document.getElementById('side-panel-content').appendChild(textbox);
+});
+
+cy.on("mouseover", "node", function(e){
+  this.data('width', this.width() * 1.5);
+  this.data('height', this.height() * 1.5);
+});
+
+cy.on("mouseout", "node", function(e) {
+  this.data('width', 'label');
+  this.data('height', this.width());
 });
 
 function DFS(course, behaviour, opts, interDepartment) {
@@ -217,7 +230,7 @@ function DFS(course, behaviour, opts, interDepartment) {
     }
   }
 
-  nodes.push( { group: 'nodes', data: { id: course } } );
+  nodes.push( { group: 'nodes', data: { id: course , height: 0, width: 'label'} } );
 
   //While there are still nodes to visit
   while ( temp.length > 0 ){
@@ -230,7 +243,7 @@ function DFS(course, behaviour, opts, interDepartment) {
       else {from = s; to = t;}
 
       //Add parent node to node list, add edge to edge list
-      nodes.push( { group: 'nodes', data: { id: s } } );
+      nodes.push( { group: 'nodes', data: { id: s, height: 0, width: 'label' } } );
       edges.push( { group: 'edges', data: { id: from + '-' + to, source: from, target: to }, classes: curr_type } );
 
       //If you inter-departmental search is on
@@ -253,5 +266,7 @@ function DFS(course, behaviour, opts, interDepartment) {
   cy.add( nodes );
   cy.add( edges );
   options['root'] = course;
+  cy.$('[id ="' + course + '" ]').addClass('main-course');
+  cy.nodes().forEach(function( n ){ n.data('height', n.width()); });
   cy.layout( options ).run();
 };
