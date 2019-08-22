@@ -2,3 +2,4 @@
 courseData/*.py
 courseData/*/*.pyc
 courseData/*.json
+foo.html
