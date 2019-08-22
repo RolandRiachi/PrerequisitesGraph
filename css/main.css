@@ -22,6 +22,12 @@ html {
   --light-blue: rgb(168, 208, 230);
   --blue: rgb(54, 71, 133);
   --dark-blue: rgb(36, 48, 94);
+
+  --slate-blue: #314455;
+  --terracotta: #C96567;
+  --sky-blue: #97AABD;
+  --purple: #644E5B;
+  --light-purple: #9E5A63;
 }
 
 body {
@@ -29,6 +35,7 @@ body {
   width: 100%;
   margin: 0;
   font-size: 14pt;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -53,8 +60,12 @@ p {
 .content-header {
   top: 0px;
   width: 100%;
+  /* height: 4%; */
   background-color: var(--dark-gray);
   color: var(--white);
+  font-size: 20pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
   text-align: center;
 }
 
@@ -69,7 +80,7 @@ p {
   float: left;
   width: 20%;
   height: 100%;
-  background-color: var(--red);
+  background-color: #F76C6C;
   overflow: hidden;
 }
 
@@ -186,17 +197,18 @@ p {
 #course-info {
   float: inherit;
   margin-top: 20px;
-  background-color: var(--yellow);
+  padding: 10px;
+  background-color: #EAE7DC;
   border-style: solid;
-  border-radius: 3px;
-  border-color: rgb(0,0,0);
+  border-width: 2px;
+  border-color: var(--black);
 }
 
 #main-panel {
   float: left;
   width: 80%;
   height: 100%;
-  background-color: var(--light-blue);
+  background-color: #EAE7DC;
 }
 
 #cy {

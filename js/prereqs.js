@@ -5,43 +5,15 @@ var cy = cytoscape({
   maxZoom: 1,
   style: [ // the stylesheet for the graph
     {
-      selector: '.prereqs',
-      style: {
-        'curve-style': 'straight',
-        'line-color': 'blue',
-        'target-arrow-shape': 'triangle',
-        'arrow-scale': 2,
-        'target-arrow-color': 'blue'
-      }
-    },
-    {
-      selector: '.coreqs',
-      style: {
-        'curve-style': 'bezier',
-        'line-color': 'orange',
-        'target-arrow-shape': 'triangle',
-        'target-arrow-color': 'orange',
-        'arrow-scale': 2
-      }
-    },
-    {
-      selector: '.restricts',
-      style: {
-        'curve-style': 'straight',
-        'line-color': 'red',
-        'target-arrow-shape': 'triangle',
-        'arrow-scale': 2,
-        'target-arrow-color': 'red'
-      }
-    },
-    {
       selector: 'node',
       style: {
         'width': 'data(width)',
         'height': 'data(height)',
-        'padding': '10px',
-        'background-color': 'gray',
+        'padding': '15px',
+        'background-color': '#97AABD',
         'label': 'data(id)',
+        'font-family': 'Verdana, Arial, Helvetica, sans-serif',
+        'text-wrap': 'wrap',
         'text-halign': 'center',
         'text-valign': 'center'
       }
@@ -56,7 +28,37 @@ var cy = cytoscape({
     {
       selector: '.main-course',
       style: {
-        'background-color': 'pink'
+        'background-color': '#6BA292'
+      }
+    },
+    {
+      selector: 'edge',
+      style: {
+        'curve-style': 'straight',
+        'width': '7',
+        'target-arrow-shape': 'triangle',
+        'arrow-scale': 1.5
+      }
+    },
+    {
+      selector: '.prereqs',
+      style: {
+        'line-color': '#4056A1',
+        'target-arrow-color': '#4056A1'
+      }
+    },
+    {
+      selector: '.coreqs',
+      style: {
+        'line-color': 'orange',
+        'target-arrow-color': 'orange'
+      }
+    },
+    {
+      selector: '.restricts',
+      style: {
+        'line-color': 'red',
+        'target-arrow-color': 'red'
       }
     }
   ]
@@ -230,7 +232,7 @@ function DFS(course, behaviour, opts, interDepartment) {
     }
   }
 
-  nodes.push( { group: 'nodes', data: { id: course , height: 0, width: 'label'} } );
+  nodes.push( { group: 'nodes', data: { id: course, height: 0, width: 'label'} } );
 
   //While there are still nodes to visit
   while ( temp.length > 0 ){
