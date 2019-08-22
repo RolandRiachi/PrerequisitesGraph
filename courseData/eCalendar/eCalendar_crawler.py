@@ -1,7 +1,7 @@
 import requests
 import re
 import json
-import os
+from sys import argv
 
 #Finding links to courses - re.findall('<a href="(/study/2019-2020/courses/.{4}-\d\d\d)">.*?</a>', str(r.text))
 #Finding link to next page - re.search('<li class="pager-next"><a href="(.*?)">', str(r.text))
@@ -89,11 +89,9 @@ def course_info(link):
         m - regex match object
         '''
         if m:
-            info['text'][pcr + '_text'] = m[0].replace('/study', 'https://mcgill.ca/study').replace('">', '" target="_blank">')
-            info[pcr + 's'] = re.findall(r'([A-Z]{4} \d\d\d)', m[0])
+            d[pcr + 's'] = list(set(re.findall(r'([A-Z]{4} \d\d\d)', m[0])))
         else:
-            info['text'][pcr + '_text'] = ''
-            info[pcr + 's'] = []
+            d[pcr + 's'] = []
 
     with requests.Session() as s:
         r = s.get('https://mcgill.ca' + link)
@@ -101,20 +99,30 @@ def course_info(link):
         info = {}
         info['text'] = {}
 
+        #Notes (includes prereq, coreq, restrict text)
+        notes = re.search(r'<ul class="catalog-notes">(.*?)</ul>', r.text, flags=re.DOTALL)
+
+        if notes:
+            notes = notes[1].strip()
+        else:
+            notes = ''
+
+        info['text']['notes'] = notes.replace('/study', 'https://mcgill.ca/study').replace('">', '" target="_blank">').replace('<li>', '').replace('</li>', '')
+
         #Prereqs
-        add_pcr(info, 'prereq', re.search('((?<=\. ).*)?Prerequisites?: .*?((?=\.)|(?= </p>)|(?=</p>))', r.text))
+        add_pcr(info, 'prereq', re.search('((?<=\. ).*)?Prerequisite\(?s?\)?: .*?((?=\.)|(?= </p>)|(?=</p>))', notes))
 
         #Coreqs
-        add_pcr(info, 'coreq', re.search('((?<=\. ).*)?Corequisites?: .*((?=\.)|(?= </p>)|(?=</p>))', r.text))
+        add_pcr(info, 'coreq', re.search('((?<=\. ).*)?Corequisite\(?s?\)?: .*((?=\.)|(?= </p>)|(?=</p>))', notes))
 
         #Restrictions
-        add_pcr(info, 'restrict', re.search('((?<=\. ).*)?Restrictions?: .*((?=\.)|(?= </p>)|(?=</p>))', r.text))
+        add_pcr(info, 'restrict', re.search('((?<=\. ).*)?Restriction\(?s?\)?: .*((?=\.)|(?= </p>)|(?=</p>))', notes))
 
         #Title
         info['text']['title'] = re.search('<h1 id ="page-title" class=" ">\n?(.*?)</h1>', r.text)[1].strip()
 
         #Overview
-        info['text']['overview'] = re.findall('<p>\n?(.*?)</p>', r.text)[1].strip()
+        info['text']['overview'] = re.findall('<p>(.*?)</p>', r.text, flags=re.DOTALL)[1].strip()
 
         #Terms offered
         info['text']['terms'] = re.search('<p class="catalog-terms">\n(.*?)</p>', r.text)[1].strip().replace('      ', ' ')
@@ -179,8 +187,12 @@ def to_js(sbj, start):
     tar_dict = {}
 
     for link in course_links:
+        print(link)
         course_title = link.split('/')[-1].upper().replace('-', ' ')
         tar_dict[course_title] = course_info(link)
+        if course_title in tar_dict[course_title]['prereqs']: tar_dict[course_title]['prereqs'].remove(course_title)
+        if course_title in tar_dict[course_title]['coreqs']: tar_dict[course_title]['coreqs'].remove(course_title)
+        if course_title in tar_dict[course_title]['restricts']: tar_dict[course_title]['restricts'].remove(course_title)
 
     with open(sbj + '_tar.js', 'w+') as t, open(sbj + '_src.js', 'w+') as s:
         t.write('global.' + sbj + '_tar = ')
@@ -190,6 +202,12 @@ def to_js(sbj, start):
         json.dump(tar_to_src_dict(tar_dict), s, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    to_js('phys', 'https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0293')
+    # to_js('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
+    # to_js('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
+    # to_js('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
+    # to_js('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
+    # to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
+    # to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
+    to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
     # courses = links_to_courses('https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0290')
     # print(course_info(courses[16]))
