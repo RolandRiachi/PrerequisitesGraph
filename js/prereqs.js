@@ -10,7 +10,7 @@ var cy = cytoscape({
         'width': 'data(width)',
         'height': 'data(height)',
         'padding': '15px',
-        'background-color': '#97AABD',
+        'background-color': 'rgb(151, 170, 189)',
         'label': 'data(id)',
         'font-family': 'Verdana, Arial, Helvetica, sans-serif',
         'text-wrap': 'wrap',
@@ -28,7 +28,7 @@ var cy = cytoscape({
     {
       selector: '.main-course',
       style: {
-        'background-color': '#6BA292'
+        'background-color': 'rgb(107, 162, 146)'
       }
     },
     {
@@ -43,8 +43,8 @@ var cy = cytoscape({
     {
       selector: '.prereqs',
       style: {
-        'line-color': '#4056A1',
-        'target-arrow-color': '#4056A1'
+        'line-color': 'rgb(64, 86, 161)',
+        'target-arrow-color': 'rgb(64, 86, 161)'
       }
     },
     {
@@ -88,7 +88,6 @@ cy.on('resize', function(){
 cy.on('click', 'node', function(e){
   var course, behaviour, id, visitedCollections = [];
   //Reduce visibility of node
-  this.addClass('hidden-node');
 
   //Get the id of the node that was clicked
   id = this.id();
@@ -107,6 +106,11 @@ cy.on('click', 'node', function(e){
 
       //Save all nodes reachable from clicked node and edges leaving clicked node
       successiveNodes = cy.$('[id = "' + id + '"]').successors('node');
+
+      if ( successiveNodes.length == 0 ) return;
+
+      this.addClass('hidden-node');
+
       successiveEdges = cy.$('[id = "' + id + '"]').successors('edge');
       visitedCollections.push(successiveNodes);
       visitedCollections.push(successiveEdges);
@@ -142,6 +146,11 @@ cy.on('click', 'node', function(e){
 
       //Save all nodes that can reach clicked node and edges entering clicked node
       preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('node');
+
+      if ( preceedingNodes.length == 0 ) return;
+
+      this.addClass('hidden-node');
+
       preceedingEdges = cy.$('[id = "' + id + '"]').predecessors('edge');
       visitedCollections.push(preceedingNodes);
       visitedCollections.push(preceedingEdges);
@@ -271,4 +280,5 @@ function DFS(course, behaviour, opts, interDepartment) {
   cy.$('[id ="' + course + '" ]').addClass('main-course');
   cy.nodes().forEach(function( n ){ n.data('height', n.width()); });
   cy.layout( options ).run();
+  cy.resize();
 };

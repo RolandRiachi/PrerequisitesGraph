@@ -214,9 +214,72 @@ function submit(){
   //If no errors, generate new graph
   if ( document.getElementsByClassName("sys-msg")[0] ) return;
   else {
+    instructions();
+    legend();
     DFS(course, behaviour, options, interDepartmentOn);
   }
 };
+
+function legend(){
+  var legend, legendElement;
+
+  //Create legend container
+  legend = document.createElement("div");
+  legend.setAttribute("id", "legend");
+
+  //Add content to legend
+  legend.appendChild(legendElement("Prerequisites"));
+  legend.appendChild(legendElement("Corequisites"));
+  legend.appendChild(legendElement("Restrictions"));
+
+  //Add legend to container
+  document.getElementById('cy').appendChild(legend);
+
+  function legendElement(o) {
+    var wrapper, dot, label;
+
+    //Create wrapper for legend colour
+    wrapper = document.createElement("div");
+    wrapper.setAttribute("class", "legend-element-wrapper");
+
+    //Create colour dot
+    dot = document.createElement("span");
+    dot.setAttribute("class", "legend-element");
+    dot.setAttribute("id", "legend-" + o);
+
+    //Create label for color
+    label = document.createElement("span");
+    label.setAttribute("class", "legend-text");
+    label.innerHTML = o;
+
+    //Wrap elements
+    wrapper.appendChild(dot);
+    wrapper.appendChild(label);
+
+    return wrapper;
+  };
+};
+
+function instructions(){
+  var sidePanel, instructions;
+
+  //Get side panel
+  sidePanel = document.getElementById('side-panel-content')
+
+  //Clear any course info already there
+  sidePanel.removeChild(document.getElementById('course-info'));
+
+  //Create intructions
+  instructions = document.createElement('div');
+  instructions.setAttribute('id', 'course-info');
+  instructions.innerHTML = '<p>Click on courses to hide their content.</p>';
+  instructions.innerHTML += '<p>Click and drag courses to move them around.</p>';
+  instructions.innerHTML += '<p>Click and drag the background to move the entire graph.</p>';
+  instructions.innerHTML += '<p>Scroll with mouse wheel/trackpad to zoom the graph.</p>';
+
+  //Add instructions
+  document.getElementById('side-panel-content').appendChild(instructions);
+}
 
 function raiseOptionError(){
   //Check if error has already been raised

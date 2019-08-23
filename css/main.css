@@ -18,16 +18,12 @@ html {
   /* more saturated pink */
   --pink: rgb(247, 102, 102);
   --red: rgb(232, 90, 79);
+  --salmon: rgb(247, 108, 108);
   --yellow: rgb(248, 233, 161);
   --light-blue: rgb(168, 208, 230);
   --blue: rgb(54, 71, 133);
   --dark-blue: rgb(36, 48, 94);
-
-  --slate-blue: #314455;
-  --terracotta: #C96567;
-  --sky-blue: #97AABD;
-  --purple: #644E5B;
-  --light-purple: #9E5A63;
+  --beige: rgb(251, 241, 199);
 }
 
 body {
@@ -80,7 +76,7 @@ p {
   float: left;
   width: 20%;
   height: 100%;
-  background-color: #F76C6C;
+  background-color: var(--salmon);
   overflow: hidden;
 }
 
@@ -198,7 +194,7 @@ p {
   float: inherit;
   margin-top: 20px;
   padding: 10px;
-  background-color: #EAE7DC;
+  background-color: var(--light-gray);
   border-style: solid;
   border-width: 2px;
   border-color: var(--black);
@@ -208,10 +204,49 @@ p {
   float: left;
   width: 80%;
   height: 100%;
-  background-color: #EAE7DC;
+  background-color: var(--beige);
 }
 
 #cy {
   height: 100%;
   width: 100%;
+}
+
+#legend {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: var(--light-gray);
+}
+
+#legend-element-wrapper {
+  vertical-align: middle;
+}
+
+.legend-text{
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.legend-element {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#legend-Prerequisites {
+  background-color: rgb(151, 170, 189);
+}
+
+#legend-Corequisites {
+  background-color: rgb(255, 165, 0);
+}
+
+#legend-Restrictions {
+  background-color: rgb(251, 46, 44);
 }
