@@ -119,7 +119,8 @@ def course_info(link):
         add_pcr(info, 'restrict', re.search('((?<=\. ).*)?Restriction\(?s?\)?: .*((?=\.)|(?= </p>)|(?=</p>))', notes))
 
         #Title
-        info['text']['title'] = re.search('<h1 id ="page-title" class=" ">\n?(.*?)</h1>', r.text)[1].strip()
+        title_words = re.search('<h1 id ="page-title" class=" ">\n?(.*?)</h1>', r.text)[1].strip().split(' ')
+        info['text']['title'] = ''.join([ '<a href="https://mcgill.ca', link, '" target="_blank">', title_words[0], ' ', title_words[1], '</a> ', ' '.join(title_words[2:]) ])
 
         #Overview
         info['text']['overview'] = re.findall('<p>(.*?)</p>', r.text, flags=re.DOTALL)[1].strip()
@@ -187,7 +188,7 @@ def to_js(sbj, start):
     tar_dict = {}
 
     for link in course_links:
-        print(link)
+        # print(link)
         course_title = link.split('/')[-1].upper().replace('-', ' ')
         tar_dict[course_title] = course_info(link)
         if course_title in tar_dict[course_title]['prereqs']: tar_dict[course_title]['prereqs'].remove(course_title)
@@ -208,6 +209,6 @@ if __name__ == '__main__':
     # to_js('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
     # to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
     # to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
-    to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
+    # to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
     # courses = links_to_courses('https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0290')
     # print(course_info(courses[16]))
