@@ -6,6 +6,7 @@
   <script src='./js/cytoscape.min.js'></script>
   <script src="./js/sidebar.js"></script>
   <script src="./js/bundle.js"></script>
+  <script src='./js/prereqs.js'></script>
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -13,17 +14,15 @@
   </div>
   <div id="content-wrapper">
     <div id="side-panel">
-      <div class="content-header">
-        Choose Courses
-      </div>
+      <div class="content-header">Choose Courses</div>
       <div id="collapse-button-wrapper">
-        <img src="./images/left_arrow.png" id="collapse-button" alt="Left Arrow" style="opacity: 0.4" onclick="collapseSidebar()">
+        <img src="./images/left_arrow.png" id="collapse-button" alt="Left Arrow" style="opacity: 0.4">
       </div>
       <div id="side-panel-content">
         <div class="side-panel-options" id="course-behaviour">
           Course Behaviour<br>
-          <input type="checkbox" name="st" id="source" onchange="toggle(source, target)" title="Displays all the courses which require the selected course as a prerequisite">Source<br>
-          <input type="checkbox" name="st" id="target" onchange="toggle(target, source)" title="Displays all the courses which are prerequisites to the selected course">Target<br>
+          <input type="checkbox" name="st" id="source" title="Displays all the courses which require the selected course as a prerequisite">Source<br>
+          <input type="checkbox" name="st" id="target" title="Displays all the courses which are prerequisites to the selected course">Target<br>
         </div>
         <div class="side-panel-options">
           Connection Types<br>
@@ -32,14 +31,13 @@
             <input type="checkbox" name="pcr" id="restricts" title="Restrictions are courses which cannot have been completed before or at the same time as the selected course">Restrictions<br>
         </div>
         <div class="side-panel-options" id="course-behaviour">
-          <input type="checkbox" name="id" id="inter-department" title="Show prerequisites/corequisites/restrictions of courses outside of chosen course's department">Inter-departmental search ON<br>
+          <input type="checkbox" id="inter-department" title="Show prerequisites/corequisites/restrictions of courses outside of chosen course's department">Inter-departmental search ON<br>
         </div>
         <div id="course-selector">
             <div class="autocomplete">
-              <input type="text" id="course-input" name="course" autocomplete="off" placeholder="Select Course Number or Title" role="combobox">
-              <script>autocomplete()</script>
+              <input type="text" id="course-input" autocomplete="off" placeholder="Select Course Number or Title" role="combobox">
             </div>
-            <input type="submit" name="submit" onclick="submit()">
+            <input type="submit" id="submit">
         </div>
         <div id="course-info">
           <p>Click on courses to hide their content.</p>
@@ -48,28 +46,22 @@
           <p>Scroll with mouse wheel/trackpad to zoom the graph.</p>
           <div id="legend">
             <div class="legend-element-wrapper">
-              <span class="legend-element" id="legend-Prerequisites"></span>
-              <span class="legend-text">Prerequisites</span>
+              <span class="legend-element" id="legend-Prerequisites"></span><span class="legend-text">Prerequisites</span>
             </div>
             <div class="legend-element-wrapper">
-              <span class="legend-element" id="legend-Corequisites"></span>
-              <span class="legend-text">Corequisites</span>
+              <span class="legend-element" id="legend-Corequisites"></span><span class="legend-text">Corequisites</span>
             </div>
             <div class="legend-element-wrapper">
-              <span class="legend-element" id="legend-Restrictions"></span>
-              <span class="legend-text">Restrictions</span>
+              <span class="legend-element" id="legend-Restrictions"></span><span class="legend-text">Restrictions</span>
             </div>
-          </div>
+           </div>
         </div>
       </div>
     </div>
     <div id="main-panel">
-      <div class="content-header">
-        Graph
-      </div>
+      <div class="content-header">Graph</div>
       <div id="cy">
-          <img src="./images/right_arrow.png" id="expand-button" alt="Right Arrow" style="opacity: 0.4" onclick="expandSidebar()">
-          <script src='./js/prereqs.js'></script>
+          <img src="./images/right_arrow.png" id="expand-button" alt="Right Arrow" style="opacity: 0.4">
       </div>
     </div>
   </div>

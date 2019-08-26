@@ -19,16 +19,18 @@ function expandSidebar(){
   document.getElementById("side-panel").style.width = "20%";
 };
 
-function toggle(inp1, inp2){
+function toggle(){
   //Toggles between two options
   //Also prevents user from returning to state where neither option is checked
-  inp1.checked = true;
-  inp2.checked = false;
-}
+  this.checked = true;
+  this.other.checked = false;
+};
 
 function autocomplete() {
+  var inp, numSuggestionsShown, recentlyScrolled;
+
   //Text field
-  var inp = document.getElementById("course-input");
+  inp = document.getElementById("course-input");
 
   //Number of suggestions to display
   var numSuggestionsShown = 10;
@@ -168,7 +170,7 @@ function autocomplete() {
   document.addEventListener("click", function (e) {
       closeAllLists(e.target);
   });
-}
+};
 
 function submit(){
   var  course, isSourceChecked, isTargetChecked, behaviour, interDepartmentOn, options = [];
@@ -216,8 +218,33 @@ function submit(){
   else {
     instructions();
     legend();
+    document.getElementById('cy').currCourse = course;
     DFS(course, behaviour, options, interDepartmentOn);
-  }
+  };
+};
+
+function resubmit(){
+  var inp = document.getElementById('course-input');
+  var graph = document.getElementById('cy');
+
+  if ( graph.currCourse == null || inp.value != graph.currCourse ) return;
+
+  var behaviour;
+  if ( document.getElementById("source").checked ) behaviour = 1;
+  else behaviour = 0;
+
+  var options = [];
+  if ( document.getElementById("prereqs").checked ) options.push('prereqs');
+  if ( document.getElementById("coreqs").checked ) options.push('coreqs');
+  if ( document.getElementById("restricts").checked ) options.push('restricts');
+
+  if ( options.length == 0 ) return;
+
+  var interDepartmentOn = document.getElementById("inter-department").checked;
+
+  instructions();
+  legend();
+  DFS(graph.currCourse, behaviour, options, interDepartmentOn);
 };
 
 function instructions(){
@@ -239,7 +266,7 @@ function instructions(){
 
   //Add instructions
   document.getElementById('side-panel-content').appendChild(instructions);
-}
+};
 
 function legend(){
   var legend, legendElement;
@@ -293,12 +320,12 @@ function raiseOptionError(){
 
   var parent = document.getElementById("side-panel-content");
   parent.appendChild(slide);
-}
+};
 
 function lowerOptionError(){
   var msg = document.getElementById("sys-msg-opt");
   if ( msg ) document.getElementById("side-panel-content").removeChild(msg);
-}
+};
 
 function raiseCourseError(){
   //Check if error has already been raised
@@ -312,9 +339,33 @@ function raiseCourseError(){
 
   var parent = document.getElementById("side-panel-content");
   parent.appendChild(slide);
-}
+};
 
 function lowerCourseError(){
   var msg = document.getElementById("sys-msg-crs");
   if ( msg ) document.getElementById("side-panel-content").removeChild(msg);
-}
+};
+
+window.addEventListener("load", function(){
+  //Events for side panel size
+  document.getElementById('collapse-button').addEventListener("click", collapseSidebar);
+  document.getElementById('expand-button').addEventListener("click", expandSidebar);
+
+  var srcButton = document.getElementById('source');
+  var tarButton = document.getElementById('target');
+  srcButton.other = tarButton;
+  srcButton.addEventListener("change", toggle);
+  tarButton.other = srcButton;
+  tarButton.addEventListener("change", toggle);
+
+  srcButton.addEventListener("change", resubmit);
+  tarButton.addEventListener("change", resubmit);
+  document.getElementById("prereqs").addEventListener("change", resubmit);
+  document.getElementById("coreqs").addEventListener("change", resubmit);
+  document.getElementById("restricts").addEventListener("change", resubmit);
+  document.getElementById("inter-department").addEventListener("change", resubmit);
+
+  autocomplete();
+
+  document.getElementById('submit').addEventListener("click", submit);
+});

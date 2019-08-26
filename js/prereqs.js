@@ -1,69 +1,4 @@
-var cy = cytoscape({
-  container: document.getElementById('cy'),
-  userZoomingEnabled: true,
-  minZoom: 1e-1,
-  maxZoom: 1,
-  style: [ // the stylesheet for the graph
-    {
-      selector: 'node',
-      style: {
-        'width': 'data(width)',
-        'height': 'data(height)',
-        'padding': '15px',
-        'background-color': 'rgb(151, 170, 189)',
-        'label': 'data(id)',
-        'font-family': 'Verdana, Arial, Helvetica, sans-serif',
-        'text-wrap': 'wrap',
-        'text-halign': 'center',
-        'text-valign': 'center'
-      }
-    },
-    {
-      selector: '.hidden-node',
-      style: {
-        // 'background-color': '',
-        'background-opacity': 0.5
-      }
-    },
-    {
-      selector: '.main-course',
-      style: {
-        'background-color': 'rgb(107, 162, 146)'
-      }
-    },
-    {
-      selector: 'edge',
-      style: {
-        'curve-style': 'straight',
-        'width': '7',
-        'target-arrow-shape': 'triangle',
-        'arrow-scale': 1.5
-      }
-    },
-    {
-      selector: '.prereqs',
-      style: {
-        'line-color': 'rgb(64, 86, 161)',
-        'target-arrow-color': 'rgb(64, 86, 161)'
-      }
-    },
-    {
-      selector: '.coreqs',
-      style: {
-        'line-color': 'orange',
-        'target-arrow-color': 'orange'
-      }
-    },
-    {
-      selector: '.restricts',
-      style: {
-        'line-color': 'red',
-        'target-arrow-color': 'red'
-      }
-    }
-  ]
-});
-
+var cy;
 var options = {
   name: 'breadthfirst',
 
@@ -77,152 +12,6 @@ var options = {
   maximal: false, // whether to shift nodes down their natural BFS depths in order to avoid upwards edges (DAGS only)
   root: undefined
 };
-
-cy.layout( options );
-
-cy.on('resize', function(){
-  cy.center( cy.data() );
-  cy.fit( cy.data(), 50);
-});
-
-cy.on('click', 'node', function(e){
-  var course, behaviour, id, visitedCollections = [];
-  //Reduce visibility of node
-
-  //Get the id of the node that was clicked
-  id = this.id();
-
-  //Set up the selector for the node used to create the graph
-  course_selector = 'node[id = "' + options['root'] + '"]';
-
-  //If the course has no incoming edges, then course behaves like the "source"; otherwise it behaves like the "target"
-  if ( cy.$(course_selector).roots().length > 0 ) behaviour = 1;
-  else behaviour = 0;
-
-  //If nothing is stored in the scratch, then the node hasn't been removed
-  if ( this.scratch(id) == null ){
-    if ( behaviour ){
-      var successiveNodes, successiveEdges, outgoing;
-
-      //Save all nodes reachable from clicked node and edges leaving clicked node
-      successiveNodes = cy.$('[id = "' + id + '"]').successors('node');
-
-      if ( successiveNodes.length == 0 ) return;
-
-      this.addClass('hidden-node');
-
-      successiveEdges = cy.$('[id = "' + id + '"]').successors('edge');
-      visitedCollections.push(successiveNodes);
-      visitedCollections.push(successiveEdges);
-
-      //Remove outgoing edges
-      outgoing = cy.$('[source = "' + id + '"]');
-      outgoing.remove();
-
-      // For each descendant, if it's reachable from root, don't touch it
-      for ( var i = 0; i < successiveNodes.length; i++ ) {
-          nodeId = successiveNodes[i].id();
-          //Breadth first search for node in tree
-          bfs = cy.elements().breadthFirstSearch({
-            root: course_selector,
-            visit: function(v, e, u, i, depth){
-              if ( v.id() == nodeId ) return true;
-            },
-            directed: true
-          });
-          //If not found, remove node and outgoing edges
-          if ( bfs.found.length == 0 ){
-            node = cy.$('[id = "' + nodeId + '"]');
-            edges = cy.$('edge[source = "' + nodeId + '"]');
-
-            edges.remove();
-            node.remove();
-          }
-      }
-      //Store everything in temp storage attached to node
-      this.scratch(id, visitedCollections);
-    }else {
-      var preceedingNodes, preceedingEdges, incoming;
-
-      //Save all nodes that can reach clicked node and edges entering clicked node
-      preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('node');
-
-      if ( preceedingNodes.length == 0 ) return;
-
-      this.addClass('hidden-node');
-
-      preceedingEdges = cy.$('[id = "' + id + '"]').predecessors('edge');
-      visitedCollections.push(preceedingNodes);
-      visitedCollections.push(preceedingEdges);
-
-      //Remove incoming edges
-      incoming = cy.elements('edge[target = "' + id + '"]');
-      incoming.remove();
-
-      //For each ancestor, if root is reachable from it, don't touch it
-      for ( var i = 0; i < preceedingNodes.length; i++ ) {
-          nodeId = preceedingNodes[i].id();
-          //Breadth first search for node in tree
-          bfs = cy.elements().breadthFirstSearch({
-            root: '[id = "' + nodeId + '"]',
-            visit: function(v, e, u, i, depth){
-              if ( v.id() == options['root'] ) return true;
-            },
-            directed: true
-          });
-          //If not found, remove node and incoming edges
-          if ( bfs.found.length == 0 ){
-            node = cy.$('[id = "' + nodeId + '"]');
-            edges = cy.$('edge[target = "' + nodeId + '"]');
-
-            edges.remove();
-            node.remove();
-          }
-      }
-      //Store everything in temp storage attached to node
-      this.scratch(id, visitedCollections);
-    }
-  }else {
-    //Restore the removed elements and reset the scratch
-    this.removeClass('hidden-node');
-    visitedCollections = this.scratch(id);
-
-    visitedCollections[0].restore();
-    visitedCollections[1].restore();
-
-    this.scratch(id, null);
-  }
-});
-
-//Display course information in side-panel on hover
-cy.on("mouseover", "node", function(e) {
-  var textbox, info;
-
-  if ( document.getElementById('course-info') ) document.getElementById('side-panel-content').removeChild(document.getElementById('course-info'));
-
-  //Create div element for course information text
-  textbox = document.createElement('div');
-  textbox.setAttribute('id', 'course-info');
-
-  info = departments[this.id().substr(0, 4)][0][this.id()]['text'];
-  textbox.innerHTML = "<p>" + info['title'] + "</p>";
-  textbox.innerHTML += "<p>" + info['overview'] + "</p>";
-  textbox.innerHTML += "<p>" + info['terms'] + "</p>";
-  textbox.innerHTML += "<p>" + info['instructors'] + "</p>";
-  textbox.innerHTML += info['notes'];
-
-  document.getElementById('side-panel-content').appendChild(textbox);
-});
-
-cy.on("mouseover", "node", function(e){
-  this.data('width', this.width() * 1.5);
-  this.data('height', this.height() * 1.5);
-});
-
-cy.on("mouseout", "node", function(e) {
-  this.data('width', 'label');
-  this.data('height', this.width());
-});
 
 function DFS(course, behaviour, opts, interDepartment) {
   //For now just work if math dictionaries, later have to figure out how to scale
@@ -282,3 +71,216 @@ function DFS(course, behaviour, opts, interDepartment) {
   cy.layout( options ).run();
   cy.resize();
 };
+
+window.addEventListener("load", function(){
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    userZoomingEnabled: true,
+    minZoom: 1e-1,
+    maxZoom: 1,
+    style: [ // the stylesheet for the graph
+      {
+        selector: 'node',
+        style: {
+          'width': 'data(width)',
+          'height': 'data(height)',
+          'padding': '15px',
+          'background-color': 'rgb(151, 170, 189)',
+          'label': 'data(id)',
+          'font-family': 'Verdana, Arial, Helvetica, sans-serif',
+          'text-wrap': 'wrap',
+          'text-halign': 'center',
+          'text-valign': 'center'
+        }
+      },
+      {
+        selector: '.hidden-node',
+        style: {
+          // 'background-color': '',
+          'background-opacity': 0.5
+        }
+      },
+      {
+        selector: '.main-course',
+        style: {
+          'background-color': 'rgb(107, 162, 146)'
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'curve-style': 'straight',
+          'width': '7',
+          'target-arrow-shape': 'triangle',
+          'arrow-scale': 1.5
+        }
+      },
+      {
+        selector: '.prereqs',
+        style: {
+          'line-color': 'rgb(64, 86, 161)',
+          'target-arrow-color': 'rgb(64, 86, 161)'
+        }
+      },
+      {
+        selector: '.coreqs',
+        style: {
+          'line-color': 'orange',
+          'target-arrow-color': 'orange'
+        }
+      },
+      {
+        selector: '.restricts',
+        style: {
+          'line-color': 'red',
+          'target-arrow-color': 'red'
+        }
+      }
+    ]
+  });
+
+  cy.layout( options );
+
+  cy.on('resize', function(){
+    cy.center( cy.data() );
+    cy.fit( cy.data(), 50);
+  });
+
+  cy.on('click', 'node', function(e){
+    var course, behaviour, id, visitedCollections = [];
+    //Reduce visibility of node
+
+    //Get the id of the node that was clicked
+    id = this.id();
+
+    //Set up the selector for the node used to create the graph
+    course_selector = 'node[id = "' + options['root'] + '"]';
+
+    //If the course has no incoming edges, then course behaves like the "source"; otherwise it behaves like the "target"
+    if ( cy.$(course_selector).roots().length > 0 ) behaviour = 1;
+    else behaviour = 0;
+
+    //If nothing is stored in the scratch, then the node hasn't been removed
+    if ( this.scratch(id) == null ){
+      if ( behaviour ){
+        var successiveNodes, successiveEdges, outgoing;
+
+        //Save all nodes reachable from clicked node and edges leaving clicked node
+        successiveNodes = cy.$('[id = "' + id + '"]').successors('node');
+
+        if ( successiveNodes.length == 0 ) return;
+
+        this.addClass('hidden-node');
+
+        successiveEdges = cy.$('[id = "' + id + '"]').successors('edge');
+        visitedCollections.push(successiveNodes);
+        visitedCollections.push(successiveEdges);
+
+        //Remove outgoing edges
+        outgoing = cy.$('[source = "' + id + '"]');
+        outgoing.remove();
+
+        // For each descendant, if it's reachable from root, don't touch it
+        for ( var i = 0; i < successiveNodes.length; i++ ) {
+            nodeId = successiveNodes[i].id();
+            //Breadth first search for node in tree
+            bfs = cy.elements().breadthFirstSearch({
+              root: course_selector,
+              visit: function(v, e, u, i, depth){
+                if ( v.id() == nodeId ) return true;
+              },
+              directed: true
+            });
+            //If not found, remove node and outgoing edges
+            if ( bfs.found.length == 0 ){
+              node = cy.$('[id = "' + nodeId + '"]');
+              edges = cy.$('edge[source = "' + nodeId + '"]');
+
+              edges.remove();
+              node.remove();
+            }
+        }
+        //Store everything in temp storage attached to node
+        this.scratch(id, visitedCollections);
+      }else {
+        var preceedingNodes, preceedingEdges, incoming;
+
+        //Save all nodes that can reach clicked node and edges entering clicked node
+        preceedingNodes = cy.$('[id = "' + id + '"]').predecessors('node');
+
+        if ( preceedingNodes.length == 0 ) return;
+
+        this.addClass('hidden-node');
+
+        preceedingEdges = cy.$('[id = "' + id + '"]').predecessors('edge');
+        visitedCollections.push(preceedingNodes);
+        visitedCollections.push(preceedingEdges);
+
+        //Remove incoming edges
+        incoming = cy.elements('edge[target = "' + id + '"]');
+        incoming.remove();
+
+        //For each ancestor, if root is reachable from it, don't touch it
+        for ( var i = 0; i < preceedingNodes.length; i++ ) {
+            nodeId = preceedingNodes[i].id();
+            //Breadth first search for node in tree
+            bfs = cy.elements().breadthFirstSearch({
+              root: '[id = "' + nodeId + '"]',
+              visit: function(v, e, u, i, depth){
+                if ( v.id() == options['root'] ) return true;
+              },
+              directed: true
+            });
+            //If not found, remove node and incoming edges
+            if ( bfs.found.length == 0 ){
+              node = cy.$('[id = "' + nodeId + '"]');
+              edges = cy.$('edge[target = "' + nodeId + '"]');
+
+              edges.remove();
+              node.remove();
+            }
+        }
+        //Store everything in temp storage attached to node
+        this.scratch(id, visitedCollections);
+      }
+    }else {
+      //Restore the removed elements and reset the scratch
+      this.removeClass('hidden-node');
+      visitedCollections = this.scratch(id);
+
+      visitedCollections[0].restore();
+      visitedCollections[1].restore();
+
+      this.scratch(id, null);
+    }
+  });
+
+  cy.on("mouseover", "node", function(e) {
+    var textbox, info;
+
+    if ( document.getElementById('course-info') ) document.getElementById('side-panel-content').removeChild(document.getElementById('course-info'));
+
+    //Create div element for course information text
+    textbox = document.createElement('div');
+    textbox.setAttribute('id', 'course-info');
+
+    info = departments[this.id().substr(0, 4)][0][this.id()]['text'];
+    textbox.innerHTML = "<p>" + info['title'] + "</p>";
+    textbox.innerHTML += "<p>" + info['overview'] + "</p>";
+    textbox.innerHTML += "<p>" + info['terms'] + "</p>";
+    textbox.innerHTML += "<p>" + info['instructors'] + "</p>";
+    textbox.innerHTML += info['notes'];
+
+    document.getElementById('side-panel-content').appendChild(textbox);
+  });
+
+  cy.on("mouseover", "node", function(e){
+    this.data('width', this.width() * 1.5);
+    this.data('height', this.height() * 1.5);
+  });
+
+  cy.on("mouseout", "node", function(e) {
+    this.data('width', 'label');
+    this.data('height', this.width());
+  });
+});
