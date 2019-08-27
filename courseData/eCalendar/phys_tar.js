@@ -210,8 +210,8 @@ global.phys_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "EPSC 182",
             "EPSC 186",
+            "EPSC 182",
             "ANAT 182"
         ]
     },
@@ -352,8 +352,8 @@ global.phys_tar = {
             "instructors": "Instructors: Simon Caron-Huot (Fall)"
         },
         "prereqs": [
-            "PHYS 131",
-            "CHEM 120"
+            "CHEM 120",
+            "PHYS 131"
         ],
         "coreqs": [
             "MATH 222"
@@ -431,12 +431,12 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
-            "PHYS 230",
             "BIOL 200",
-            "PHYS 253",
+            "PHYS 230",
+            "PHYS 232",
             "BIOL 219",
-            "MATH 222",
-            "PHYS 232"
+            "PHYS 253",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -484,16 +484,16 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
-            "BIOL 219",
-            "CHEM 345",
+            "PHYS 232",
             "PHYS 253",
-            "PHYS 232"
+            "BIOL 219",
+            "CHEM 345"
         ],
         "coreqs": [],
         "restricts": [
+            "CHEM 365",
             "PHYS 333",
-            "PHYS 362",
-            "CHEM 365"
+            "PHYS 362"
         ]
     },
     "PHYS 331": {
@@ -511,8 +511,8 @@ global.phys_tar = {
             "MATH 315"
         ],
         "restricts": [
-            "PHYS 451",
-            "PHYS 351"
+            "PHYS 351",
+            "PHYS 451"
         ]
     },
     "PHYS 333": {
@@ -561,8 +561,8 @@ global.phys_tar = {
             "MATH 314"
         ],
         "restricts": [
-            "PHYS 350",
-            "PHYS 242"
+            "PHYS 242",
+            "PHYS 350"
         ]
     },
     "PHYS 342": {
@@ -574,10 +574,10 @@ global.phys_tar = {
             "instructors": "Instructors: Guillaume Gervais (Winter)"
         },
         "prereqs": [
-            "PHYS 340",
-            "MATH 315",
             "MATH 314",
-            "PHYS 242"
+            "PHYS 242",
+            "MATH 315",
+            "PHYS 340"
         ],
         "coreqs": [],
         "restricts": []
@@ -591,8 +591,8 @@ global.phys_tar = {
             "instructors": "Instructors: Jonathan Le Roy Sievers (Fall)"
         },
         "prereqs": [
-            "MATH 248",
-            "MATH 325"
+            "MATH 325",
+            "MATH 248"
         ],
         "coreqs": [],
         "restricts": []
@@ -636,9 +636,9 @@ global.phys_tar = {
             "instructors": "Instructors: Tamar Pereg-Barnea (Fall)"
         },
         "prereqs": [
-            "MATH 223",
-            "PHYS 230",
             "CIVE 281",
+            "PHYS 230",
+            "MATH 223",
             "PHYS 251"
         ],
         "coreqs": [],
@@ -667,8 +667,8 @@ global.phys_tar = {
             "instructors": "Instructors: Martin Grant (Winter)"
         },
         "prereqs": [
-            "MATH 248",
-            "PHYS 253"
+            "PHYS 253",
+            "MATH 248"
         ],
         "coreqs": [],
         "restricts": []
@@ -694,13 +694,13 @@ global.phys_tar = {
             "instructors": "Instructors: Nicolas Cowan (Fall)"
         },
         "prereqs": [
-            "MATH 315",
-            "PHYS 251",
-            "MATH 325",
             "PHYS 230",
+            "PHYS 251",
+            "PHYS 232",
+            "MATH 325",
             "PHYS 253",
-            "MATH 222",
-            "PHYS 232"
+            "MATH 315",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -716,8 +716,8 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 325",
-            "MATH 315"
+            "MATH 315",
+            "MATH 325"
         ],
         "coreqs": [],
         "restricts": []
@@ -731,10 +731,10 @@ global.phys_tar = {
             "instructors": "Instructors: Eve J Lee (Winter)"
         },
         "prereqs": [
-            "MATH 223",
+            "MATH 314",
             "PHYS 230",
-            "MATH 315",
-            "MATH 314"
+            "MATH 223",
+            "MATH 315"
         ],
         "coreqs": [],
         "restricts": [
@@ -750,8 +750,8 @@ global.phys_tar = {
             "instructors": "Instructors: David Cooke (Fall)"
         },
         "prereqs": [
-            "PHYS 342",
-            "PHYS 352"
+            "PHYS 352",
+            "PHYS 342"
         ],
         "coreqs": [],
         "restricts": []
@@ -784,8 +784,8 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "PHYS 232",
-            "PHYS 251"
+            "PHYS 251",
+            "PHYS 232"
         ],
         "coreqs": [],
         "restricts": [
@@ -856,7 +856,7 @@ global.phys_tar = {
             "instructors": "Instructors: David Hanna (Winter)"
         },
         "prereqs": [
-            "PHYS 459"
+            "PHYS 459D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -945,11 +945,11 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 350",
+            "PHYS 362",
             "PHYS 333",
-            "PHYS 340",
-            "PHYS 329",
             "MATH 437",
-            "PHYS 362"
+            "PHYS 329",
+            "PHYS 340"
         ],
         "coreqs": [],
         "restricts": []
@@ -1307,7 +1307,7 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 690"
+            "PHYS 690D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1332,9 +1332,7 @@ global.phys_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "PHYS 690"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1383,7 +1381,7 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 692"
+            "PHYS 692D1"
         ],
         "coreqs": [],
         "restricts": []

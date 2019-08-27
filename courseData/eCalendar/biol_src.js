@@ -44,8 +44,7 @@ global.biol_src = {
     },
     "BIOL 112": {
         "prereqs": [
-            "BIOL 200",
-            "BIOL 219"
+            "BIOL 200"
         ],
         "coreqs": [],
         "restricts": [
@@ -78,7 +77,13 @@ global.biol_src = {
         "prereqs": [
             "BIOL 201",
             "BIOL 202",
-            "BIOL 205",
+            "BIOL 300",
+            "BIOL 303",
+            "BIOL 313",
+            "BIOL 319",
+            "BIOL 370",
+            "BIOL 377",
+            "BIOL 395",
             "BIOL 413"
         ],
         "coreqs": [],
@@ -109,6 +114,7 @@ global.biol_src = {
         "prereqs": [
             "BIOL 313",
             "BIOL 324",
+            "BIOL 370",
             "BIOL 413",
             "BIOL 416",
             "BIOL 544",
@@ -127,13 +133,14 @@ global.biol_src = {
     },
     "BIOL 205": {
         "prereqs": [
+            "BIOL 304",
             "BIOL 307",
             "BIOL 335",
+            "BIOL 342",
             "BIOL 350",
             "BIOL 355",
             "BIOL 385",
             "BIOL 413",
-            "BIOL 418",
             "BIOL 427"
         ],
         "coreqs": [],
@@ -149,11 +156,7 @@ global.biol_src = {
     "BIOL 206": {
         "prereqs": [
             "BIOL 331",
-            "BIOL 334",
-            "BIOL 334D1",
-            "BIOL 334D2",
             "BIOL 432",
-            "BIOL 441",
             "BIOL 466",
             "BIOL 467",
             "BIOL 468",
@@ -187,14 +190,15 @@ global.biol_src = {
     },
     "BIOL 215": {
         "prereqs": [
+            "BIOL 304",
             "BIOL 307",
             "BIOL 331",
+            "BIOL 342",
             "BIOL 355",
             "BIOL 377",
             "BIOL 413",
             "BIOL 429",
-            "BIOL 432",
-            "BIOL 553"
+            "BIOL 432"
         ],
         "coreqs": [],
         "restricts": [],
@@ -327,9 +331,7 @@ global.biol_src = {
     "BIOL 306": {
         "prereqs": [
             "BIOL 320",
-            "BIOL 389",
             "BIOL 414",
-            "BIOL 514",
             "BIOL 530",
             "BIOL 532",
             "BIOL 580",
@@ -351,7 +353,9 @@ global.biol_src = {
         "prereqs": [
             "BIOL 517"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 507"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>2 hours lecture and 1 hour conference</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-205\" target=\"_blank\">BIOL 205</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> or permission</p>\n",
@@ -364,6 +368,7 @@ global.biol_src = {
     "BIOL 308": {
         "prereqs": [
             "BIOL 434",
+            "BIOL 510",
             "BIOL 555D1",
             "BIOL 585",
             "BIOL 594"
@@ -892,10 +897,7 @@ global.biol_src = {
         }
     },
     "BIOL 468": {
-        "prereqs": [
-            "BIOL 468D2",
-            "BIOL 468N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -907,7 +909,9 @@ global.biol_src = {
         }
     },
     "BIOL 468D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 468D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -955,9 +959,7 @@ global.biol_src = {
         }
     },
     "BIOL 469": {
-        "prereqs": [
-            "BIOL 469D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -969,7 +971,9 @@ global.biol_src = {
         }
     },
     "BIOL 469D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 469D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -993,7 +997,9 @@ global.biol_src = {
         }
     },
     "BIOL 479D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 479D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1017,7 +1023,9 @@ global.biol_src = {
         }
     },
     "BIOL 480D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 480D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1041,7 +1049,9 @@ global.biol_src = {
         }
     },
     "BIOL 499D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 499D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1257,7 +1267,9 @@ global.biol_src = {
         }
     },
     "BIOL 555D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 555D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1539,9 +1551,7 @@ global.biol_src = {
         }
     },
     "BIOL 652": {
-        "prereqs": [
-            "BIOL 652D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1553,7 +1563,9 @@ global.biol_src = {
         }
     },
     "BIOL 652D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 652D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1669,13 +1681,11 @@ global.biol_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biot-505\" target=\"_blank\">BIOT 505</a> Selected Topics in Biotechnology (3 credits)",
             "overview": "Biotechnology : Current methods and recent advances in biological, medical, agricultural and engineering aspects of biotechnology will be described and discussed. An extensive reading list will complement the lecture material.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Elias Georges (Fall)"
+            "instructors": "Instructors: Elias Georges Babykumari Chitramuthu Thomas Ming Swi Chang Lyle Whyte Donald L Smith Michel Tremblay Terence Hebert Jianguo Xia Mark Hancock Jérôme Waldispuhl (Fall)"
         }
     },
     "NSCI 410": {
-        "prereqs": [
-            "NSCI 410D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "NSCI 420D2"
@@ -1689,7 +1699,9 @@ global.biol_src = {
         }
     },
     "NSCI 410D1": {
-        "prereqs": [],
+        "prereqs": [
+            "NSCI 410D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1713,10 +1725,7 @@ global.biol_src = {
         }
     },
     "NSCI 420": {
-        "prereqs": [
-            "NSCI 420D2",
-            "NSCI 420N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1728,7 +1737,9 @@ global.biol_src = {
         }
     },
     "NSCI 420D1": {
-        "prereqs": [],
+        "prereqs": [
+            "NSCI 420D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {

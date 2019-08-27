@@ -21,8 +21,7 @@ global.phys_src = {
             "PHYS 117",
             "PHYS 142",
             "PHYS 230",
-            "PHYS 251",
-            "PHYS 253"
+            "PHYS 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -238,8 +237,8 @@ global.phys_src = {
     "PHYS 230": {
         "prereqs": [
             "PHYS 232",
-            "PHYS 319",
             "PHYS 331",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [
@@ -256,7 +255,9 @@ global.phys_src = {
     },
     "PHYS 232": {
         "prereqs": [
+            "PHYS 329",
             "PHYS 333",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [],
@@ -299,6 +300,7 @@ global.phys_src = {
     "PHYS 251": {
         "prereqs": [
             "PHYS 351",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [
@@ -314,7 +316,10 @@ global.phys_src = {
         }
     },
     "PHYS 253": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 329",
+            "PHYS 362"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -413,9 +418,7 @@ global.phys_src = {
         }
     },
     "PHYS 329": {
-        "prereqs": [
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -453,7 +456,9 @@ global.phys_src = {
         }
     },
     "PHYS 362": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 519"
+        ],
         "coreqs": [],
         "restricts": [
             "PHYS 333"
@@ -481,10 +486,7 @@ global.phys_src = {
         }
     },
     "PHYS 340": {
-        "prereqs": [
-            "PHYS 342",
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -711,7 +713,9 @@ global.phys_src = {
         }
     },
     "PHYS 459D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 459D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1141,10 +1145,7 @@ global.phys_src = {
         }
     },
     "PHYS 690": {
-        "prereqs": [
-            "PHYS 690D2",
-            "PHYS 690N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1156,7 +1157,9 @@ global.phys_src = {
         }
     },
     "PHYS 690D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 690D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1216,9 +1219,7 @@ global.phys_src = {
         }
     },
     "PHYS 692": {
-        "prereqs": [
-            "PHYS 692D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1230,7 +1231,9 @@ global.phys_src = {
         }
     },
     "PHYS 692D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 692D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {

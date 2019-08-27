@@ -23,8 +23,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 341",
-            "ACCT 351",
-            "ACCT 311"
+            "ACCT 311",
+            "ACCT 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -67,8 +67,8 @@ global.acct_tar = {
             "instructors": "Instructors: Philippe Levy (Fall), Jingjing Zhang (Winter)"
         },
         "prereqs": [
-            "ACCT 361",
-            "ACCT 313"
+            "ACCT 313",
+            "ACCT 361"
         ],
         "coreqs": [],
         "restricts": []
@@ -399,7 +399,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 653"
+            "ACCT 653D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -437,7 +437,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 654"
+            "ACCT 654D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -475,7 +475,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 663"
+            "ACCT 663D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -513,7 +513,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664"
+            "ACCT 664D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -527,10 +527,10 @@ global.acct_tar = {
             "instructors": "Instructors: Evan Schneiderman Riccardo Zerbino Melissa Marginson (Fall)"
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -544,10 +544,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -561,10 +561,10 @@ global.acct_tar = {
             "instructors": "Instructors: Evan Schneiderman Michael Cohen Michael Richardson (Fall)"
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -578,10 +578,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -607,10 +607,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 689",
+            "ACCT 685",
             "ACCT 683",
             "ACCT 687",
-            "ACCT 685"
+            "ACCT 689"
         ],
         "coreqs": [
             "ACCT 699"
@@ -927,8 +927,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 341",
-            "FACC 300",
-            "INTG 201"
+            "INTG 201",
+            "FACC 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -1004,8 +1004,8 @@ global.acct_tar = {
             "notes": "<p>Prerequisite: BCom Core and 3.0 CGPA or better.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-499\" target=\"_blank\">BUSA 499</a> Case Analysis and Presentation (3 credits)",
             "overview": "Business Admin : Integration of core knowledge and practice for preparing and presenting case studies, including professor coaching, preparation and presentation feedback, presentation skills, leadership skills, team building skills, analytical skills, logical thinking, debating, persuasive communications and cross discipline work.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Julia Scott Melissa Sonberg (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1020,14 +1020,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1041,15 +1041,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
+            "MGSC 662",
             "BUSA 693",
-            "ORGB 660",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1063,15 +1063,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
+            "MGSC 662",
             "BUSA 693",
-            "ORGB 660",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1085,11 +1085,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1223,14 +1223,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
             "BUSA 650",
-            "MGCR 629",
-            "MGCR 651",
-            "MGCR 653",
-            "BUSA 698",
+            "MGCR 650",
             "BUSA 699",
-            "MGCR 650"
+            "BUSA 698",
+            "MGCR 651",
+            "MGCR 629",
+            "MGCR 653",
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1244,11 +1244,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1262,11 +1262,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1280,7 +1280,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 650"
+            "BUSA 650D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1294,11 +1294,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1312,11 +1312,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -1330,7 +1330,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 651"
+            "BUSA 651D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1441,9 +1441,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 668"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1455,9 +1453,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 668"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1494,7 +1490,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 670"
+            "BUSA 670D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1544,7 +1540,7 @@ global.acct_tar = {
             "instructors": "Instructors: Leslie Breitner (Fall), Leslie Breitner (Winter)"
         },
         "prereqs": [
-            "BUSA 672"
+            "BUSA 672D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1569,9 +1565,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 672"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1583,9 +1577,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 672"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1658,14 +1650,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1715,7 +1707,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 689"
+            "BUSA 689D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1740,9 +1732,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1754,9 +1744,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1793,7 +1781,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 690"
+            "BUSA 690D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1831,14 +1819,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1852,14 +1840,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1872,9 +1860,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 693"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -2215,8 +2201,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "FINE 441",
-            "FINE 482"
+            "FINE 482",
+            "FINE 441"
         ],
         "coreqs": [],
         "restricts": []
@@ -2284,7 +2270,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "FINE 541"
+            "FINE 541D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -2309,9 +2295,7 @@ global.acct_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Laurent Barras Sebastien Betermier (Fall)"
         },
-        "prereqs": [
-            "FINE 541"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -2658,9 +2642,7 @@ global.acct_tar = {
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "FINE 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -2696,9 +2678,7 @@ global.acct_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Jan Edvard Ericsson (Fall)"
         },
-        "prereqs": [
-            "FINE 690"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -3045,8 +3025,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 331",
-            "MGCR 211"
+            "MGCR 211",
+            "MGCR 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -3195,11 +3175,11 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-442\" target=\"_blank\">INSY 442</a> Business Intelligence and Data Analytics (3 credits)",
             "overview": "Information Systems : Introduction to the methods and tools for analyzing business data to improve business decision-making, focusing on extracting business intelligence by analyzing data and online content for various business applications.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall)"
         },
         "prereqs": [
-            "MGCR 331",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 331"
         ],
         "coreqs": [],
         "restricts": [
@@ -3653,10 +3633,10 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MGCR 352",
-            "MGCR 331",
+            "MGCR 472",
             "MGCR 423",
-            "MGCR 472"
+            "MGCR 352",
+            "MGCR 331"
         ]
     },
     "MGCR 211": {
@@ -3698,9 +3678,9 @@ global.acct_tar = {
         "restricts": [
             "ECON 257",
             "MATH 324",
-            "MATH 204",
             "PSYC 204",
-            "ECON 227"
+            "ECON 227",
+            "MATH 204"
         ]
     },
     "MGCR 273": {
@@ -3728,9 +3708,9 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "ECON 230",
             "ECON 208",
-            "ECON 250"
+            "ECON 230D1",
+            "ECON 250D1"
         ]
     },
     "MGCR 331": {
@@ -3739,7 +3719,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
             "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall), Aria Teimourzadeh (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3777,7 +3757,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-360\" target=\"_blank\">MGCR 360</a> Social Context of Business (3 credits)",
             "overview": "Management Core : This course examines how business interacts with the larger society. It explores the development of modern capitalist society, and the dilemmas that organizations face in acting in a socially responsible manner. Students will examine these issues with reference to sustainable development, business ethics, globalization and developing countries, and political activity.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Hyun Seung Anna Kim (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3813,7 +3793,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
             "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter)"
+            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding Rim Hariss (Winter)"
         },
         "prereqs": [
             "MGCR 271"
@@ -3854,7 +3834,7 @@ global.acct_tar = {
             "instructors": "Instructors: Nafiz Vedat Verter (Fall), Nafiz Vedat Verter (Winter)"
         },
         "prereqs": [
-            "MGCR 610"
+            "MGCR 610D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -3879,9 +3859,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 610"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -3893,9 +3871,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 610"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -4064,7 +4040,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 628"
+            "MGCR 628D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -4089,9 +4065,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 628"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -4103,9 +4077,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 628"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -4206,7 +4178,7 @@ global.acct_tar = {
             "instructors": "Instructors: Liette Lapointe Chantal Westgate Benjamin Croitoru (Fall)"
         },
         "prereqs": [
-            "MGCR 651"
+            "MGCR 651D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -4248,7 +4220,7 @@ global.acct_tar = {
             "instructors": "Instructors: Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
         },
         "prereqs": [
-            "MGCR 652"
+            "MGCR 652D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -4274,11 +4246,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
             "MGCR 629",
-            "MGCR 651",
             "MGCR 653",
-            "MCGR 650"
+            "MGCR 651",
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -4304,7 +4275,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 660"
+            "MGCR 660D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -4450,10 +4421,10 @@ global.acct_tar = {
             "instructors": "Instructors: Daphne Demetry (Fall), Matthew Corritore (Fall), Gregory Bryan Vit (Winter)"
         },
         "prereqs": [
-            "MGCR 352",
             "MGCR 211",
             "INTG 202",
-            "INTG 201"
+            "INTG 201",
+            "MGCR 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -5781,8 +5752,8 @@ global.acct_tar = {
             "instructors": "Instructors: Myung-Soo Jo (Fall), Emine Sarigollu (Winter)"
         },
         "prereqs": [
-            "MGCR 352",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -5866,8 +5837,8 @@ global.acct_tar = {
             "instructors": "Instructors: Hamid Etemad (Fall)"
         },
         "prereqs": [
-            "MGCR 382",
-            "MGCR 352"
+            "MGCR 352",
+            "MGCR 382"
         ],
         "coreqs": [],
         "restricts": []
@@ -5955,7 +5926,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MRKT 657"
+            "MRKT 657D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6299,8 +6270,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 222",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -6594,7 +6565,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 685"
+            "ORGB 685D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6692,8 +6663,8 @@ global.acct_tar = {
             "instructors": "Instructors: Saibal Ray (Winter)"
         },
         "prereqs": [
-            "RETL 402",
-            "MRKT 459"
+            "MRKT 459",
+            "RETL 402"
         ],
         "coreqs": [],
         "restricts": []

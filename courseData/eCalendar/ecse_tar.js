@@ -52,9 +52,9 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 304",
+            "ECSE 303",
             "ECSE 306",
-            "ECSE 303"
+            "ECSE 304"
         ]
     },
     "ECSE 210": {
@@ -81,8 +81,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 200",
-            "ECSE 202",
-            "COMP 202"
+            "COMP 202",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -114,9 +114,9 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 221",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 221"
         ]
     },
     "ECSE 223": {
@@ -128,8 +128,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Daniel Varro (Fall)"
         },
         "prereqs": [
-            "ECSE 202",
-            "COMP 202"
+            "COMP 202",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -175,9 +175,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 270",
+            "MATH 271",
             "ECSE 210",
-            "MATH 247",
-            "MATH 271"
+            "MATH 247"
         ],
         "coreqs": [
             "MATH 381",
@@ -208,8 +208,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 306",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -224,8 +224,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 270",
-            "ECSE 210",
-            "MATH 271"
+            "MATH 271",
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -266,8 +266,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Benoit Champagne (Fall), Tho Le-Ngoc (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 306",
+            "ECSE 206",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -282,9 +282,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Songrui Zhao (Winter)"
         },
         "prereqs": [
-            "ECSE 222",
+            "ECSE 205",
             "ECSE 200",
-            "ECSE 205"
+            "ECSE 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -298,9 +298,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Winter)"
         },
         "prereqs": [
-            "COMP 251",
             "ECSE 200",
-            "MATH 263"
+            "MATH 263",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -314,9 +314,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Marwan Kanaan (Fall)"
         },
         "prereqs": [
-            "ECSE 202",
             "COMP 202",
-            "COMP 208"
+            "COMP 208",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -330,8 +330,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MECH 383",
             "ECSE 200",
+            "MECH 383",
             "ECSE 221"
         ],
         "coreqs": [],
@@ -347,9 +347,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 211",
+            "ECSE 291",
             "CCOM 206",
             "ECSE 221",
-            "ECSE 291",
             "EDEC 206"
         ],
         "coreqs": [],
@@ -364,8 +364,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Katarzyna Radecka (Fall)"
         },
         "prereqs": [
-            "ECSE 222",
-            "ECSE 200"
+            "ECSE 200",
+            "ECSE 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -439,8 +439,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 330",
-            "ECSE 306",
             "ECSE 303",
+            "ECSE 306",
             "ECSE 291"
         ],
         "coreqs": [],
@@ -497,8 +497,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 262",
-            "ECSE 210",
-            "MATH 263"
+            "MATH 263",
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -526,8 +526,8 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall), Xiaozhe Wang (Winter)"
         },
         "prereqs": [
-            "ECSE 351",
-            "ECSE 210"
+            "ECSE 210",
+            "ECSE 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -541,9 +541,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall), Xiaozhe Wang (Winter)"
         },
         "prereqs": [
+            "ECSE 251",
             "CIVE 281",
-            "ECSE 210",
-            "ECSE 251"
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -587,8 +587,8 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 493",
-            "ECSE 404"
+            "ECSE 404",
+            "ECSE 493"
         ]
     },
     "ECSE 404": {
@@ -601,8 +601,8 @@ global.ecse_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "ECSE 304",
-            "ECSE 306"
+            "ECSE 306",
+            "ECSE 304"
         ],
         "restricts": []
     },
@@ -615,10 +615,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 352",
             "ECSE 354",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 352",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": [
@@ -634,8 +634,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Harry Leib (Fall)"
         },
         "prereqs": [
-            "ECSE 308",
-            "ECSE 205"
+            "ECSE 205",
+            "ECSE 308"
         ],
         "coreqs": [],
         "restricts": [
@@ -651,9 +651,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
             "ECSE 306",
-            "ECSE 305"
+            "ECSE 305",
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -667,8 +667,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Benoit Champagne (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 306",
+            "ECSE 206",
             "ECSE 304"
         ],
         "coreqs": [],
@@ -697,9 +697,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 322",
             "ECSE 306",
-            "ECSE 322"
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -725,10 +725,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Fall)"
         },
         "prereqs": [
-            "ECSE 316",
-            "COMP 250",
+            "ECSE 205",
             "ECSE 308",
-            "ECSE 205"
+            "COMP 250",
+            "ECSE 316"
         ],
         "coreqs": [],
         "restricts": [
@@ -759,9 +759,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -775,9 +775,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Muthucumaru Maheswaran (Winter)"
         },
         "prereqs": [
+            "ECSE 322",
             "COMP 250",
-            "ECSE 324",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -806,10 +806,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "ECSE 324",
+            "ECSE 322",
             "COMP 273",
-            "ECSE 322"
+            "ECSE 324",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -823,9 +823,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Amin Emad (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -854,8 +854,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Muthucumaru Maheswaran (Fall), Joseph P Vybihal (Winter)"
         },
         "prereqs": [
-            "COMP 273",
-            "ECSE 322"
+            "ECSE 322",
+            "COMP 273"
         ],
         "coreqs": [],
         "restricts": []
@@ -869,8 +869,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 335",
-            "ECSE 321"
+            "ECSE 321",
+            "COMP 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -900,8 +900,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 354",
-            "ECSE 352",
-            "MIME 262"
+            "MIME 262",
+            "ECSE 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -930,10 +930,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 212",
-            "ECSE 351",
             "ECSE 330",
-            "MIME 262"
+            "ECSE 212",
+            "MIME 262",
+            "ECSE 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -947,9 +947,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Thomas Szkopek (Winter)"
         },
         "prereqs": [
-            "MIME 262",
             "ECSE 251",
-            "ECSE 331"
+            "ECSE 331",
+            "MIME 262"
         ],
         "coreqs": [],
         "restricts": [
@@ -966,8 +966,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 334",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 334"
         ],
         "coreqs": [],
         "restricts": []
@@ -981,9 +981,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Gordon W Roberts (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 335",
             "ECSE 334",
+            "ECSE 206",
             "ECSE 304"
         ],
         "coreqs": [],
@@ -998,13 +998,13 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 323",
-            "ECSE 304",
-            "ECSE 324",
             "ECSE 325",
-            "ECSE 322"
+            "ECSE 206",
+            "ECSE 304",
+            "ECSE 322",
+            "ECSE 323",
+            "ECSE 306",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -1049,13 +1049,13 @@ global.ecse_tar = {
         },
         "prereqs": [
             "COMP 250",
-            "ECSE 330",
-            "ECSE 221",
-            "ECSE 331",
-            "ECSE 222",
             "ECSE 351",
+            "ECSE 331",
+            "ECSE 353",
             "ECSE 251",
-            "ECSE 353"
+            "ECSE 221",
+            "ECSE 330",
+            "ECSE 222"
         ],
         "coreqs": [
             "ECSE 353"
@@ -1087,9 +1087,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Derek Nowrouzezahrai (Fall)"
         },
         "prereqs": [
+            "ECSE 205",
             "COMP 250",
-            "ECSE 202",
-            "ECSE 205"
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": [
@@ -1106,12 +1106,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 334",
-            "ECSE 354",
-            "ECSE 221",
-            "ECSE 331",
             "ECSE 222",
+            "ECSE 353",
             "ECSE 352",
-            "ECSE 353"
+            "ECSE 221",
+            "ECSE 354",
+            "ECSE 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -1140,14 +1140,14 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 306",
+            "COMP 302",
             "ECSE 321",
+            "CCOM 206",
+            "ECSE 322",
             "ECSE 211",
             "ECSE 323",
-            "CCOM 206",
-            "ECSE 330",
-            "COMP 302",
-            "ECSE 322"
+            "ECSE 306",
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -1175,11 +1175,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
         },
         "prereqs": [
-            "ECSE 211",
-            "CCOM 206",
-            "ECSE 324",
             "COMP 302",
-            "ECSE 331"
+            "ECSE 331",
+            "CCOM 206",
+            "ECSE 211",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -1193,7 +1193,7 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 458"
+            "ECSE 458D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1207,11 +1207,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 211",
-            "CCOM 206",
-            "ECSE 324",
             "COMP 302",
-            "ECSE 331"
+            "ECSE 331",
+            "CCOM 206",
+            "ECSE 211",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -1224,9 +1224,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 458"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1279,9 +1277,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 361",
-            "ECSE 461"
+            "ECSE 461",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -1295,8 +1293,8 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -1310,10 +1308,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361",
             "ECSE 330",
-            "ECSE 331"
+            "ECSE 331",
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -1327,8 +1325,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -1356,8 +1354,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -1401,13 +1399,13 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 330",
             "ECSE 303",
-            "ECSE 331",
+            "ECSE 206",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "ECSE 330",
+            "ECSE 331",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": [
@@ -1423,10 +1421,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 330",
+            "ECSE 322",
             "ECSE 211",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -1454,12 +1452,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 321",
-            "ECSE 306",
-            "CCOM 206",
             "COMP 302",
+            "ECSE 321",
+            "CCOM 206",
             "ECSE 322",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -1501,7 +1499,7 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 478"
+            "ECSE 478D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1528,9 +1526,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 478"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1544,8 +1540,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 334",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 334"
         ],
         "coreqs": [
             "ECSE 533",
@@ -1563,9 +1559,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
+            "EDEC 206",
             "ECSE 361",
-            "ECSE 330",
-            "EDEC 206"
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -1597,8 +1593,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
             "ECSE 451"
@@ -1633,12 +1629,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
-            "ECSE 412",
-            "ECSE 512"
+            "ECSE 512",
+            "ECSE 412"
         ],
         "restricts": []
     },
@@ -1652,12 +1648,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "restricts": []
     },
@@ -1674,9 +1670,9 @@ global.ecse_tar = {
             "EDEC 206"
         ],
         "coreqs": [
+            "ECSE 527",
             "ECSE 430",
             "ECSE 571",
-            "ECSE 527",
             "ECSE 423"
         ],
         "restricts": []
@@ -1691,8 +1687,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
             "ECSE 404",
@@ -1806,14 +1802,14 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 316",
             "ECSE 306",
             "ECSE 206",
-            "ECSE 316"
+            "ECSE 304"
         ],
         "coreqs": [
-            "ECSE 403",
             "ECSE 404",
+            "ECSE 403",
             "ECSE 501"
         ],
         "restricts": []
@@ -1842,10 +1838,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Hannah Michalska (Winter)"
         },
         "prereqs": [
-            "ECSE 543",
-            "COMP 540",
+            "ECSE 501",
             "ECSE 443",
-            "ECSE 501"
+            "ECSE 543",
+            "COMP 540"
         ],
         "coreqs": [],
         "restricts": []
@@ -1875,8 +1871,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 206",
-            "ECSE 316",
             "ECSE 205",
+            "ECSE 316",
             "ECSE 304",
             "ECSE 305"
         ],
@@ -1892,8 +1888,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Peter Edwin Caines (Winter)"
         },
         "prereqs": [
-            "ECSE 500",
-            "ECSE 509"
+            "ECSE 509",
+            "ECSE 500"
         ],
         "coreqs": [],
         "restricts": []
@@ -1907,9 +1903,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
             "ECSE 308",
-            "ECSE 316"
+            "ECSE 316",
+            "ECSE 304"
         ],
         "coreqs": [
             "ECSE 509"
@@ -1926,8 +1922,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 206",
-            "ECSE 316",
             "ECSE 205",
+            "ECSE 316",
             "ECSE 304",
             "ECSE 305"
         ],
@@ -1943,10 +1939,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
-            "ECSE 206",
             "ECSE 316",
-            "ECSE 500"
+            "ECSE 206",
+            "ECSE 500",
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -1960,11 +1956,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 316",
             "ECSE 308",
-            "ECSE 205",
-            "ECSE 304",
             "ECSE 571",
+            "ECSE 205",
+            "ECSE 316",
+            "ECSE 304",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -1994,12 +1990,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 303",
             "ECSE 206",
+            "ECSE 205",
             "ECSE 316",
             "ECSE 306",
-            "ECSE 205",
-            "ECSE 305",
-            "ECSE 303"
+            "ECSE 305"
         ],
         "coreqs": [],
         "restricts": []
@@ -2013,11 +2009,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Winter)"
         },
         "prereqs": [
-            "COMP 535",
             "ECSE 414",
-            "ECSE 509",
+            "ECSE 528",
             "ECSE 416",
-            "ECSE 528"
+            "COMP 535",
+            "ECSE 509"
         ],
         "coreqs": [],
         "restricts": []
@@ -2043,13 +2039,13 @@ global.ecse_tar = {
             "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-408\" target=\"_blank\">ECSE 408</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-509\" target=\"_blank\">ECSE 509</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-521\" target=\"_blank\">ECSE 521</a> Digital Communications 1 (3 credits)",
             "overview": "Electrical Engineering : Transmission over AWGN channels: optimum receiver design, digital modulation techniques, coherent, noncoherent and differentially coherent detection. Signal design for bandlimited AWGN channels. Channel capacity. Channel coding: block codes, convolutional codes, coded modulation techniques, turbo codes. Transmission over AWGN and ISI channels: MLSE, linear equalization, decision-feedback equalization, precoding, multi-carrier transmission.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Benoit Champagne (Winter)"
         },
         "prereqs": [
-            "ECSE 408",
+            "ECSE 411",
             "ECSE 511",
-            "ECSE 411"
+            "ECSE 408"
         ],
         "coreqs": [
             "ECSE 509"
@@ -2065,10 +2061,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Xiaozhe Wang (Fall)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361",
             "ECSE 307",
-            "MATH 263"
+            "MATH 263",
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -2082,8 +2078,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Douglas D O'Shaughnessy (Winter)"
         },
         "prereqs": [
-            "ECSE 412",
-            "ECSE 512"
+            "ECSE 512",
+            "ECSE 412"
         ],
         "coreqs": [],
         "restricts": []
@@ -2097,11 +2093,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 354",
             "ECSE 334",
+            "ECSE 353",
             "ECSE 352",
-            "ECSE 353"
+            "ECSE 335",
+            "ECSE 354"
         ],
         "coreqs": [],
         "restricts": []
@@ -2115,8 +2111,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -2146,10 +2142,10 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 308",
-            "ECSE 304",
-            "ECSE 324",
             "ECSE 309",
-            "ECSE 322"
+            "ECSE 304",
+            "ECSE 322",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -2165,9 +2161,9 @@ global.ecse_tar = {
         "prereqs": [
             "ECSE 206",
             "ECSE 308",
-            "ECSE 306",
+            "ECSE 309",
             "ECSE 304",
-            "ECSE 309"
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -2210,11 +2206,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 330",
-            "ECSE 331",
-            "PHYS 271",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "PHYS 271",
+            "ECSE 330",
+            "ECSE 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -2228,8 +2224,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Gordon W Roberts (Fall)"
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2243,8 +2239,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 271",
             "ECSE 354",
+            "PHYS 271",
             "ECSE 352"
         ],
         "coreqs": [],
@@ -2259,8 +2255,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2274,10 +2270,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 325",
             "ECSE 334",
-            "ECSE 323"
+            "ECSE 325",
+            "ECSE 323",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2291,9 +2287,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 322",
             "ECSE 306",
-            "ECSE 322"
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -2337,8 +2333,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Brett Meyer (Fall)"
         },
         "prereqs": [
-            "ECSE 323",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -2352,10 +2348,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "ECSE 324",
+            "ECSE 322",
             "COMP 273",
-            "ECSE 322"
+            "ECSE 324",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -2369,12 +2365,12 @@ global.ecse_tar = {
             "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
         },
         "prereqs": [
-            "ECSE 324",
-            "ECSE 330",
-            "ECSE 331",
             "ECSE 351",
             "ECSE 251",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 331",
+            "ECSE 324",
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -2388,8 +2384,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 205"
+            "ECSE 205",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -2430,10 +2426,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 322",
             "ECSE 354",
-            "ECSE 324",
             "ECSE 352",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -2447,10 +2443,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 325",
             "ECSE 334",
-            "ECSE 323"
+            "ECSE 325",
+            "ECSE 323",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2464,10 +2460,10 @@ global.ecse_tar = {
             "instructors": "Instructors: David Alister Lowther (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 325",
+            "ECSE 323",
             "ECSE 361",
-            "ECSE 323"
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -2481,10 +2477,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 361",
             "ECSE 334",
-            "ECSE 362"
+            "ECSE 361",
+            "ECSE 362",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2498,9 +2494,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 361",
-            "ECSE 461"
+            "ECSE 461",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -2516,8 +2512,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -2545,10 +2541,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 361",
             "ECSE 334",
-            "ECSE 362"
+            "ECSE 361",
+            "ECSE 362",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -2562,9 +2558,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 205",
             "ECSE 322",
             "ECSE 324",
-            "ECSE 205",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -2640,10 +2636,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Milica Popovich (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 352",
             "ECSE 354",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 352",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -2672,13 +2668,13 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 330",
             "ECSE 303",
-            "ECSE 331",
+            "ECSE 206",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "ECSE 330",
+            "ECSE 331",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -2692,12 +2688,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 526",
+            "ECSE 514",
             "COMP 424",
-            "ECSE 305",
-            "COMP 360",
             "MATH 323",
-            "ECSE 514"
+            "COMP 360",
+            "ECSE 305",
+            "COMP 526"
         ],
         "coreqs": [],
         "restricts": [
@@ -2713,9 +2709,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 487",
             "ECSE 431",
             "ECSE 425",
-            "ECSE 487",
             "ECSE 525"
         ],
         "coreqs": [],
@@ -2770,8 +2766,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 512",
-            "ECSE 509"
+            "ECSE 509",
+            "ECSE 512"
         ],
         "coreqs": [],
         "restricts": []
@@ -2798,8 +2794,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 510",
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "coreqs": [],
         "restricts": []
@@ -2814,8 +2810,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 510",
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "coreqs": [],
         "restricts": []
@@ -2859,8 +2855,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 303",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 303"
         ],
         "coreqs": [],
         "restricts": []
@@ -2874,8 +2870,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Sharmistha Bhadra (Winter)"
         },
         "prereqs": [
-            "CHEM 120",
-            "ECSE 331"
+            "ECSE 331",
+            "CHEM 120"
         ],
         "coreqs": [],
         "restricts": []
@@ -2999,7 +2995,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 670"
+            "ECSE 670D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -3024,9 +3020,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 670"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -3153,7 +3147,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 686"
+            "ECSE 686D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -3179,7 +3173,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 686"
+            "ECSE 686D1"
         ],
         "coreqs": [],
         "restricts": []

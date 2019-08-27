@@ -89,7 +89,7 @@ def course_info(link):
         m - regex match object
         '''
         if m:
-            d[pcr + 's'] = list(set(re.findall(r'([A-Z]{4} \d\d\d)', m[0])))
+            d[pcr + 's'] = list(set(re.findall(r'>(\w{4} \d\d\dD?1?D?2?)</a>', m[0])))
         else:
             d[pcr + 's'] = []
 
@@ -203,12 +203,12 @@ def to_js(sbj, start):
         json.dump(tar_to_src_dict(tar_dict), s, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    # to_js('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
-    # to_js('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
-    # to_js('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
-    # to_js('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
-    # to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
-    # to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
-    # to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
+    to_js('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
+    to_js('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
+    to_js('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
+    to_js('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
+    to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
+    to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
+    to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
     # courses = links_to_courses('https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0290')
     # print(course_info(courses[16]))

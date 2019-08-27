@@ -37,9 +37,7 @@ for ( var d in departments ){
 (function (global){
 global.acct_src = {
     "ACCT 351": {
-        "prereqs": [
-            "ACCT 352"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -108,7 +106,6 @@ global.acct_src = {
     },
     "ACCT 361": {
         "prereqs": [
-            "ACCT 362",
             "ACCT 463"
         ],
         "coreqs": [],
@@ -426,7 +423,6 @@ global.acct_src = {
     },
     "ACCT 653": {
         "prereqs": [
-            "ACCT 653D2",
             "ACCT 683",
             "ACCT 685",
             "ACCT 687",
@@ -443,7 +439,9 @@ global.acct_src = {
         }
     },
     "ACCT 653D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ACCT 653D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -468,7 +466,6 @@ global.acct_src = {
     },
     "ACCT 654": {
         "prereqs": [
-            "ACCT 654D2",
             "ACCT 683",
             "ACCT 685",
             "ACCT 687",
@@ -485,7 +482,9 @@ global.acct_src = {
         }
     },
     "ACCT 654D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ACCT 654D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -510,7 +509,6 @@ global.acct_src = {
     },
     "ACCT 663": {
         "prereqs": [
-            "ACCT 663D2",
             "ACCT 683",
             "ACCT 685",
             "ACCT 687",
@@ -527,7 +525,9 @@ global.acct_src = {
         }
     },
     "ACCT 663D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ACCT 663D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -552,7 +552,6 @@ global.acct_src = {
     },
     "ACCT 664": {
         "prereqs": [
-            "ACCT 664D2",
             "ACCT 683",
             "ACCT 685",
             "ACCT 687",
@@ -569,7 +568,9 @@ global.acct_src = {
         }
     },
     "ACCT 664D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ACCT 664D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -982,6 +983,18 @@ global.acct_src = {
             "instructors": "Instructors: Derrick Wong (Fall), Arvind Karunakaran (Winter)"
         }
     },
+    "INTG 201": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Only open to U1, U2, U3 non-Management students. Not open to students in the Desautels Faculty of Management or students who have taken two or more of courses <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-211\" target=\"_blank\">MGCR 211</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-222\" target=\"_blank\">MGCR 222</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a>.</p>\n\n<p>Limited enrolment; priority registration to students in Minors in Entrepreneurship. Note: this course is not part of the Desautels Minors in Management, Finance, Marketing or Operations Management (for non-Management students).</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/intg-201\" target=\"_blank\">INTG 201</a> Integrated Management Essentials 1 (3 credits)",
+            "overview": "INTG : Essentials of management using an integrated approach. Three modules (managing money, managing people and managing information) cover fundamentals of accounting, finance, organizational behaviour and information systems; and illustrate how the effective management of human, financial and technological resources contributes to the success of an organization. Emphasizes an integrated approach to management, highlighting how organizations function as a whole and the importance of being able to work across functional and organizational boundaries.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "BUSA 466": {
         "prereqs": [],
         "coreqs": [],
@@ -1050,8 +1063,8 @@ global.acct_src = {
             "notes": "<p>Prerequisite: BCom Core and 3.0 CGPA or better.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-499\" target=\"_blank\">BUSA 499</a> Case Analysis and Presentation (3 credits)",
             "overview": "Business Admin : Integration of core knowledge and practice for preparing and presenting case studies, including professor coaching, preparation and presentation feedback, presentation skills, leadership skills, team building skills, analytical skills, logical thinking, debating, persuasive communications and cross discipline work.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Julia Scott Melissa Sonberg (Fall)"
         }
     },
     "BUSA 600": {
@@ -1061,18 +1074,6 @@ global.acct_src = {
         "text": {
             "notes": "<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a></p>\n\n<p>Restriction(s): Students must obtain Instructor’s or Academic Director approval in writing before registering to this course.</p>\n\n<p>Topics of internship work will vary from employer to employer. Students will need to submit a work proposal to the instructor for approval prior to registering for this course.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-600\" target=\"_blank\">BUSA 600</a> Analytics Internship (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "INSY 660": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a> Coding Foundations for Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
@@ -1090,28 +1091,28 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGSC 661": {
+    "INSY 661": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
             "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a> Multivariate Statistical Analysis (3 credits)",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a> Database and Distributed Systems for Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Juan Camilo Serpa (Fall)"
+            "instructors": "Instructors: Animesh Animesh (Fall)"
         }
     },
-    "MGSC 662": {
+    "INSY 660": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a> Decision Analytics (3 credits)",
+            "notes": "<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a> Coding Foundations for Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Javad Nasiry (Fall)"
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
     "ORGB 661": {
@@ -1126,16 +1127,28 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ORGB 660": {
+    "MGSC 662": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>This course will be held on August 12, 15, 16, 19, 20, 26 &amp; 27.</p>\n\n<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a> Managing Data Analytics Teams (1.5 credits)",
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a> Decision Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Javad Nasiry (Fall)"
+        }
+    },
+    "MGSC 661": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a> Multivariate Statistical Analysis (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Juan Camilo Serpa (Fall)"
         }
     },
     "INSY 662": {
@@ -1150,16 +1163,16 @@ global.acct_src = {
             "instructors": "Instructors: Warut Khern-am-nuai (Fall)"
         }
     },
-    "INSY 661": {
+    "ORGB 660": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a> Database and Distributed Systems for Analytics (3 credits)",
+            "notes": "<p>This course will be held on August 12, 15, 16, 19, 20, 26 &amp; 27.</p>\n\n<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a> Managing Data Analytics Teams (1.5 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Animesh Animesh (Fall)"
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
     "BUSA 611": {
@@ -1177,8 +1190,7 @@ global.acct_src = {
     "BUSA 693": {
         "prereqs": [
             "BUSA 611",
-            "BUSA 613",
-            "BUSA 693N2"
+            "BUSA 613"
         ],
         "coreqs": [],
         "restricts": [],
@@ -1214,19 +1226,35 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGCR 652": {
+    "MGCR 650": {
         "prereqs": [
-            "MGCR 652D2",
+            "MGCR 651",
+            "MGCR 651D1",
+            "MGCR 652",
+            "MGCR 652D1"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Intensive course: 13 hours per week for 2 weeks, for a total of 26 contact hours.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a> Business Tools (2 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Mehmet Gumus Philippe Levy (Fall)"
+        }
+    },
+    "MGCR 651": {
+        "prereqs": [
             "MGCR 660"
         ],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a>.</p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652\" target=\"_blank\">MGCR 652</a> Value Creation (4 credits)",
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a></p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651\" target=\"_blank\">MGCR 651</a> Managing Resources (4 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Benjamin Croitoru Liette Lapointe John-Paul Ferguson Chantal Westgate (Fall)"
         }
     },
     "MGCR 629": {
@@ -1243,21 +1271,6 @@ global.acct_src = {
             "instructors": "Instructors: Saku Mantere (Fall)"
         }
     },
-    "MGCR 651": {
-        "prereqs": [
-            "MGCR 651D2",
-            "MGCR 660"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a></p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651\" target=\"_blank\">MGCR 651</a> Managing Resources (4 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Benjamin Croitoru Liette Lapointe John-Paul Ferguson Chantal Westgate (Fall)"
-        }
-    },
     "MGCR 653": {
         "prereqs": [
             "MGCR 660"
@@ -1272,21 +1285,18 @@ global.acct_src = {
             "instructors": "Instructors: Corey Phelps (Fall), Demetrios Vakratsas (Fall), Francesca Carrieri (Fall), Corey Phelps (Winter)"
         }
     },
-    "MGCR 650": {
+    "MGCR 652": {
         "prereqs": [
-            "MGCR 651",
-            "MGCR 651D1",
-            "MGCR 652",
-            "MGCR 652D1"
+            "MGCR 660"
         ],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Intensive course: 13 hours per week for 2 weeks, for a total of 26 contact hours.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a> Business Tools (2 credits)",
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a>.</p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652\" target=\"_blank\">MGCR 652</a> Value Creation (4 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Mehmet Gumus Philippe Levy (Fall)"
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
         }
     },
     "BUSA 615": {
@@ -1423,8 +1433,7 @@ global.acct_src = {
     },
     "BUSA 650": {
         "prereqs": [
-            "BUSA 646",
-            "BUSA 650D2"
+            "BUSA 646"
         ],
         "coreqs": [],
         "restricts": [],
@@ -1433,20 +1442,6 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650\" target=\"_blank\">BUSA 650</a> Internship (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "BUSA 698": {
-        "prereqs": [
-            "BUSA 646"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-698\" target=\"_blank\">BUSA 698</a> Health Care Systems (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
@@ -1464,8 +1459,24 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "BUSA 698": {
+        "prereqs": [
+            "BUSA 646"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-698\" target=\"_blank\">BUSA 698</a> Health Care Systems (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "BUSA 650D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 650D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1489,9 +1500,7 @@ global.acct_src = {
         }
     },
     "BUSA 651": {
-        "prereqs": [
-            "BUSA 651D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1503,7 +1512,9 @@ global.acct_src = {
         }
     },
     "BUSA 651D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 651D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1613,10 +1624,7 @@ global.acct_src = {
         }
     },
     "BUSA 668": {
-        "prereqs": [
-            "BUSA 668J2",
-            "BUSA 668J3"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1664,9 +1672,7 @@ global.acct_src = {
         }
     },
     "BUSA 670": {
-        "prereqs": [
-            "BUSA 670D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1678,7 +1684,9 @@ global.acct_src = {
         }
     },
     "BUSA 670D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 670D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1714,11 +1722,7 @@ global.acct_src = {
         }
     },
     "BUSA 672": {
-        "prereqs": [
-            "BUSA 672D2",
-            "BUSA 672J2",
-            "BUSA 672J3"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1730,7 +1734,9 @@ global.acct_src = {
         }
     },
     "BUSA 672D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 672D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1874,11 +1880,7 @@ global.acct_src = {
         }
     },
     "BUSA 689": {
-        "prereqs": [
-            "BUSA 689D2",
-            "BUSA 689J2",
-            "BUSA 689J3"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1890,7 +1892,9 @@ global.acct_src = {
         }
     },
     "BUSA 689D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 689D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1950,9 +1954,7 @@ global.acct_src = {
         }
     },
     "BUSA 690": {
-        "prereqs": [
-            "BUSA 690D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1964,7 +1966,9 @@ global.acct_src = {
         }
     },
     "BUSA 690D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BUSA 690D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2352,10 +2356,7 @@ global.acct_src = {
         }
     },
     "FINE 541": {
-        "prereqs": [
-            "FINE 541D2",
-            "FINE 541N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2367,7 +2368,9 @@ global.acct_src = {
         }
     },
     "FINE 541D1": {
-        "prereqs": [],
+        "prereqs": [
+            "FINE 541D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2693,9 +2696,7 @@ global.acct_src = {
         }
     },
     "FINE 689": {
-        "prereqs": [
-            "FINE 689N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2731,9 +2732,7 @@ global.acct_src = {
         }
     },
     "FINE 690": {
-        "prereqs": [
-            "FINE 690N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -3106,7 +3105,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
             "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall), Aria Teimourzadeh (Winter)"
         }
     },
     "INSY 332": {
@@ -3254,7 +3253,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-442\" target=\"_blank\">INSY 442</a> Business Intelligence and Data Analytics (3 credits)",
             "overview": "Information Systems : Introduction to the methods and tools for analyzing business data to improve business decision-making, focusing on extracting business intelligence by analyzing data and online content for various business applications.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall)"
         }
     },
     "MGCR 271": {
@@ -3650,18 +3649,6 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "INTG 201": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Only open to U1, U2, U3 non-Management students. Not open to students in the Desautels Faculty of Management or students who have taken two or more of courses <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-211\" target=\"_blank\">MGCR 211</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-222\" target=\"_blank\">MGCR 222</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a>.</p>\n\n<p>Limited enrolment; priority registration to students in Minors in Entrepreneurship. Note: this course is not part of the Desautels Minors in Management, Finance, Marketing or Operations Management (for non-Management students).</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/intg-201\" target=\"_blank\">INTG 201</a> Integrated Management Essentials 1 (3 credits)",
-            "overview": "INTG : Essentials of management using an integrated approach. Three modules (managing money, managing people and managing information) cover fundamentals of accounting, finance, organizational behaviour and information systems; and illustrate how the effective management of human, financial and technological resources contributes to the success of an organization. Emphasizes an integrated approach to management, highlighting how organizations function as a whole and the importance of being able to work across functional and organizational boundaries.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "INTG 202": {
         "prereqs": [],
         "coreqs": [],
@@ -3674,16 +3661,16 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGCR 352": {
+    "MGCR 472": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Continuing Studies: requirement for the Institute of Internal Auditors, and the Canadian Institute of Management</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-352\" target=\"_blank\">MGCR 352</a> Principles of Marketing (3 credits)",
-            "overview": "Management Core : Introduction to marketing principles, focusing on problem solving and decision making. Topics include: the marketing concept; marketing strategies; buyer behaviour; Canadian demographics; internal and external constraints; product; promotion; distribution; price. Lectures, text material and case studies.",
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Requirement for the Canadian Institute of Management</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
+            "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu Nathan Yang Emine Sarigollu (Winter)"
+            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding Rim Hariss (Winter)"
         }
     },
     "MGCR 423": {
@@ -3698,16 +3685,16 @@ global.acct_src = {
             "instructors": "Instructors: Matthew Corritore (Fall), Donald Melville (Fall), Karl James Moore (Fall), Gregory Bryan Vit (Fall), Kwangjun An Gregory Bryan Vit (Winter)"
         }
     },
-    "MGCR 472": {
+    "MGCR 352": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Requirement for the Canadian Institute of Management</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
-            "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
+            "notes": "<p>Continuing Studies: requirement for the Institute of Internal Auditors, and the Canadian Institute of Management</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-352\" target=\"_blank\">MGCR 352</a> Principles of Marketing (3 credits)",
+            "overview": "Management Core : Introduction to marketing principles, focusing on problem solving and decision making. Topics include: the marketing concept; marketing strategies; buyer behaviour; Canadian demographics; internal and external constraints; product; promotion; distribution; price. Lectures, text material and case studies.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter)"
+            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu Nathan Yang Emine Sarigollu (Winter)"
         }
     },
     "MGCR 222": {
@@ -3755,15 +3742,11 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-360\" target=\"_blank\">MGCR 360</a> Social Context of Business (3 credits)",
             "overview": "Management Core : This course examines how business interacts with the larger society. It explores the development of modern capitalist society, and the dilemmas that organizations face in acting in a socially responsible manner. Students will examine these issues with reference to sustainable development, business ethics, globalization and developing countries, and political activity.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Hyun Seung Anna Kim (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
         }
     },
     "MGCR 610": {
-        "prereqs": [
-            "MGCR 610D2",
-            "MGCR 610J2",
-            "MGCR 610J3"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -3775,7 +3758,9 @@ global.acct_src = {
         }
     },
     "MGCR 610D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MGCR 610D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -3955,11 +3940,7 @@ global.acct_src = {
         }
     },
     "MGCR 628": {
-        "prereqs": [
-            "MGCR 628D2",
-            "MGCR 628J2",
-            "MGCR 628J3"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -3971,7 +3952,9 @@ global.acct_src = {
         }
     },
     "MGCR 628D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MGCR 628D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -4067,7 +4050,9 @@ global.acct_src = {
         }
     },
     "MGCR 651D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MGCR 651D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -4091,7 +4076,9 @@ global.acct_src = {
         }
     },
     "MGCR 652D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MGCR 652D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -4115,9 +4102,7 @@ global.acct_src = {
         }
     },
     "MGCR 660": {
-        "prereqs": [
-            "MGCR 660D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -4129,7 +4114,9 @@ global.acct_src = {
         }
     },
     "MGCR 660D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MGCR 660D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -5667,9 +5654,7 @@ global.acct_src = {
         }
     },
     "MRKT 657": {
-        "prereqs": [
-            "MRKT 657D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -5681,7 +5666,9 @@ global.acct_src = {
         }
     },
     "MRKT 657D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MRKT 657D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -6247,9 +6234,7 @@ global.acct_src = {
         }
     },
     "ORGB 685": {
-        "prereqs": [
-            "ORGB 685D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -6261,7 +6246,9 @@ global.acct_src = {
         }
     },
     "ORGB 685D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ORGB 685D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -6423,8 +6410,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 341",
-            "ACCT 351",
-            "ACCT 311"
+            "ACCT 311",
+            "ACCT 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -6467,8 +6454,8 @@ global.acct_tar = {
             "instructors": "Instructors: Philippe Levy (Fall), Jingjing Zhang (Winter)"
         },
         "prereqs": [
-            "ACCT 361",
-            "ACCT 313"
+            "ACCT 313",
+            "ACCT 361"
         ],
         "coreqs": [],
         "restricts": []
@@ -6799,7 +6786,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 653"
+            "ACCT 653D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6837,7 +6824,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 654"
+            "ACCT 654D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6875,7 +6862,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 663"
+            "ACCT 663D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6913,7 +6900,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664"
+            "ACCT 664D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -6927,10 +6914,10 @@ global.acct_tar = {
             "instructors": "Instructors: Evan Schneiderman Riccardo Zerbino Melissa Marginson (Fall)"
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -6944,10 +6931,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -6961,10 +6948,10 @@ global.acct_tar = {
             "instructors": "Instructors: Evan Schneiderman Michael Cohen Michael Richardson (Fall)"
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -6978,10 +6965,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 664",
+            "ACCT 653",
             "ACCT 663",
-            "ACCT 654",
-            "ACCT 653"
+            "ACCT 664",
+            "ACCT 654"
         ],
         "coreqs": [],
         "restricts": []
@@ -7007,10 +6994,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 689",
+            "ACCT 685",
             "ACCT 683",
             "ACCT 687",
-            "ACCT 685"
+            "ACCT 689"
         ],
         "coreqs": [
             "ACCT 699"
@@ -7327,8 +7314,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 341",
-            "FACC 300",
-            "INTG 201"
+            "INTG 201",
+            "FACC 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -7404,8 +7391,8 @@ global.acct_tar = {
             "notes": "<p>Prerequisite: BCom Core and 3.0 CGPA or better.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-499\" target=\"_blank\">BUSA 499</a> Case Analysis and Presentation (3 credits)",
             "overview": "Business Admin : Integration of core knowledge and practice for preparing and presenting case studies, including professor coaching, preparation and presentation feedback, presentation skills, leadership skills, team building skills, analytical skills, logical thinking, debating, persuasive communications and cross discipline work.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Julia Scott Melissa Sonberg (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -7420,14 +7407,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -7441,15 +7428,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
+            "MGSC 662",
             "BUSA 693",
-            "ORGB 660",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -7463,15 +7450,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
+            "MGSC 662",
             "BUSA 693",
-            "ORGB 660",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -7485,11 +7472,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7623,14 +7610,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
             "BUSA 650",
-            "MGCR 629",
-            "MGCR 651",
-            "MGCR 653",
-            "BUSA 698",
+            "MGCR 650",
             "BUSA 699",
-            "MGCR 650"
+            "BUSA 698",
+            "MGCR 651",
+            "MGCR 629",
+            "MGCR 653",
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7644,11 +7631,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7662,11 +7649,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7680,7 +7667,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 650"
+            "BUSA 650D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -7694,11 +7681,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7712,11 +7699,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
-            "MGCR 629",
+            "MGCR 650",
             "MGCR 651",
+            "MGCR 629",
             "MGCR 653",
-            "MGCR 650"
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -7730,7 +7717,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 651"
+            "BUSA 651D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -7841,9 +7828,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 668"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -7855,9 +7840,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 668"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -7894,7 +7877,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 670"
+            "BUSA 670D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -7944,7 +7927,7 @@ global.acct_tar = {
             "instructors": "Instructors: Leslie Breitner (Fall), Leslie Breitner (Winter)"
         },
         "prereqs": [
-            "BUSA 672"
+            "BUSA 672D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -7969,9 +7952,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 672"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -7983,9 +7964,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 672"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -8058,14 +8037,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -8115,7 +8094,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 689"
+            "BUSA 689D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -8140,9 +8119,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -8154,9 +8131,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -8193,7 +8168,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 690"
+            "BUSA 690D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -8231,14 +8206,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -8252,14 +8227,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "INSY 660",
             "MGSC 660",
-            "MGSC 661",
-            "MGSC 662",
+            "INSY 661",
+            "INSY 660",
             "ORGB 661",
-            "ORGB 660",
+            "MGSC 662",
+            "MGSC 661",
             "INSY 662",
-            "INSY 661"
+            "ORGB 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -8272,9 +8247,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BUSA 693"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -8615,8 +8588,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "FINE 441",
-            "FINE 482"
+            "FINE 482",
+            "FINE 441"
         ],
         "coreqs": [],
         "restricts": []
@@ -8684,7 +8657,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "FINE 541"
+            "FINE 541D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -8709,9 +8682,7 @@ global.acct_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Laurent Barras Sebastien Betermier (Fall)"
         },
-        "prereqs": [
-            "FINE 541"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -9058,9 +9029,7 @@ global.acct_tar = {
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "FINE 689"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -9096,9 +9065,7 @@ global.acct_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Jan Edvard Ericsson (Fall)"
         },
-        "prereqs": [
-            "FINE 690"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -9445,8 +9412,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 331",
-            "MGCR 211"
+            "MGCR 211",
+            "MGCR 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -9595,11 +9562,11 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-442\" target=\"_blank\">INSY 442</a> Business Intelligence and Data Analytics (3 credits)",
             "overview": "Information Systems : Introduction to the methods and tools for analyzing business data to improve business decision-making, focusing on extracting business intelligence by analyzing data and online content for various business applications.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall)"
         },
         "prereqs": [
-            "MGCR 331",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 331"
         ],
         "coreqs": [],
         "restricts": [
@@ -10053,10 +10020,10 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MGCR 352",
-            "MGCR 331",
+            "MGCR 472",
             "MGCR 423",
-            "MGCR 472"
+            "MGCR 352",
+            "MGCR 331"
         ]
     },
     "MGCR 211": {
@@ -10098,9 +10065,9 @@ global.acct_tar = {
         "restricts": [
             "ECON 257",
             "MATH 324",
-            "MATH 204",
             "PSYC 204",
-            "ECON 227"
+            "ECON 227",
+            "MATH 204"
         ]
     },
     "MGCR 273": {
@@ -10128,9 +10095,9 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "ECON 230",
             "ECON 208",
-            "ECON 250"
+            "ECON 230D1",
+            "ECON 250D1"
         ]
     },
     "MGCR 331": {
@@ -10139,7 +10106,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
             "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Aria Teimourzadeh (Fall), Aria Teimourzadeh (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -10177,7 +10144,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-360\" target=\"_blank\">MGCR 360</a> Social Context of Business (3 credits)",
             "overview": "Management Core : This course examines how business interacts with the larger society. It explores the development of modern capitalist society, and the dilemmas that organizations face in acting in a socially responsible manner. Students will examine these issues with reference to sustainable development, business ethics, globalization and developing countries, and political activity.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Hyun Seung Anna Kim (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -10213,7 +10180,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
             "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter)"
+            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding Rim Hariss (Winter)"
         },
         "prereqs": [
             "MGCR 271"
@@ -10254,7 +10221,7 @@ global.acct_tar = {
             "instructors": "Instructors: Nafiz Vedat Verter (Fall), Nafiz Vedat Verter (Winter)"
         },
         "prereqs": [
-            "MGCR 610"
+            "MGCR 610D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -10279,9 +10246,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 610"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -10293,9 +10258,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 610"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -10464,7 +10427,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 628"
+            "MGCR 628D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -10489,9 +10452,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 628"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -10503,9 +10464,7 @@ global.acct_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MGCR 628"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -10606,7 +10565,7 @@ global.acct_tar = {
             "instructors": "Instructors: Liette Lapointe Chantal Westgate Benjamin Croitoru (Fall)"
         },
         "prereqs": [
-            "MGCR 651"
+            "MGCR 651D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -10648,7 +10607,7 @@ global.acct_tar = {
             "instructors": "Instructors: Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
         },
         "prereqs": [
-            "MGCR 652"
+            "MGCR 652D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -10674,11 +10633,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 652",
             "MGCR 629",
-            "MGCR 651",
             "MGCR 653",
-            "MCGR 650"
+            "MGCR 651",
+            "MGCR 652"
         ],
         "coreqs": [],
         "restricts": []
@@ -10704,7 +10662,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 660"
+            "MGCR 660D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -10850,10 +10808,10 @@ global.acct_tar = {
             "instructors": "Instructors: Daphne Demetry (Fall), Matthew Corritore (Fall), Gregory Bryan Vit (Winter)"
         },
         "prereqs": [
-            "MGCR 352",
             "MGCR 211",
             "INTG 202",
-            "INTG 201"
+            "INTG 201",
+            "MGCR 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -12181,8 +12139,8 @@ global.acct_tar = {
             "instructors": "Instructors: Myung-Soo Jo (Fall), Emine Sarigollu (Winter)"
         },
         "prereqs": [
-            "MGCR 352",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -12266,8 +12224,8 @@ global.acct_tar = {
             "instructors": "Instructors: Hamid Etemad (Fall)"
         },
         "prereqs": [
-            "MGCR 382",
-            "MGCR 352"
+            "MGCR 352",
+            "MGCR 382"
         ],
         "coreqs": [],
         "restricts": []
@@ -12355,7 +12313,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MRKT 657"
+            "MRKT 657D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -12699,8 +12657,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 222",
-            "MGCR 271"
+            "MGCR 271",
+            "MGCR 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -12994,7 +12952,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 685"
+            "ORGB 685D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -13092,8 +13050,8 @@ global.acct_tar = {
             "instructors": "Instructors: Saibal Ray (Winter)"
         },
         "prereqs": [
-            "RETL 402",
-            "MRKT 459"
+            "MRKT 459",
+            "RETL 402"
         ],
         "coreqs": [],
         "restricts": []
@@ -13162,8 +13120,7 @@ global.biol_src = {
     },
     "BIOL 112": {
         "prereqs": [
-            "BIOL 200",
-            "BIOL 219"
+            "BIOL 200"
         ],
         "coreqs": [],
         "restricts": [
@@ -13196,7 +13153,13 @@ global.biol_src = {
         "prereqs": [
             "BIOL 201",
             "BIOL 202",
-            "BIOL 205",
+            "BIOL 300",
+            "BIOL 303",
+            "BIOL 313",
+            "BIOL 319",
+            "BIOL 370",
+            "BIOL 377",
+            "BIOL 395",
             "BIOL 413"
         ],
         "coreqs": [],
@@ -13227,6 +13190,7 @@ global.biol_src = {
         "prereqs": [
             "BIOL 313",
             "BIOL 324",
+            "BIOL 370",
             "BIOL 413",
             "BIOL 416",
             "BIOL 544",
@@ -13245,13 +13209,14 @@ global.biol_src = {
     },
     "BIOL 205": {
         "prereqs": [
+            "BIOL 304",
             "BIOL 307",
             "BIOL 335",
+            "BIOL 342",
             "BIOL 350",
             "BIOL 355",
             "BIOL 385",
             "BIOL 413",
-            "BIOL 418",
             "BIOL 427"
         ],
         "coreqs": [],
@@ -13267,11 +13232,7 @@ global.biol_src = {
     "BIOL 206": {
         "prereqs": [
             "BIOL 331",
-            "BIOL 334",
-            "BIOL 334D1",
-            "BIOL 334D2",
             "BIOL 432",
-            "BIOL 441",
             "BIOL 466",
             "BIOL 467",
             "BIOL 468",
@@ -13305,14 +13266,15 @@ global.biol_src = {
     },
     "BIOL 215": {
         "prereqs": [
+            "BIOL 304",
             "BIOL 307",
             "BIOL 331",
+            "BIOL 342",
             "BIOL 355",
             "BIOL 377",
             "BIOL 413",
             "BIOL 429",
-            "BIOL 432",
-            "BIOL 553"
+            "BIOL 432"
         ],
         "coreqs": [],
         "restricts": [],
@@ -13445,9 +13407,7 @@ global.biol_src = {
     "BIOL 306": {
         "prereqs": [
             "BIOL 320",
-            "BIOL 389",
             "BIOL 414",
-            "BIOL 514",
             "BIOL 530",
             "BIOL 532",
             "BIOL 580",
@@ -13469,7 +13429,9 @@ global.biol_src = {
         "prereqs": [
             "BIOL 517"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 507"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>2 hours lecture and 1 hour conference</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-205\" target=\"_blank\">BIOL 205</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> or permission</p>\n",
@@ -13482,6 +13444,7 @@ global.biol_src = {
     "BIOL 308": {
         "prereqs": [
             "BIOL 434",
+            "BIOL 510",
             "BIOL 555D1",
             "BIOL 585",
             "BIOL 594"
@@ -14010,10 +13973,7 @@ global.biol_src = {
         }
     },
     "BIOL 468": {
-        "prereqs": [
-            "BIOL 468D2",
-            "BIOL 468N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14025,7 +13985,9 @@ global.biol_src = {
         }
     },
     "BIOL 468D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 468D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14073,9 +14035,7 @@ global.biol_src = {
         }
     },
     "BIOL 469": {
-        "prereqs": [
-            "BIOL 469D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14087,7 +14047,9 @@ global.biol_src = {
         }
     },
     "BIOL 469D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 469D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14111,7 +14073,9 @@ global.biol_src = {
         }
     },
     "BIOL 479D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 479D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14135,7 +14099,9 @@ global.biol_src = {
         }
     },
     "BIOL 480D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 480D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14159,7 +14125,9 @@ global.biol_src = {
         }
     },
     "BIOL 499D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 499D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14375,7 +14343,9 @@ global.biol_src = {
         }
     },
     "BIOL 555D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 555D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14657,9 +14627,7 @@ global.biol_src = {
         }
     },
     "BIOL 652": {
-        "prereqs": [
-            "BIOL 652D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14671,7 +14639,9 @@ global.biol_src = {
         }
     },
     "BIOL 652D1": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 652D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14787,13 +14757,11 @@ global.biol_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biot-505\" target=\"_blank\">BIOT 505</a> Selected Topics in Biotechnology (3 credits)",
             "overview": "Biotechnology : Current methods and recent advances in biological, medical, agricultural and engineering aspects of biotechnology will be described and discussed. An extensive reading list will complement the lecture material.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Elias Georges (Fall)"
+            "instructors": "Instructors: Elias Georges Babykumari Chitramuthu Thomas Ming Swi Chang Lyle Whyte Donald L Smith Michel Tremblay Terence Hebert Jianguo Xia Mark Hancock Jérôme Waldispuhl (Fall)"
         }
     },
     "NSCI 410": {
-        "prereqs": [
-            "NSCI 410D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "NSCI 420D2"
@@ -14807,7 +14775,9 @@ global.biol_src = {
         }
     },
     "NSCI 410D1": {
-        "prereqs": [],
+        "prereqs": [
+            "NSCI 410D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14831,10 +14801,7 @@ global.biol_src = {
         }
     },
     "NSCI 420": {
-        "prereqs": [
-            "NSCI 420D2",
-            "NSCI 420N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -14846,7 +14813,9 @@ global.biol_src = {
         }
     },
     "NSCI 420D1": {
-        "prereqs": [],
+        "prereqs": [
+            "NSCI 420D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -15023,8 +14992,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "BIOC 212",
-            "ANAT 212"
+            "ANAT 212",
+            "BIOC 212"
         ]
     },
     "BIOL 202": {
@@ -15052,12 +15021,12 @@ global.biol_tar = {
             "instructors": "Instructors: Jon Sakata Anna Hargreaves (Winter)"
         },
         "prereqs": [
-            "BIOL 200",
-            "PHYS 101"
+            "PHYS 101",
+            "BIOL 200"
         ],
         "coreqs": [
-            "BIOC 212",
             "ANAT 212",
+            "BIOC 212",
             "BIOL 201"
         ],
         "restricts": []
@@ -15113,24 +15082,24 @@ global.biol_tar = {
             "instructors": "Instructors: Adam Hendricks Jacalyn Vogel Gary Brouhard Alanna Watt (Fall)"
         },
         "prereqs": [
-            "BIOL 112",
             "CHEM 110",
             "PHYS 142",
-            "MATH 141",
             "MATH 140",
-            "MATH 133",
+            "MATH 141",
             "PHYS 131",
-            "CHEM 120"
+            "BIOL 112",
+            "CHEM 120",
+            "MATH 133"
         ],
         "coreqs": [
             "MATH 222"
         ],
         "restricts": [
-            "ANAT 212",
             "BIOL 200",
             "BIEN 219",
-            "BIOL 201",
-            "BIOC 212"
+            "BIOC 212",
+            "ANAT 212",
+            "BIOL 201"
         ]
     },
     "BIOL 240": {
@@ -15158,8 +15127,8 @@ global.biol_tar = {
             "instructors": "Instructors: Frieder Schöck Nam Sung Moon (Fall)"
         },
         "prereqs": [
-            "BIOC 212",
             "BIOL 200",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -15176,8 +15145,8 @@ global.biol_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "BIOC 300",
             "BIOC 220",
+            "BIOC 300",
             "BIOC 320"
         ]
     },
@@ -15190,13 +15159,13 @@ global.biol_tar = {
             "instructors": "Instructors: Abigail Gerhold Yong Rao Daniel Dufort (Winter)"
         },
         "prereqs": [
-            "BIOC 212",
             "BIOL 200",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [
-            "BIOL 300",
-            "BIOL 202"
+            "BIOL 202",
+            "BIOL 300"
         ],
         "restricts": [
             "ANAT 381"
@@ -15211,9 +15180,9 @@ global.biol_tar = {
             "instructors": "Instructors: Graham Bell (Fall)"
         },
         "prereqs": [
-            "ENVR 202",
             "BIOL 205",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -15228,8 +15197,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "ENVR 202",
-            "ENVR 200",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -15243,12 +15212,12 @@ global.biol_tar = {
             "instructors": "Instructors: Jon Sakata Joseph Alan Dent Alanna Watt (Fall)"
         },
         "prereqs": [
-            "ANAT 212",
             "PHYS 142",
+            "BIOC 212",
+            "ANAT 212",
             "NSCI 200",
-            "PHYS 102",
             "BIOL 201",
-            "BIOC 212"
+            "PHYS 102"
         ],
         "coreqs": [],
         "restricts": [
@@ -15280,8 +15249,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "ENVR 202",
-            "ENVR 200",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -15307,10 +15276,10 @@ global.biol_tar = {
             "instructors": "Instructors: Jennifer Sunday Andrew Gonzalez (Winter)"
         },
         "prereqs": [
-            "MATH 112",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "MATH 112"
         ],
         "coreqs": [],
         "restricts": []
@@ -15324,11 +15293,11 @@ global.biol_tar = {
             "instructors": "Instructors: Stephanie Weber (Winter)"
         },
         "prereqs": [
-            "BIOL 202",
-            "ANAT 212",
             "BIOL 200",
-            "BIOL 201",
-            "BIOC 212"
+            "BIOL 202",
+            "BIOC 212",
+            "ANAT 212",
+            "BIOL 201"
         ],
         "coreqs": [],
         "restricts": []
@@ -15342,9 +15311,9 @@ global.biol_tar = {
             "instructors": "Instructors: David Dankort Karen Elizabeth Christensen Sonia Victoria Del Rincon Loydie Majewska (Fall)"
         },
         "prereqs": [
-            "BIOC 212",
-            "BIOL 200",
             "ANAT 212",
+            "BIOL 200",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -15359,8 +15328,8 @@ global.biol_tar = {
             "instructors": "Instructors: Huanquan Zheng Alanna Watt (Fall)"
         },
         "prereqs": [
-            "BIOC 212",
             "ANAT 212",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -15375,12 +15344,12 @@ global.biol_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
-            "PHYS 230",
             "BIOL 200",
-            "PHYS 253",
+            "PHYS 230",
+            "PHYS 232",
             "BIOL 219",
-            "MATH 222",
-            "PHYS 232"
+            "PHYS 253",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -15425,8 +15394,8 @@ global.biol_tar = {
             "instructors": "Instructors: Simon Reader Rowan Barrett Anna Hargreaves (Fall)"
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -15440,10 +15409,10 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard Laura Nilson Neil Price (Winter)"
         },
         "prereqs": [
-            "BIOL 206",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -15457,10 +15426,10 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard Laura Nilson Neil Price (Winter)"
         },
         "prereqs": [
-            "BIOL 206",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -15474,10 +15443,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -15505,10 +15474,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ENVR 200",
-            "ENVR 202",
             "BIOL 205",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 200",
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": [
@@ -15528,8 +15497,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ENTO 350",
-            "ENTO 330"
+            "ENTO 330",
+            "ENTO 350"
         ]
     },
     "BIOL 352": {
@@ -15541,9 +15510,9 @@ global.biol_tar = {
             "instructors": "Instructors: Hans Carl Larsson (Winter)"
         },
         "prereqs": [
-            "EPSC 233",
             "ENVR 202",
-            "BIOL 215"
+            "BIOL 215",
+            "EPSC 233"
         ],
         "coreqs": [],
         "restricts": []
@@ -15574,9 +15543,9 @@ global.biol_tar = {
             "instructors": "Instructors: Roberta M Palmour John James Mitchell John Brent Richards Ioannis Trakadis Carl Ernst Asangla Ao Jennifer Fitzpatrick James Engert Loydie Majewska Yojiro Yamanaka (Fall)"
         },
         "prereqs": [
-            "BIOC 212",
             "BIOL 200",
             "BIOL 202",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -15606,8 +15575,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "BIOL 215",
-            "BIOC 212",
             "BIOL 200",
+            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -15638,9 +15607,9 @@ global.biol_tar = {
             "instructors": "Instructors: Alanna Watt Joseph Alan Dent Tomoko Oyama (Winter)"
         },
         "prereqs": [
+            "NEUR 310",
             "BIOL 306",
             "PHGY 311",
-            "NEUR 310",
             "NSCI 200"
         ],
         "coreqs": [],
@@ -15655,16 +15624,16 @@ global.biol_tar = {
             "instructors": "Instructors: Arnold Hayer (Fall)"
         },
         "prereqs": [
-            "MATH 222",
-            "COMP 202",
-            "ANAT 212",
-            "COMP 250",
             "BIOL 200",
             "COMP 204",
-            "BIOL 201",
-            "BIOL 219",
+            "COMP 250",
+            "BIOC 212",
             "CHEM 212",
-            "BIOC 212"
+            "ANAT 212",
+            "COMP 202",
+            "BIOL 219",
+            "BIOL 201",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -15690,9 +15659,9 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "BIOL 200",
             "BIOL 202",
             "BIOL 215",
-            "BIOL 200",
             "BIOL 205",
             "BIOL 201"
         ],
@@ -15723,9 +15692,9 @@ global.biol_tar = {
             "instructors": "Instructors: Daniel Dufort Teruko Taketo-Hosotani (Winter)"
         },
         "prereqs": [
-            "BIOL 300",
+            "BIOL 303",
             "BIOL 202",
-            "BIOL 303"
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": [
@@ -15741,10 +15710,10 @@ global.biol_tar = {
             "instructors": "Instructors: Anthony Ricciardi (Winter)"
         },
         "prereqs": [
-            "BIOL 205",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": []
@@ -15758,8 +15727,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 305",
-            "BIOL 205"
+            "BIOL 205",
+            "BIOL 305"
         ],
         "coreqs": [],
         "restricts": [
@@ -15811,8 +15780,8 @@ global.biol_tar = {
             "instructors": "Instructors: Gregor Fussmann (Fall)"
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
@@ -15871,10 +15840,10 @@ global.biol_tar = {
             "instructors": "Instructors: Neil Price (Winter)"
         },
         "prereqs": [
-            "BIOL 206",
             "ENVR 202",
+            "BIOL 215",
             "ENVR 200",
-            "BIOL 215"
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -15921,8 +15890,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "ENVR 202",
-            "ENVR 200",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -15975,6 +15944,7 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
+            "BIOL 471D1",
             "BIOL 471"
         ]
     },
@@ -15992,6 +15962,7 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
+            "BIOL 471D1",
             "BIOL 471"
         ]
     },
@@ -16004,7 +15975,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 468"
+            "BIOL 468D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16023,6 +15994,7 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
+            "BIOL 471D1",
             "BIOL 471"
         ]
     },
@@ -16034,11 +16006,10 @@ global.biol_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BIOL 468"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
+            "BIOL 471D1",
             "BIOL 471"
         ]
     },
@@ -16081,7 +16052,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 469"
+            "BIOL 469D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16107,7 +16078,7 @@ global.biol_tar = {
             "instructors": "Instructors: Gary Brouhard (Winter)"
         },
         "prereqs": [
-            "BIOL 479"
+            "BIOL 479D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16133,7 +16104,7 @@ global.biol_tar = {
             "instructors": "Instructors: Gary Brouhard (Winter)"
         },
         "prereqs": [
-            "BIOL 480"
+            "BIOL 480D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16159,7 +16130,7 @@ global.biol_tar = {
             "instructors": "Instructors: Gary Brouhard (Winter)"
         },
         "prereqs": [
-            "BIOL 499"
+            "BIOL 499D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16174,12 +16145,12 @@ global.biol_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "BIOL 306",
-            "NSCI 200",
-            "NSCI 201",
-            "PHGY 311",
             "BIOL 307",
-            "NEUR 310"
+            "BIOL 306",
+            "NEUR 310",
+            "PHGY 311",
+            "NSCI 200",
+            "NSCI 201"
         ],
         "restricts": []
     },
@@ -16204,8 +16175,8 @@ global.biol_tar = {
             "instructors": "Instructors: Andrew Gonzalez (Fall)"
         },
         "prereqs": [
-            "GEOG 350",
-            "BIOL 308"
+            "BIOL 308",
+            "GEOG 350"
         ],
         "coreqs": [],
         "restricts": []
@@ -16219,15 +16190,15 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "NEUR 310",
             "BIOL 306",
             "PHGY 311",
-            "NEUR 310",
             "NSCI 201"
         ],
         "coreqs": [],
         "restricts": [
-            "PSYC 514",
-            "BIOL 531"
+            "BIOL 531",
+            "PSYC 514"
         ]
     },
     "BIOL 515": {
@@ -16282,8 +16253,8 @@ global.biol_tar = {
             "instructors": "Instructors: Abigail Gerhold (Winter)"
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -16297,8 +16268,8 @@ global.biol_tar = {
             "instructors": "Instructors: Hugh Clarke David Dankort (Fall)"
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -16345,8 +16316,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "ENVR 202",
-            "ENVR 200",
-            "BIOL 215"
+            "BIOL 215",
+            "ENVR 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -16360,8 +16331,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 202"
+            "BIOL 202",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -16375,9 +16346,9 @@ global.biol_tar = {
             "instructors": "Instructors: Siegfried Hekimi (Fall)"
         },
         "prereqs": [
-            "BIOL 300",
+            "BIOL 303",
             "BIOL 202",
-            "BIOL 303"
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -16392,8 +16363,8 @@ global.biol_tar = {
         },
         "prereqs": [
             "MATH 133",
-            "CHEM 115",
-            "PHYS 142"
+            "PHYS 142",
+            "CHEM 115"
         ],
         "coreqs": [],
         "restricts": []
@@ -16407,15 +16378,15 @@ global.biol_tar = {
             "instructors": "Instructors: Catherine Potvin (Winter)"
         },
         "prereqs": [
-            "BIOL 215",
             "MATH 203",
-            "HISP 218"
+            "HISP 218",
+            "BIOL 215"
         ],
         "coreqs": [
             "AGRI 550",
+            "HIST 510",
             "ENVR 451",
             "GEOG 404",
-            "HIST 510",
             "GEOG 498"
         ],
         "restricts": []
@@ -16444,7 +16415,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 555"
+            "BIOL 555D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16509,8 +16480,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 352",
-            "BIOL 304"
+            "BIOL 304",
+            "BIOL 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -16524,8 +16495,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 202"
+            "BIOL 202",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -16656,8 +16627,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 373",
-            "BIOL 596"
+            "BIOL 596",
+            "BIOL 373"
         ],
         "coreqs": [],
         "restricts": []
@@ -16774,7 +16745,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 652"
+            "BIOL 652D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16869,7 +16840,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biot-505\" target=\"_blank\">BIOT 505</a> Selected Topics in Biotechnology (3 credits)",
             "overview": "Biotechnology : Current methods and recent advances in biological, medical, agricultural and engineering aspects of biotechnology will be described and discussed. An extensive reading list will complement the lecture material.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Elias Georges (Fall)"
+            "instructors": "Instructors: Elias Georges Babykumari Chitramuthu Thomas Ming Swi Chang Lyle Whyte Donald L Smith Michel Tremblay Terence Hebert Jianguo Xia Mark Hancock Jérôme Waldispuhl (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -16889,7 +16860,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "NSCI 420"
+            "NSCI 420D1",
+            "NSCI 420D2"
         ]
     },
     "NSCI 410D1": {
@@ -16906,7 +16878,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "NSCI 420"
+            "NSCI 420D1",
+            "NSCI 420D2"
         ]
     },
     "NSCI 410D2": {
@@ -16918,7 +16891,7 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 410"
+            "NSCI 410D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -16964,7 +16937,7 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 420"
+            "NSCI 420D1"
         ],
         "coreqs": [],
         "restricts": [
@@ -16996,9 +16969,7 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Joseph Alan Dent Shelton Hendricks (Fall)"
         },
-        "prereqs": [
-            "NSCI 420"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -17011,15 +16982,16 @@ global.biol_tar = {
             "instructors": "Instructors: Monroe W Cohen Joseph Alan Dent (Fall)"
         },
         "prereqs": [
-            "NSCI 201",
             "NSCI 300",
+            "NSCI 201",
             "NSCI 200"
         ],
         "coreqs": [
-            "NSCI 400"
+            "NSCI 400D2",
+            "NSCI 400D1"
         ],
         "restricts": [
-            "NSCI 430"
+            "NSCI 430D2"
         ]
     },
     "NSCI 430D2": {
@@ -17031,15 +17003,16 @@ global.biol_tar = {
             "instructors": "Instructors: Monroe W Cohen Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 201",
             "NSCI 300",
+            "NSCI 201",
             "NSCI 200"
         ],
         "coreqs": [
-            "NSCI 400"
+            "NSCI 400D2",
+            "NSCI 400D1"
         ],
         "restricts": [
-            "NSCI 430"
+            "NSCI 430D1"
         ]
     }
 }
@@ -17057,6 +17030,48 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : A course for students with no previous knowledge of computer science. The impact of computers on society.  Web design and dynamic content. The inner workings of computers (hardware).  Networking principles. Algorithm design and programming. A look at how computers store data (image, sound, and video). Software distribution policies and mechanisms.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "COMP 250": {
+        "prereqs": [
+            "COMP 206",
+            "COMP 251",
+            "COMP 302",
+            "COMP 303",
+            "COMP 322",
+            "COMP 350",
+            "COMP 361D1",
+            "COMP 557",
+            "COMP 559"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102",
+            "COMP 202"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisites: Familiarity with a high level programming language and CEGEP level Math.</p>\n\n<p>Students with limited programming experience should take <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or equivalent before <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>. See <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Course Description for a list of topics.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> Introduction to Computer Science (3 credits)",
+            "overview": "Computer Science (Sci) : Mathematical tools (binary numbers, induction, recurrence relations, asymptotic complexity, establishing correctness of programs), Data structures (arrays, stacks, queues, linked lists, trees, binary trees, binary search trees, heaps, hash tables), Recursive and non-recursive algorithms (searching and sorting, tree and graph traversal). Abstract data types, inheritance. Selected topics.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Michael Langer (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
+        }
+    },
+    "COMP 202": {
+        "prereqs": [
+            "COMP 206",
+            "COMP 350"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
+            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
     "COMP 189": {
@@ -17081,43 +17096,6 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : This is a seminar format course intended for freshman and other beginning students. The topics are chosen to encourage critical discussion of fundamental ideas. Possible topics are computability, complexity, geometry, vision, AI, pattern recognition, machine models, cryptography and security and social implications of computing.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "COMP 202": {
-        "prereqs": [
-            "COMP 206"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
-            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
-        }
-    },
-    "COMP 250": {
-        "prereqs": [
-            "COMP 206",
-            "COMP 251",
-            "COMP 252",
-            "COMP 302",
-            "COMP 303",
-            "COMP 322",
-            "COMP 361D1",
-            "COMP 445"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "COMP 202"
-        ],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisites: Familiarity with a high level programming language and CEGEP level Math.</p>\n\n<p>Students with limited programming experience should take <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or equivalent before <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>. See <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Course Description for a list of topics.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> Introduction to Computer Science (3 credits)",
-            "overview": "Computer Science (Sci) : Mathematical tools (binary numbers, induction, recurrence relations, asymptotic complexity, establishing correctness of programs), Data structures (arrays, stacks, queues, linked lists, trees, binary trees, binary search trees, heaps, hash tables), Recursive and non-recursive algorithms (searching and sorting, tree and graph traversal). Abstract data types, inheritance. Selected topics.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Michael Langer (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
     "COMP 208": {
@@ -17154,7 +17132,8 @@ global.comp_src = {
             "COMP 307",
             "COMP 322",
             "COMP 361D1",
-            "COMP 421"
+            "COMP 421",
+            "COMP 526"
         ],
         "coreqs": [
             "COMP 273"
@@ -17183,16 +17162,10 @@ global.comp_src = {
     "COMP 251": {
         "prereqs": [
             "COMP 330",
-            "COMP 360",
-            "COMP 401",
-            "COMP 409",
             "COMP 421",
-            "COMP 462",
             "COMP 512",
             "COMP 522",
             "COMP 525",
-            "COMP 550",
-            "COMP 561",
             "COMP 621"
         ],
         "coreqs": [],
@@ -17207,7 +17180,9 @@ global.comp_src = {
     },
     "COMP 252": {
         "prereqs": [
-            "COMP 362"
+            "COMP 360",
+            "COMP 362",
+            "COMP 550"
         ],
         "coreqs": [],
         "restricts": [],
@@ -17384,7 +17359,7 @@ global.comp_src = {
         "prereqs": [
             "COMP 526",
             "COMP 547",
-            "COMP 560"
+            "COMP 558"
         ],
         "coreqs": [],
         "restricts": [
@@ -17399,7 +17374,9 @@ global.comp_src = {
         }
     },
     "COMP 361D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 361D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -17424,9 +17401,7 @@ global.comp_src = {
     },
     "COMP 362": {
         "prereqs": [
-            "COMP 547",
-            "COMP 552",
-            "COMP 554"
+            "COMP 552"
         ],
         "coreqs": [],
         "restricts": [],
@@ -17564,7 +17539,8 @@ global.comp_src = {
     },
     "COMP 424": {
         "prereqs": [
-            "COMP 526"
+            "COMP 526",
+            "COMP 652"
         ],
         "coreqs": [],
         "restricts": [],
@@ -17618,7 +17594,9 @@ global.comp_src = {
         }
     },
     "COMP 512": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -17706,9 +17684,7 @@ global.comp_src = {
         }
     },
     "COMP 526": {
-        "prereqs": [
-            "COMP 652"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -17768,7 +17744,9 @@ global.comp_src = {
         }
     },
     "COMP 535": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -17953,9 +17931,7 @@ global.comp_src = {
         }
     },
     "COMP 566": {
-        "prereqs": [
-            "COMP 567"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18039,10 +18015,7 @@ global.comp_src = {
         }
     },
     "COMP 601": {
-        "prereqs": [
-            "COMP 601D2",
-            "COMP 601N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18054,7 +18027,9 @@ global.comp_src = {
         }
     },
     "COMP 601D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 601D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18138,7 +18113,9 @@ global.comp_src = {
         }
     },
     "COMP 616D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 616D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18414,9 +18391,7 @@ global.comp_src = {
         }
     },
     "COMP 700": {
-        "prereqs": [
-            "COMP 700D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18428,7 +18403,9 @@ global.comp_src = {
         }
     },
     "COMP 700D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 700D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -18575,10 +18552,10 @@ global.comp_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "COMP 203",
+            "COMP 250",
             "COMP 202",
-            "COMP 208",
-            "COMP 250"
+            "COMP 203",
+            "COMP 208"
         ]
     },
     "COMP 189": {
@@ -18667,9 +18644,9 @@ global.comp_tar = {
             "MATH 133"
         ],
         "restricts": [
-            "COMP 202",
             "COMP 250",
             "COMP 204",
+            "COMP 202",
             "COMP 206"
         ]
     },
@@ -18726,9 +18703,9 @@ global.comp_tar = {
             "instructors": "Instructors: Luc P Devroye (Winter)"
         },
         "prereqs": [
-            "COMP 250",
             "MATH 235",
-            "MATH 240"
+            "MATH 240",
+            "COMP 250"
         ],
         "coreqs": [],
         "restricts": [
@@ -18844,8 +18821,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "MATH 223",
-            "COMP 250",
             "MATH 240",
+            "COMP 250",
             "COMP 206"
         ],
         "coreqs": [],
@@ -18860,8 +18837,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 208",
             "COMP 250",
+            "COMP 208",
             "COMP 206"
         ],
         "coreqs": [],
@@ -18890,10 +18867,10 @@ global.comp_tar = {
             "instructors": "Instructors: Ivo Panayotov Sitao Luan (Fall)"
         },
         "prereqs": [
-            "MATH 223",
-            "COMP 202",
-            "COMP 208",
             "COMP 250",
+            "COMP 202",
+            "MATH 223",
+            "COMP 208",
             "MATH 222"
         ],
         "coreqs": [],
@@ -18910,11 +18887,11 @@ global.comp_tar = {
             "instructors": "Instructors: Hamed Hatami (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "MATH 235",
-            "MATH 240",
+            "COMP 252",
             "MATH 363",
-            "COMP 252"
+            "MATH 240",
+            "MATH 235",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -18949,7 +18926,7 @@ global.comp_tar = {
             "instructors": "Instructors: Jorg Andreas Kienzle (Winter)"
         },
         "prereqs": [
-            "COMP 361"
+            "COMP 361D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -19017,8 +18994,8 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "BIOL 301"
+            "BIOL 301",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19068,10 +19045,10 @@ global.comp_tar = {
             "instructors": "Instructors: Clark Verbrugge (Winter)"
         },
         "prereqs": [
-            "COMP 251",
             "COMP 302",
             "COMP 310",
-            "ECSE 427"
+            "ECSE 427",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19085,10 +19062,10 @@ global.comp_tar = {
             "instructors": "Instructors: David Meger (Fall)"
         },
         "prereqs": [
-            "MATH 223",
-            "COMP 251",
             "ECSE 321",
-            "COMP 206"
+            "MATH 223",
+            "COMP 206",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19102,9 +19079,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 251",
             "COMP 302",
-            "COMP 206"
+            "COMP 206",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19118,10 +19095,10 @@ global.comp_tar = {
             "instructors": "Instructors: Jackie Cheung (Winter)"
         },
         "prereqs": [
-            "MATH 323",
-            "COMP 251",
             "ECSE 321",
-            "COMP 206"
+            "COMP 206",
+            "COMP 251",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -19135,8 +19112,8 @@ global.comp_tar = {
             "instructors": "Instructors: Timothy O'Donnell (Fall)"
         },
         "prereqs": [
-            "COMP 250",
-            "MATH 240"
+            "MATH 240",
+            "COMP 250"
         ],
         "coreqs": [],
         "restricts": [
@@ -19152,10 +19129,10 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "MATH 323",
             "MATH 203",
-            "BIOL 309"
+            "BIOL 309",
+            "COMP 251",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": [
@@ -19199,8 +19176,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 302",
-            "COMP 273"
+            "COMP 273",
+            "COMP 302"
         ],
         "coreqs": [],
         "restricts": []
@@ -19214,10 +19191,10 @@ global.comp_tar = {
             "instructors": "Instructors: Clark Verbrugge (Fall)"
         },
         "prereqs": [
-            "MATH 223",
-            "COMP 251",
             "COMP 361",
-            "COMP 303"
+            "MATH 223",
+            "COMP 303",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19231,8 +19208,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 251",
-            "COMP 302"
+            "COMP 302",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19276,8 +19253,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 251",
-            "COMP 330"
+            "COMP 330",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19291,10 +19268,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 424",
             "COMP 360",
-            "MATH 323",
-            "COMP 206"
+            "COMP 424",
+            "COMP 206",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -19352,8 +19329,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 361",
             "ECSE 321",
+            "COMP 361",
             "COMP 303"
         ],
         "coreqs": [],
@@ -19413,8 +19390,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 360",
-            "COMP 362",
-            "MATH 323"
+            "MATH 323",
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -19428,10 +19405,10 @@ global.comp_tar = {
             "instructors": "Instructors: Jackie Cheung (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "MATH 323",
             "COMP 252",
-            "ECSE 305"
+            "ECSE 305",
+            "COMP 251",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": [
@@ -19447,9 +19424,9 @@ global.comp_tar = {
             "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany Mohsen Ravanbakhsh (Winter)"
         },
         "prereqs": [
-            "MATH 323",
             "ECSE 205",
-            "ECSE 305"
+            "ECSE 305",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": [
@@ -19481,10 +19458,10 @@ global.comp_tar = {
             "instructors": "Instructors: Adrian Roshan Vetta (Fall)"
         },
         "prereqs": [
-            "MATH 487",
-            "COMP 362",
             "MATH 350",
-            "MATH 454"
+            "MATH 487",
+            "MATH 454",
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -19500,8 +19477,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 362",
-            "MATH 350"
+            "MATH 350",
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -19517,9 +19494,9 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Fall)"
         },
         "prereqs": [
+            "COMP 250",
             "MATH 223",
             "MATH 222",
-            "COMP 250",
             "COMP 206"
         ],
         "coreqs": [],
@@ -19534,10 +19511,10 @@ global.comp_tar = {
             "instructors": "Instructors: Kaleem Siddiqi (Fall)"
         },
         "prereqs": [
-            "MATH 223",
             "COMP 360",
-            "MATH 222",
-            "COMP 206"
+            "MATH 223",
+            "COMP 206",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -19551,9 +19528,9 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Winter)"
         },
         "prereqs": [
+            "COMP 250",
             "MATH 223",
             "MATH 222",
-            "COMP 250",
             "COMP 206"
         ],
         "coreqs": [],
@@ -19568,9 +19545,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 360",
+            "MATH 343",
             "COMP 431",
-            "MATH 343"
+            "COMP 360"
         ],
         "coreqs": [],
         "restricts": []
@@ -19584,15 +19561,15 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "MATH 323",
             "MATH 203",
-            "BIOL 309"
+            "BIOL 309",
+            "COMP 251",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": [
-            "COMP 462",
-            "COMP 562"
+            "COMP 562",
+            "COMP 462"
         ]
     },
     "COMP 564": {
@@ -19636,8 +19613,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 566",
-            "MATH 417"
+            "MATH 417",
+            "COMP 566"
         ],
         "coreqs": [],
         "restricts": []
@@ -19737,7 +19714,7 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 601"
+            "COMP 601D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -19762,9 +19739,7 @@ global.comp_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "COMP 601"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -19801,10 +19776,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "COMP 512",
             "COMP 421",
-            "COMP 435",
             "COMP 535",
-            "COMP 512"
+            "COMP 435"
         ],
         "coreqs": [],
         "restricts": []
@@ -19830,7 +19805,7 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 616"
+            "COMP 616D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -19855,9 +19830,7 @@ global.comp_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "COMP 616"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -19882,9 +19855,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 251",
+            "COMP 520",
             "COMP 302",
-            "COMP 520"
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -19913,9 +19886,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 323",
+            "MATH 324",
             "COMP 350",
-            "MATH 324"
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -19957,12 +19930,12 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 526",
-            "ECSE 526",
             "COMP 424",
-            "ECSE 305",
+            "MATH 323",
             "COMP 360",
-            "MATH 323"
+            "ECSE 305",
+            "ECSE 526",
+            "COMP 526"
         ],
         "coreqs": [],
         "restricts": []
@@ -20150,7 +20123,7 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 700"
+            "COMP 700D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -20314,6 +20287,7 @@ global.econ_src = {
             "ECON 336",
             "ECON 341",
             "ECON 344",
+            "ECON 345",
             "ECON 347",
             "ECON 440"
         ],
@@ -20329,51 +20303,13 @@ global.econ_src = {
             "instructors": "Instructors: Mayssun El-Attar Vilalta (Fall), Paul Dickinson (Fall), Eesha Sen Choudhury (Fall), Sara Hayati (Fall), Paul Dickinson (Winter)"
         }
     },
-    "ECON 230": {
-        "prereqs": [
-            "ECON 230D2",
-            "ECON 306",
-            "ECON 330D1",
-            "ECON 336",
-            "ECON 348",
-            "ECON 405",
-            "ECON 406",
-            "ECON 408",
-            "ECON 411",
-            "ECON 416",
-            "ECON 420",
-            "ECON 423",
-            "ECON 424",
-            "ECON 426",
-            "ECON 434",
-            "ECON 447",
-            "ECON 459",
-            "ECON 473",
-            "ECON 510",
-            "ECON 531",
-            "ECON 546",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 221"
-        ],
-        "restricts": [
-            "ECON 208"
-        ],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
-            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
-        }
-    },
     "ECON 209": {
         "prereqs": [
             "ECON 302",
             "ECON 303",
             "ECON 304",
             "ECON 305",
+            "ECON 306",
             "ECON 308",
             "ECON 311",
             "ECON 313",
@@ -20388,7 +20324,9 @@ global.econ_src = {
             "ECON 344",
             "ECON 347"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECON 221"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> or permission of the instructor </p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-295\" target=\"_blank\">ECON 295</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330\" target=\"_blank\">ECON 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352\" target=\"_blank\">ECON 352</a></p>\n",
@@ -20422,6 +20360,55 @@ global.econ_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECON 230D1": {
+        "prereqs": [
+            "ECON 230D2",
+            "ECON 306",
+            "ECON 336",
+            "ECON 348",
+            "ECON 408",
+            "ECON 423",
+            "ECON 424",
+            "ECON 426",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
+            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Fabian Lange Ling Ling Zhang (Fall)"
+        }
+    },
+    "ECON 250D1": {
+        "prereqs": [
+            "ECON 250D2",
+            "ECON 306",
+            "ECON 352D1",
+            "ECON 423",
+            "ECON 424",
+            "ECON 450",
+            "ECON 452",
+            "ECON 453",
+            "ECON 454",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
+            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Licun Xue (Fall)"
+        }
+    },
     "ECON 223": {
         "prereqs": [],
         "coreqs": [],
@@ -20448,11 +20435,11 @@ global.econ_src = {
     },
     "ECON 227": {
         "prereqs": [
-            "ECON 227D2",
             "ECON 337",
-            "ECON 348",
+            "ECON 406",
             "ECON 440",
-            "ECON 462"
+            "ECON 462",
+            "ECON 473"
         ],
         "coreqs": [],
         "restricts": [],
@@ -20465,7 +20452,10 @@ global.econ_src = {
         }
     },
     "ECON 227D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 227D2",
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -20477,7 +20467,9 @@ global.econ_src = {
         }
     },
     "ECON 227D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -20488,20 +20480,36 @@ global.econ_src = {
             "instructors": "Instructors: Kenneth MacKenzie (Winter)"
         }
     },
-    "ECON 230D1": {
-        "prereqs": [],
+    "ECON 230": {
+        "prereqs": [
+            "ECON 330D1",
+            "ECON 405",
+            "ECON 406",
+            "ECON 411",
+            "ECON 416",
+            "ECON 420",
+            "ECON 434",
+            "ECON 447",
+            "ECON 459",
+            "ECON 473",
+            "ECON 510",
+            "ECON 531",
+            "ECON 546"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
             "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Fabian Lange Ling Ling Zhang (Fall)"
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
         }
     },
     "ECON 230D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -20512,20 +20520,12 @@ global.econ_src = {
             "instructors": "Instructors: Hassan Benchekroun (Winter)"
         }
     },
-    "ECON 250D1": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
-            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Licun Xue (Fall)"
-        }
-    },
     "ECON 250D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 352D1",
+            "ECON 450",
+            "ECON 452"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -20537,8 +20537,13 @@ global.econ_src = {
         }
     },
     "ECON 257D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 257D2",
+            "ECON 468"
+        ],
+        "coreqs": [
+            "ECON 352D1"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Corequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a></p>\n\n<p>Restriction: Not open to students who have taken 154-357 or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-217\" target=\"_blank\">ECON 217</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227\" target=\"_blank\">ECON 227</a>.</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d2\" target=\"_blank\">ECON 257D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d2\" target=\"_blank\">ECON 257D2</a> are successfully completed in consecutive terms</p>\n\n<p>You may not be able to receive credit for this course and other statistic courses. Be sure to check the Course Overlap section under Faculty Degree Requirements in the Arts or Science section of the Calendar.</p>\n",
@@ -20575,9 +20580,7 @@ global.econ_src = {
     "ECON 302": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "ECON 304"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a></p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302d1\" target=\"_blank\">ECON 302D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302d2\" target=\"_blank\">D2</a> (6 credits).</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302\" target=\"_blank\">ECON 302</a> Money, Banking & Government Policy (3 credits)",
@@ -20747,8 +20750,13 @@ global.econ_src = {
         }
     },
     "ECON 330D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 330D2",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a>. If a student has already taken 154-200 or 154-203 and 154-204 or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, it may be concurrently taken with <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> with the permission of the instructor</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a> are successfully completed in consecutive terms</p>\n",
@@ -20905,8 +20913,15 @@ global.econ_src = {
         }
     },
     "ECON 352D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 352D2",
+            "ECON 450",
+            "ECON 452",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a></p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a></p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a> are successfully completed in consecutive terms</p>\n",
@@ -20917,7 +20932,10 @@ global.econ_src = {
         }
     },
     "ECON 352D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 450",
+            "ECON 452"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -20969,9 +20987,7 @@ global.econ_src = {
             "ECON 409"
         ],
         "coreqs": [],
-        "restricts": [
-            "ECON 409"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">D2</a> or 250D1/D2 or permission of the instructor.</p>\n\n<p>Not open to students who have already completed <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408d1\" target=\"_blank\">ECON 408D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408d2\" target=\"_blank\">D2</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408\" target=\"_blank\">ECON 408</a> Public Sector Economics 1 (3 credits)",
@@ -21397,9 +21413,7 @@ global.econ_src = {
         }
     },
     "ECON 622": {
-        "prereqs": [
-            "ECON 622D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21411,7 +21425,9 @@ global.econ_src = {
         }
     },
     "ECON 622D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 622D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21447,9 +21463,7 @@ global.econ_src = {
         }
     },
     "ECON 624": {
-        "prereqs": [
-            "ECON 624D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21461,7 +21475,9 @@ global.econ_src = {
         }
     },
     "ECON 624D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 624D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21532,7 +21548,7 @@ global.econ_src = {
             "notes": "",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-641\" target=\"_blank\">ECON 641</a> Labour Economics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
@@ -21624,7 +21640,6 @@ global.econ_src = {
     },
     "ECON 662": {
         "prereqs": [
-            "ECON 662D2",
             "ECON 742"
         ],
         "coreqs": [],
@@ -21638,7 +21653,9 @@ global.econ_src = {
         }
     },
     "ECON 662D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 662D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21722,9 +21739,7 @@ global.econ_src = {
         }
     },
     "ECON 681": {
-        "prereqs": [
-            "ECON 681D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21736,7 +21751,9 @@ global.econ_src = {
         }
     },
     "ECON 681D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 681D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21760,9 +21777,7 @@ global.econ_src = {
         }
     },
     "ECON 682": {
-        "prereqs": [
-            "ECON 682D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -21774,7 +21789,9 @@ global.econ_src = {
         }
     },
     "ECON 682D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 682D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -22042,9 +22059,7 @@ global.econ_src = {
         }
     },
     "ECON 762": {
-        "prereqs": [
-            "ECON 762D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "ECON 761"
@@ -22058,7 +22073,9 @@ global.econ_src = {
         }
     },
     "ECON 762D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 762D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -22169,9 +22186,9 @@ global.econ_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
+            "MGCR 293",
             "ECON 230",
-            "ECON 250",
-            "MGCR 293"
+            "ECON 250"
         ]
     },
     "ECON 209": {
@@ -22214,12 +22231,13 @@ global.econ_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "ECON 230",
             "ECON 208",
-            "ECON 250",
-            "ECON 209"
+            "ECON 209",
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "restricts": [
+            "ECON 221D1",
             "ECON 201"
         ]
     },
@@ -22282,7 +22300,7 @@ global.econ_tar = {
             "instructors": "Instructors: Kenneth MacKenzie (Winter)"
         },
         "prereqs": [
-            "ECON 227"
+            "ECON 227D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22320,7 +22338,7 @@ global.econ_tar = {
             "instructors": "Instructors: Hassan Benchekroun (Winter)"
         },
         "prereqs": [
-            "ECON 230"
+            "ECON 230D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22334,8 +22352,8 @@ global.econ_tar = {
             "instructors": "Instructors: Licun Xue (Fall)"
         },
         "prereqs": [
-            "MATH 141",
-            "MATH 140"
+            "MATH 140",
+            "MATH 141"
         ],
         "coreqs": [],
         "restricts": []
@@ -22349,7 +22367,7 @@ global.econ_tar = {
             "instructors": "Instructors: Rohan Dutta (Winter)"
         },
         "prereqs": [
-            "ECON 250"
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22364,9 +22382,9 @@ global.econ_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "MATH 133",
             "MATH 141",
-            "ECON 250"
+            "ECON 250",
+            "MATH 133"
         ],
         "restricts": [
             "ECON 227",
@@ -22382,7 +22400,7 @@ global.econ_tar = {
             "instructors": "Instructors: Saraswata Chaudhuri (Winter)"
         },
         "prereqs": [
-            "ECON 257"
+            "ECON 257D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22414,7 +22432,9 @@ global.econ_tar = {
             "ECON 209"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 302D1"
+        ]
     },
     "ECON 303": {
         "text": {
@@ -22430,7 +22450,8 @@ global.econ_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 403"
+            "ECON 403",
+            "ECON 303D1"
         ]
     },
     "ECON 304": {
@@ -22447,7 +22468,7 @@ global.econ_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 302"
+            "ECON 302D1"
         ]
     },
     "ECON 305": {
@@ -22474,13 +22495,15 @@ global.econ_tar = {
             "instructors": "Instructors: Paul Dickinson (Fall)"
         },
         "prereqs": [
-            "ECON 230",
             "ECON 208",
-            "ECON 250",
-            "ECON 209"
+            "ECON 209",
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 306D1"
+        ]
     },
     "ECON 308": {
         "text": {
@@ -22638,7 +22661,7 @@ global.econ_tar = {
             "instructors": "Instructors: Daniel Barczyk Mayssun El-Attar Vilalta (Winter)"
         },
         "prereqs": [
-            "ECON 330"
+            "ECON 330D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22697,9 +22720,9 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 230",
             "ECON 208",
-            "ECON 209"
+            "ECON 209",
+            "ECON 230D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22772,12 +22795,12 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 250",
-            "ECON 209",
             "ECON 208",
+            "MGCR 293",
+            "ECON 230D1",
             "ECON 295",
-            "ECON 230",
-            "MGCR 293"
+            "ECON 250D1",
+            "ECON 209"
         ],
         "coreqs": [],
         "restricts": []
@@ -22806,8 +22829,10 @@ global.econ_tar = {
             "instructors": "Instructors: Nicolas Gendron-Carrier (Winter)"
         },
         "prereqs": [
-            "ECON 230",
-            "ECON 227"
+            "ECON 230D1",
+            "ECON 227D1",
+            "ECON 230D2",
+            "ECON 227D2"
         ],
         "coreqs": [],
         "restricts": []
@@ -22821,10 +22846,11 @@ global.econ_tar = {
             "instructors": "Instructors: Francisco Alvarez-Cuadrado (Fall)"
         },
         "prereqs": [
-            "ECON 250"
+            "ECON 250D2",
+            "ECON 250D1"
         ],
         "coreqs": [
-            "ECON 257"
+            "ECON 257D1"
         ],
         "restricts": []
     },
@@ -22837,10 +22863,10 @@ global.econ_tar = {
             "instructors": "Instructors: Rui Castro (Winter)"
         },
         "prereqs": [
-            "ECON 352"
+            "ECON 352D1"
         ],
         "coreqs": [
-            "ECON 357"
+            "ECON 357D2"
         ],
         "restricts": []
     },
@@ -22880,9 +22906,9 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECON 227",
             "ECON 230",
             "ECON 250",
-            "ECON 227",
             "ECON 257"
         ],
         "coreqs": [],
@@ -22897,7 +22923,7 @@ global.econ_tar = {
             "instructors": "Instructors: Ling Ling Zhang (Fall)"
         },
         "prereqs": [
-            "ECON 230"
+            "ECON 230D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22915,7 +22941,7 @@ global.econ_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 408"
+            "ECON 408D1"
         ]
     },
     "ECON 411": {
@@ -22944,7 +22970,7 @@ global.econ_tar = {
         "prereqs": [
             "ECON 230",
             "ECON 250",
-            "ECON 227"
+            "ECON 227D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -22973,11 +22999,13 @@ global.econ_tar = {
             "instructors": "Instructors: Julian Vikan Karaguesian (Fall)"
         },
         "prereqs": [
-            "ECON 230",
-            "ECON 250"
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 423D1"
+        ]
     },
     "ECON 424": {
         "text": {
@@ -22988,15 +23016,15 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 230",
-            "ECON 250"
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [
-            "ECON 352",
-            "ECON 330"
+            "ECON 330D1",
+            "ECON 352D1"
         ],
         "restricts": [
-            "ECON 423"
+            "ECON 423D1"
         ]
     },
     "ECON 426": {
@@ -23008,9 +23036,9 @@ global.econ_tar = {
             "instructors": "Instructors: Fabian Lange (Fall)"
         },
         "prereqs": [
-            "ECON 230",
-            "ECON 250",
-            "ECON 306"
+            "ECON 230D1",
+            "ECON 306D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23024,14 +23052,14 @@ global.econ_tar = {
             "instructors": "Instructors: Christopher Barrington-Leigh (Fall)"
         },
         "prereqs": [
-            "ECON 250",
+            "MATH 122",
+            "ECON 227D1",
+            "MATH 150",
+            "ECON 230D1",
             "MATH 139",
             "MATH 140",
-            "ECON 257",
-            "MATH 150",
-            "ECON 230",
-            "MATH 122",
-            "ECON 227"
+            "ECON 257D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": [
@@ -23065,8 +23093,8 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 227",
-            "ECON 208"
+            "ECON 208",
+            "ECON 227"
         ],
         "coreqs": [],
         "restricts": []
@@ -23095,11 +23123,16 @@ global.econ_tar = {
             "instructors": "Instructors: Rui Castro (Winter)"
         },
         "prereqs": [
-            "ECON 352",
-            "ECON 250"
+            "ECON 250D2",
+            "ECON 352D1",
+            "ECON 352D2",
+            "ECON 250D1"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 450D1",
+            "ECON 450D2"
+        ]
     },
     "ECON 452": {
         "text": {
@@ -23110,12 +23143,15 @@ global.econ_tar = {
             "instructors": "Instructors: Licun Xue (Fall)"
         },
         "prereqs": [
-            "ECON 352",
-            "ECON 250"
+            "ECON 250D2",
+            "ECON 352D1",
+            "ECON 352D2",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 450"
+            "ECON 450D1",
+            "ECON 450D2"
         ]
     },
     "ECON 453": {
@@ -23127,10 +23163,12 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 250"
+            "ECON 250D1"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 453D1"
+        ]
     },
     "ECON 454": {
         "text": {
@@ -23141,11 +23179,11 @@ global.econ_tar = {
             "instructors": "Instructors: Ling Ling Zhang (Winter)"
         },
         "prereqs": [
-            "ECON 250"
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 453"
+            "ECON 453D1"
         ]
     },
     "ECON 459": {
@@ -23206,8 +23244,8 @@ global.econ_tar = {
         "prereqs": [
             "ECON 227",
             "ECON 352",
-            "ECON 257",
-            "ECON 330"
+            "ECON 330",
+            "ECON 257"
         ],
         "coreqs": [],
         "restricts": [
@@ -23223,11 +23261,11 @@ global.econ_tar = {
             "instructors": "Instructors: Russell Davidson (Fall)"
         },
         "prereqs": [
-            "ECON 257"
+            "ECON 257D1"
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 467"
+            "ECON 467D1"
         ]
     },
     "ECON 469": {
@@ -23243,7 +23281,7 @@ global.econ_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 467"
+            "ECON 467D1"
         ]
     },
     "ECON 473": {
@@ -23255,9 +23293,9 @@ global.econ_tar = {
             "instructors": "Instructors: Markus Poschke (Winter)"
         },
         "prereqs": [
+            "ECON 227",
             "ECON 230",
             "ECON 250",
-            "ECON 227",
             "ECON 257"
         ],
         "coreqs": [],
@@ -23274,10 +23312,7 @@ global.econ_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "ECON 481",
-            "ECON 250",
-            "ECON 352",
-            "ECON 257"
+            "ECON 481"
         ]
     },
     "ECON 510": {
@@ -23384,10 +23419,10 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 230",
-            "ECON 250",
-            "ECON 352",
-            "ECON 330"
+            "ECON 230D1",
+            "ECON 330D1",
+            "ECON 352D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23473,7 +23508,7 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 622"
+            "ECON 622D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23523,7 +23558,7 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 624"
+            "ECON 624D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23569,7 +23604,7 @@ global.econ_tar = {
             "notes": "",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-641\" target=\"_blank\">ECON 641</a> Labour Economics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [],
@@ -23685,7 +23720,7 @@ global.econ_tar = {
             "instructors": "Instructors: John W Galbraith (Winter)"
         },
         "prereqs": [
-            "ECON 662"
+            "ECON 662D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23783,7 +23818,7 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 681"
+            "ECON 681D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23821,7 +23856,7 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 682"
+            "ECON 682D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -23861,7 +23896,9 @@ global.econ_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "ECON 799"
+            "ECON 799D1",
+            "ECON 799",
+            "ECON 799D2"
         ]
     },
     "ECON 705": {
@@ -23885,8 +23922,8 @@ global.econ_tar = {
             "instructors": "Instructors: Russell Davidson (Fall)"
         },
         "prereqs": [
-            "ECON 610",
-            "ECON 620"
+            "ECON 620",
+            "ECON 610"
         ],
         "coreqs": [],
         "restricts": []
@@ -23972,8 +24009,8 @@ global.econ_tar = {
             "instructors": "Instructors: Rui Castro (Fall)"
         },
         "prereqs": [
-            "ECON 721",
-            "ECON 720"
+            "ECON 720",
+            "ECON 721"
         ],
         "coreqs": [],
         "restricts": []
@@ -24125,7 +24162,7 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 762"
+            "ECON 762D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -24190,6 +24227,8 @@ global.ecse_src = {
             "ECSE 211",
             "ECSE 251",
             "ECSE 310",
+            "ECSE 316",
+            "ECSE 322",
             "ECSE 324",
             "ECSE 351"
         ],
@@ -24205,10 +24244,7 @@ global.ecse_src = {
     },
     "ECSE 202": {
         "prereqs": [
-            "ECSE 211",
-            "ECSE 222",
-            "ECSE 223",
-            "ECSE 321"
+            "ECSE 222"
         ],
         "coreqs": [],
         "restricts": [],
@@ -24224,6 +24260,8 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 310",
             "ECSE 408",
+            "ECSE 416",
+            "ECSE 446",
             "ECSE 508",
             "ECSE 509",
             "ECSE 512",
@@ -24271,6 +24309,60 @@ global.ecse_src = {
             "instructors": "Instructors: Narges Armanfard (Fall), Lawrence R Chen (Winter)"
         }
     },
+    "ECSE 303": {
+        "prereqs": [
+            "ECSE 304",
+            "ECSE 305",
+            "ECSE 334",
+            "ECSE 405",
+            "ECSE 472",
+            "ECSE 517",
+            "ECSE 593",
+            "ECSE 597",
+            "ECSE 634"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 206"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
+            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 306": {
+        "prereqs": [
+            "ECSE 305",
+            "ECSE 309",
+            "ECSE 334",
+            "ECSE 411",
+            "ECSE 412",
+            "ECSE 414",
+            "ECSE 436",
+            "ECSE 472",
+            "ECSE 504",
+            "ECSE 517",
+            "ECSE 529",
+            "ECSE 538",
+            "ECSE 597"
+        ],
+        "coreqs": [
+            "ECSE 404"
+        ],
+        "restricts": [
+            "ECSE 206"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a> Fundamentals of Signals and Systems (3 credits)",
+            "overview": "Electrical Engineering : Review of complex functions. Discrete-and continuous-time signals, basic system properties. Linear time-invariant systems, convolution. Fourier series and Fourier transforms, frequency domain analysis, filtering, sampling. Laplace transforms and inversion, transfer functions, poles and zeros, solutions of linear constant-coefficient differential equations, transient and steady state response. Z-transforms.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 304": {
         "prereqs": [
             "ECSE 411",
@@ -24302,62 +24394,6 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ECSE 306": {
-        "prereqs": [
-            "ECSE 305",
-            "ECSE 309",
-            "ECSE 334",
-            "ECSE 411",
-            "ECSE 412",
-            "ECSE 414",
-            "ECSE 436",
-            "ECSE 456",
-            "ECSE 472",
-            "ECSE 476",
-            "ECSE 504",
-            "ECSE 517",
-            "ECSE 529",
-            "ECSE 538",
-            "ECSE 597"
-        ],
-        "coreqs": [
-            "ECSE 404"
-        ],
-        "restricts": [
-            "ECSE 206"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a> Fundamentals of Signals and Systems (3 credits)",
-            "overview": "Electrical Engineering : Review of complex functions. Discrete-and continuous-time signals, basic system properties. Linear time-invariant systems, convolution. Fourier series and Fourier transforms, frequency domain analysis, filtering, sampling. Laplace transforms and inversion, transfer functions, poles and zeros, solutions of linear constant-coefficient differential equations, transient and steady state response. Z-transforms.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 303": {
-        "prereqs": [
-            "ECSE 304",
-            "ECSE 305",
-            "ECSE 334",
-            "ECSE 405",
-            "ECSE 472",
-            "ECSE 517",
-            "ECSE 593",
-            "ECSE 597",
-            "ECSE 634"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 206"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
-            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 210": {
         "prereqs": [
             "ECSE 307",
@@ -24380,9 +24416,6 @@ global.ecse_src = {
     "ECSE 211": {
         "prereqs": [
             "ECSE 323",
-            "ECSE 456",
-            "ECSE 458D1",
-            "ECSE 458N1",
             "ECSE 474"
         ],
         "coreqs": [],
@@ -24427,13 +24460,43 @@ global.ecse_src = {
             "instructors": "Instructors: Ioannis Psaromiligkos (Fall)"
         }
     },
+    "ECSE 322": {
+        "prereqs": [
+            "ECSE 414",
+            "ECSE 421",
+            "ECSE 422",
+            "ECSE 424",
+            "ECSE 425",
+            "ECSE 427",
+            "ECSE 436",
+            "ECSE 474",
+            "ECSE 526",
+            "ECSE 528",
+            "ECSE 538",
+            "ECSE 541",
+            "ECSE 542",
+            "ECSE 543",
+            "ECSE 547",
+            "ECSE 570"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 222"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mech-383\" target=\"_blank\">MECH 383</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> Computer Engineering (3 credits)",
+            "overview": "Electrical Engineering : Data structures (arrays, lists, stacks, queues, dequeues and trees) and their machine representation and simple algorithms. Peripheral devices: printers, keyboards, magnetic type drives, magnetic disc drives. Peripheral interfacing and busses. Introduction to operating systems. System integration. Computer systems and networks.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 323": {
         "prereqs": [
             "ECSE 421",
             "ECSE 425",
             "ECSE 431",
             "ECSE 436",
-            "ECSE 456",
             "ECSE 474",
             "ECSE 530",
             "ECSE 537",
@@ -24449,33 +24512,6 @@ global.ecse_src = {
             "notes": "<p>(3-6-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-211\" target=\"_blank\">ECSE 211</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a></p>\n\n<p>Tutorials and lab hours assigned by instructor.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-323\" target=\"_blank\">ECSE 323</a> Digital System Design (5 credits)",
             "overview": "Electrical Engineering : Minimization and synthesis of combinational logic and finite state machines.Synthesis of synchronous and asynchronous sequential circuits. Principles of control design. Basic concepts in design for testability. Laboratory experiments involve the design and testing of FPGA based digital systems using CAD software and hardware description languages.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 322": {
-        "prereqs": [
-            "ECSE 414",
-            "ECSE 421",
-            "ECSE 425",
-            "ECSE 436",
-            "ECSE 474",
-            "ECSE 526",
-            "ECSE 528",
-            "ECSE 538",
-            "ECSE 541",
-            "ECSE 543",
-            "ECSE 547",
-            "ECSE 570"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 222"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mech-383\" target=\"_blank\">MECH 383</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> Computer Engineering (3 credits)",
-            "overview": "Electrical Engineering : Data structures (arrays, lists, stacks, queues, dequeues and trees) and their machine representation and simple algorithms. Peripheral devices: printers, keyboards, magnetic type drives, magnetic disc drives. Peripheral interfacing and busses. Introduction to operating systems. System integration. Computer systems and networks.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -24497,7 +24533,10 @@ global.ecse_src = {
     "ECSE 251": {
         "prereqs": [
             "ECSE 354",
+            "ECSE 362",
+            "ECSE 433",
             "ECSE 472",
+            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -24513,6 +24552,7 @@ global.ecse_src = {
     },
     "ECSE 291": {
         "prereqs": [
+            "ECSE 323",
             "ECSE 334"
         ],
         "coreqs": [],
@@ -24565,6 +24605,7 @@ global.ecse_src = {
     "ECSE 308": {
         "prereqs": [
             "ECSE 408",
+            "ECSE 416",
             "ECSE 511",
             "ECSE 515",
             "ECSE 528",
@@ -24609,7 +24650,6 @@ global.ecse_src = {
     },
     "ECSE 316": {
         "prereqs": [
-            "ECSE 416",
             "ECSE 504",
             "ECSE 509",
             "ECSE 511",
@@ -24630,11 +24670,10 @@ global.ecse_src = {
     },
     "ECSE 321": {
         "prereqs": [
+            "ECSE 428",
             "ECSE 429",
             "ECSE 437",
             "ECSE 439",
-            "ECSE 456",
-            "ECSE 476",
             "ECSE 539"
         ],
         "coreqs": [],
@@ -24705,10 +24744,10 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 334",
             "ECSE 431",
+            "ECSE 432",
             "ECSE 465",
             "ECSE 472",
             "ECSE 474",
-            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -24726,12 +24765,13 @@ global.ecse_src = {
     },
     "ECSE 331": {
         "prereqs": [
+            "ECSE 433",
             "ECSE 450",
             "ECSE 465",
             "ECSE 472",
-            "ECSE 533",
             "ECSE 543",
-            "ECSE 597"
+            "ECSE 597",
+            "ECSE 635"
         ],
         "coreqs": [],
         "restricts": [],
@@ -24792,6 +24832,7 @@ global.ecse_src = {
             "ECSE 352",
             "ECSE 361",
             "ECSE 472",
+            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -24809,7 +24850,6 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 405",
             "ECSE 423",
-            "ECSE 430",
             "ECSE 450",
             "ECSE 451",
             "ECSE 519",
@@ -24857,6 +24897,7 @@ global.ecse_src = {
             "ECSE 519",
             "ECSE 524",
             "ECSE 527",
+            "ECSE 535",
             "ECSE 540",
             "ECSE 547",
             "ECSE 571",
@@ -24882,7 +24923,6 @@ global.ecse_src = {
             "ECSE 465",
             "ECSE 466",
             "ECSE 468",
-            "ECSE 522",
             "ECSE 549",
             "ECSE 559",
             "ECSE 562",
@@ -24907,7 +24947,6 @@ global.ecse_src = {
             "ECSE 466",
             "ECSE 468",
             "ECSE 470",
-            "ECSE 522",
             "ECSE 549",
             "ECSE 559",
             "ECSE 562",
@@ -24967,20 +25006,6 @@ global.ecse_src = {
             "instructors": "Instructors: Peter Edwin Caines (Fall)"
         }
     },
-    "ECSE 493": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 403"
-        ],
-        "text": {
-            "notes": "<p>(1-3-2)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a>.</p>\n\n<p>Limited Enrolment - 20</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-493\" target=\"_blank\">ECSE 493</a> Control and Robotics Laboratory (2 credits)",
-            "overview": "Electrical Engineering : Experimental studies for the design of control systems, with particular emphasis on motion control as applicable to robotics. Modeling of DC motors and electro-mechanical systems. Controller design in the time and frequency domain as well as state space. Experimental examples of PID, lead-lag, full state feedback and LQR controllers.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 404": {
         "prereqs": [],
         "coreqs": [
@@ -24993,6 +25018,20 @@ global.ecse_src = {
             "notes": "<p>(3-1-5)</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> Control Systems (3 credits)",
             "overview": "Electrical Engineering : Modelling and simulation of control systems; basic concepts of linear systems; open and closed loop control; classical design of controllers - specifications in the step response and the frequency domain; state space design of controllers - pole placement and LQR; sampled data systems.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 493": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 403"
+        ],
+        "text": {
+            "notes": "<p>(1-3-2)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a>.</p>\n\n<p>Limited Enrolment - 20</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-493\" target=\"_blank\">ECSE 493</a> Control and Robotics Laboratory (2 credits)",
+            "overview": "Electrical Engineering : Experimental studies for the design of control systems, with particular emphasis on motion control as applicable to robotics. Modeling of DC motors and electro-mechanical systems. Controller design in the time and frequency domain as well as state space. Experimental examples of PID, lead-lag, full state feedback and LQR controllers.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -25083,7 +25122,9 @@ global.ecse_src = {
         }
     },
     "ECSE 414": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 518"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -25107,7 +25148,9 @@ global.ecse_src = {
         }
     },
     "ECSE 416": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 518"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -25360,7 +25403,9 @@ global.ecse_src = {
         }
     },
     "ECSE 443": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 507"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -25446,7 +25491,9 @@ global.ecse_src = {
         }
     },
     "ECSE 458D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 458D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -25715,7 +25762,9 @@ global.ecse_src = {
         }
     },
     "ECSE 478D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 478D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -25947,6 +25996,7 @@ global.ecse_src = {
     },
     "ECSE 501": {
         "prereqs": [
+            "ECSE 507",
             "ECSE 516"
         ],
         "coreqs": [
@@ -26165,6 +26215,20 @@ global.ecse_src = {
             "instructors": "Instructors: Mark Coates (Winter)"
         }
     },
+    "ECSE 528": {
+        "prereqs": [
+            "ECSE 518"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
+            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 519": {
         "prereqs": [],
         "coreqs": [],
@@ -26205,8 +26269,8 @@ global.ecse_src = {
             "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-408\" target=\"_blank\">ECSE 408</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-509\" target=\"_blank\">ECSE 509</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-521\" target=\"_blank\">ECSE 521</a> Digital Communications 1 (3 credits)",
             "overview": "Electrical Engineering : Transmission over AWGN channels: optimum receiver design, digital modulation techniques, coherent, noncoherent and differentially coherent detection. Signal design for bandlimited AWGN channels. Channel capacity. Channel coding: block codes, convolutional codes, coded modulation techniques, turbo codes. Transmission over AWGN and ISI channels: MLSE, linear equalization, decision-feedback equalization, precoding, multi-carrier transmission.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Benoit Champagne (Winter)"
         }
     },
     "ECSE 522": {
@@ -26265,18 +26329,6 @@ global.ecse_src = {
             "notes": "<p>(3-0-9)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-527\" target=\"_blank\">ECSE 527</a> Optical Engineering (4 credits)",
             "overview": "Electrical Engineering : A structured introduction to modern optical engineering. Topics covered include the\npropagation of light through space, refraction, diffraction, polarization, lens systems, ray-tracing, aberrations, computer-aided design and optimization techniques, Gaussian beam analysis, micro-optics and computer generated\ndiffractive optical elements.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 528": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
-            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -26876,7 +26928,9 @@ global.ecse_src = {
         }
     },
     "ECSE 670D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 670D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -27008,10 +27062,7 @@ global.ecse_src = {
         }
     },
     "ECSE 686": {
-        "prereqs": [
-            "ECSE 686D2",
-            "ECSE 686N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -27023,7 +27074,10 @@ global.ecse_src = {
         }
     },
     "ECSE 686D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 686D2",
+            "ECSE 686N2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -27274,9 +27328,9 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 304",
+            "ECSE 303",
             "ECSE 306",
-            "ECSE 303"
+            "ECSE 304"
         ]
     },
     "ECSE 210": {
@@ -27303,8 +27357,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 200",
-            "ECSE 202",
-            "COMP 202"
+            "COMP 202",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -27336,9 +27390,9 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 221",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 221"
         ]
     },
     "ECSE 223": {
@@ -27350,8 +27404,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Daniel Varro (Fall)"
         },
         "prereqs": [
-            "ECSE 202",
-            "COMP 202"
+            "COMP 202",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -27397,9 +27451,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 270",
+            "MATH 271",
             "ECSE 210",
-            "MATH 247",
-            "MATH 271"
+            "MATH 247"
         ],
         "coreqs": [
             "MATH 381",
@@ -27430,8 +27484,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 306",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -27446,8 +27500,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 270",
-            "ECSE 210",
-            "MATH 271"
+            "MATH 271",
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -27488,8 +27542,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Benoit Champagne (Fall), Tho Le-Ngoc (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 306",
+            "ECSE 206",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -27504,9 +27558,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Songrui Zhao (Winter)"
         },
         "prereqs": [
-            "ECSE 222",
+            "ECSE 205",
             "ECSE 200",
-            "ECSE 205"
+            "ECSE 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -27520,9 +27574,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Winter)"
         },
         "prereqs": [
-            "COMP 251",
             "ECSE 200",
-            "MATH 263"
+            "MATH 263",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -27536,9 +27590,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Marwan Kanaan (Fall)"
         },
         "prereqs": [
-            "ECSE 202",
             "COMP 202",
-            "COMP 208"
+            "COMP 208",
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -27552,8 +27606,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MECH 383",
             "ECSE 200",
+            "MECH 383",
             "ECSE 221"
         ],
         "coreqs": [],
@@ -27569,9 +27623,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 211",
+            "ECSE 291",
             "CCOM 206",
             "ECSE 221",
-            "ECSE 291",
             "EDEC 206"
         ],
         "coreqs": [],
@@ -27586,8 +27640,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Katarzyna Radecka (Fall)"
         },
         "prereqs": [
-            "ECSE 222",
-            "ECSE 200"
+            "ECSE 200",
+            "ECSE 222"
         ],
         "coreqs": [],
         "restricts": []
@@ -27661,8 +27715,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 330",
-            "ECSE 306",
             "ECSE 303",
+            "ECSE 306",
             "ECSE 291"
         ],
         "coreqs": [],
@@ -27719,8 +27773,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "MATH 262",
-            "ECSE 210",
-            "MATH 263"
+            "MATH 263",
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -27748,8 +27802,8 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall), Xiaozhe Wang (Winter)"
         },
         "prereqs": [
-            "ECSE 351",
-            "ECSE 210"
+            "ECSE 210",
+            "ECSE 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -27763,9 +27817,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall), Xiaozhe Wang (Winter)"
         },
         "prereqs": [
+            "ECSE 251",
             "CIVE 281",
-            "ECSE 210",
-            "ECSE 251"
+            "ECSE 210"
         ],
         "coreqs": [],
         "restricts": []
@@ -27809,8 +27863,8 @@ global.ecse_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECSE 493",
-            "ECSE 404"
+            "ECSE 404",
+            "ECSE 493"
         ]
     },
     "ECSE 404": {
@@ -27823,8 +27877,8 @@ global.ecse_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "ECSE 304",
-            "ECSE 306"
+            "ECSE 306",
+            "ECSE 304"
         ],
         "restricts": []
     },
@@ -27837,10 +27891,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 352",
             "ECSE 354",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 352",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": [
@@ -27856,8 +27910,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Harry Leib (Fall)"
         },
         "prereqs": [
-            "ECSE 308",
-            "ECSE 205"
+            "ECSE 205",
+            "ECSE 308"
         ],
         "coreqs": [],
         "restricts": [
@@ -27873,9 +27927,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
             "ECSE 306",
-            "ECSE 305"
+            "ECSE 305",
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -27889,8 +27943,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Benoit Champagne (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 306",
+            "ECSE 206",
             "ECSE 304"
         ],
         "coreqs": [],
@@ -27919,9 +27973,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 322",
             "ECSE 306",
-            "ECSE 322"
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -27947,10 +28001,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Fall)"
         },
         "prereqs": [
-            "ECSE 316",
-            "COMP 250",
+            "ECSE 205",
             "ECSE 308",
-            "ECSE 205"
+            "COMP 250",
+            "ECSE 316"
         ],
         "coreqs": [],
         "restricts": [
@@ -27981,9 +28035,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -27997,9 +28051,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Muthucumaru Maheswaran (Winter)"
         },
         "prereqs": [
+            "ECSE 322",
             "COMP 250",
-            "ECSE 324",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -28028,10 +28082,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "ECSE 324",
+            "ECSE 322",
             "COMP 273",
-            "ECSE 322"
+            "ECSE 324",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -28045,9 +28099,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Amin Emad (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
+            "ECSE 322",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -28076,8 +28130,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Muthucumaru Maheswaran (Fall), Joseph P Vybihal (Winter)"
         },
         "prereqs": [
-            "COMP 273",
-            "ECSE 322"
+            "ECSE 322",
+            "COMP 273"
         ],
         "coreqs": [],
         "restricts": []
@@ -28091,8 +28145,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 335",
-            "ECSE 321"
+            "ECSE 321",
+            "COMP 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -28122,8 +28176,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 354",
-            "ECSE 352",
-            "MIME 262"
+            "MIME 262",
+            "ECSE 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -28152,10 +28206,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 212",
-            "ECSE 351",
             "ECSE 330",
-            "MIME 262"
+            "ECSE 212",
+            "MIME 262",
+            "ECSE 351"
         ],
         "coreqs": [],
         "restricts": []
@@ -28169,9 +28223,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Thomas Szkopek (Winter)"
         },
         "prereqs": [
-            "MIME 262",
             "ECSE 251",
-            "ECSE 331"
+            "ECSE 331",
+            "MIME 262"
         ],
         "coreqs": [],
         "restricts": [
@@ -28188,8 +28242,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 334",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 334"
         ],
         "coreqs": [],
         "restricts": []
@@ -28203,9 +28257,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Gordon W Roberts (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
             "ECSE 335",
             "ECSE 334",
+            "ECSE 206",
             "ECSE 304"
         ],
         "coreqs": [],
@@ -28220,13 +28274,13 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 323",
-            "ECSE 304",
-            "ECSE 324",
             "ECSE 325",
-            "ECSE 322"
+            "ECSE 206",
+            "ECSE 304",
+            "ECSE 322",
+            "ECSE 323",
+            "ECSE 306",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -28271,13 +28325,13 @@ global.ecse_tar = {
         },
         "prereqs": [
             "COMP 250",
-            "ECSE 330",
-            "ECSE 221",
-            "ECSE 331",
-            "ECSE 222",
             "ECSE 351",
+            "ECSE 331",
+            "ECSE 353",
             "ECSE 251",
-            "ECSE 353"
+            "ECSE 221",
+            "ECSE 330",
+            "ECSE 222"
         ],
         "coreqs": [
             "ECSE 353"
@@ -28309,9 +28363,9 @@ global.ecse_tar = {
             "instructors": "Instructors: Derek Nowrouzezahrai (Fall)"
         },
         "prereqs": [
+            "ECSE 205",
             "COMP 250",
-            "ECSE 202",
-            "ECSE 205"
+            "ECSE 202"
         ],
         "coreqs": [],
         "restricts": [
@@ -28328,12 +28382,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 334",
-            "ECSE 354",
-            "ECSE 221",
-            "ECSE 331",
             "ECSE 222",
+            "ECSE 353",
             "ECSE 352",
-            "ECSE 353"
+            "ECSE 221",
+            "ECSE 354",
+            "ECSE 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -28362,14 +28416,14 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 306",
+            "COMP 302",
             "ECSE 321",
+            "CCOM 206",
+            "ECSE 322",
             "ECSE 211",
             "ECSE 323",
-            "CCOM 206",
-            "ECSE 330",
-            "COMP 302",
-            "ECSE 322"
+            "ECSE 306",
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -28397,11 +28451,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
         },
         "prereqs": [
-            "ECSE 211",
-            "CCOM 206",
-            "ECSE 324",
             "COMP 302",
-            "ECSE 331"
+            "ECSE 331",
+            "CCOM 206",
+            "ECSE 211",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -28415,7 +28469,7 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 458"
+            "ECSE 458D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -28429,11 +28483,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 211",
-            "CCOM 206",
-            "ECSE 324",
             "COMP 302",
-            "ECSE 331"
+            "ECSE 331",
+            "CCOM 206",
+            "ECSE 211",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -28446,9 +28500,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 458"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -28501,9 +28553,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 361",
-            "ECSE 461"
+            "ECSE 461",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -28517,8 +28569,8 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Fall)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -28532,10 +28584,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361",
             "ECSE 330",
-            "ECSE 331"
+            "ECSE 331",
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -28549,8 +28601,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -28578,8 +28630,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -28623,13 +28675,13 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 330",
             "ECSE 303",
-            "ECSE 331",
+            "ECSE 206",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "ECSE 330",
+            "ECSE 331",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": [
@@ -28645,10 +28697,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 330",
+            "ECSE 322",
             "ECSE 211",
             "ECSE 323",
-            "ECSE 322"
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -28676,12 +28728,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 321",
-            "ECSE 306",
-            "CCOM 206",
             "COMP 302",
+            "ECSE 321",
+            "CCOM 206",
             "ECSE 322",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -28723,7 +28775,7 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
         },
         "prereqs": [
-            "ECSE 478"
+            "ECSE 478D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -28750,9 +28802,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 478"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -28766,8 +28816,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 334",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 334"
         ],
         "coreqs": [
             "ECSE 533",
@@ -28785,9 +28835,9 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
+            "EDEC 206",
             "ECSE 361",
-            "ECSE 330",
-            "EDEC 206"
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -28819,8 +28869,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
             "ECSE 451"
@@ -28855,12 +28905,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
-            "ECSE 412",
-            "ECSE 512"
+            "ECSE 512",
+            "ECSE 412"
         ],
         "restricts": []
     },
@@ -28874,12 +28924,12 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "restricts": []
     },
@@ -28896,9 +28946,9 @@ global.ecse_tar = {
             "EDEC 206"
         ],
         "coreqs": [
+            "ECSE 527",
             "ECSE 430",
             "ECSE 571",
-            "ECSE 527",
             "ECSE 423"
         ],
         "restricts": []
@@ -28913,8 +28963,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "CCOM 206",
-            "ECSE 291",
-            "EDEC 206"
+            "EDEC 206",
+            "ECSE 291"
         ],
         "coreqs": [
             "ECSE 404",
@@ -29028,14 +29078,14 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 316",
             "ECSE 306",
             "ECSE 206",
-            "ECSE 316"
+            "ECSE 304"
         ],
         "coreqs": [
-            "ECSE 403",
             "ECSE 404",
+            "ECSE 403",
             "ECSE 501"
         ],
         "restricts": []
@@ -29064,10 +29114,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Hannah Michalska (Winter)"
         },
         "prereqs": [
-            "ECSE 543",
-            "COMP 540",
+            "ECSE 501",
             "ECSE 443",
-            "ECSE 501"
+            "ECSE 543",
+            "COMP 540"
         ],
         "coreqs": [],
         "restricts": []
@@ -29097,8 +29147,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 206",
-            "ECSE 316",
             "ECSE 205",
+            "ECSE 316",
             "ECSE 304",
             "ECSE 305"
         ],
@@ -29114,8 +29164,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Peter Edwin Caines (Winter)"
         },
         "prereqs": [
-            "ECSE 500",
-            "ECSE 509"
+            "ECSE 509",
+            "ECSE 500"
         ],
         "coreqs": [],
         "restricts": []
@@ -29129,9 +29179,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
             "ECSE 308",
-            "ECSE 316"
+            "ECSE 316",
+            "ECSE 304"
         ],
         "coreqs": [
             "ECSE 509"
@@ -29148,8 +29198,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 206",
-            "ECSE 316",
             "ECSE 205",
+            "ECSE 316",
             "ECSE 304",
             "ECSE 305"
         ],
@@ -29165,10 +29215,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
-            "ECSE 206",
             "ECSE 316",
-            "ECSE 500"
+            "ECSE 206",
+            "ECSE 500",
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -29182,11 +29232,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 316",
             "ECSE 308",
-            "ECSE 205",
-            "ECSE 304",
             "ECSE 571",
+            "ECSE 205",
+            "ECSE 316",
+            "ECSE 304",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -29216,12 +29266,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 303",
             "ECSE 206",
+            "ECSE 205",
             "ECSE 316",
             "ECSE 306",
-            "ECSE 205",
-            "ECSE 305",
-            "ECSE 303"
+            "ECSE 305"
         ],
         "coreqs": [],
         "restricts": []
@@ -29235,11 +29285,11 @@ global.ecse_tar = {
             "instructors": "Instructors: Mark Coates (Winter)"
         },
         "prereqs": [
-            "COMP 535",
             "ECSE 414",
-            "ECSE 509",
+            "ECSE 528",
             "ECSE 416",
-            "ECSE 528"
+            "COMP 535",
+            "ECSE 509"
         ],
         "coreqs": [],
         "restricts": []
@@ -29265,13 +29315,13 @@ global.ecse_tar = {
             "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-408\" target=\"_blank\">ECSE 408</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-509\" target=\"_blank\">ECSE 509</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-521\" target=\"_blank\">ECSE 521</a> Digital Communications 1 (3 credits)",
             "overview": "Electrical Engineering : Transmission over AWGN channels: optimum receiver design, digital modulation techniques, coherent, noncoherent and differentially coherent detection. Signal design for bandlimited AWGN channels. Channel capacity. Channel coding: block codes, convolutional codes, coded modulation techniques, turbo codes. Transmission over AWGN and ISI channels: MLSE, linear equalization, decision-feedback equalization, precoding, multi-carrier transmission.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Benoit Champagne (Winter)"
         },
         "prereqs": [
-            "ECSE 408",
+            "ECSE 411",
             "ECSE 511",
-            "ECSE 411"
+            "ECSE 408"
         ],
         "coreqs": [
             "ECSE 509"
@@ -29287,10 +29337,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Xiaozhe Wang (Fall)"
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361",
             "ECSE 307",
-            "MATH 263"
+            "MATH 263",
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -29304,8 +29354,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Douglas D O'Shaughnessy (Winter)"
         },
         "prereqs": [
-            "ECSE 412",
-            "ECSE 512"
+            "ECSE 512",
+            "ECSE 412"
         ],
         "coreqs": [],
         "restricts": []
@@ -29319,11 +29369,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 354",
             "ECSE 334",
+            "ECSE 353",
             "ECSE 352",
-            "ECSE 353"
+            "ECSE 335",
+            "ECSE 354"
         ],
         "coreqs": [],
         "restricts": []
@@ -29337,8 +29387,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Winter)"
         },
         "prereqs": [
-            "ECSE 324",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -29368,10 +29418,10 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 308",
-            "ECSE 304",
-            "ECSE 324",
             "ECSE 309",
-            "ECSE 322"
+            "ECSE 304",
+            "ECSE 322",
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -29387,9 +29437,9 @@ global.ecse_tar = {
         "prereqs": [
             "ECSE 206",
             "ECSE 308",
-            "ECSE 306",
+            "ECSE 309",
             "ECSE 304",
-            "ECSE 309"
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -29432,11 +29482,11 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 330",
-            "ECSE 331",
-            "PHYS 271",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "PHYS 271",
+            "ECSE 330",
+            "ECSE 331"
         ],
         "coreqs": [],
         "restricts": []
@@ -29450,8 +29500,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Gordon W Roberts (Fall)"
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29465,8 +29515,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 271",
             "ECSE 354",
+            "PHYS 271",
             "ECSE 352"
         ],
         "coreqs": [],
@@ -29481,8 +29531,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29496,10 +29546,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 325",
             "ECSE 334",
-            "ECSE 323"
+            "ECSE 325",
+            "ECSE 323",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29513,9 +29563,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 304",
+            "ECSE 322",
             "ECSE 306",
-            "ECSE 322"
+            "ECSE 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -29559,8 +29609,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Brett Meyer (Fall)"
         },
         "prereqs": [
-            "ECSE 323",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -29574,10 +29624,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
         },
         "prereqs": [
-            "COMP 251",
-            "ECSE 324",
+            "ECSE 322",
             "COMP 273",
-            "ECSE 322"
+            "ECSE 324",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -29591,12 +29641,12 @@ global.ecse_tar = {
             "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
         },
         "prereqs": [
-            "ECSE 324",
-            "ECSE 330",
-            "ECSE 331",
             "ECSE 351",
             "ECSE 251",
-            "ECSE 322"
+            "ECSE 322",
+            "ECSE 331",
+            "ECSE 324",
+            "ECSE 330"
         ],
         "coreqs": [],
         "restricts": []
@@ -29610,8 +29660,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 205"
+            "ECSE 205",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -29652,10 +29702,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 322",
             "ECSE 354",
-            "ECSE 324",
             "ECSE 352",
-            "ECSE 322"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -29669,10 +29719,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 325",
             "ECSE 334",
-            "ECSE 323"
+            "ECSE 325",
+            "ECSE 323",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29686,10 +29736,10 @@ global.ecse_tar = {
             "instructors": "Instructors: David Alister Lowther (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 325",
+            "ECSE 323",
             "ECSE 361",
-            "ECSE 323"
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -29703,10 +29753,10 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 361",
             "ECSE 334",
-            "ECSE 362"
+            "ECSE 361",
+            "ECSE 362",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29720,9 +29770,9 @@ global.ecse_tar = {
             "instructors": "Instructors: François Bouffard (Winter)"
         },
         "prereqs": [
-            "ECSE 362",
             "ECSE 361",
-            "ECSE 461"
+            "ECSE 461",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -29738,8 +29788,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 362",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -29767,10 +29817,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Geza Joos (Winter)"
         },
         "prereqs": [
-            "ECSE 335",
-            "ECSE 361",
             "ECSE 334",
-            "ECSE 362"
+            "ECSE 361",
+            "ECSE 362",
+            "ECSE 335"
         ],
         "coreqs": [],
         "restricts": []
@@ -29784,9 +29834,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 205",
             "ECSE 322",
             "ECSE 324",
-            "ECSE 205",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -29862,10 +29912,10 @@ global.ecse_tar = {
             "instructors": "Instructors: Milica Popovich (Winter)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 352",
             "ECSE 354",
-            "ECSE 303"
+            "ECSE 303",
+            "ECSE 352",
+            "ECSE 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -29894,13 +29944,13 @@ global.ecse_tar = {
             "instructors": "Instructors: Roni Khazaka (Fall)"
         },
         "prereqs": [
-            "ECSE 206",
-            "ECSE 306",
-            "ECSE 330",
             "ECSE 303",
-            "ECSE 331",
+            "ECSE 206",
             "ECSE 351",
-            "ECSE 251"
+            "ECSE 251",
+            "ECSE 330",
+            "ECSE 331",
+            "ECSE 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -29914,12 +29964,12 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 526",
+            "ECSE 514",
             "COMP 424",
-            "ECSE 305",
-            "COMP 360",
             "MATH 323",
-            "ECSE 514"
+            "COMP 360",
+            "ECSE 305",
+            "COMP 526"
         ],
         "coreqs": [],
         "restricts": [
@@ -29935,9 +29985,9 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECSE 487",
             "ECSE 431",
             "ECSE 425",
-            "ECSE 487",
             "ECSE 525"
         ],
         "coreqs": [],
@@ -29992,8 +30042,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 512",
-            "ECSE 509"
+            "ECSE 509",
+            "ECSE 512"
         ],
         "coreqs": [],
         "restricts": []
@@ -30020,8 +30070,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 510",
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "coreqs": [],
         "restricts": []
@@ -30036,8 +30086,8 @@ global.ecse_tar = {
         },
         "prereqs": [
             "ECSE 510",
-            "ECSE 511",
-            "ECSE 411"
+            "ECSE 411",
+            "ECSE 511"
         ],
         "coreqs": [],
         "restricts": []
@@ -30081,8 +30131,8 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 303",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 303"
         ],
         "coreqs": [],
         "restricts": []
@@ -30096,8 +30146,8 @@ global.ecse_tar = {
             "instructors": "Instructors: Sharmistha Bhadra (Winter)"
         },
         "prereqs": [
-            "CHEM 120",
-            "ECSE 331"
+            "ECSE 331",
+            "CHEM 120"
         ],
         "coreqs": [],
         "restricts": []
@@ -30221,7 +30271,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 670"
+            "ECSE 670D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -30246,9 +30296,7 @@ global.ecse_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "ECSE 670"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -30375,7 +30423,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 686"
+            "ECSE 686D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -30401,7 +30449,7 @@ global.ecse_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 686"
+            "ECSE 686D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -30604,8 +30652,7 @@ global.math_src = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 122",
-            "MATH 222"
+            "MATH 122"
         ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lecture, 2 hours tutorial</p>\n\n<p>Students with no prior exposure to vector geometry are advised to take <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> concurrently. Intended for students with high school calculus who have not received six advanced placement credits </p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UN or equivalent</p>\n\n<p>Restriction Note B: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-130\" target=\"_blank\">MATH 130</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-131\" target=\"_blank\">MATH 131</a>, except by permission of the Department of Mathematics and Statistics</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> cover the material of <a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> </p>\n",
@@ -30662,11 +30709,11 @@ global.math_src = {
             "MATH 319",
             "MATH 320",
             "MATH 326",
-            "MATH 327",
             "MATH 350",
             "MATH 376",
-            "MATH 407",
-            "MATH 423"
+            "MATH 417",
+            "MATH 423",
+            "MATH 517"
         ],
         "coreqs": [
             "MATH 340"
@@ -30733,7 +30780,9 @@ global.math_src = {
             "MATH 141"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "MATH 140"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>4 hours lecture, 1 hour tutorial</p>\n\n<p>Prerequisite: a course in functions</p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UN or equivalent.</p>\n\n<p>Restriction Note B: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a>, except by permission of the Department of Mathematics and Statistics.</p>\n\n<p>Students continue in <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> </p>\n\n<p>Each Tutorial section is enrolment limited</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a> Calculus 1 with Precalculus (4 credits)",
@@ -30759,9 +30808,7 @@ global.math_src = {
     "MATH 151": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "MATH 222"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lecture; 2 hours tutorial</p>\n\n<p>Each Tutorial section is enrolment limited</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> </p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UP or equivalent</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-130\" target=\"_blank\">MATH 130</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-131\" target=\"_blank\">MATH 131</a>, except by permission of the Department of Mathematics and Statistics</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-152\" target=\"_blank\">MATH 152</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> Calculus B (4 credits)",
@@ -30835,7 +30882,9 @@ global.math_src = {
             "MATH 376"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "MATH 262"
+        ],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a>. Familiarity with vector geometry or Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a></p>\n\n<p>Restriction: Not open to students who have taken CEGEP course 201-303 or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-227\" target=\"_blank\">MATH 227</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> Calculus 3 (3 credits)",
@@ -30846,6 +30895,7 @@ global.math_src = {
     },
     "MATH 251": {
         "prereqs": [
+            "MATH 327",
             "MATH 350",
             "MATH 358",
             "MATH 397",
@@ -30874,7 +30924,9 @@ global.math_src = {
         "prereqs": [
             "MATH 319",
             "MATH 320",
+            "MATH 327",
             "MATH 335",
+            "MATH 407",
             "MATH 417",
             "MATH 423",
             "MATH 517"
@@ -30896,6 +30948,7 @@ global.math_src = {
     "MATH 247": {
         "prereqs": [
             "MATH 320",
+            "MATH 327",
             "MATH 358",
             "MATH 456",
             "MATH 458",
@@ -31096,7 +31149,9 @@ global.math_src = {
         }
     },
     "MATH 262": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 264"
+        ],
         "coreqs": [
             "MATH 263"
         ],
@@ -31106,7 +31161,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-262\" target=\"_blank\">MATH 262</a> Intermediate Calculus (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Series and power series, including Taylor's theorem. Brief review of vector geometry. Vector functions and curves. Partial differentiation and differential calculus for vector valued functions. Unconstrained and constrained extremal problems. Multiple integrals including surface area and change of variables.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Charles Roth (Winter)"
+            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Vincent Létourneau (Fall), Charles Roth (Winter)"
         }
     },
     "MATH 263": {
@@ -31146,7 +31201,6 @@ global.math_src = {
     },
     "MATH 325": {
         "prereqs": [
-            "MATH 317",
             "MATH 475",
             "MATH 574"
         ],
@@ -31208,6 +31262,7 @@ global.math_src = {
             "MATH 316",
             "MATH 319",
             "MATH 320",
+            "MATH 407",
             "MATH 417",
             "MATH 458",
             "MATH 517"
@@ -31227,13 +31282,46 @@ global.math_src = {
     "MATH 316": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "MATH 466"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-314\" target=\"_blank\">MATH 314</a> or equivalent and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-243\" target=\"_blank\">MATH 243</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-366\" target=\"_blank\">MATH 366</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-466\" target=\"_blank\">MATH 466</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a> Complex Variables (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Algebra of complex numbers, Cauchy-Riemann equations, complex integral, Cauchy's theorems. Taylor and Laurent series, residue theory and applications.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Brent Pym (Fall)"
+        }
+    },
+    "MATH 381": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "MATH 316",
+            "MATH 466"
+        ],
+        "text": {
+            "notes": "<p>Fall and Winter</p>\n\n<p>(3-1-5) </p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a></p>\n\n<p>Restriction: Open only to students in the Faculty of Engineering.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a> Complex Variables and Transforms (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Analytic functions, Cauchy-Riemann equations, simple mappings, Cauchy's theorem, Cauchy's integral formula, Taylor and Laurent expansions, residue calculus. Properties of one and two-sided Fourier and Laplace transforms, the complex inversion integral, relation between the Fourier and Laplace transforms, application of transform techniques to the solution of differential equations. The Z-transform and applications to difference equations.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "MATH 466": {
+        "prereqs": [
+            "MATH 566"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "MATH 316"
+        ],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-255\" target=\"_blank\">MATH 255</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-366\" target=\"_blank\">MATH 366</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-466\" target=\"_blank\">MATH 466</a> Honours Complex Analysis (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Functions of a complex variable, Cauchy-Riemann equations, Cauchy's theorem and its consequences. Uniform convergence on compacta. Taylor and Laurent series, open mapping theorem, Rouché's theorem and the argument principle. Calculus of residues. Fractional linear transformations and conformal mappings.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Sarah Harrison (Fall)"
         }
     },
     "MATH 317": {
@@ -31438,7 +31526,10 @@ global.math_src = {
         }
     },
     "MATH 350": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 552",
+            "MATH 553"
+        ],
         "coreqs": [],
         "restricts": [
             "MATH 340"
@@ -31551,21 +31642,8 @@ global.math_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MATH 381": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Fall and Winter</p>\n\n<p>(3-1-5) </p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a></p>\n\n<p>Restriction: Open only to students in the Faculty of Engineering.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a> Complex Variables and Transforms (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Analytic functions, Cauchy-Riemann equations, simple mappings, Cauchy's theorem, Cauchy's integral formula, Taylor and Laurent expansions, residue calculus. Properties of one and two-sided Fourier and Laplace transforms, the complex inversion integral, relation between the Fourier and Laplace transforms, application of transform techniques to the solution of differential equations. The Z-transform and applications to difference equations.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "MATH 387": {
         "prereqs": [
-            "MATH 478",
             "MATH 578",
             "MATH 579"
         ],
@@ -31636,7 +31714,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-417\" target=\"_blank\">MATH 417</a> Linear Optimization (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : An introduction to linear optimization and its applications: Duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interior-point methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 420": {
@@ -31824,22 +31902,8 @@ global.math_src = {
             "instructors": "Instructors: Jacques Claude Hurtubise (Winter)"
         }
     },
-    "MATH 466": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-255\" target=\"_blank\">MATH 255</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-366\" target=\"_blank\">MATH 366</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-466\" target=\"_blank\">MATH 466</a> Honours Complex Analysis (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Functions of a complex variable, Cauchy-Riemann equations, Cauchy's theorem and its consequences. Uniform convergence on compacta. Taylor and Laurent series, open mapping theorem, Rouché's theorem and the argument principle. Calculus of residues. Fractional linear transformations and conformal mappings.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Sarah Harrison (Fall)"
-        }
-    },
     "MATH 470": {
-        "prereqs": [
-            "MATH 470D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -31851,7 +31915,9 @@ global.math_src = {
         }
     },
     "MATH 470D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 470D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -31939,7 +32005,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-517\" target=\"_blank\">MATH 517</a> Honours Linear Optimization (4 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Honours level introduction to linear optimization and its applications: duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interiorpoint methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 523": {
@@ -32128,6 +32194,7 @@ global.math_src = {
     "MATH 564": {
         "prereqs": [
             "MATH 565",
+            "MATH 566",
             "MATH 635"
         ],
         "coreqs": [],
@@ -32591,7 +32658,9 @@ global.math_src = {
         }
     },
     "MATH 669D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 669D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -32663,7 +32732,9 @@ global.math_src = {
         }
     },
     "MATH 685D1": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 685D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -33161,12 +33232,12 @@ global.math_tar = {
         "coreqs": [],
         "restricts": [
             "MATH 150",
-            "MATH 130",
-            "MATH 140",
             "MATH 131",
+            "MATH 130",
+            "MATH 139",
+            "MATH 140",
             "MATH 141",
-            "MATH 151",
-            "MATH 139"
+            "MATH 151"
         ]
     },
     "MATH 123": {
@@ -33195,8 +33266,8 @@ global.math_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MATH 141",
-            "MATH 122"
+            "MATH 122",
+            "MATH 141"
         ]
     },
     "MATH 133": {
@@ -33248,8 +33319,8 @@ global.math_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MATH 120",
-            "MATH 139"
+            "MATH 139",
+            "MATH 120"
         ]
     },
     "MATH 141": {
@@ -33262,8 +33333,8 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 140",
-            "MATH 150",
-            "MATH 139"
+            "MATH 139",
+            "MATH 150"
         ],
         "coreqs": [],
         "restricts": [
@@ -33363,9 +33434,9 @@ global.math_tar = {
             "MATH 133"
         ],
         "restricts": [
+            "MATH 227",
             "MATH 150",
-            "MATH 151",
-            "MATH 227"
+            "MATH 151"
         ]
     },
     "MATH 223": {
@@ -33467,8 +33538,8 @@ global.math_tar = {
             "instructors": "Instructors: Axel W Hundemer (Winter)"
         },
         "prereqs": [
-            "MATH 242",
-            "MATH 254"
+            "MATH 254",
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -33511,8 +33582,8 @@ global.math_tar = {
             "instructors": "Instructors: Jerome Vetois (Winter)"
         },
         "prereqs": [
-            "MATH 248",
-            "MATH 358"
+            "MATH 358",
+            "MATH 248"
         ],
         "coreqs": [],
         "restricts": []
@@ -33558,8 +33629,8 @@ global.math_tar = {
             "instructors": "Instructors: Pengfei Guan (Winter)"
         },
         "prereqs": [
-            "MATH 242",
-            "MATH 254"
+            "MATH 254",
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -33570,16 +33641,16 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-262\" target=\"_blank\">MATH 262</a> Intermediate Calculus (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Series and power series, including Taylor's theorem. Brief review of vector geometry. Vector functions and curves. Partial differentiation and differential calculus for vector valued functions. Unconstrained and constrained extremal problems. Multiple integrals including surface area and change of variables.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Charles Roth (Winter)"
+            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Vincent Létourneau (Fall), Charles Roth (Winter)"
         },
         "prereqs": [
-            "MATH 133",
-            "MATH 141"
+            "MATH 141",
+            "MATH 133"
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 152",
             "MATH 222",
+            "MATH 152",
             "MATH 151"
         ]
     },
@@ -33609,9 +33680,9 @@ global.math_tar = {
             "instructors": "Instructors: Biji Wong (Fall), Jacques Claude Hurtubise (Fall), Rustum Choksi (Winter)"
         },
         "prereqs": [
+            "MATH 262",
             "MATH 152",
-            "MATH 151",
-            "MATH 262"
+            "MATH 151"
         ],
         "coreqs": [
             "MATH 263"
@@ -33644,8 +33715,8 @@ global.math_tar = {
             "instructors": "Instructors: Charles Roth (Fall)"
         },
         "prereqs": [
-            "MATH 264",
-            "MATH 263"
+            "MATH 263",
+            "MATH 264"
         ],
         "coreqs": [],
         "restricts": []
@@ -33664,8 +33735,8 @@ global.math_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 248",
-            "MATH 358"
+            "MATH 358",
+            "MATH 248"
         ]
     },
     "MATH 315": {
@@ -33695,15 +33766,15 @@ global.math_tar = {
             "instructors": "Instructors: Brent Pym (Fall)"
         },
         "prereqs": [
-            "MATH 243",
-            "MATH 314"
+            "MATH 314",
+            "MATH 243"
         ],
         "coreqs": [],
         "restricts": [
+            "MATH 381",
             "MATH 249",
-            "MATH 366",
             "MATH 466",
-            "MATH 381"
+            "MATH 366"
         ]
     },
     "MATH 317": {
@@ -33717,8 +33788,8 @@ global.math_tar = {
         "prereqs": [
             "MATH 315",
             "MATH 263",
-            "MATH 325",
-            "COMP 202"
+            "COMP 202",
+            "MATH 325"
         ],
         "coreqs": [],
         "restricts": [
@@ -33734,9 +33805,9 @@ global.math_tar = {
             "instructors": "Instructors: Marcin Sabok (Fall)"
         },
         "prereqs": [
+            "MATH 235",
             "MATH 240",
-            "MATH 242",
-            "MATH 235"
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -33750,10 +33821,10 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 315",
-            "MATH 236",
             "MATH 314",
-            "MATH 223"
+            "MATH 236",
+            "MATH 223",
+            "MATH 315"
         ],
         "coreqs": [],
         "restricts": []
@@ -33767,10 +33838,10 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
             "MATH 314",
-            "MATH 236",
             "MATH 247",
+            "MATH 236",
+            "MATH 223",
             "MATH 248"
         ],
         "coreqs": [],
@@ -33829,8 +33900,8 @@ global.math_tar = {
             "instructors": "Instructors: Antony Raymond Humphries (Fall)"
         },
         "prereqs": [
-            "MATH 222",
-            "MATH 223"
+            "MATH 223",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -33846,11 +33917,11 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
-            "COMP 202",
+            "MATH 247",
             "MATH 251",
             "MATH 236",
-            "MATH 247"
+            "COMP 202",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": []
@@ -33878,8 +33949,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 236",
-            "MATH 235"
+            "MATH 235",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": []
@@ -33905,9 +33976,9 @@ global.math_tar = {
             "instructors": "Instructors: Jérôme Fortier (Winter)"
         },
         "prereqs": [
+            "MATH 235",
             "MATH 240",
-            "MATH 242",
-            "MATH 235"
+            "MATH 242"
         ],
         "coreqs": [
             "MATH 236",
@@ -33958,10 +34029,10 @@ global.math_tar = {
             "instructors": "Instructors: Sergey Norin (Fall)"
         },
         "prereqs": [
-            "MATH 240",
             "MATH 251",
-            "MATH 223",
-            "MATH 235"
+            "MATH 235",
+            "MATH 240",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": [
@@ -33989,9 +34060,9 @@ global.math_tar = {
             "instructors": "Instructors: Abbas Khalili Mahmoudabadi (Fall)"
         },
         "prereqs": [
-            "MATH 243",
+            "MATH 255",
             "MATH 222",
-            "MATH 255"
+            "MATH 243"
         ],
         "coreqs": [],
         "restricts": [
@@ -34024,14 +34095,14 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 251",
-            "MATH 222",
             "MATH 255",
+            "MATH 222",
             "MATH 247"
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 248",
-            "MATH 314"
+            "MATH 314",
+            "MATH 248"
         ]
     },
     "MATH 363": {
@@ -34043,8 +34114,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 264",
-            "MATH 263"
+            "MATH 263",
+            "MATH 264"
         ],
         "coreqs": [],
         "restricts": []
@@ -34058,8 +34129,8 @@ global.math_tar = {
             "instructors": "Instructors: Antony Raymond Humphries (Fall)"
         },
         "prereqs": [
-            "MATH 222",
-            "MATH 223"
+            "MATH 223",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -34108,8 +34179,8 @@ global.math_tar = {
             "MATH 325"
         ],
         "coreqs": [
-            "MATH 243",
-            "MATH 255"
+            "MATH 255",
+            "MATH 243"
         ],
         "restricts": []
     },
@@ -34166,11 +34237,11 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
-            "COMP 202",
-            "MATH 236",
-            "MATH 323",
             "MATH 314",
+            "MATH 236",
+            "COMP 202",
+            "MATH 323",
+            "MATH 223",
             "MATH 315"
         ],
         "coreqs": [],
@@ -34194,18 +34265,18 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-417\" target=\"_blank\">MATH 417</a> Linear Optimization (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : An introduction to linear optimization and its applications: Duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interior-point methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
         },
         "prereqs": [
+            "MATH 223",
             "MATH 314",
             "MATH 236",
-            "COMP 202",
-            "MATH 223"
+            "COMP 202"
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 487",
-            "MATH 517"
+            "MATH 517",
+            "MATH 487"
         ]
     },
     "MATH 420": {
@@ -34248,8 +34319,8 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 203",
-            "MATH 204",
-            "MATH 324"
+            "MATH 324",
+            "MATH 204"
         ],
         "coreqs": [],
         "restricts": []
@@ -34263,10 +34334,10 @@ global.math_tar = {
             "instructors": "Instructors: Djivede Kelome (Winter)"
         },
         "prereqs": [
-            "MATH 243",
             "MATH 356",
             "MATH 323",
             "MATH 255",
+            "MATH 243",
             "MATH 133"
         ],
         "coreqs": [],
@@ -34281,13 +34352,13 @@ global.math_tar = {
             "instructors": "Instructors: Anmar Khadra (Winter)"
         },
         "prereqs": [
-            "COMP 208",
             "COMP 204",
-            "MATH 376",
             "MATH 326",
             "COMP 202",
             "MATH 325",
-            "MATH 315"
+            "MATH 376",
+            "MATH 315",
+            "COMP 208"
         ],
         "coreqs": [],
         "restricts": []
@@ -34349,9 +34420,9 @@ global.math_tar = {
             "instructors": "Instructors: Michael Pichot (Fall)"
         },
         "prereqs": [
-            "MATH 247",
             "MATH 251",
-            "MATH 235"
+            "MATH 235",
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": [
@@ -34383,10 +34454,10 @@ global.math_tar = {
             "instructors": "Instructors: Jacques Claude Hurtubise (Winter)"
         },
         "prereqs": [
+            "MATH 314",
             "MATH 247",
             "MATH 251",
             "MATH 358",
-            "MATH 314",
             "MATH 248"
         ],
         "coreqs": [],
@@ -34407,10 +34478,10 @@ global.math_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 249",
-            "MATH 366",
             "MATH 381",
-            "MATH 316"
+            "MATH 316",
+            "MATH 249",
+            "MATH 366"
         ]
     },
     "MATH 470": {
@@ -34446,7 +34517,7 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 470"
+            "MATH 470D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -34460,10 +34531,10 @@ global.math_tar = {
             "instructors": "Instructors: Jessica Lin (Fall)"
         },
         "prereqs": [
-            "MATH 251",
-            "MATH 358",
-            "MATH 325",
             "MATH 247",
+            "MATH 251",
+            "MATH 325",
+            "MATH 358",
             "MATH 248"
         ],
         "coreqs": [],
@@ -34480,13 +34551,13 @@ global.math_tar = {
             "instructors": "Instructors: Jean-Christophe Nave (Winter)"
         },
         "prereqs": [
-            "MATH 387",
             "MECH 309",
-            "MATH 263",
-            "COMP 350",
+            "MATH 387",
             "MATH 325",
-            "MATH 317",
-            "MATH 315"
+            "COMP 350",
+            "MATH 263",
+            "MATH 315",
+            "MATH 317"
         ],
         "coreqs": [],
         "restricts": []
@@ -34524,13 +34595,13 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-517\" target=\"_blank\">MATH 517</a> Honours Linear Optimization (4 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Honours level introduction to linear optimization and its applications: duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interiorpoint methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
         },
         "prereqs": [
+            "MATH 223",
             "MATH 314",
             "MATH 236",
-            "COMP 202",
-            "MATH 223"
+            "COMP 202"
         ],
         "coreqs": [],
         "restricts": [
@@ -34595,8 +34666,8 @@ global.math_tar = {
             "instructors": "Instructors: Yi Yang (Fall)"
         },
         "prereqs": [
-            "MATH 251",
             "MATH 357",
+            "MATH 251",
             "MATH 247"
         ],
         "coreqs": [],
@@ -34613,11 +34684,11 @@ global.math_tar = {
             "instructors": "Instructors: Anmar Khadra (Winter)"
         },
         "prereqs": [
-            "COMP 208",
             "COMP 204",
-            "MATH 376",
             "COMP 202",
-            "MATH 325"
+            "MATH 325",
+            "MATH 376",
+            "COMP 208"
         ],
         "coreqs": [],
         "restricts": [
@@ -34648,8 +34719,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 323",
-            "MATH 324"
+            "MATH 324",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -34708,8 +34779,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 362",
-            "MATH 350"
+            "MATH 350",
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -34725,10 +34796,10 @@ global.math_tar = {
             "instructors": "Instructors: Adrian Roshan Vetta (Fall)"
         },
         "prereqs": [
-            "COMP 362",
             "MATH 350",
+            "MATH 487",
             "MATH 454",
-            "MATH 487"
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": [
@@ -34796,8 +34867,8 @@ global.math_tar = {
             "instructors": "Instructors: John A Toth (Fall)"
         },
         "prereqs": [
-            "MATH 454",
-            "MATH 455"
+            "MATH 455",
+            "MATH 454"
         ],
         "coreqs": [],
         "restricts": []
@@ -34825,9 +34896,9 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 366",
+            "MATH 564",
             "MATH 466",
-            "MATH 564"
+            "MATH 366"
         ],
         "coreqs": [],
         "restricts": []
@@ -34883,8 +34954,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 454",
-            "MATH 325"
+            "MATH 325",
+            "MATH 454"
         ],
         "coreqs": [],
         "restricts": []
@@ -35000,8 +35071,8 @@ global.math_tar = {
             "instructors": "Instructors: Daniel Wise (Winter)"
         },
         "prereqs": [
-            "MATH 456",
-            "MATH 576"
+            "MATH 576",
+            "MATH 456"
         ],
         "coreqs": [],
         "restricts": []
@@ -35015,9 +35086,9 @@ global.math_tar = {
             "instructors": "Instructors: Dana Louis Addario-Berry (Fall)"
         },
         "prereqs": [
-            "MATH 243",
             "MATH 356",
-            "MATH 255"
+            "MATH 255",
+            "MATH 243"
         ],
         "coreqs": [],
         "restricts": []
@@ -35114,8 +35185,8 @@ global.math_tar = {
             "instructors": "Instructors: Michael Pichot (Winter)"
         },
         "prereqs": [
-            "MATH 456",
-            "MATH 377"
+            "MATH 377",
+            "MATH 456"
         ],
         "coreqs": [],
         "restricts": []
@@ -35155,8 +35226,8 @@ global.math_tar = {
             "instructors": "Instructors: Jacques Claude Hurtubise (Fall), Brent Pym (Winter)"
         },
         "prereqs": [
-            "MATH 454",
-            "MATH 458"
+            "MATH 458",
+            "MATH 454"
         ],
         "coreqs": [],
         "restricts": []
@@ -35232,8 +35303,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 565",
             "MATH 564",
+            "MATH 565",
             "MATH 566"
         ],
         "coreqs": [],
@@ -35322,7 +35393,7 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 669"
+            "MATH 669D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -35348,8 +35419,8 @@ global.math_tar = {
             "instructors": "Instructors: Yi Yang (Fall)"
         },
         "prereqs": [
-            "MATH 557",
-            "MATH 556"
+            "MATH 556",
+            "MATH 557"
         ],
         "coreqs": [],
         "restricts": []
@@ -35381,9 +35452,9 @@ global.math_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 557",
             "MATH 357",
-            "MATH 324"
+            "MATH 324",
+            "MATH 557"
         ]
     },
     "MATH 685D1": {
@@ -35395,10 +35466,10 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 523",
-            "MATH 557",
+            "MATH 556",
             "MATH 423",
-            "MATH 556"
+            "MATH 557",
+            "MATH 523"
         ],
         "coreqs": [],
         "restricts": []
@@ -35412,7 +35483,7 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 685"
+            "MATH 685D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -35426,8 +35497,8 @@ global.math_tar = {
             "instructors": "Instructors: David B Wolfson (Fall)"
         },
         "prereqs": [
-            "MATH 557",
-            "MATH 556"
+            "MATH 556",
+            "MATH 557"
         ],
         "coreqs": [],
         "restricts": []
@@ -35879,8 +35950,7 @@ global.phys_src = {
             "PHYS 117",
             "PHYS 142",
             "PHYS 230",
-            "PHYS 251",
-            "PHYS 253"
+            "PHYS 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -36096,8 +36166,8 @@ global.phys_src = {
     "PHYS 230": {
         "prereqs": [
             "PHYS 232",
-            "PHYS 319",
             "PHYS 331",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [
@@ -36114,7 +36184,9 @@ global.phys_src = {
     },
     "PHYS 232": {
         "prereqs": [
+            "PHYS 329",
             "PHYS 333",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [],
@@ -36157,6 +36229,7 @@ global.phys_src = {
     "PHYS 251": {
         "prereqs": [
             "PHYS 351",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [
@@ -36172,7 +36245,10 @@ global.phys_src = {
         }
     },
     "PHYS 253": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 329",
+            "PHYS 362"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -36271,9 +36347,7 @@ global.phys_src = {
         }
     },
     "PHYS 329": {
-        "prereqs": [
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -36311,7 +36385,9 @@ global.phys_src = {
         }
     },
     "PHYS 362": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 519"
+        ],
         "coreqs": [],
         "restricts": [
             "PHYS 333"
@@ -36339,10 +36415,7 @@ global.phys_src = {
         }
     },
     "PHYS 340": {
-        "prereqs": [
-            "PHYS 342",
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -36569,7 +36642,9 @@ global.phys_src = {
         }
     },
     "PHYS 459D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 459D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -36999,10 +37074,7 @@ global.phys_src = {
         }
     },
     "PHYS 690": {
-        "prereqs": [
-            "PHYS 690D2",
-            "PHYS 690N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -37014,7 +37086,9 @@ global.phys_src = {
         }
     },
     "PHYS 690D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 690D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -37074,9 +37148,7 @@ global.phys_src = {
         }
     },
     "PHYS 692": {
-        "prereqs": [
-            "PHYS 692D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -37088,7 +37160,9 @@ global.phys_src = {
         }
     },
     "PHYS 692D1": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 692D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -37483,8 +37557,8 @@ global.phys_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "EPSC 182",
             "EPSC 186",
+            "EPSC 182",
             "ANAT 182"
         ]
     },
@@ -37625,8 +37699,8 @@ global.phys_tar = {
             "instructors": "Instructors: Simon Caron-Huot (Fall)"
         },
         "prereqs": [
-            "PHYS 131",
-            "CHEM 120"
+            "CHEM 120",
+            "PHYS 131"
         ],
         "coreqs": [
             "MATH 222"
@@ -37704,12 +37778,12 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
-            "PHYS 230",
             "BIOL 200",
-            "PHYS 253",
+            "PHYS 230",
+            "PHYS 232",
             "BIOL 219",
-            "MATH 222",
-            "PHYS 232"
+            "PHYS 253",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -37757,16 +37831,16 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
-            "BIOL 219",
-            "CHEM 345",
+            "PHYS 232",
             "PHYS 253",
-            "PHYS 232"
+            "BIOL 219",
+            "CHEM 345"
         ],
         "coreqs": [],
         "restricts": [
+            "CHEM 365",
             "PHYS 333",
-            "PHYS 362",
-            "CHEM 365"
+            "PHYS 362"
         ]
     },
     "PHYS 331": {
@@ -37784,8 +37858,8 @@ global.phys_tar = {
             "MATH 315"
         ],
         "restricts": [
-            "PHYS 451",
-            "PHYS 351"
+            "PHYS 351",
+            "PHYS 451"
         ]
     },
     "PHYS 333": {
@@ -37834,8 +37908,8 @@ global.phys_tar = {
             "MATH 314"
         ],
         "restricts": [
-            "PHYS 350",
-            "PHYS 242"
+            "PHYS 242",
+            "PHYS 350"
         ]
     },
     "PHYS 342": {
@@ -37847,10 +37921,10 @@ global.phys_tar = {
             "instructors": "Instructors: Guillaume Gervais (Winter)"
         },
         "prereqs": [
-            "PHYS 340",
-            "MATH 315",
             "MATH 314",
-            "PHYS 242"
+            "PHYS 242",
+            "MATH 315",
+            "PHYS 340"
         ],
         "coreqs": [],
         "restricts": []
@@ -37864,8 +37938,8 @@ global.phys_tar = {
             "instructors": "Instructors: Jonathan Le Roy Sievers (Fall)"
         },
         "prereqs": [
-            "MATH 248",
-            "MATH 325"
+            "MATH 325",
+            "MATH 248"
         ],
         "coreqs": [],
         "restricts": []
@@ -37909,9 +37983,9 @@ global.phys_tar = {
             "instructors": "Instructors: Tamar Pereg-Barnea (Fall)"
         },
         "prereqs": [
-            "MATH 223",
-            "PHYS 230",
             "CIVE 281",
+            "PHYS 230",
+            "MATH 223",
             "PHYS 251"
         ],
         "coreqs": [],
@@ -37940,8 +38014,8 @@ global.phys_tar = {
             "instructors": "Instructors: Martin Grant (Winter)"
         },
         "prereqs": [
-            "MATH 248",
-            "PHYS 253"
+            "PHYS 253",
+            "MATH 248"
         ],
         "coreqs": [],
         "restricts": []
@@ -37967,13 +38041,13 @@ global.phys_tar = {
             "instructors": "Instructors: Nicolas Cowan (Fall)"
         },
         "prereqs": [
-            "MATH 315",
-            "PHYS 251",
-            "MATH 325",
             "PHYS 230",
+            "PHYS 251",
+            "PHYS 232",
+            "MATH 325",
             "PHYS 253",
-            "MATH 222",
-            "PHYS 232"
+            "MATH 315",
+            "MATH 222"
         ],
         "coreqs": [],
         "restricts": [
@@ -37989,8 +38063,8 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 325",
-            "MATH 315"
+            "MATH 315",
+            "MATH 325"
         ],
         "coreqs": [],
         "restricts": []
@@ -38004,10 +38078,10 @@ global.phys_tar = {
             "instructors": "Instructors: Eve J Lee (Winter)"
         },
         "prereqs": [
-            "MATH 223",
+            "MATH 314",
             "PHYS 230",
-            "MATH 315",
-            "MATH 314"
+            "MATH 223",
+            "MATH 315"
         ],
         "coreqs": [],
         "restricts": [
@@ -38023,8 +38097,8 @@ global.phys_tar = {
             "instructors": "Instructors: David Cooke (Fall)"
         },
         "prereqs": [
-            "PHYS 342",
-            "PHYS 352"
+            "PHYS 352",
+            "PHYS 342"
         ],
         "coreqs": [],
         "restricts": []
@@ -38057,8 +38131,8 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "PHYS 232",
-            "PHYS 251"
+            "PHYS 251",
+            "PHYS 232"
         ],
         "coreqs": [],
         "restricts": [
@@ -38129,7 +38203,7 @@ global.phys_tar = {
             "instructors": "Instructors: David Hanna (Winter)"
         },
         "prereqs": [
-            "PHYS 459"
+            "PHYS 459D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -38218,11 +38292,11 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 350",
+            "PHYS 362",
             "PHYS 333",
-            "PHYS 340",
-            "PHYS 329",
             "MATH 437",
-            "PHYS 362"
+            "PHYS 329",
+            "PHYS 340"
         ],
         "coreqs": [],
         "restricts": []
@@ -38580,7 +38654,7 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 690"
+            "PHYS 690D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -38605,9 +38679,7 @@ global.phys_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "PHYS 690"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -38656,7 +38728,7 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 692"
+            "PHYS 692D1"
         ],
         "coreqs": [],
         "restricts": []

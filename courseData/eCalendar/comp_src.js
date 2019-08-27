@@ -11,6 +11,48 @@ global.comp_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "COMP 250": {
+        "prereqs": [
+            "COMP 206",
+            "COMP 251",
+            "COMP 302",
+            "COMP 303",
+            "COMP 322",
+            "COMP 350",
+            "COMP 361D1",
+            "COMP 557",
+            "COMP 559"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102",
+            "COMP 202"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisites: Familiarity with a high level programming language and CEGEP level Math.</p>\n\n<p>Students with limited programming experience should take <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or equivalent before <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>. See <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Course Description for a list of topics.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> Introduction to Computer Science (3 credits)",
+            "overview": "Computer Science (Sci) : Mathematical tools (binary numbers, induction, recurrence relations, asymptotic complexity, establishing correctness of programs), Data structures (arrays, stacks, queues, linked lists, trees, binary trees, binary search trees, heaps, hash tables), Recursive and non-recursive algorithms (searching and sorting, tree and graph traversal). Abstract data types, inheritance. Selected topics.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Michael Langer (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
+        }
+    },
+    "COMP 202": {
+        "prereqs": [
+            "COMP 206",
+            "COMP 350"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
+            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
+        }
+    },
     "COMP 189": {
         "prereqs": [],
         "coreqs": [],
@@ -33,43 +75,6 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : This is a seminar format course intended for freshman and other beginning students. The topics are chosen to encourage critical discussion of fundamental ideas. Possible topics are computability, complexity, geometry, vision, AI, pattern recognition, machine models, cryptography and security and social implications of computing.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "COMP 202": {
-        "prereqs": [
-            "COMP 206"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
-            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
-        }
-    },
-    "COMP 250": {
-        "prereqs": [
-            "COMP 206",
-            "COMP 251",
-            "COMP 252",
-            "COMP 302",
-            "COMP 303",
-            "COMP 322",
-            "COMP 361D1",
-            "COMP 445"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "COMP 202"
-        ],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisites: Familiarity with a high level programming language and CEGEP level Math.</p>\n\n<p>Students with limited programming experience should take <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or equivalent before <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>. See <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Course Description for a list of topics.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> Introduction to Computer Science (3 credits)",
-            "overview": "Computer Science (Sci) : Mathematical tools (binary numbers, induction, recurrence relations, asymptotic complexity, establishing correctness of programs), Data structures (arrays, stacks, queues, linked lists, trees, binary trees, binary search trees, heaps, hash tables), Recursive and non-recursive algorithms (searching and sorting, tree and graph traversal). Abstract data types, inheritance. Selected topics.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Michael Langer (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
     "COMP 208": {
@@ -106,7 +111,8 @@ global.comp_src = {
             "COMP 307",
             "COMP 322",
             "COMP 361D1",
-            "COMP 421"
+            "COMP 421",
+            "COMP 526"
         ],
         "coreqs": [
             "COMP 273"
@@ -135,16 +141,10 @@ global.comp_src = {
     "COMP 251": {
         "prereqs": [
             "COMP 330",
-            "COMP 360",
-            "COMP 401",
-            "COMP 409",
             "COMP 421",
-            "COMP 462",
             "COMP 512",
             "COMP 522",
             "COMP 525",
-            "COMP 550",
-            "COMP 561",
             "COMP 621"
         ],
         "coreqs": [],
@@ -159,7 +159,9 @@ global.comp_src = {
     },
     "COMP 252": {
         "prereqs": [
-            "COMP 362"
+            "COMP 360",
+            "COMP 362",
+            "COMP 550"
         ],
         "coreqs": [],
         "restricts": [],
@@ -336,7 +338,7 @@ global.comp_src = {
         "prereqs": [
             "COMP 526",
             "COMP 547",
-            "COMP 560"
+            "COMP 558"
         ],
         "coreqs": [],
         "restricts": [
@@ -351,7 +353,9 @@ global.comp_src = {
         }
     },
     "COMP 361D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 361D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -376,9 +380,7 @@ global.comp_src = {
     },
     "COMP 362": {
         "prereqs": [
-            "COMP 547",
-            "COMP 552",
-            "COMP 554"
+            "COMP 552"
         ],
         "coreqs": [],
         "restricts": [],
@@ -516,7 +518,8 @@ global.comp_src = {
     },
     "COMP 424": {
         "prereqs": [
-            "COMP 526"
+            "COMP 526",
+            "COMP 652"
         ],
         "coreqs": [],
         "restricts": [],
@@ -570,7 +573,9 @@ global.comp_src = {
         }
     },
     "COMP 512": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -658,9 +663,7 @@ global.comp_src = {
         }
     },
     "COMP 526": {
-        "prereqs": [
-            "COMP 652"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -720,7 +723,9 @@ global.comp_src = {
         }
     },
     "COMP 535": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -905,9 +910,7 @@ global.comp_src = {
         }
     },
     "COMP 566": {
-        "prereqs": [
-            "COMP 567"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -991,10 +994,7 @@ global.comp_src = {
         }
     },
     "COMP 601": {
-        "prereqs": [
-            "COMP 601D2",
-            "COMP 601N2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1006,7 +1006,9 @@ global.comp_src = {
         }
     },
     "COMP 601D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 601D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1090,7 +1092,9 @@ global.comp_src = {
         }
     },
     "COMP 616D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 616D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1366,9 +1370,7 @@ global.comp_src = {
         }
     },
     "COMP 700": {
-        "prereqs": [
-            "COMP 700D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1380,7 +1382,9 @@ global.comp_src = {
         }
     },
     "COMP 700D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 700D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {

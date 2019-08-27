@@ -45,6 +45,7 @@ global.econ_src = {
             "ECON 336",
             "ECON 341",
             "ECON 344",
+            "ECON 345",
             "ECON 347",
             "ECON 440"
         ],
@@ -60,51 +61,13 @@ global.econ_src = {
             "instructors": "Instructors: Mayssun El-Attar Vilalta (Fall), Paul Dickinson (Fall), Eesha Sen Choudhury (Fall), Sara Hayati (Fall), Paul Dickinson (Winter)"
         }
     },
-    "ECON 230": {
-        "prereqs": [
-            "ECON 230D2",
-            "ECON 306",
-            "ECON 330D1",
-            "ECON 336",
-            "ECON 348",
-            "ECON 405",
-            "ECON 406",
-            "ECON 408",
-            "ECON 411",
-            "ECON 416",
-            "ECON 420",
-            "ECON 423",
-            "ECON 424",
-            "ECON 426",
-            "ECON 434",
-            "ECON 447",
-            "ECON 459",
-            "ECON 473",
-            "ECON 510",
-            "ECON 531",
-            "ECON 546",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 221"
-        ],
-        "restricts": [
-            "ECON 208"
-        ],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
-            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
-        }
-    },
     "ECON 209": {
         "prereqs": [
             "ECON 302",
             "ECON 303",
             "ECON 304",
             "ECON 305",
+            "ECON 306",
             "ECON 308",
             "ECON 311",
             "ECON 313",
@@ -119,7 +82,9 @@ global.econ_src = {
             "ECON 344",
             "ECON 347"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECON 221"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> or permission of the instructor </p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-295\" target=\"_blank\">ECON 295</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330\" target=\"_blank\">ECON 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352\" target=\"_blank\">ECON 352</a></p>\n",
@@ -153,6 +118,55 @@ global.econ_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECON 230D1": {
+        "prereqs": [
+            "ECON 230D2",
+            "ECON 306",
+            "ECON 336",
+            "ECON 348",
+            "ECON 408",
+            "ECON 423",
+            "ECON 424",
+            "ECON 426",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
+            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Fabian Lange Ling Ling Zhang (Fall)"
+        }
+    },
+    "ECON 250D1": {
+        "prereqs": [
+            "ECON 250D2",
+            "ECON 306",
+            "ECON 352D1",
+            "ECON 423",
+            "ECON 424",
+            "ECON 450",
+            "ECON 452",
+            "ECON 453",
+            "ECON 454",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
+            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Licun Xue (Fall)"
+        }
+    },
     "ECON 223": {
         "prereqs": [],
         "coreqs": [],
@@ -179,11 +193,11 @@ global.econ_src = {
     },
     "ECON 227": {
         "prereqs": [
-            "ECON 227D2",
             "ECON 337",
-            "ECON 348",
+            "ECON 406",
             "ECON 440",
-            "ECON 462"
+            "ECON 462",
+            "ECON 473"
         ],
         "coreqs": [],
         "restricts": [],
@@ -196,7 +210,10 @@ global.econ_src = {
         }
     },
     "ECON 227D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 227D2",
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -208,7 +225,9 @@ global.econ_src = {
         }
     },
     "ECON 227D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -219,20 +238,36 @@ global.econ_src = {
             "instructors": "Instructors: Kenneth MacKenzie (Winter)"
         }
     },
-    "ECON 230D1": {
-        "prereqs": [],
+    "ECON 230": {
+        "prereqs": [
+            "ECON 330D1",
+            "ECON 405",
+            "ECON 406",
+            "ECON 411",
+            "ECON 416",
+            "ECON 420",
+            "ECON 434",
+            "ECON 447",
+            "ECON 459",
+            "ECON 473",
+            "ECON 510",
+            "ECON 531",
+            "ECON 546"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
             "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Fabian Lange Ling Ling Zhang (Fall)"
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
         }
     },
     "ECON 230D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 348"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -243,20 +278,12 @@ global.econ_src = {
             "instructors": "Instructors: Hassan Benchekroun (Winter)"
         }
     },
-    "ECON 250D1": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
-            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Licun Xue (Fall)"
-        }
-    },
     "ECON 250D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 352D1",
+            "ECON 450",
+            "ECON 452"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -268,8 +295,13 @@ global.econ_src = {
         }
     },
     "ECON 257D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 257D2",
+            "ECON 468"
+        ],
+        "coreqs": [
+            "ECON 352D1"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Corequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a></p>\n\n<p>Restriction: Not open to students who have taken 154-357 or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-217\" target=\"_blank\">ECON 217</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227\" target=\"_blank\">ECON 227</a>.</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d2\" target=\"_blank\">ECON 257D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d2\" target=\"_blank\">ECON 257D2</a> are successfully completed in consecutive terms</p>\n\n<p>You may not be able to receive credit for this course and other statistic courses. Be sure to check the Course Overlap section under Faculty Degree Requirements in the Arts or Science section of the Calendar.</p>\n",
@@ -306,9 +338,7 @@ global.econ_src = {
     "ECON 302": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "ECON 304"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a></p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302d1\" target=\"_blank\">ECON 302D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302d2\" target=\"_blank\">D2</a> (6 credits).</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-302\" target=\"_blank\">ECON 302</a> Money, Banking & Government Policy (3 credits)",
@@ -478,8 +508,13 @@ global.econ_src = {
         }
     },
     "ECON 330D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 330D2",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a>. If a student has already taken 154-200 or 154-203 and 154-204 or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, it may be concurrently taken with <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> with the permission of the instructor</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a> are successfully completed in consecutive terms</p>\n",
@@ -636,8 +671,15 @@ global.econ_src = {
         }
     },
     "ECON 352D1": {
-        "prereqs": [],
-        "coreqs": [],
+        "prereqs": [
+            "ECON 352D2",
+            "ECON 450",
+            "ECON 452",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a></p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a></p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a> are successfully completed in consecutive terms</p>\n",
@@ -648,7 +690,10 @@ global.econ_src = {
         }
     },
     "ECON 352D2": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 450",
+            "ECON 452"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -700,9 +745,7 @@ global.econ_src = {
             "ECON 409"
         ],
         "coreqs": [],
-        "restricts": [
-            "ECON 409"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">D2</a> or 250D1/D2 or permission of the instructor.</p>\n\n<p>Not open to students who have already completed <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408d1\" target=\"_blank\">ECON 408D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408d2\" target=\"_blank\">D2</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-408\" target=\"_blank\">ECON 408</a> Public Sector Economics 1 (3 credits)",
@@ -1128,9 +1171,7 @@ global.econ_src = {
         }
     },
     "ECON 622": {
-        "prereqs": [
-            "ECON 622D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1142,7 +1183,9 @@ global.econ_src = {
         }
     },
     "ECON 622D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 622D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1178,9 +1221,7 @@ global.econ_src = {
         }
     },
     "ECON 624": {
-        "prereqs": [
-            "ECON 624D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1192,7 +1233,9 @@ global.econ_src = {
         }
     },
     "ECON 624D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 624D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1263,7 +1306,7 @@ global.econ_src = {
             "notes": "",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-641\" target=\"_blank\">ECON 641</a> Labour Economics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
@@ -1355,7 +1398,6 @@ global.econ_src = {
     },
     "ECON 662": {
         "prereqs": [
-            "ECON 662D2",
             "ECON 742"
         ],
         "coreqs": [],
@@ -1369,7 +1411,9 @@ global.econ_src = {
         }
     },
     "ECON 662D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 662D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1453,9 +1497,7 @@ global.econ_src = {
         }
     },
     "ECON 681": {
-        "prereqs": [
-            "ECON 681D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1467,7 +1509,9 @@ global.econ_src = {
         }
     },
     "ECON 681D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 681D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1491,9 +1535,7 @@ global.econ_src = {
         }
     },
     "ECON 682": {
-        "prereqs": [
-            "ECON 682D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1505,7 +1547,9 @@ global.econ_src = {
         }
     },
     "ECON 682D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 682D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1773,9 +1817,7 @@ global.econ_src = {
         }
     },
     "ECON 762": {
-        "prereqs": [
-            "ECON 762D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "ECON 761"
@@ -1789,7 +1831,9 @@ global.econ_src = {
         }
     },
     "ECON 762D1": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 762D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
