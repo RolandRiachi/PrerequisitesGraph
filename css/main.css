@@ -122,6 +122,10 @@ p {
   padding-left: 30px;
 }
 
+#arrow-behaviour {
+  padding-left: 30px;
+}
+
 #course-selector {
   float: inherit;
   display: block;

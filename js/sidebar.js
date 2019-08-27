@@ -26,6 +26,10 @@ function toggle(){
   this.other.checked = false;
 };
 
+function keepPCR(e){
+  if ( !document.getElementById("prereqs").checked && !document.getElementById("coreqs").checked && !document.getElementById("restricts").checked ) e.target.checked = true;
+};
+
 function autocomplete() {
   var inp, numSuggestionsShown, recentlyScrolled;
 
@@ -242,6 +246,9 @@ function resubmit(){
 
   var interDepartmentOn = document.getElementById("inter-department").checked;
 
+  if ( document.getElementById("sys-msg-crs") ) lowerCourseError();
+  else if ( document.getElementById("sys-msg-opt") ) lowerOptionError();
+
   instructions();
   legend();
   DFS(graph.currCourse, behaviour, options, interDepartmentOn);
@@ -319,7 +326,7 @@ function raiseOptionError(){
   slide.setAttribute("id", "sys-msg-opt");
 
   var parent = document.getElementById("side-panel-content");
-  parent.appendChild(slide);
+  parent.insertBefore(slide, parent.childNodes[parent.childNodes.length - 2]);
 };
 
 function lowerOptionError(){
@@ -338,7 +345,7 @@ function raiseCourseError(){
   slide.setAttribute("id", "sys-msg-crs");
 
   var parent = document.getElementById("side-panel-content");
-  parent.appendChild(slide);
+  parent.insertBefore(slide, parent.childNodes[parent.childNodes.length - 2]);
 };
 
 function lowerCourseError(){
@@ -360,9 +367,19 @@ window.addEventListener("load", function(){
 
   srcButton.addEventListener("change", resubmit);
   tarButton.addEventListener("change", resubmit);
-  document.getElementById("prereqs").addEventListener("change", resubmit);
-  document.getElementById("coreqs").addEventListener("change", resubmit);
-  document.getElementById("restricts").addEventListener("change", resubmit);
+
+  var prereq = document.getElementById("prereqs");
+  prereq.addEventListener("change", resubmit);
+  prereq.addEventListener("change", keepPCR);
+
+  var coreq = document.getElementById("coreqs");
+  coreq.addEventListener("change", resubmit);
+  coreq.addEventListener("change", keepPCR);
+
+  var restricts = document.getElementById("restricts");
+  restricts.addEventListener("change", resubmit);
+  restricts.addEventListener("change", keepPCR);
+
   document.getElementById("inter-department").addEventListener("change", resubmit);
 
   autocomplete();
