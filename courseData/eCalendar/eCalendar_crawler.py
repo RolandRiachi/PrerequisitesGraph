@@ -1,26 +1,6 @@
 import requests
 import re
 import json
-from sys import argv
-
-#Finding links to courses - re.findall('<a href="(/study/2019-2020/courses/.{4}-\d\d\d)">.*?</a>', str(r.text))
-#Finding link to next page - re.search('<li class="pager-next"><a href="(.*?)">', str(r.text))
-
-#Things to scrape from each page:
-#Course overview
-#Course prereqs, coreqs, restrictions
-#Whether its being offered in fall/winter
-#Prof thats teaching the course?
-
-#Output to following format:
-# {
-#     COURSETITLE: {
-#         prereqs: [],
-#         coreqs: [],
-#         restricts: [],
-#         info: []
-#     }
-# }
 
 def links_to_courses(start):
     '''
@@ -61,9 +41,9 @@ def course_info(link):
 
         text - string which contains instructor names and the terms they teach the course. E.g.: "name, name (Fall) name, name (Winter) name, name (Summer)"
         '''
-        fall_index = text.find(' (Fall) ')
-        winter_index = text.find(' (Winter) ')
-        summer_index = text.find(' (Summer) ')
+        fall_index = text.find('(Fall)')
+        winter_index = text.find('(Winter)')
+        summer_index = text.find('(Summer)')
 
         output = []
         for i in range(len(text)):
@@ -210,5 +190,4 @@ if __name__ == '__main__':
     to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
     to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
     to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
-    # courses = links_to_courses('https://mcgill.ca/study/2019-2020/courses/search?f%5B0%5D=field_dept_code%3A0290')
-    # print(course_info(courses[16]))
+    pass

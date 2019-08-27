@@ -17,11 +17,11 @@ global.comp_src = {
             "COMP 251",
             "COMP 302",
             "COMP 303",
+            "COMP 321",
             "COMP 322",
             "COMP 350",
             "COMP 361D1",
-            "COMP 557",
-            "COMP 559"
+            "COMP 445"
         ],
         "coreqs": [],
         "restricts": [
@@ -53,6 +53,23 @@ global.comp_src = {
             "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
+    "COMP 208": {
+        "prereqs": [
+            "COMP 322"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102",
+            "COMP 202"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> or equivalent.</p>\n\n<p>Restrictions: Credit can be given only for one of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a>. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-206\" target=\"_blank\">COMP 206</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students with sufficient math background and in (non-life) science or engineering fields.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> Computer Programming for Physical Sciences and\r Engineering\r (3 credits)",
+            "overview": "Computer Science (Sci) : Programming and problem solving in a high level computer language: variables, expressions, types, functions, conditionals, loops, objects and classes. Introduction to algorithms such as searching and sorting. Modular software design, libraries, file input and output, debugging. Emphasis on applications in Physical Sciences\nand Engineering, such as root finding, numerical integration, diffusion, Monte Carlo methods.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Jonathan Campbell (Fall), Deven Parekh (Fall)"
+        }
+    },
     "COMP 189": {
         "prereqs": [],
         "coreqs": [],
@@ -77,22 +94,6 @@ global.comp_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "COMP 208": {
-        "prereqs": [
-            "COMP 322"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "COMP 202"
-        ],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> or equivalent.</p>\n\n<p>Restrictions: Credit can be given only for one of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a>. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-206\" target=\"_blank\">COMP 206</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students with sufficient math background and in (non-life) science or engineering fields.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> Computer Programming for Physical Sciences and\r Engineering\r (3 credits)",
-            "overview": "Computer Science (Sci) : Programming and problem solving in a high level computer language: variables, expressions, types, functions, conditionals, loops, objects and classes. Introduction to algorithms such as searching and sorting. Modular software design, libraries, file input and output, debugging. Emphasis on applications in Physical Sciences\nand Engineering, such as root finding, numerical integration, diffusion, Monte Carlo methods.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Jonathan Campbell Deven Parekh (Fall)"
-        }
-    },
     "COMP 204": {
         "prereqs": [],
         "coreqs": [],
@@ -109,6 +110,7 @@ global.comp_src = {
         "prereqs": [
             "COMP 303",
             "COMP 307",
+            "COMP 321",
             "COMP 322",
             "COMP 361D1",
             "COMP 421",
@@ -203,7 +205,6 @@ global.comp_src = {
     },
     "COMP 302": {
         "prereqs": [
-            "COMP 409",
             "COMP 421",
             "COMP 520",
             "COMP 522",
@@ -224,6 +225,7 @@ global.comp_src = {
     },
     "COMP 303": {
         "prereqs": [
+            "COMP 521",
             "COMP 529"
         ],
         "coreqs": [
@@ -331,15 +333,11 @@ global.comp_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-350\" target=\"_blank\">COMP 350</a> Numerical Computing (3 credits)",
             "overview": "Computer Science (Sci) : Computer representation of numbers, IEEE Standard for Floating Point Representation, computer arithmetic and rounding errors. Numerical stability. Matrix computations and software systems. Polynomial interpolation. Least-squares approximation. Iterative methods for solving a nonlinear equation. Discretization methods for integration and differential equations.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Ivo Panayotov Sitao Luan (Fall)"
+            "instructors": "Instructors: Ivo Panayotov (Fall), Sitao Luan (Fall)"
         }
     },
     "COMP 360": {
-        "prereqs": [
-            "COMP 526",
-            "COMP 547",
-            "COMP 558"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "COMP 362"
@@ -380,7 +378,8 @@ global.comp_src = {
     },
     "COMP 362": {
         "prereqs": [
-            "COMP 552"
+            "COMP 552",
+            "COMP 554"
         ],
         "coreqs": [],
         "restricts": [],
@@ -503,9 +502,7 @@ global.comp_src = {
         }
     },
     "COMP 421": {
-        "prereqs": [
-            "COMP 614"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -518,8 +515,7 @@ global.comp_src = {
     },
     "COMP 424": {
         "prereqs": [
-            "COMP 526",
-            "COMP 652"
+            "COMP 526"
         ],
         "coreqs": [],
         "restricts": [],
@@ -573,9 +569,7 @@ global.comp_src = {
         }
     },
     "COMP 512": {
-        "prereqs": [
-            "COMP 614"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -637,9 +631,7 @@ global.comp_src = {
         }
     },
     "COMP 524": {
-        "prereqs": [
-            "COMP 627"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -796,7 +788,7 @@ global.comp_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-551\" target=\"_blank\">COMP 551</a> Applied Machine Learning (4 credits)",
             "overview": "Computer Science (Sci) : Selected topics in machine learning and data mining, including clustering, neural networks, support vector machines, decision trees. Methods include feature selection and dimensionality reduction, error estimation and empirical validation, algorithm design and parallelization, and handling of large data sets. Emphasis on good methods and practices for deployment of real systems.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany Mohsen Ravanbakhsh (Winter)"
+            "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany (Winter), Mohsen Ravanbakhsh (Winter)"
         }
     },
     "COMP 552": {
@@ -910,7 +902,9 @@ global.comp_src = {
         }
     },
     "COMP 566": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 567"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -954,7 +948,7 @@ global.comp_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-596\" target=\"_blank\">COMP 596</a> Topics in Computer Science 3 (3 credits)",
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Reihaneh Rabbany (Fall), Brigitte Pientka Blake Richards (Winter)"
+            "instructors": "Instructors: Reihaneh Rabbany (Fall), Brigitte Pientka (Winter), Blake Richards (Winter)"
         }
     },
     "COMP 597": {
@@ -990,7 +984,7 @@ global.comp_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-599\" target=\"_blank\">COMP 599</a> Topics in Computer Science 2 (4 credits)",
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Prakash Panangaden Derek Nowrouzezahrai (Fall)"
+            "instructors": "Instructors: Prakash Panangaden (Fall), Derek Nowrouzezahrai (Fall)"
         }
     },
     "COMP 601": {

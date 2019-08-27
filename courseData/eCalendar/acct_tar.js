@@ -136,8 +136,8 @@ global.acct_tar = {
             "instructors": "Instructors: Julia Scott (Fall)"
         },
         "prereqs": [
-            "ACCT 352",
-            "ACCT 312"
+            "ACCT 312",
+            "ACCT 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -151,8 +151,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 352",
-            "ACCT 312"
+            "ACCT 312",
+            "ACCT 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -166,8 +166,8 @@ global.acct_tar = {
             "instructors": "Instructors: Ralph Cecere (Fall)"
         },
         "prereqs": [
-            "ACCT 352",
-            "ACCT 312"
+            "ACCT 312",
+            "ACCT 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -195,8 +195,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 352",
-            "ACCT 312"
+            "ACCT 312",
+            "ACCT 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -210,8 +210,8 @@ global.acct_tar = {
             "instructors": "Instructors: Ralph Cecere (Fall), Ralph Cecere (Winter)"
         },
         "prereqs": [
-            "ACCT 352",
-            "ACCT 312"
+            "ACCT 312",
+            "ACCT 352"
         ],
         "coreqs": [],
         "restricts": []
@@ -524,13 +524,13 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/acct-683\" target=\"_blank\">ACCT 683</a> Practice of Taxation (4 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Evan Schneiderman Riccardo Zerbino Melissa Marginson (Fall)"
+            "instructors": "Instructors: Evan Schneiderman (Fall), Riccardo Zerbino (Fall), Melissa Marginson (Fall)"
         },
         "prereqs": [
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 654",
             "ACCT 664",
-            "ACCT 654"
+            "ACCT 653"
         ],
         "coreqs": [],
         "restricts": []
@@ -544,10 +544,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 654",
             "ACCT 664",
-            "ACCT 654"
+            "ACCT 653"
         ],
         "coreqs": [],
         "restricts": []
@@ -558,13 +558,13 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/acct-687\" target=\"_blank\">ACCT 687</a> Assurance Services (4 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Evan Schneiderman Michael Cohen Michael Richardson (Fall)"
+            "instructors": "Instructors: Evan Schneiderman (Fall), Michael Cohen (Fall), Michael Richardson (Fall)"
         },
         "prereqs": [
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 654",
             "ACCT 664",
-            "ACCT 654"
+            "ACCT 653"
         ],
         "coreqs": [],
         "restricts": []
@@ -578,10 +578,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 654",
             "ACCT 664",
-            "ACCT 654"
+            "ACCT 653"
         ],
         "coreqs": [],
         "restricts": []
@@ -607,10 +607,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 685",
+            "ACCT 689",
             "ACCT 683",
             "ACCT 687",
-            "ACCT 689"
+            "ACCT 685"
         ],
         "coreqs": [
             "ACCT 699"
@@ -661,7 +661,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/acct-706\" target=\"_blank\">ACCT 706</a> Research Design in Accounting (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jingjing Zhang Seunghwan Oh (Fall)"
+            "instructors": "Instructors: Jingjing Zhang (Fall), Seunghwan Oh (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -927,8 +927,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 341",
-            "INTG 201",
-            "FACC 300"
+            "FACC 300",
+            "INTG 201"
         ],
         "coreqs": [],
         "restricts": []
@@ -1005,7 +1005,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-499\" target=\"_blank\">BUSA 499</a> Case Analysis and Presentation (3 credits)",
             "overview": "Business Admin : Integration of core knowledge and practice for preparing and presenting case studies, including professor coaching, preparation and presentation feedback, presentation skills, leadership skills, team building skills, analytical skills, logical thinking, debating, persuasive communications and cross discipline work.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Julia Scott Melissa Sonberg (Fall)"
+            "instructors": "Instructors: Julia Scott (Fall), Melissa Sonberg (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1020,14 +1020,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
+            "MGSC 662",
             "INSY 660",
             "ORGB 661",
-            "MGSC 662",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1041,15 +1041,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
-            "INSY 660",
-            "ORGB 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
             "MGSC 662",
             "BUSA 693",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "INSY 660",
+            "ORGB 661",
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1063,15 +1063,15 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
-            "INSY 660",
-            "ORGB 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
             "MGSC 662",
             "BUSA 693",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "INSY 660",
+            "ORGB 661",
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1085,11 +1085,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1223,14 +1223,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BUSA 650",
-            "MGCR 650",
             "BUSA 699",
-            "BUSA 698",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
+            "BUSA 650",
+            "BUSA 698",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1244,11 +1244,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1262,11 +1262,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1294,11 +1294,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1312,11 +1312,11 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
-            "MGCR 651",
             "MGCR 629",
+            "MGCR 652",
+            "MGCR 651",
             "MGCR 653",
-            "MGCR 652"
+            "MGCR 650"
         ],
         "coreqs": [],
         "restricts": []
@@ -1367,7 +1367,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-664\" target=\"_blank\">BUSA 664</a> Creating the Small Business (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Imad Tabet Michael M Avedesian (Fall)"
+            "instructors": "Instructors: Imad Tabet (Fall), Michael M Avedesian (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1650,14 +1650,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
+            "MGSC 662",
             "INSY 660",
             "ORGB 661",
-            "MGSC 662",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1754,7 +1754,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-690\" target=\"_blank\">BUSA 690</a> Advanced Topics in Management 1 (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Karl James Moore Elliot Lifson Desmond Tsang (Fall)"
+            "instructors": "Instructors: Karl James Moore (Fall), Elliot Lifson (Fall), Desmond Tsang (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1819,14 +1819,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
+            "MGSC 662",
             "INSY 660",
             "ORGB 661",
-            "MGSC 662",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1840,14 +1840,14 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGSC 660",
-            "INSY 661",
+            "INSY 662",
+            "ORGB 660",
+            "MGSC 661",
+            "MGSC 662",
             "INSY 660",
             "ORGB 661",
-            "MGSC 662",
-            "MGSC 661",
-            "INSY 662",
-            "ORGB 660"
+            "MGSC 660",
+            "INSY 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1930,7 +1930,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-342\" target=\"_blank\">FINE 342</a> Corporate Finance (3 credits)",
             "overview": "Finance : In-depth study of corporate finance, risk, diversification, portfolio analysis, and capital market theory.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Sujata Madan (Fall), Larbi Hammami (Fall), Sujata Madan Thomas Rivera (Winter)"
+            "instructors": "Instructors: Sujata Madan (Fall), Larbi Hammami (Fall), Sujata Madan (Winter), Thomas Rivera (Winter)"
         },
         "prereqs": [
             "MGCR 341"
@@ -1944,7 +1944,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-434\" target=\"_blank\">FINE 434</a> Topics in Finance 1 (3 credits)",
             "overview": "Finance : Topics will be selected from current issues in the Finance Area.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Fahad Saleh David Schumacher (Winter)"
+            "instructors": "Instructors: Fahad Saleh (Winter), David Schumacher (Winter)"
         },
         "prereqs": [
             "MGCR 341"
@@ -1985,7 +1985,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-441\" target=\"_blank\">FINE 441</a> Investment Management (3 credits)",
             "overview": "Finance : Application of investment principles and security analysis to the selection and comparison of equity and fixed income securities in the current economic and financial environment. Also covered are: determinants of stock prices, growth models and portfolio diversification.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Larbi Hammami (Fall), Mohammed M Chaudhury (Fall), Benjamin Croitoru Ruslan Goyenko (Winter)"
+            "instructors": "Instructors: Larbi Hammami (Fall), Mohammed M Chaudhury (Fall), Benjamin Croitoru (Winter), Ruslan Goyenko (Winter)"
         },
         "prereqs": [
             "MGCR 341"
@@ -2108,8 +2108,8 @@ global.acct_tar = {
             "instructors": "Instructors: Jan Edvard Ericsson (Fall)"
         },
         "prereqs": [
-            "FINE 441",
-            "MGSC 372"
+            "MGSC 372",
+            "FINE 441"
         ],
         "coreqs": [],
         "restricts": []
@@ -2241,7 +2241,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-541\" target=\"_blank\">FINE 541</a> Applied Investments (3 credits)",
             "overview": "Finance : Students are exposed to practical aspects of managing investment portfolios. A principal activity of students is participation in the management of a substantial investment fund.",
             "terms": "Terms: Winter 2020, Fall 2019",
-            "instructors": "Instructors: Laurent Barras (Winter), Sebastien Betermier (Winter), Laurent Barras Sebastien Betermier (Fall)"
+            "instructors": "Instructors: Laurent Barras (Fall), Sebastien Betermier (Winter), Laurent Barras (Fall), Sebastien Betermier (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -2281,7 +2281,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-541n1\" target=\"_blank\">FINE 541N1</a> Applied Investments (1.5 credits)",
             "overview": "Finance : Students are exposed to practical aspects of managing investment portfolios. A principal activity of students is participation in the management of a substantial investment fund.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Laurent Barras Sebastien Betermier (Winter)"
+            "instructors": "Instructors: Laurent Barras (Winter), Sebastien Betermier (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -2293,7 +2293,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-541n2\" target=\"_blank\">FINE 541N2</a> Applied Investments (1.5 credits)",
             "overview": "Finance : See FINE 541N1 for course description.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Laurent Barras Sebastien Betermier (Fall)"
+            "instructors": "Instructors: Laurent Barras (Fall), Sebastien Betermier (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -2652,7 +2652,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-690\" target=\"_blank\">FINE 690</a> Advanced Topics in Finance 1 (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Jan Edvard Ericsson (Fall), Sebastien Betermier Jan Edvard Ericsson (Winter)"
+            "instructors": "Instructors: Jan Edvard Ericsson (Fall), Sebastien Betermier (Winter), Jan Edvard Ericsson (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3025,8 +3025,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 211",
-            "MGCR 331"
+            "MGCR 331",
+            "MGCR 211"
         ],
         "coreqs": [],
         "restricts": []
@@ -3178,8 +3178,8 @@ global.acct_tar = {
             "instructors": "Instructors: Aria Teimourzadeh (Fall)"
         },
         "prereqs": [
-            "MGCR 271",
-            "MGCR 331"
+            "MGCR 331",
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": [
@@ -3633,10 +3633,10 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MGCR 472",
-            "MGCR 423",
+            "MGCR 331",
             "MGCR 352",
-            "MGCR 331"
+            "MGCR 472",
+            "MGCR 423"
         ]
     },
     "MGCR 211": {
@@ -3657,7 +3657,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-222\" target=\"_blank\">MGCR 222</a> Introduction to Organizational Behaviour (3 credits)",
             "overview": "Management Core : Individual motivation and communication style; group dynamics as related to problem solving and decision making, leadership style, work structuring and the larger environment. Interdependence of individual, group and organization task and structure.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Chantal Westgate (Fall), Alfred M Jaeger (Fall), John-Paul Ferguson (Fall), Jean-Nicolas Reyt (Fall), Chantal Westgate Diana Dakhlallah (Winter)"
+            "instructors": "Instructors: Chantal Westgate (Fall), Alfred M Jaeger (Fall), John-Paul Ferguson (Fall), Jean-Nicolas Reyt (Fall), Chantal Westgate (Winter), Diana Dakhlallah (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3676,11 +3676,11 @@ global.acct_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ECON 257",
-            "MATH 324",
+            "MATH 204",
             "PSYC 204",
             "ECON 227",
-            "MATH 204"
+            "MATH 324",
+            "ECON 257"
         ]
     },
     "MGCR 273": {
@@ -3703,14 +3703,14 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-293\" target=\"_blank\">MGCR 293</a> Managerial Economics (3 credits)",
             "overview": "Management Core : The course focuses on the application of economic theory to management problems and the economic foundations of marketing, finance, and production. Attention is given to the following topics: price and cost analysis; demand and supply analysis, conditions of competition.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Taweewan Sidthidet K Sheikholeslami Salmasi Tariq Nizami (Fall)"
+            "instructors": "Instructors: Taweewan Sidthidet (Fall), K Sheikholeslami Salmasi (Fall), Tariq Nizami (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
         "restricts": [
             "ECON 208",
-            "ECON 230D1",
-            "ECON 250D1"
+            "ECON 250D1",
+            "ECON 230D1"
         ]
     },
     "MGCR 331": {
@@ -3731,7 +3731,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a> Introduction to Finance (3 credits)",
             "overview": "Management Core : An introduction to the principles, issues, and institutions of Finance. Topics include valuation, risk, capital investment, financial structure, cost of capital, working capital management, financial markets, and securities.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Vadim di Pietro (Fall), Vadim di Pietro Sujata Madan (Winter)"
+            "instructors": "Instructors: Vadim di Pietro (Fall), Vadim di Pietro (Winter), Sujata Madan (Winter)"
         },
         "prereqs": [],
         "coreqs": [
@@ -3745,7 +3745,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-352\" target=\"_blank\">MGCR 352</a> Principles of Marketing (3 credits)",
             "overview": "Management Core : Introduction to marketing principles, focusing on problem solving and decision making. Topics include: the marketing concept; marketing strategies; buyer behaviour; Canadian demographics; internal and external constraints; product; promotion; distribution; price. Lectures, text material and case studies.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu Nathan Yang Emine Sarigollu (Winter)"
+            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu (Winter), Nathan Yang (Winter), Emine Sarigollu (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3757,7 +3757,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-360\" target=\"_blank\">MGCR 360</a> Social Context of Business (3 credits)",
             "overview": "Management Core : This course examines how business interacts with the larger society. It explores the development of modern capitalist society, and the dilemmas that organizations face in acting in a socially responsible manner. Students will examine these issues with reference to sustainable development, business ethics, globalization and developing countries, and political activity.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Hyun Seung Anna Kim (Fall), Saku Mantere Arvind Karunakaran Lindsay Holmgren Jan J Jorgensen (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Glen Whelan (Fall), Jonathan Moyal (Fall), Hyun Seung Anna Kim (Fall), Saku Mantere (Winter), Arvind Karunakaran (Winter), Lindsay Holmgren (Winter), Jan J Jorgensen (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3781,7 +3781,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-423\" target=\"_blank\">MGCR 423</a> Strategic Management (3 credits)",
             "overview": "Management Core : An integrative and interdisciplinary introduction to strategy formation and execution. Concepts, tools, and practical application to understand how firms leverage resources and capabilities to gain competitive advantage in dynamic, contemporary industries.  Strategic positioning, organizational design, and managerial action for the long-term success of businesses and positive social and ecological outcomes.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Matthew Corritore (Fall), Donald Melville (Fall), Karl James Moore (Fall), Gregory Bryan Vit (Fall), Kwangjun An Gregory Bryan Vit (Winter)"
+            "instructors": "Instructors: Matthew Corritore (Fall), Donald Melville (Fall), Karl James Moore (Fall), Gregory Bryan Vit (Fall), Kwangjun An (Winter), Gregory Bryan Vit (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3793,7 +3793,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
             "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding Rim Hariss (Winter)"
+            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter), Rim Hariss (Winter)"
         },
         "prereqs": [
             "MGCR 271"
@@ -4135,7 +4135,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a> Business Tools (2 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Mehmet Gumus Philippe Levy (Fall)"
+            "instructors": "Instructors: Mehmet Gumus (Fall), Philippe Levy (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -4147,7 +4147,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651\" target=\"_blank\">MGCR 651</a> Managing Resources (4 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Benjamin Croitoru Liette Lapointe John-Paul Ferguson Chantal Westgate (Fall)"
+            "instructors": "Instructors: Benjamin Croitoru (Fall), Liette Lapointe (Fall), John-Paul Ferguson (Fall), Chantal Westgate (Fall)"
         },
         "prereqs": [
             "MGCR 650"
@@ -4175,7 +4175,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651d2\" target=\"_blank\">MGCR 651D2</a> Managing Resources (2 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Liette Lapointe Chantal Westgate Benjamin Croitoru (Fall)"
+            "instructors": "Instructors: Liette Lapointe (Fall), Chantal Westgate (Fall), Benjamin Croitoru (Fall)"
         },
         "prereqs": [
             "MGCR 651D1"
@@ -4189,7 +4189,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652\" target=\"_blank\">MGCR 652</a> Value Creation (4 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
+            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe (Winter), Sujata Madan (Winter), Mehmet Gumus (Winter)"
         },
         "prereqs": [
             "MGCR 650"
@@ -4203,7 +4203,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652d1\" target=\"_blank\">MGCR 652D1</a> Value Creation (2 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Liette Lapointe Sujata Madan Mehmet Gumus (Fall)"
+            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Mehmet Gumus (Fall)"
         },
         "prereqs": [
             "MGCR 650"
@@ -4217,7 +4217,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652d2\" target=\"_blank\">MGCR 652D2</a> Value Creation (2 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Liette Lapointe Sujata Madan Mehmet Gumus (Winter)"
+            "instructors": "Instructors: Liette Lapointe (Winter), Sujata Madan (Winter), Mehmet Gumus (Winter)"
         },
         "prereqs": [
             "MGCR 652D1"
@@ -4247,9 +4247,9 @@ global.acct_tar = {
         },
         "prereqs": [
             "MGCR 629",
+            "MGCR 652",
             "MGCR 653",
-            "MGCR 651",
-            "MGCR 652"
+            "MGCR 651"
         ],
         "coreqs": [],
         "restricts": []
@@ -4421,10 +4421,10 @@ global.acct_tar = {
             "instructors": "Instructors: Daphne Demetry (Fall), Matthew Corritore (Fall), Gregory Bryan Vit (Winter)"
         },
         "prereqs": [
-            "MGCR 211",
-            "INTG 202",
             "INTG 201",
-            "MGCR 352"
+            "MGCR 352",
+            "INTG 202",
+            "MGCR 211"
         ],
         "coreqs": [],
         "restricts": []
@@ -4553,7 +4553,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgpo-438\" target=\"_blank\">MGPO 438</a> Social Entrepreneurship and Innovation (3 credits)",
             "overview": "Management Policy : Explores key concepts associated with social entrepreneurship and social innovation – the application of principles of entrepreneurship and innovation to solve social problems through social ventures, enterprises and not-for-profit organizations. Focuses on the social economy, including how the market system can be leveraged to create social value.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Paola Perez-Aleman Anita Nowak Hani Boulos (Fall)"
+            "instructors": "Instructors: Paola Perez-Aleman (Fall), Anita Nowak (Fall), Hani Boulos (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -5311,7 +5311,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-690\" target=\"_blank\">MGSC 690</a> Advanced Topics in Management Science 1 (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Juan Camilo Serpa Wen Guang Qu (Fall)"
+            "instructors": "Instructors: Juan Camilo Serpa (Fall), Wen Guang Qu (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -5752,8 +5752,8 @@ global.acct_tar = {
             "instructors": "Instructors: Myung-Soo Jo (Fall), Emine Sarigollu (Winter)"
         },
         "prereqs": [
-            "MGCR 271",
-            "MGCR 352"
+            "MGCR 352",
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": []
@@ -6270,8 +6270,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 271",
-            "MGCR 222"
+            "MGCR 222",
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": []
@@ -6663,8 +6663,8 @@ global.acct_tar = {
             "instructors": "Instructors: Saibal Ray (Winter)"
         },
         "prereqs": [
-            "MRKT 459",
-            "RETL 402"
+            "RETL 402",
+            "MRKT 459"
         ],
         "coreqs": [],
         "restricts": []

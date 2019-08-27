@@ -91,7 +91,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a> Macroeconomic Analysis and Applications (3 credits)",
             "overview": "Economics (Arts) : A university-level introduction to national income determination, money and banking, inflation, unemployment and economic policy.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Paul Dickinson (Fall), Paul Dickinson Ling Ling Zhang (Winter)"
+            "instructors": "Instructors: Paul Dickinson (Fall), Paul Dickinson (Winter), Ling Ling Zhang (Winter)"
         }
     },
     "ECON 219": {
@@ -118,30 +118,6 @@ global.econ_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ECON 230D1": {
-        "prereqs": [
-            "ECON 230D2",
-            "ECON 306",
-            "ECON 336",
-            "ECON 348",
-            "ECON 408",
-            "ECON 423",
-            "ECON 424",
-            "ECON 426",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 221"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
-            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Fabian Lange Ling Ling Zhang (Fall)"
-        }
-    },
     "ECON 250D1": {
         "prereqs": [
             "ECON 250D2",
@@ -149,6 +125,7 @@ global.econ_src = {
             "ECON 352D1",
             "ECON 423",
             "ECON 424",
+            "ECON 426",
             "ECON 450",
             "ECON 452",
             "ECON 453",
@@ -165,6 +142,29 @@ global.econ_src = {
             "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Licun Xue (Fall)"
+        }
+    },
+    "ECON 230D1": {
+        "prereqs": [
+            "ECON 230D2",
+            "ECON 306",
+            "ECON 336",
+            "ECON 348",
+            "ECON 408",
+            "ECON 423",
+            "ECON 424",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d2\" target=\"_blank\">ECON 230D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230d1\" target=\"_blank\">ECON 230D1</a> Microeconomic Theory (3 credits)",
+            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall)"
         }
     },
     "ECON 223": {
@@ -194,10 +194,8 @@ global.econ_src = {
     "ECON 227": {
         "prereqs": [
             "ECON 337",
-            "ECON 406",
             "ECON 440",
-            "ECON 462",
-            "ECON 473"
+            "ECON 462"
         ],
         "coreqs": [],
         "restricts": [],
@@ -239,21 +237,7 @@ global.econ_src = {
         }
     },
     "ECON 230": {
-        "prereqs": [
-            "ECON 330D1",
-            "ECON 405",
-            "ECON 406",
-            "ECON 411",
-            "ECON 416",
-            "ECON 420",
-            "ECON 434",
-            "ECON 447",
-            "ECON 459",
-            "ECON 473",
-            "ECON 510",
-            "ECON 531",
-            "ECON 546"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -324,7 +308,9 @@ global.econ_src = {
         }
     },
     "ECON 295": {
-        "prereqs": [],
+        "prereqs": [
+            "ECON 345"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -442,7 +428,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-313\" target=\"_blank\">ECON 313</a> Economic Development 1 (3 credits)",
             "overview": "Economics (Arts) : Microeconomic theories of economic development and empirical evidence on population, labour, firms, poverty. Inequality and environment.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Matthieu Chemin Eesha Sen Choudhury (Fall)"
+            "instructors": "Instructors: Matthieu Chemin (Fall), Eesha Sen Choudhury (Fall)"
         }
     },
     "ECON 314": {
@@ -521,7 +507,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> Macroeconomic Theory (3 credits)",
             "overview": "Economics (Arts) : A review of basic economic concepts and tools with an in depth and critical presentation of the fundamental areas of macroeconomic theory. Topics include: the determination of output, employment and price level; money and banking and business cycles; stabilization policy; international finance and growth theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Daniel Barczyk Francisco Alvarez-Cuadrado (Fall)"
+            "instructors": "Instructors: Daniel Barczyk (Fall), Francisco Alvarez-Cuadrado (Fall)"
         }
     },
     "ECON 330D2": {
@@ -533,7 +519,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a> Macroeconomic Theory (3 credits)",
             "overview": "Economics (Arts) : See ECON 330D1 for course description.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Daniel Barczyk Mayssun El-Attar Vilalta (Winter)"
+            "instructors": "Instructors: Daniel Barczyk (Winter), Mayssun El-Attar Vilalta (Winter)"
         }
     },
     "ECON 331": {
@@ -1281,7 +1267,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-634\" target=\"_blank\">ECON 634</a> Economic Development 3 (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Matthieu Chemin Franque Grimard (Fall)"
+            "instructors": "Instructors: Matthieu Chemin (Fall), Franque Grimard (Fall)"
         }
     },
     "ECON 637": {
@@ -1753,7 +1739,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-734\" target=\"_blank\">ECON 734</a> Economic Development 4 (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Matthieu Chemin Franque Grimard (Winter)"
+            "instructors": "Instructors: Matthieu Chemin (Winter), Franque Grimard (Winter)"
         }
     },
     "ECON 737": {

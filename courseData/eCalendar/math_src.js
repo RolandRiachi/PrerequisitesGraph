@@ -39,23 +39,6 @@ global.math_src = {
             "instructors": "Instructors: Sidney Trudeau (Fall)"
         }
     },
-    "MATH 150": {
-        "prereqs": [
-            "MATH 141",
-            "MATH 151"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "MATH 122"
-        ],
-        "text": {
-            "notes": "<p>Fall</p>\n\n<p>3 hours lecture, 2 hours tutorial</p>\n\n<p>Students with no prior exposure to vector geometry are advised to take <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> concurrently. Intended for students with high school calculus who have not received six advanced placement credits </p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UN or equivalent</p>\n\n<p>Restriction Note B: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-130\" target=\"_blank\">MATH 130</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-131\" target=\"_blank\">MATH 131</a>, except by permission of the Department of Mathematics and Statistics</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> cover the material of <a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> </p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> Calculus A (4 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Functions, limits and continuity, differentiation, L'Hospital's rule, applications, Taylor polynomials, parametric curves, functions of several variables.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Charles Roth (Fall)"
-        }
-    },
     "MATH 123": {
         "prereqs": [],
         "coreqs": [],
@@ -65,7 +48,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-123\" target=\"_blank\">MATH 123</a> Linear Algebra and Probability (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Geometric vectors in low dimensions. Lines and planes. Dot and cross product. Linear equations and matrices. Matrix operations, properties and rank. Linear dependence and independence. Inverses and determinants. Linear programming and tableaux. Sample space, probability, combination of events. Conditional probability and Bayes Law. Random sampling. Random variables and common distributions.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Gabriel Michael Frieden Sidney Trudeau (Fall)"
+            "instructors": "Instructors: Gabriel Michael Frieden (Fall), Sidney Trudeau (Fall)"
         }
     },
     "MATH 133": {
@@ -95,7 +78,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> Linear Algebra and Geometry (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Systems of linear equations, matrices, inverses, determinants; geometric vectors in three dimensions, dot product, cross product, lines and planes; introduction to vector spaces, linear dependence and independence, bases; quadratic loci in two and three dimensions.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Rosalie Bélanger-Rioux Zayd Omar (Fall)"
+            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Zayd Omar (Fall)"
         }
     },
     "MATH 223": {
@@ -132,7 +115,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-125\" target=\"_blank\">MATH 125</a> Mathematical Techniques for Economics (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Differentation of single and multivarible functions.;optimization of single and multivarible functions; constrained optimization of multivariable functions; elements of integration; applications to economics.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Tyrel Stokes Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: Tyrel Stokes (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 141": {
@@ -154,7 +137,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> Calculus 2 (4 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : The definite integral. Techniques of integration. Applications. Introduction to sequences and series.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Asad Haris (Fall), Sidney Trudeau (Fall), Brahim Abdenbi (Fall), Sidney Trudeau Jeremy Macdonald (Winter)"
+            "instructors": "Instructors: Asad Haris (Fall), Sidney Trudeau (Fall), Brahim Abdenbi (Fall), Sidney Trudeau (Winter), Jeremy Macdonald (Winter)"
         }
     },
     "MATH 134": {
@@ -182,7 +165,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a> Calculus 1 with Precalculus (4 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Review of trigonometry and other Precalculus topics. Limits, continuity, derivative. Differentiation of elementary functions. Antidifferentiation. Applications.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Bogdan Nica Sidney Trudeau (Fall)"
+            "instructors": "Instructors: Bogdan Nica (Fall), Sidney Trudeau (Fall)"
         }
     },
     "MATH 140": {
@@ -199,10 +182,30 @@ global.math_src = {
             "instructors": "Instructors: Sidney Trudeau (Fall), Isabella Negrini (Fall), Jérôme Fortier (Winter)"
         }
     },
+    "MATH 150": {
+        "prereqs": [
+            "MATH 141",
+            "MATH 151"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "MATH 222"
+        ],
+        "text": {
+            "notes": "<p>Fall</p>\n\n<p>3 hours lecture, 2 hours tutorial</p>\n\n<p>Students with no prior exposure to vector geometry are advised to take <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> concurrently. Intended for students with high school calculus who have not received six advanced placement credits </p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UN or equivalent</p>\n\n<p>Restriction Note B: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-130\" target=\"_blank\">MATH 130</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-131\" target=\"_blank\">MATH 131</a>, except by permission of the Department of Mathematics and Statistics</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> cover the material of <a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> </p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> Calculus A (4 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Functions, limits and continuity, differentiation, L'Hospital's rule, applications, Taylor polynomials, parametric curves, functions of several variables.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Charles Roth (Fall)"
+        }
+    },
     "MATH 151": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "MATH 222",
+            "MATH 262"
+        ],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lecture; 2 hours tutorial</p>\n\n<p>Each Tutorial section is enrolment limited</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-150\" target=\"_blank\">MATH 150</a> </p>\n\n<p>Restriction: Not open to students who have taken CEGEP objective 00UP or equivalent</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-122\" target=\"_blank\">MATH 122</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-130\" target=\"_blank\">MATH 130</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-131\" target=\"_blank\">MATH 131</a>, except by permission of the Department of Mathematics and Statistics</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-152\" target=\"_blank\">MATH 152</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-151\" target=\"_blank\">MATH 151</a> Calculus B (4 credits)",
@@ -287,33 +290,6 @@ global.math_src = {
             "instructors": "Instructors: Jeremy Macdonald (Fall), Broderick Causley (Fall), Jérôme Fortier (Winter)"
         }
     },
-    "MATH 251": {
-        "prereqs": [
-            "MATH 327",
-            "MATH 350",
-            "MATH 358",
-            "MATH 397",
-            "MATH 456",
-            "MATH 458",
-            "MATH 475",
-            "MATH 488",
-            "MATH 533",
-            "MATH 547",
-            "MATH 578",
-            "MATH 590"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "MATH 223"
-        ],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a> or permission of the Department </p>\n\n<p>Restriction: Not open to students who are taking or have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-251\" target=\"_blank\">MATH 251</a> Honours Algebra 2 (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Linear equations over a field. Introduction to vector spaces. Linear maps and their matrix representation. Determinants. Canonical forms. Duality. Bilinear and\nquadratic forms. Real and complex inner product spaces. Diagonalization of self-adjoint operators.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Henri Darmon (Winter)"
-        }
-    },
     "MATH 236": {
         "prereqs": [
             "MATH 319",
@@ -344,6 +320,7 @@ global.math_src = {
             "MATH 320",
             "MATH 327",
             "MATH 358",
+            "MATH 397",
             "MATH 456",
             "MATH 458",
             "MATH 475",
@@ -364,6 +341,33 @@ global.math_src = {
             "instructors": "Instructors: Tim Hoheisel (Winter)"
         }
     },
+    "MATH 251": {
+        "prereqs": [
+            "MATH 327",
+            "MATH 350",
+            "MATH 358",
+            "MATH 397",
+            "MATH 456",
+            "MATH 458",
+            "MATH 475",
+            "MATH 488",
+            "MATH 533",
+            "MATH 547",
+            "MATH 578",
+            "MATH 590"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "MATH 223"
+        ],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a> or permission of the Department </p>\n\n<p>Restriction: Not open to students who are taking or have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-251\" target=\"_blank\">MATH 251</a> Honours Algebra 2 (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Linear equations over a field. Introduction to vector spaces. Linear maps and their matrix representation. Determinants. Canonical forms. Duality. Bilinear and\nquadratic forms. Real and complex inner product spaces. Diagonalization of self-adjoint operators.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Henri Darmon (Winter)"
+        }
+    },
     "MATH 228": {
         "prereqs": [],
         "coreqs": [],
@@ -373,7 +377,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-228\" target=\"_blank\">MATH 228</a> Classical Geometry (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : This course is designed to reintroduce classical Euclidean geometry to tomorrow’s teachers. Topics include: Axioms and Euclid’s Elements, the triangle theorem, the Pythagorean Theorem and its extensions, basic constructions and similar triangles, Thales’ theorems and cyclic quadrilaterals, the centers of triangles, the nine-point circle, conic sections and analytic geometry, the prismatoid formula, the Platonic solids, non-Euclidean geometries.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Thomas F Fox Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: Thomas F Fox (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 235": {
@@ -491,10 +495,7 @@ global.math_src = {
     "MATH 249": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "MATH 316",
-            "MATH 466"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/math-248\" target=\"_blank\">MATH 248</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-358\" target=\"_blank\">MATH 358</a> or equivalent.</p>\n\n<p>Restriction: Intended for Honours Physics and Engineering students</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> Honours Complex Variables (3 credits)",
@@ -572,7 +573,27 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-263\" target=\"_blank\">MATH 263</a> Ordinary Differential Equations for Engineers (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : First order ODEs. Second and higher order linear ODEs. Series solutions at ordinary and regular singular points. Laplace transforms. Linear systems of differential equations with a short review of linear algebra.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Kevin Church (Fall), Jacques Claude Hurtubise (Fall), Suresh Eswarathasan (Fall), Sidney Trudeau Peter Bartello (Winter)"
+            "instructors": "Instructors: Kevin Church (Fall), Jacques Claude Hurtubise (Fall), Suresh Eswarathasan (Fall), Sidney Trudeau (Winter), Peter Bartello (Winter)"
+        }
+    },
+    "MATH 325": {
+        "prereqs": [
+            "MATH 317",
+            "MATH 387",
+            "MATH 475",
+            "MATH 574"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "MATH 263",
+            "MATH 315"
+        ],
+        "text": {
+            "notes": "<p>Fall and Winter</p>\n\n<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a>.</p>\n\n<p>Restriction: Intended for Honours Mathematics, Physics and Engineering programs.</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-263\" target=\"_blank\">MATH 263</a> (formerly <a href=\"https://mcgill.ca/study/2019-2020/courses/math-261\" target=\"_blank\">MATH 261</a>), <a href=\"https://mcgill.ca/study/2019-2020/courses/math-315\" target=\"_blank\">MATH 315</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-325\" target=\"_blank\">MATH 325</a> Honours Ordinary Differential Equations (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : First and second order equations, linear equations, series solutions, Frobenius method, introduction to numerical methods and to linear systems, Laplace transforms, applications.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Jean-Philippe Lessard (Winter)"
         }
     },
     "MATH 315": {
@@ -591,24 +612,6 @@ global.math_src = {
             "overview": "Mathematics &amp; Statistics (Sci) : First order ordinary differential equations including elementary numerical methods. Linear differential equations. Laplace transforms. Series solutions.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Jean-Christophe Nave (Fall), Rosalie Bélanger-Rioux (Winter)"
-        }
-    },
-    "MATH 325": {
-        "prereqs": [
-            "MATH 475",
-            "MATH 574"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "MATH 263",
-            "MATH 315"
-        ],
-        "text": {
-            "notes": "<p>Fall and Winter</p>\n\n<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a>.</p>\n\n<p>Restriction: Intended for Honours Mathematics, Physics and Engineering programs.</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/math-263\" target=\"_blank\">MATH 263</a> (formerly <a href=\"https://mcgill.ca/study/2019-2020/courses/math-261\" target=\"_blank\">MATH 261</a>), <a href=\"https://mcgill.ca/study/2019-2020/courses/math-315\" target=\"_blank\">MATH 315</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-325\" target=\"_blank\">MATH 325</a> Honours Ordinary Differential Equations (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : First and second order equations, linear equations, series solutions, Frobenius method, introduction to numerical methods and to linear systems, Laplace transforms, applications.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Jean-Philippe Lessard (Winter)"
         }
     },
     "MATH 264": {
@@ -656,7 +659,6 @@ global.math_src = {
             "MATH 316",
             "MATH 319",
             "MATH 320",
-            "MATH 407",
             "MATH 417",
             "MATH 458",
             "MATH 517"
@@ -687,39 +689,10 @@ global.math_src = {
             "instructors": "Instructors: Brent Pym (Fall)"
         }
     },
-    "MATH 381": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [
-            "MATH 316",
-            "MATH 466"
-        ],
-        "text": {
-            "notes": "<p>Fall and Winter</p>\n\n<p>(3-1-5) </p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a></p>\n\n<p>Restriction: Open only to students in the Faculty of Engineering.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a> Complex Variables and Transforms (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Analytic functions, Cauchy-Riemann equations, simple mappings, Cauchy's theorem, Cauchy's integral formula, Taylor and Laurent expansions, residue calculus. Properties of one and two-sided Fourier and Laplace transforms, the complex inversion integral, relation between the Fourier and Laplace transforms, application of transform techniques to the solution of differential equations. The Z-transform and applications to difference equations.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "MATH 466": {
-        "prereqs": [
-            "MATH 566"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "MATH 316"
-        ],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-255\" target=\"_blank\">MATH 255</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-366\" target=\"_blank\">MATH 366</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-466\" target=\"_blank\">MATH 466</a> Honours Complex Analysis (3 credits)",
-            "overview": "Mathematics &amp; Statistics (Sci) : Functions of a complex variable, Cauchy-Riemann equations, Cauchy's theorem and its consequences. Uniform convergence on compacta. Taylor and Laurent series, open mapping theorem, Rouché's theorem and the argument principle. Calculus of residues. Fractional linear transformations and conformal mappings.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Sarah Harrison (Fall)"
-        }
-    },
     "MATH 317": {
-        "prereqs": [],
+        "prereqs": [
+            "MATH 478"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -783,7 +756,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-323\" target=\"_blank\">MATH 323</a> Probability (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Sample space, events, conditional probability, independence of events, Bayes' Theorem. Basic combinatorial probability, random variables, discrete and continuous univariate and multivariate distributions. Independence of random variables. Inequalities, weak law of large numbers, central limit theorem.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Jose Andres Correa (Fall), Shomoita Alam (Fall), Djivede Kelome David B Wolfson (Winter)"
+            "instructors": "Instructors: Jose Andres Correa (Fall), Shomoita Alam (Fall), Djivede Kelome (Winter), David B Wolfson (Winter)"
         }
     },
     "MATH 324": {
@@ -902,7 +875,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-338\" target=\"_blank\">MATH 338</a> History and Philosophy of Mathematics (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Egyptian, Babylonian, Greek, Indian and Arab contributions to mathematics are studied together with some modern developments they give rise to, for example, the problem of trisecting the angle. European mathematics from the Renaissance to the 18th century is discussed in some detail.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Thomas F Fox Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: Thomas F Fox (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 340": {
@@ -921,8 +894,7 @@ global.math_src = {
     },
     "MATH 350": {
         "prereqs": [
-            "MATH 552",
-            "MATH 553"
+            "MATH 552"
         ],
         "coreqs": [],
         "restricts": [
@@ -1036,8 +1008,21 @@ global.math_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "MATH 381": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Fall and Winter</p>\n\n<p>(3-1-5) </p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a></p>\n\n<p>Restriction: Open only to students in the Faculty of Engineering.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a> Complex Variables and Transforms (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Analytic functions, Cauchy-Riemann equations, simple mappings, Cauchy's theorem, Cauchy's integral formula, Taylor and Laurent expansions, residue calculus. Properties of one and two-sided Fourier and Laplace transforms, the complex inversion integral, relation between the Fourier and Laplace transforms, application of transform techniques to the solution of differential equations. The Z-transform and applications to difference equations.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "MATH 387": {
         "prereqs": [
+            "MATH 478",
             "MATH 578",
             "MATH 579"
         ],
@@ -1108,7 +1093,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-417\" target=\"_blank\">MATH 417</a> Linear Optimization (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : An introduction to linear optimization and its applications: Duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interior-point methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: Van Quang Nguyen (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 420": {
@@ -1221,6 +1206,7 @@ global.math_src = {
     "MATH 454": {
         "prereqs": [
             "MATH 455",
+            "MATH 553",
             "MATH 564",
             "MATH 574",
             "MATH 576",
@@ -1294,6 +1280,18 @@ global.math_src = {
             "overview": "Mathematics &amp; Statistics (Sci) : In addition to the topics of MATH 320, topics in the global theory of plane and space curves, and in the global theory of surfaces are presented. These include: total curvature and the Fary-Milnor theorem on knotted curves, abstract surfaces as 2-d manifolds, the Euler characteristic, the Gauss-Bonnet theorem for surfaces.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Jacques Claude Hurtubise (Winter)"
+        }
+    },
+    "MATH 466": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-255\" target=\"_blank\">MATH 255</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/math-366\" target=\"_blank\">MATH 366</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-316\" target=\"_blank\">MATH 316</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-466\" target=\"_blank\">MATH 466</a> Honours Complex Analysis (3 credits)",
+            "overview": "Mathematics &amp; Statistics (Sci) : Functions of a complex variable, Cauchy-Riemann equations, Cauchy's theorem and its consequences. Uniform convergence on compacta. Taylor and Laurent series, open mapping theorem, Rouché's theorem and the argument principle. Calculus of residues. Fractional linear transformations and conformal mappings.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Sarah Harrison (Fall)"
         }
     },
     "MATH 470": {
@@ -1399,7 +1397,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-517\" target=\"_blank\">MATH 517</a> Honours Linear Optimization (4 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Honours level introduction to linear optimization and its applications: duality theory, fundamental theorem, sensitivity analysis, convexity, simplex algorithm, interiorpoint methods, quadratic optimization, applications in game theory.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Van Quang Nguyen Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: Van Quang Nguyen (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 523": {
@@ -1588,7 +1586,6 @@ global.math_src = {
     "MATH 564": {
         "prereqs": [
             "MATH 565",
-            "MATH 566",
             "MATH 635"
         ],
         "coreqs": [],
@@ -2122,7 +2119,7 @@ global.math_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-682\" target=\"_blank\">MATH 682</a> Statistical Inference (4 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: James McVittie Jacques Claude Hurtubise (Fall)"
+            "instructors": "Instructors: James McVittie (Fall), Jacques Claude Hurtubise (Fall)"
         }
     },
     "MATH 685D1": {

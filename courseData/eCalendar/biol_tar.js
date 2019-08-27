@@ -33,7 +33,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-111\" target=\"_blank\">BIOL 111</a> Principles: Organismal Biology (3 credits)",
             "overview": "Biology (Sci) : An introduction to the phylogeny, structure, function and adaptation of unicellular organisms, plants and animals in the biosphere.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Andrew Hendry Graham Bell Elena Cristescu Anna Hargreaves (Fall)"
+            "instructors": "Instructors: Andrew Hendry (Fall), Graham Bell (Fall), Elena Cristescu (Fall), Anna Hargreaves (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -47,13 +47,13 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-112\" target=\"_blank\">BIOL 112</a> Cell and Molecular Biology (3 credits)",
             "overview": "Biology (Sci) : The cell: ultrastructure, division, chemical constituents and reactions. Bioenergetics: photosynthesis and respiration. Principles of genetics, the molecular basis of inheritance and biotechnology.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Joseph Alan Dent Frieder Schöck (Winter)"
+            "instructors": "Instructors: Joseph Alan Dent (Winter), Frieder Schöck (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "AEBI 122",
-            "BIOL 115"
+            "BIOL 115",
+            "AEBI 122"
         ]
     },
     "BIOL 115": {
@@ -62,7 +62,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-115\" target=\"_blank\">BIOL 115</a> Essential Biology (3 credits)",
             "overview": "Biology (Sci) : An introduction to biological science that emphasizes the manner in which scientific understanding is achieved and evolves and the influence of biological science on society. Topics will include cell structure and function, genetics, evolution, organ physiology, ecology and certain special topics that change from year to year.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Sarah Woolley Jacalyn Vogel (Fall)"
+            "instructors": "Instructors: Sarah Woolley (Fall), Jacalyn Vogel (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -77,7 +77,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a> Molecular Biology (3 credits)",
             "overview": "Biology (Sci) : The physical and chemical properties of the cell and its components in relation to their structure and function. Topics include: protein structure, enzymes and enzyme kinetics; nucleic acid replication, transcription and translation; the genetic code, mutation, recombination, and regulation of gene expression.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Richard D W Roy Thomas E Bureau Kenneth E M Hastings (Fall)"
+            "instructors": "Instructors: Richard D W Roy (Fall), Thomas E Bureau (Fall), Kenneth E M Hastings (Fall)"
         },
         "prereqs": [
             "BIOL 112"
@@ -110,7 +110,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-202\" target=\"_blank\">BIOL 202</a> Basic Genetics (3 credits)",
             "overview": "Biology (Sci) : Introduction to basic principles, and to modern advances, problems and applications in the genetics of higher and lower organisms with examples representative of the biological sciences.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Nam Sung Moon Laura Nilson Tamara Western (Winter)"
+            "instructors": "Instructors: Nam Sung Moon (Winter), Laura Nilson (Winter), Tamara Western (Winter)"
         },
         "prereqs": [
             "BIOL 200"
@@ -126,11 +126,11 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-205\" target=\"_blank\">BIOL 205</a> Biology of Organisms (3 credits)",
             "overview": "Biology (Sci) : Unified view of form and function in animals and plants. Focus on how the laws of chemistry and physics illuminate biological processes relating to the acquisition of energy and materials and their use in movement, growth, development, reproduction and responses to environmental stress.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Jon Sakata Anna Hargreaves (Winter)"
+            "instructors": "Instructors: Jon Sakata (Winter), Anna Hargreaves (Winter)"
         },
         "prereqs": [
-            "PHYS 101",
-            "BIOL 200"
+            "BIOL 200",
+            "PHYS 101"
         ],
         "coreqs": [
             "ANAT 212",
@@ -145,7 +145,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-206\" target=\"_blank\">BIOL 206</a> Methods in Biology of Organisms (3 credits)",
             "overview": "Biology (Sci) : Introduction to modern methods used in organismal biology, including ecological sampling, experimental methods and statistics, taxonomic and phylogenetic\nanalysis of biodiversity, experimental behavioural ecology, microbiological methods, and library search procedures.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Elena Cristescu Andrea Miller-Nesbitt Hans Carl Larsson Graham Bell Louis Lefebvre (Fall)"
+            "instructors": "Instructors: Elena Cristescu (Fall), Andrea Miller-Nesbitt (Fall), Hans Carl Larsson (Fall), Graham Bell (Fall), Louis Lefebvre (Fall)"
         },
         "prereqs": [
             "BIOL 111"
@@ -171,7 +171,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> Introduction to Ecology and Evolution (3 credits)",
             "overview": "Biology (Sci) : An introduction to the fundamental processes of ecology and evolution that bear on the nature and diversity of organisms and the processes that govern their assembly into ecological communities and their roles in ecosystem function.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Neil Price Ehab Abouheif Jennifer Sunday (Fall)"
+            "instructors": "Instructors: Neil Price (Fall), Ehab Abouheif (Fall), Jennifer Sunday (Fall)"
         },
         "prereqs": [
             "BIOL 111"
@@ -187,26 +187,26 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-219\" target=\"_blank\">BIOL 219</a> Introduction to Physical\r Molecular and Cell Biology (4 credits)",
             "overview": "Biology (Sci) : An introduction to molecular and cell biology from a physical perspective. Techniques and methodologies, both experimental and computational, are included in the presentation of each thematic module.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Adam Hendricks Jacalyn Vogel Gary Brouhard Alanna Watt (Fall)"
+            "instructors": "Instructors: Adam Hendricks (Fall), Jacalyn Vogel (Fall), Gary Brouhard (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
-            "CHEM 110",
-            "PHYS 142",
-            "MATH 140",
-            "MATH 141",
             "PHYS 131",
-            "BIOL 112",
+            "PHYS 142",
             "CHEM 120",
-            "MATH 133"
+            "MATH 141",
+            "CHEM 110",
+            "MATH 133",
+            "MATH 140",
+            "BIOL 112"
         ],
         "coreqs": [
             "MATH 222"
         ],
         "restricts": [
-            "BIOL 200",
-            "BIEN 219",
-            "BIOC 212",
             "ANAT 212",
+            "BIEN 219",
+            "BIOL 200",
+            "BIOC 212",
             "BIOL 201"
         ]
     },
@@ -232,7 +232,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-300\" target=\"_blank\">BIOL 300</a> Molecular Biology of the Gene (3 credits)",
             "overview": "Biology (Sci) : A survey of current knowledge and approaches in the area of regulation of gene expression, post-transcriptional control of gene expression, and signal transduction.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Frieder Schöck Nam Sung Moon (Fall)"
+            "instructors": "Instructors: Frieder Schöck (Fall), Nam Sung Moon (Fall)"
         },
         "prereqs": [
             "BIOL 200",
@@ -248,13 +248,13 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-301\" target=\"_blank\">BIOL 301</a> Cell and Molecular Laboratory (4 credits)",
             "overview": "Biology (Sci) : An introduction to laboratory techniques with a focus on methods used to investigate fundamental questions in modern cell and molecular biology. Techniques including gene cloning, DNA and protein isolation and manipulation are covered, along with functional analysis of genes and proteins, basic bioinformatics, and computer-based experimental design and data analysis.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Huanquan Zheng (Fall), Paul Harrison (Fall), Rodrigo Reyes Lamothe (Fall), Huanquan Zheng Rodrigo Reyes Lamothe (Winter)"
+            "instructors": "Instructors: Huanquan Zheng (Fall), Paul Harrison (Fall), Rodrigo Reyes Lamothe (Fall), Huanquan Zheng (Winter), Rodrigo Reyes Lamothe (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "BIOC 220",
             "BIOC 300",
+            "BIOC 220",
             "BIOC 320"
         ]
     },
@@ -264,7 +264,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-303\" target=\"_blank\">BIOL 303</a> Developmental Biology (3 credits)",
             "overview": "Biology (Sci) : A consideration of the fundamental processes and principles operating during embryogenesis. Experimental analyses at the molecular, cellular, and organismal levels will be presented and discussed to provide an overall appreciation of developmental phenomena.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Abigail Gerhold Yong Rao Daniel Dufort (Winter)"
+            "instructors": "Instructors: Abigail Gerhold (Winter), Yong Rao (Winter), Daniel Dufort (Winter)"
         },
         "prereqs": [
             "BIOL 200",
@@ -272,8 +272,8 @@ global.biol_tar = {
             "BIOL 201"
         ],
         "coreqs": [
-            "BIOL 202",
-            "BIOL 300"
+            "BIOL 300",
+            "BIOL 202"
         ],
         "restricts": [
             "ANAT 381"
@@ -288,9 +288,9 @@ global.biol_tar = {
             "instructors": "Instructors: Graham Bell (Fall)"
         },
         "prereqs": [
-            "BIOL 205",
             "BIOL 215",
-            "ENVR 202"
+            "ENVR 202",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": []
@@ -301,12 +301,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-305\" target=\"_blank\">BIOL 305</a> Animal Diversity (3 credits)",
             "overview": "Biology (Sci) : The characteristics of the major groups of animals, their ancestry, history and relationship to one another. The processes of speciation, adaptive radiation and extinction responsible for diversity. Methods for constructing of phylogenies, for comparing phenotypes, and for estimating and analyzing diversity.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Hans Carl Larsson Graham Bell David M Green Andrew Hendry Virginie Millien (Winter)"
+            "instructors": "Instructors: Hans Carl Larsson (Winter), Graham Bell (Winter), David M Green (Winter), Andrew Hendry (Winter), Virginie Millien (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
+            "ENVR 200",
             "BIOL 215",
-            "ENVR 200"
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -317,14 +317,14 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-306\" target=\"_blank\">BIOL 306</a> Neural Basis of Behaviour (3 credits)",
             "overview": "Biology (Sci) : Neural mechanisms of animal behaviour; neuroethology; cellular neurophysiology, integrative networks within nervous systems; neural control of movement; processing of sensory information.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jon Sakata Joseph Alan Dent Alanna Watt (Fall)"
+            "instructors": "Instructors: Jon Sakata (Fall), Joseph Alan Dent (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
+            "ANAT 212",
             "PHYS 142",
             "BIOC 212",
-            "ANAT 212",
-            "NSCI 200",
             "BIOL 201",
+            "NSCI 200",
             "PHYS 102"
         ],
         "coreqs": [],
@@ -341,8 +341,8 @@ global.biol_tar = {
             "instructors": "Instructors: Simon Reader (Winter)"
         },
         "prereqs": [
-            "BIOL 205",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": []
@@ -356,9 +356,9 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard (Fall)"
         },
         "prereqs": [
-            "ENVR 202",
+            "ENVR 200",
             "BIOL 215",
-            "ENVR 200"
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -381,12 +381,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-310\" target=\"_blank\">BIOL 310</a> Biodiversity and Ecosystems (3 credits)",
             "overview": "Biology (Sci) : Ecological bases of the natural causes and consequences of current global environmental changes, including how biodiversity and ecosystem processes are defined and measured, how they vary in space and time, how they are affected by physical and biological factors, and how they affect each other and human societies.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Jennifer Sunday Andrew Gonzalez (Winter)"
+            "instructors": "Instructors: Jennifer Sunday (Winter), Andrew Gonzalez (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
+            "BIOL 215",
+            "ENVR 202",
             "MATH 112"
         ],
         "coreqs": [],
@@ -401,10 +401,10 @@ global.biol_tar = {
             "instructors": "Instructors: Stephanie Weber (Winter)"
         },
         "prereqs": [
-            "BIOL 200",
-            "BIOL 202",
-            "BIOC 212",
             "ANAT 212",
+            "BIOL 200",
+            "BIOC 212",
+            "BIOL 202",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -416,7 +416,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-314\" target=\"_blank\">BIOL 314</a> Molecular Biology of Oncogenes (3 credits)",
             "overview": "Biology (Sci) : The genes that cause cancer are altered versions of genes present in normal cells. The origins of these oncogenes, their genetic structure, regulation, and the biochemical properties of the oncogene-encoded proteins will be analyzed in an attempt to understand the origins of human and animal cancers.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: David Dankort Karen Elizabeth Christensen Sonia Victoria Del Rincon Loydie Majewska (Fall)"
+            "instructors": "Instructors: David Dankort (Fall), Karen Elizabeth Christensen (Fall), Sonia Victoria Del Rincon (Fall), Loydie Majewska (Fall)"
         },
         "prereqs": [
             "ANAT 212",
@@ -433,7 +433,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-316\" target=\"_blank\">BIOL 316</a> Biomembranes and Organelles (3 credits)",
             "overview": "Biology (Sci) : The course focuses on biomembranes and subcellular organelles and their implications for disease. The topics include: protein and lipid biochemistry, membrane structure and transport; intracellular compartmentalization, protein sorting and modification, intracellular membrane trafficking; energy transfer, organization and dynamics of chloroplasts and mitochondria; extracellular matrix and cell walls.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Huanquan Zheng Alanna Watt (Fall)"
+            "instructors": "Instructors: Huanquan Zheng (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
             "ANAT 212",
@@ -452,12 +452,12 @@ global.biol_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
+            "PHYS 232",
+            "MATH 222",
             "BIOL 200",
             "PHYS 230",
-            "PHYS 232",
             "BIOL 219",
-            "PHYS 253",
-            "MATH 222"
+            "PHYS 253"
         ],
         "coreqs": [],
         "restricts": [
@@ -470,7 +470,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-320\" target=\"_blank\">BIOL 320</a> Evolution of Brain and Behaviour (3 credits)",
             "overview": "Biology (Sci) : Functional and comparative approach to neuroanatomy, examining how species changes in brain organization contribute to evolutionary changes in behaviour.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Sarah Woolley Jon Sakata (Winter)"
+            "instructors": "Instructors: Sarah Woolley (Winter), Jon Sakata (Winter)"
         },
         "prereqs": [
             "BIOL 306",
@@ -499,11 +499,11 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-331\" target=\"_blank\">BIOL 331</a> Ecology/Behaviour Field Course (3 credits)",
             "overview": "Biology (Sci) : Methods of sampling natural populations. Testing hypotheses in nature.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Simon Reader Rowan Barrett Anna Hargreaves (Fall)"
+            "instructors": "Instructors: Simon Reader (Fall), Rowan Barrett (Fall), Anna Hargreaves (Fall)"
         },
         "prereqs": [
-            "BIOL 215",
-            "BIOL 206"
+            "BIOL 206",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -514,13 +514,13 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-334\" target=\"_blank\">BIOL 334</a> Applied Tropical Ecology (3 credits)",
             "overview": "Biology (Sci) : Relevant to agriculture, forestry, fisheries and conservation of natural resources. Field component taught at the University's Bellairs Research Institute in Barbados, for two weeks in early May. The course is organized in a series of small-group field projects of 2-3 days each. Interested students should contact the Undergraduate Office and fill out an application form.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Frederic Guichard Laura Nilson Neil Price (Winter)"
+            "instructors": "Instructors: Frederic Guichard (Winter), Laura Nilson (Winter), Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
-            "BIOL 206"
+            "BIOL 206",
+            "ENVR 202",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -531,13 +531,13 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-334d1\" target=\"_blank\">BIOL 334D1</a> Applied Tropical Ecology (1.5 credits)",
             "overview": "Biology (Sci) : Relevant to agriculture, forestry, fisheries and conservation of natural resources. Field component taught at the University's Bellairs Research Institute in Barbados, for two weeks in early May. The course is organized in a series of small-group field projects of 2-3 days each. Interested students should check the course website, attend the full information session and fill out an application form.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Frederic Guichard Laura Nilson Neil Price (Winter)"
+            "instructors": "Instructors: Frederic Guichard (Winter), Laura Nilson (Winter), Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
-            "BIOL 206"
+            "BIOL 206",
+            "ENVR 202",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -551,10 +551,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
-            "BIOL 206"
+            "BIOL 206",
+            "ENVR 202",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -582,10 +582,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 205",
-            "BIOL 215",
             "ENVR 200",
-            "ENVR 202"
+            "BIOL 215",
+            "ENVR 202",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": [
@@ -605,8 +605,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "ENTO 330",
-            "ENTO 350"
+            "ENTO 350",
+            "ENTO 330"
         ]
     },
     "BIOL 352": {
@@ -618,8 +618,8 @@ global.biol_tar = {
             "instructors": "Instructors: Hans Carl Larsson (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
             "BIOL 215",
+            "ENVR 202",
             "EPSC 233"
         ],
         "coreqs": [],
@@ -634,8 +634,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 205",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": [
@@ -648,12 +648,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-370\" target=\"_blank\">BIOL 370</a> Human Genetics Applied (3 credits)",
             "overview": "Biology (Sci) : A contemporary view of genetic research as applied to human health and well-being.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Roberta M Palmour John James Mitchell John Brent Richards Ioannis Trakadis Carl Ernst Asangla Ao Jennifer Fitzpatrick James Engert Loydie Majewska Yojiro Yamanaka (Fall)"
+            "instructors": "Instructors: Roberta M Palmour (Fall), John James Mitchell (Fall), John Brent Richards (Fall), Ioannis Trakadis (Fall), Carl Ernst (Fall), Asangla Ao (Fall), Jennifer Fitzpatrick (Fall), James Engert (Fall), Loydie Majewska (Fall), Yojiro Yamanaka (Fall)"
         },
         "prereqs": [
             "BIOL 200",
-            "BIOL 202",
             "BIOC 212",
+            "BIOL 202",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -682,9 +682,9 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 215",
             "BIOL 200",
             "BIOC 212",
+            "BIOL 215",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -712,11 +712,11 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-389\" target=\"_blank\">BIOL 389</a> Laboratory in Neurobiology (3 credits)",
             "overview": "Biology (Sci) : Methods of neurobiological research, including extracellular and intracellular recordings, electrical stimulation, and the study of neuro-behavioural problems.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Alanna Watt Joseph Alan Dent Tomoko Oyama (Winter)"
+            "instructors": "Instructors: Alanna Watt (Winter), Joseph Alan Dent (Winter), Tomoko Oyama (Winter)"
         },
         "prereqs": [
-            "NEUR 310",
             "BIOL 306",
+            "NEUR 310",
             "PHGY 311",
             "NSCI 200"
         ],
@@ -732,16 +732,16 @@ global.biol_tar = {
             "instructors": "Instructors: Arnold Hayer (Fall)"
         },
         "prereqs": [
-            "BIOL 200",
-            "COMP 204",
-            "COMP 250",
-            "BIOC 212",
-            "CHEM 212",
             "ANAT 212",
+            "COMP 250",
+            "COMP 204",
             "COMP 202",
+            "MATH 222",
+            "BIOL 200",
+            "BIOC 212",
             "BIOL 219",
             "BIOL 201",
-            "MATH 222"
+            "CHEM 212"
         ],
         "coreqs": [],
         "restricts": []
@@ -767,10 +767,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 200",
-            "BIOL 202",
-            "BIOL 215",
             "BIOL 205",
+            "BIOL 200",
+            "BIOL 215",
+            "BIOL 202",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -797,12 +797,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-416\" target=\"_blank\">BIOL 416</a> Genetics of Mammalian Development (3 credits)",
             "overview": "Biology (Sci) : This course aims to examine problems, theories, and experimental evidence on several concepts of mammalian developmental processes at molecular to organogenesis levels. Most topics are in the mouse model system, where various techniques for genetic manipulation are available.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Daniel Dufort Teruko Taketo-Hosotani (Winter)"
+            "instructors": "Instructors: Daniel Dufort (Winter), Teruko Taketo-Hosotani (Winter)"
         },
         "prereqs": [
-            "BIOL 303",
+            "BIOL 300",
             "BIOL 202",
-            "BIOL 300"
+            "BIOL 303"
         ],
         "coreqs": [],
         "restricts": [
@@ -818,9 +818,9 @@ global.biol_tar = {
             "instructors": "Instructors: Anthony Ricciardi (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
+            "BIOL 215",
+            "ENVR 202",
             "BIOL 205"
         ],
         "coreqs": [],
@@ -835,8 +835,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 205",
-            "BIOL 305"
+            "BIOL 305",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": [
@@ -888,8 +888,8 @@ global.biol_tar = {
             "instructors": "Instructors: Gregor Fussmann (Fall)"
         },
         "prereqs": [
-            "BIOL 215",
-            "BIOL 206"
+            "BIOL 206",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": [
@@ -905,8 +905,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 309",
-            "BIOL 308"
+            "BIOL 308",
+            "BIOL 309"
         ],
         "coreqs": [],
         "restricts": []
@@ -931,7 +931,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-436\" target=\"_blank\">BIOL 436</a> Evolution and Society (3 credits)",
             "overview": "Biology (Sci) : Explores the impact that biological evolution and evolutionary thinking have on society. Topics include intelligence, language, race, gender, medicine, genetically modified organisms, politics, and creationism.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Ehab Abouheif Simon Reader (Fall)"
+            "instructors": "Instructors: Ehab Abouheif (Fall), Simon Reader (Fall)"
         },
         "prereqs": [
             "BIOL 304"
@@ -948,10 +948,10 @@ global.biol_tar = {
             "instructors": "Instructors: Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
-            "BIOL 215",
             "ENVR 200",
-            "BIOL 206"
+            "BIOL 206",
+            "ENVR 202",
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -982,8 +982,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "WILD 350",
-            "BIOL 305"
+            "BIOL 305",
+            "WILD 350"
         ],
         "coreqs": [],
         "restricts": []
@@ -994,12 +994,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-465\" target=\"_blank\">BIOL 465</a> Conservation Biology (3 credits)",
             "overview": "Biology (Sci) : Discussion of relevant theoretical and applied issues in conservation biology. Topics: biodiversity, population viability analysis, community dynamics, biology of rarity, extinction, habitat fragmentation, social issues.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Lauren Chapman Andrew Gonzalez (Fall)"
+            "instructors": "Instructors: Lauren Chapman (Fall), Andrew Gonzalez (Fall)"
         },
         "prereqs": [
-            "ENVR 202",
+            "ENVR 200",
             "BIOL 215",
-            "ENVR 200"
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -1013,8 +1013,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
@@ -1030,8 +1030,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
@@ -1047,13 +1047,13 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
-            "BIOL 471D1",
-            "BIOL 471"
+            "BIOL 471",
+            "BIOL 471D1"
         ]
     },
     "BIOL 468D1": {
@@ -1065,13 +1065,13 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
-            "BIOL 471D1",
-            "BIOL 471"
+            "BIOL 471",
+            "BIOL 471D1"
         ]
     },
     "BIOL 468D2": {
@@ -1097,13 +1097,13 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": [
-            "BIOL 471D1",
-            "BIOL 471"
+            "BIOL 471",
+            "BIOL 471D1"
         ]
     },
     "BIOL 468N2": {
@@ -1117,8 +1117,8 @@ global.biol_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "BIOL 471D1",
-            "BIOL 471"
+            "BIOL 471",
+            "BIOL 471D1"
         ]
     },
     "BIOL 469": {
@@ -1130,8 +1130,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -1145,8 +1145,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 301"
+            "BIOL 301",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -1249,16 +1249,16 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-507\" target=\"_blank\">BIOL 507</a> Animal Communication (3 credits)",
             "overview": "Biology (Sci) : Introduction to communication between animals, including humans. Physical and phylogenetic constraints on the evolution of communication systems will be discussed. The approach to communication will draw from behavioural ecology, psychology, physiology and physics.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jon Sakata Kristine Onishi (Fall)"
+            "instructors": "Instructors: Jon Sakata (Fall), Kristine Onishi (Fall)"
         },
         "prereqs": [],
         "coreqs": [
-            "BIOL 307",
-            "BIOL 306",
             "NEUR 310",
             "PHGY 311",
-            "NSCI 200",
-            "NSCI 201"
+            "BIOL 306",
+            "NSCI 201",
+            "BIOL 307",
+            "NSCI 200"
         ],
         "restricts": []
     },
@@ -1298,15 +1298,15 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "NEUR 310",
             "BIOL 306",
-            "PHGY 311",
-            "NSCI 201"
+            "NSCI 201",
+            "NEUR 310",
+            "PHGY 311"
         ],
         "coreqs": [],
         "restricts": [
-            "BIOL 531",
-            "PSYC 514"
+            "PSYC 514",
+            "BIOL 531"
         ]
     },
     "BIOL 515": {
@@ -1330,7 +1330,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-517\" target=\"_blank\">BIOL 517</a> Cognitive Ecology (3 credits)",
             "overview": "Biology (Sci) : Cognition refers to the processes of acquiring, retaining, and using information. In the wild, an organism relies on a wide variety of information to interact with its environment and these interactions affect its survival and reproduction.\nFocus on the ecology and evolution of cognition and its underlying neural mechanisms. Examines links between cognition, behaviour in the wild, and the brain. Builds upon the principles of behavioural ecology and behavioural neuroscience.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Mélanie Guigueno Simon Reader (Winter)"
+            "instructors": "Instructors: Mélanie Guigueno (Winter), Simon Reader (Winter)"
         },
         "prereqs": [
             "BIOL 307"
@@ -1344,7 +1344,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-518\" target=\"_blank\">BIOL 518</a> Advanced Topics in Cell Biology (3 credits)",
             "overview": "Biology (Sci) : Concepts and mechanisms in advanced cell biology, based on genetic, cell biological, biophysical, and computational studies. Emphasis is placed on processes that are evolutionarily conserved, with examples from model organisms and cell-free (in vitro) approaches.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Rodrigo Reyes Lamothe Abigail Gerhold (Winter)"
+            "instructors": "Instructors: Rodrigo Reyes Lamothe (Winter), Abigail Gerhold (Winter)"
         },
         "prereqs": [
             "BIOL 313"
@@ -1361,8 +1361,8 @@ global.biol_tar = {
             "instructors": "Instructors: Abigail Gerhold (Winter)"
         },
         "prereqs": [
-            "BIOL 303",
-            "BIOL 300"
+            "BIOL 300",
+            "BIOL 303"
         ],
         "coreqs": [],
         "restricts": []
@@ -1373,11 +1373,11 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-524\" target=\"_blank\">BIOL 524</a> Topics in Molecular Biology (3 credits)",
             "overview": "Biology (Sci) : Molecular genetics and molecular, cellular and developmental biology, including signal transduction, cell differentiation and function, genetic diseases in eukaryotes.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Hugh Clarke David Dankort (Fall)"
+            "instructors": "Instructors: Hugh Clarke (Fall), David Dankort (Fall)"
         },
         "prereqs": [
-            "BIOL 303",
-            "BIOL 300"
+            "BIOL 300",
+            "BIOL 303"
         ],
         "coreqs": [],
         "restricts": []
@@ -1388,12 +1388,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-530\" target=\"_blank\">BIOL 530</a> Advances in Neuroethology (3 credits)",
             "overview": "Biology (Sci) : Neural mechanisms underlying behaviour in vertebrate and invertebrate organisms.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Sarah Woolley Tomoko Oyama (Winter)"
+            "instructors": "Instructors: Sarah Woolley (Winter), Tomoko Oyama (Winter)"
         },
         "prereqs": [
             "BIOL 306",
-            "PHGY 311",
             "NSCI 201",
+            "PHGY 311",
             "NSCI 200"
         ],
         "coreqs": [],
@@ -1405,7 +1405,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-532\" target=\"_blank\">BIOL 532</a> Developmental Neurobiology Seminar (3 credits)",
             "overview": "Biology (Sci) : Discussions of all aspects of nervous system development including pattern formation, cell lineage, pathfinding and targeting by growing axons, and neural regeneration. The basis for these discussions will be recent research papers and other assigned readings.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Donald Van Meyel Artur Kania Alyson Elise Fournier Jean-Francois Cloutier Edward Ruthazer (Winter)"
+            "instructors": "Instructors: Donald Van Meyel (Winter), Artur Kania (Winter), Alyson Elise Fournier (Winter), Jean-Francois Cloutier (Winter), Edward Ruthazer (Winter)"
         },
         "prereqs": [
             "BIOL 306",
@@ -1423,9 +1423,9 @@ global.biol_tar = {
             "instructors": "Instructors: Anthony Ricciardi (Winter)"
         },
         "prereqs": [
-            "ENVR 202",
+            "ENVR 200",
             "BIOL 215",
-            "ENVR 200"
+            "ENVR 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -1439,8 +1439,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 202",
-            "BIOL 300"
+            "BIOL 300",
+            "BIOL 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -1454,9 +1454,9 @@ global.biol_tar = {
             "instructors": "Instructors: Siegfried Hekimi (Fall)"
         },
         "prereqs": [
-            "BIOL 303",
+            "BIOL 300",
             "BIOL 202",
-            "BIOL 300"
+            "BIOL 303"
         ],
         "coreqs": [],
         "restricts": []
@@ -1467,12 +1467,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-551\" target=\"_blank\">BIOL 551</a> Principles of Cellular Control (3 credits)",
             "overview": "Biology (Sci) : Fundamental principles of cellular control, with cell cycle control  as a major theme. Biological and physical concepts are brought to bear  on control in healthy cells..",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Jacalyn Vogel Paul Francois Rodrigo Reyes Lamothe Stephanie Weber Arnold Hayer Abigail Gerhold (Winter)"
+            "instructors": "Instructors: Jacalyn Vogel (Winter), Paul Francois (Winter), Rodrigo Reyes Lamothe (Winter), Stephanie Weber (Winter), Arnold Hayer (Winter), Abigail Gerhold (Winter)"
         },
         "prereqs": [
+            "CHEM 115",
             "MATH 133",
-            "PHYS 142",
-            "CHEM 115"
+            "PHYS 142"
         ],
         "coreqs": [],
         "restricts": []
@@ -1486,15 +1486,15 @@ global.biol_tar = {
             "instructors": "Instructors: Catherine Potvin (Winter)"
         },
         "prereqs": [
+            "BIOL 215",
             "MATH 203",
-            "HISP 218",
-            "BIOL 215"
+            "HISP 218"
         ],
         "coreqs": [
-            "AGRI 550",
-            "HIST 510",
             "ENVR 451",
             "GEOG 404",
+            "AGRI 550",
+            "HIST 510",
             "GEOG 498"
         ],
         "restricts": []
@@ -1603,8 +1603,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 202",
-            "BIOL 300"
+            "BIOL 300",
+            "BIOL 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -1646,8 +1646,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 434",
-            "BIOL 308"
+            "BIOL 308",
+            "BIOL 434"
         ],
         "coreqs": [],
         "restricts": []
@@ -1754,8 +1754,8 @@ global.biol_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "BIOL 597",
-            "BIOL 596"
+            "BIOL 596",
+            "BIOL 597"
         ]
     },
     "BIOL 632": {
@@ -1778,7 +1778,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-640\" target=\"_blank\">BIOL 640</a> Tropical Biology and Conservation (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Carlos Arias Mejia William McMillan (Winter)"
+            "instructors": "Instructors: Carlos Arias Mejia (Winter), William McMillan (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1948,7 +1948,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biot-505\" target=\"_blank\">BIOT 505</a> Selected Topics in Biotechnology (3 credits)",
             "overview": "Biotechnology : Current methods and recent advances in biological, medical, agricultural and engineering aspects of biotechnology will be described and discussed. An extensive reading list will complement the lecture material.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Elias Georges Babykumari Chitramuthu Thomas Ming Swi Chang Lyle Whyte Donald L Smith Michel Tremblay Terence Hebert Jianguo Xia Mark Hancock Jérôme Waldispuhl (Fall)"
+            "instructors": "Instructors: Elias Georges (Fall), Babykumari Chitramuthu (Fall), Thomas Ming Swi Chang (Fall), Lyle Whyte (Fall), Donald L Smith (Fall), Michel Tremblay (Fall), Terence Hebert (Fall), Jianguo Xia (Fall), Mark Hancock (Fall), Jérôme Waldispuhl (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1963,8 +1963,8 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 201",
-            "NSCI 200"
+            "NSCI 200",
+            "NSCI 201"
         ],
         "coreqs": [],
         "restricts": [
@@ -1981,8 +1981,8 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Fall)"
         },
         "prereqs": [
-            "NSCI 201",
-            "NSCI 200"
+            "NSCI 200",
+            "NSCI 201"
         ],
         "coreqs": [],
         "restricts": [
@@ -2013,8 +2013,8 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Fall), Shelton Hendricks (Fall), Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 201",
-            "NSCI 200"
+            "NSCI 200",
+            "NSCI 201"
         ],
         "coreqs": [],
         "restricts": []
@@ -2028,8 +2028,8 @@ global.biol_tar = {
             "instructors": "Instructors: Joseph Alan Dent (Fall)"
         },
         "prereqs": [
-            "NSCI 201",
-            "NSCI 200"
+            "NSCI 200",
+            "NSCI 201"
         ],
         "coreqs": [],
         "restricts": [
@@ -2061,8 +2061,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "NSCI 201",
-            "NSCI 200"
+            "NSCI 200",
+            "NSCI 201"
         ],
         "coreqs": [],
         "restricts": [
@@ -2075,7 +2075,7 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420n2\" target=\"_blank\">NSCI 420N2</a> Independent Research 2 (4.5 credits)",
             "overview": "Neuroscience : See NSCI 420N1 for course description.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Joseph Alan Dent Shelton Hendricks (Fall)"
+            "instructors": "Instructors: Joseph Alan Dent (Fall), Shelton Hendricks (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -2087,12 +2087,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-430d1\" target=\"_blank\">NSCI 430D1</a> Honours Research Project (4.5 credits)",
             "overview": "Neuroscience : Students undertake an independent research project in the field of neursocience under the guidance of an established McGill neuroscientist. They are expected to obtain hands-on research experience in their supervisor's laboratory, learn about the strengths and limitations of the methodology and work independently.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Monroe W Cohen Joseph Alan Dent (Fall)"
+            "instructors": "Instructors: Monroe W Cohen (Fall), Joseph Alan Dent (Fall)"
         },
         "prereqs": [
-            "NSCI 300",
+            "NSCI 200",
             "NSCI 201",
-            "NSCI 200"
+            "NSCI 300"
         ],
         "coreqs": [
             "NSCI 400D2",
@@ -2108,12 +2108,12 @@ global.biol_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-430d2\" target=\"_blank\">NSCI 430D2</a> Honours Research Project (4.5 credits)",
             "overview": "Neuroscience : Students undertake an independent research project in the field of neursocience under the guidance of an established McGill neuroscientist. They are expected to obtain hands-on research experience in their supervisor's laboratory, learn about the strengths and limitations of the methodology and work independently.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Monroe W Cohen Joseph Alan Dent (Winter)"
+            "instructors": "Instructors: Monroe W Cohen (Winter), Joseph Alan Dent (Winter)"
         },
         "prereqs": [
-            "NSCI 300",
+            "NSCI 200",
             "NSCI 201",
-            "NSCI 200"
+            "NSCI 300"
         ],
         "coreqs": [
             "NSCI 400D2",

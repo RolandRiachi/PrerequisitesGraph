@@ -166,8 +166,8 @@ global.phys_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "PHYS 204",
-            "PHYS 205"
+            "PHYS 205",
+            "PHYS 204"
         ]
     },
     "PHYS 183": {
@@ -210,9 +210,9 @@ global.phys_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "EPSC 186",
             "EPSC 182",
-            "ANAT 182"
+            "ANAT 182",
+            "EPSC 186"
         ]
     },
     "PHYS 214": {
@@ -224,8 +224,8 @@ global.phys_tar = {
             "instructors": "Instructors: Daryl Haggard (Fall)"
         },
         "prereqs": [
-            "PHYS 102",
-            "PHYS 142"
+            "PHYS 142",
+            "PHYS 102"
         ],
         "coreqs": [],
         "restricts": []
@@ -253,8 +253,8 @@ global.phys_tar = {
             "instructors": "Instructors: Shaun MacDonald Lovejoy (Winter)"
         },
         "prereqs": [
-            "PHYS 102",
-            "PHYS 142"
+            "PHYS 142",
+            "PHYS 102"
         ],
         "coreqs": [],
         "restricts": [
@@ -289,8 +289,8 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "CHEM 120",
-            "PHYS 142"
+            "PHYS 142",
+            "CHEM 120"
         ],
         "coreqs": [],
         "restricts": [
@@ -352,8 +352,8 @@ global.phys_tar = {
             "instructors": "Instructors: Simon Caron-Huot (Fall)"
         },
         "prereqs": [
-            "CHEM 120",
-            "PHYS 131"
+            "PHYS 131",
+            "CHEM 120"
         ],
         "coreqs": [
             "MATH 222"
@@ -416,8 +416,8 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "CIVE 281",
-            "PHYS 251"
+            "PHYS 251",
+            "CIVE 281"
         ],
         "coreqs": [],
         "restricts": []
@@ -431,12 +431,12 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
+            "PHYS 232",
+            "MATH 222",
             "BIOL 200",
             "PHYS 230",
-            "PHYS 232",
             "BIOL 219",
-            "PHYS 253",
-            "MATH 222"
+            "PHYS 253"
         ],
         "coreqs": [],
         "restricts": [
@@ -484,16 +484,16 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
+            "BIOL 219",
             "PHYS 232",
             "PHYS 253",
-            "BIOL 219",
             "CHEM 345"
         ],
         "coreqs": [],
         "restricts": [
             "CHEM 365",
-            "PHYS 333",
-            "PHYS 362"
+            "PHYS 362",
+            "PHYS 333"
         ]
     },
     "PHYS 331": {
@@ -511,8 +511,8 @@ global.phys_tar = {
             "MATH 315"
         ],
         "restricts": [
-            "PHYS 351",
-            "PHYS 451"
+            "PHYS 451",
+            "PHYS 351"
         ]
     },
     "PHYS 333": {
@@ -561,8 +561,8 @@ global.phys_tar = {
             "MATH 314"
         ],
         "restricts": [
-            "PHYS 242",
-            "PHYS 350"
+            "PHYS 350",
+            "PHYS 242"
         ]
     },
     "PHYS 342": {
@@ -574,10 +574,10 @@ global.phys_tar = {
             "instructors": "Instructors: Guillaume Gervais (Winter)"
         },
         "prereqs": [
+            "PHYS 340",
             "MATH 314",
-            "PHYS 242",
             "MATH 315",
-            "PHYS 340"
+            "PHYS 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -636,10 +636,10 @@ global.phys_tar = {
             "instructors": "Instructors: Tamar Pereg-Barnea (Fall)"
         },
         "prereqs": [
-            "CIVE 281",
             "PHYS 230",
+            "PHYS 251",
             "MATH 223",
-            "PHYS 251"
+            "CIVE 281"
         ],
         "coreqs": [],
         "restricts": []
@@ -694,13 +694,13 @@ global.phys_tar = {
             "instructors": "Instructors: Nicolas Cowan (Fall)"
         },
         "prereqs": [
+            "PHYS 232",
+            "MATH 222",
             "PHYS 230",
             "PHYS 251",
-            "PHYS 232",
-            "MATH 325",
-            "PHYS 253",
             "MATH 315",
-            "MATH 222"
+            "MATH 325",
+            "PHYS 253"
         ],
         "coreqs": [],
         "restricts": [
@@ -716,8 +716,8 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 315",
-            "MATH 325"
+            "MATH 325",
+            "MATH 315"
         ],
         "coreqs": [],
         "restricts": []
@@ -731,10 +731,10 @@ global.phys_tar = {
             "instructors": "Instructors: Eve J Lee (Winter)"
         },
         "prereqs": [
-            "MATH 314",
+            "MATH 315",
             "PHYS 230",
-            "MATH 223",
-            "MATH 315"
+            "MATH 314",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": [
@@ -762,7 +762,7 @@ global.phys_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-439\" target=\"_blank\">PHYS 439</a> Majors Laboratory in Modern Physics (3 credits)",
             "overview": "Physics : Advanced level experiments in modern physics stressing quantum effects and some properties of condensed matter.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jack Childress David Hanna Dominic Ryan (Fall)"
+            "instructors": "Instructors: Jack Childress (Fall), David Hanna (Fall), Dominic Ryan (Fall)"
         },
         "prereqs": [
             "PHYS 339"
@@ -784,8 +784,8 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "PHYS 251",
-            "PHYS 232"
+            "PHYS 232",
+            "PHYS 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -867,7 +867,7 @@ global.phys_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-469\" target=\"_blank\">PHYS 469</a> Honours Laboratory in Modern Physics 2 (3 credits)",
             "overview": "Physics : Advanced level experiments in modern physics stressing quantum effects and some properties of condensed matter. Continuation of PHYS 359.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jack Childress David Hanna Dominic Ryan (Fall)"
+            "instructors": "Instructors: Jack Childress (Fall), David Hanna (Fall), Dominic Ryan (Fall)"
         },
         "prereqs": [
             "PHYS 359"
@@ -944,12 +944,12 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
+            "MATH 437",
+            "PHYS 340",
             "PHYS 350",
             "PHYS 362",
-            "PHYS 333",
-            "MATH 437",
             "PHYS 329",
-            "PHYS 340"
+            "PHYS 333"
         ],
         "coreqs": [],
         "restricts": []
@@ -1192,7 +1192,7 @@ global.phys_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-644\" target=\"_blank\">PHYS 644</a> Galaxies and Cosmology (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Adrian Liu Victoria Kaspi Daryl Haggard (Fall)"
+            "instructors": "Instructors: Adrian Liu (Fall), Victoria Kaspi (Fall), Daryl Haggard (Fall)"
         },
         "prereqs": [],
         "coreqs": [],

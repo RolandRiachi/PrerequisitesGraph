@@ -4,12 +4,9 @@ global.ecse_src = {
             "ECSE 206",
             "ECSE 210",
             "ECSE 211",
-            "ECSE 251",
             "ECSE 310",
-            "ECSE 316",
             "ECSE 322",
-            "ECSE 324",
-            "ECSE 351"
+            "ECSE 324"
         ],
         "coreqs": [],
         "restricts": [],
@@ -23,7 +20,11 @@ global.ecse_src = {
     },
     "ECSE 202": {
         "prereqs": [
-            "ECSE 222"
+            "ECSE 211",
+            "ECSE 222",
+            "ECSE 223",
+            "ECSE 321",
+            "ECSE 446"
         ],
         "coreqs": [],
         "restricts": [],
@@ -39,8 +40,6 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 310",
             "ECSE 408",
-            "ECSE 416",
-            "ECSE 446",
             "ECSE 508",
             "ECSE 509",
             "ECSE 512",
@@ -88,30 +87,6 @@ global.ecse_src = {
             "instructors": "Instructors: Narges Armanfard (Fall), Lawrence R Chen (Winter)"
         }
     },
-    "ECSE 303": {
-        "prereqs": [
-            "ECSE 304",
-            "ECSE 305",
-            "ECSE 334",
-            "ECSE 405",
-            "ECSE 472",
-            "ECSE 517",
-            "ECSE 593",
-            "ECSE 597",
-            "ECSE 634"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 206"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
-            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 306": {
         "prereqs": [
             "ECSE 305",
@@ -138,6 +113,30 @@ global.ecse_src = {
             "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a> Fundamentals of Signals and Systems (3 credits)",
             "overview": "Electrical Engineering : Review of complex functions. Discrete-and continuous-time signals, basic system properties. Linear time-invariant systems, convolution. Fourier series and Fourier transforms, frequency domain analysis, filtering, sampling. Laplace transforms and inversion, transfer functions, poles and zeros, solutions of linear constant-coefficient differential equations, transient and steady state response. Z-transforms.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 303": {
+        "prereqs": [
+            "ECSE 304",
+            "ECSE 305",
+            "ECSE 334",
+            "ECSE 405",
+            "ECSE 472",
+            "ECSE 517",
+            "ECSE 593",
+            "ECSE 597",
+            "ECSE 634"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 206"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
+            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -178,7 +177,8 @@ global.ecse_src = {
             "ECSE 307",
             "ECSE 330",
             "ECSE 331",
-            "ECSE 361"
+            "ECSE 361",
+            "ECSE 362"
         ],
         "coreqs": [
             "ECSE 291"
@@ -195,6 +195,9 @@ global.ecse_src = {
     "ECSE 211": {
         "prereqs": [
             "ECSE 323",
+            "ECSE 456",
+            "ECSE 458D1",
+            "ECSE 458N1",
             "ECSE 474"
         ],
         "coreqs": [],
@@ -204,11 +207,13 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-211\" target=\"_blank\">ECSE 211</a> Design Principles and Methods (3 credits)",
             "overview": "Electrical Engineering : Engineering process: design specifications, parameters, optimization, implementation, troubleshooting and refinement; project management: scheduling, risk analysis, project control; case studies; design examples and project.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: David Alister Lowther (Fall), Frank P Ferrie (Fall), AJung Moon (Fall), David Alister Lowther Frank P Ferrie AJung Moon (Winter)"
+            "instructors": "Instructors: David Alister Lowther (Fall), Frank P Ferrie (Fall), AJung Moon (Fall), David Alister Lowther (Winter), Frank P Ferrie (Winter), AJung Moon (Winter)"
         }
     },
     "ECSE 221": {
         "prereqs": [
+            "ECSE 322",
+            "ECSE 323",
             "ECSE 450"
         ],
         "coreqs": [],
@@ -239,41 +244,11 @@ global.ecse_src = {
             "instructors": "Instructors: Ioannis Psaromiligkos (Fall)"
         }
     },
-    "ECSE 322": {
-        "prereqs": [
-            "ECSE 414",
-            "ECSE 421",
-            "ECSE 422",
-            "ECSE 424",
-            "ECSE 425",
-            "ECSE 427",
-            "ECSE 436",
-            "ECSE 474",
-            "ECSE 526",
-            "ECSE 528",
-            "ECSE 538",
-            "ECSE 541",
-            "ECSE 542",
-            "ECSE 543",
-            "ECSE 547",
-            "ECSE 570"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 222"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mech-383\" target=\"_blank\">MECH 383</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> Computer Engineering (3 credits)",
-            "overview": "Electrical Engineering : Data structures (arrays, lists, stacks, queues, dequeues and trees) and their machine representation and simple algorithms. Peripheral devices: printers, keyboards, magnetic type drives, magnetic disc drives. Peripheral interfacing and busses. Introduction to operating systems. System integration. Computer systems and networks.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 323": {
         "prereqs": [
             "ECSE 421",
             "ECSE 425",
+            "ECSE 426",
             "ECSE 431",
             "ECSE 436",
             "ECSE 474",
@@ -295,10 +270,36 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ECSE 223": {
+    "ECSE 322": {
         "prereqs": [
-            "ECSE 326"
+            "ECSE 414",
+            "ECSE 421",
+            "ECSE 425",
+            "ECSE 436",
+            "ECSE 456",
+            "ECSE 474",
+            "ECSE 526",
+            "ECSE 528",
+            "ECSE 538",
+            "ECSE 541",
+            "ECSE 543",
+            "ECSE 547",
+            "ECSE 570"
         ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 222"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mech-383\" target=\"_blank\">MECH 383</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> Computer Engineering (3 credits)",
+            "overview": "Electrical Engineering : Data structures (arrays, lists, stacks, queues, dequeues and trees) and their machine representation and simple algorithms. Peripheral devices: printers, keyboards, magnetic type drives, magnetic disc drives. Peripheral interfacing and busses. Introduction to operating systems. System integration. Computer systems and networks.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 223": {
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -313,9 +314,7 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 354",
             "ECSE 362",
-            "ECSE 433",
             "ECSE 472",
-            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -331,8 +330,11 @@ global.ecse_src = {
     },
     "ECSE 291": {
         "prereqs": [
-            "ECSE 323",
-            "ECSE 334"
+            "ECSE 334",
+            "ECSE 488",
+            "ECSE 490",
+            "ECSE 491",
+            "ECSE 493"
         ],
         "coreqs": [],
         "restricts": [],
@@ -368,8 +370,7 @@ global.ecse_src = {
     },
     "ECSE 307": {
         "prereqs": [
-            "ECSE 403",
-            "ECSE 522"
+            "ECSE 403"
         ],
         "coreqs": [],
         "restricts": [],
@@ -384,7 +385,6 @@ global.ecse_src = {
     "ECSE 308": {
         "prereqs": [
             "ECSE 408",
-            "ECSE 416",
             "ECSE 511",
             "ECSE 515",
             "ECSE 528",
@@ -453,7 +453,8 @@ global.ecse_src = {
             "ECSE 429",
             "ECSE 437",
             "ECSE 439",
-            "ECSE 539"
+            "ECSE 456",
+            "ECSE 476"
         ],
         "coreqs": [],
         "restricts": [],
@@ -523,10 +524,12 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 334",
             "ECSE 431",
-            "ECSE 432",
+            "ECSE 456",
             "ECSE 465",
             "ECSE 472",
             "ECSE 474",
+            "ECSE 486",
+            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -544,7 +547,6 @@ global.ecse_src = {
     },
     "ECSE 331": {
         "prereqs": [
-            "ECSE 433",
             "ECSE 450",
             "ECSE 465",
             "ECSE 472",
@@ -634,6 +636,7 @@ global.ecse_src = {
             "ECSE 519",
             "ECSE 524",
             "ECSE 527",
+            "ECSE 535",
             "ECSE 540",
             "ECSE 547",
             "ECSE 571",
@@ -670,13 +673,11 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 405",
             "ECSE 423",
-            "ECSE 430",
             "ECSE 450",
             "ECSE 451",
             "ECSE 519",
             "ECSE 524",
             "ECSE 527",
-            "ECSE 535",
             "ECSE 540",
             "ECSE 547",
             "ECSE 571",
@@ -702,6 +703,7 @@ global.ecse_src = {
             "ECSE 465",
             "ECSE 466",
             "ECSE 468",
+            "ECSE 486",
             "ECSE 549",
             "ECSE 559",
             "ECSE 562",
@@ -754,7 +756,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-396\" target=\"_blank\">ECSE 396</a> Honours Research Laboratory Rotation 1 (1 credit)",
             "overview": "Electrical Engineering : First in a series of four research laboratory rotations selected among research groups in the department of Electrical and Computer Engineering.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 397": {
@@ -768,7 +770,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-397\" target=\"_blank\">ECSE 397</a> Honours Research Laboratory Rotation 2 (1 credit)",
             "overview": "Electrical Engineering : Second in a series of four research laboratory rotations selected among research groups in the department of Electrical and Computer Engineering.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 403": {
@@ -785,6 +787,20 @@ global.ecse_src = {
             "instructors": "Instructors: Peter Edwin Caines (Fall)"
         }
     },
+    "ECSE 493": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 403"
+        ],
+        "text": {
+            "notes": "<p>(1-3-2)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a>.</p>\n\n<p>Limited Enrolment - 20</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-493\" target=\"_blank\">ECSE 493</a> Control and Robotics Laboratory (2 credits)",
+            "overview": "Electrical Engineering : Experimental studies for the design of control systems, with particular emphasis on motion control as applicable to robotics. Modeling of DC motors and electro-mechanical systems. Controller design in the time and frequency domain as well as state space. Experimental examples of PID, lead-lag, full state feedback and LQR controllers.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 404": {
         "prereqs": [],
         "coreqs": [
@@ -797,20 +813,6 @@ global.ecse_src = {
             "notes": "<p>(3-1-5)</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> Control Systems (3 credits)",
             "overview": "Electrical Engineering : Modelling and simulation of control systems; basic concepts of linear systems; open and closed loop control; classical design of controllers - specifications in the step response and the frequency domain; state space design of controllers - pole placement and LQR; sampled data systems.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 493": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 403"
-        ],
-        "text": {
-            "notes": "<p>(1-3-2)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-404\" target=\"_blank\">ECSE 404</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a>.</p>\n\n<p>Limited Enrolment - 20</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-493\" target=\"_blank\">ECSE 493</a> Control and Robotics Laboratory (2 credits)",
-            "overview": "Electrical Engineering : Experimental studies for the design of control systems, with particular emphasis on motion control as applicable to robotics. Modeling of DC motors and electro-mechanical systems. Controller design in the time and frequency domain as well as state space. Experimental examples of PID, lead-lag, full state feedback and LQR controllers.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -901,9 +903,7 @@ global.ecse_src = {
         }
     },
     "ECSE 414": {
-        "prereqs": [
-            "ECSE 518"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -927,9 +927,7 @@ global.ecse_src = {
         }
     },
     "ECSE 416": {
-        "prereqs": [
-            "ECSE 518"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1266,7 +1264,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-457\" target=\"_blank\">ECSE 457</a> ECSE Design Project 2 (3 credits)",
             "overview": "Electrical Engineering : A design project undertaken with close mentorship by a staff member and under the supervision of the course instructor. The course is a continuation of ECSE 456.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall)"
         }
     },
     "ECSE 458D1": {
@@ -1280,7 +1278,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-458d1\" target=\"_blank\">ECSE 458D1</a> Capstone Design Project (3 credits)",
             "overview": "Electrical Engineering : A design project undertaken with close mentorship by a staff member and under the supervision of the course instructor. The project consists of defining an engineering problem, reviewing relevant background, acquiring/analyzing data, and seeking solutions using appropriate simulation/analysis tools and experimental\ninvestigations. Professional engineering practices will be followed.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall)"
         }
     },
     "ECSE 458D2": {
@@ -1292,7 +1290,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-458d2\" target=\"_blank\">ECSE 458D2</a> Capstone Design Project (3 credits)",
             "overview": "Electrical Engineering : See ECSE 458D1 for course description.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 458N1": {
@@ -1304,7 +1302,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-458n1\" target=\"_blank\">ECSE 458N1</a> Capstone Design Project (3 credits)",
             "overview": "Electrical Engineering : A design project undertaken with close mentorship by a staff member and under the supervision of the course instructor. The project consists of defining an engineering problem, reviewing relevant background, acquiring/analyzing data, and seeking solutions using appropriate simulation/analysis tools and experimental\ninvestigations. Professional engineering practices will be followed.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 458N2": {
@@ -1551,7 +1549,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-478d1\" target=\"_blank\">ECSE 478D1</a> Electrical Engineering Honours Thesis (3 credits)",
             "overview": "Electrical Engineering : A research project undertaken with close mentorship by a staff member and under the supervision of the course instructor. The thesis consists of defining an engineering problem, reviewing relevant background, acquiring/analyzing data, and seeking design solutions using appropriate simulation/analysis tools and experimental investigations.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall)"
         }
     },
     "ECSE 478D2": {
@@ -1563,7 +1561,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-478d2\" target=\"_blank\">ECSE 478D2</a> Electrical Engineering Honours Thesis (3 credits)",
             "overview": "Electrical Engineering : See ECSE 478D1 for description.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 478N1": {
@@ -1575,7 +1573,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-478n1\" target=\"_blank\">ECSE 478N1</a> Electrical Engineering Honours Thesis (3 credits)",
             "overview": "Electrical Engineering : A research project undertaken with close mentorship by a staff member and under the supervision of the course instructor. The thesis consists of defining an engineering problem, reviewing relevant background, acquiring/analyzing data, and seeking design solutions using appropriate simulation/analysis tools and experimental investigations.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 478N2": {
@@ -1713,7 +1711,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-496\" target=\"_blank\">ECSE 496</a> Honours Research Laboratory Rotation 3 (1 credit)",
             "overview": "Electrical Engineering : Third in a series of four research laboratory rotations selected among research groups in the Department of Electrical and Computer Engineering.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 497": {
@@ -1725,7 +1723,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-497\" target=\"_blank\">ECSE 497</a> Honours Research Laboratory Rotation 4 (1 credit)",
             "overview": "Electrical Engineering : Fourth in a series of four research laboratory rotations selected among research groups in the Department of Electrical and Computer Engineering.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka Ioannis Psaromiligkos (Winter)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall), Roni Khazaka (Winter), Ioannis Psaromiligkos (Winter)"
         }
     },
     "ECSE 498": {
@@ -1751,7 +1749,7 @@ global.ecse_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-499\" target=\"_blank\">ECSE 499</a> Honours Thesis 2 (3 credits)",
             "overview": "Electrical Engineering : A research project undertaken with close supervision by a staff member. A continuation of ECSE 498. The work consists of carrying out the research plan developed in ECSE 498 along with a seminar presentation at end of term.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Roni Khazaka Ioannis Psaromiligkos (Fall)"
+            "instructors": "Instructors: Roni Khazaka (Fall), Ioannis Psaromiligkos (Fall)"
         }
     },
     "ECSE 500": {
@@ -1818,6 +1816,7 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 506",
             "ECSE 510",
+            "ECSE 518",
             "ECSE 612",
             "ECSE 615"
         ],
@@ -1844,20 +1843,6 @@ global.ecse_src = {
             "overview": "Electrical Engineering : General introduction to optimization methods including steepest descent, conjugate gradient, Newton algorithms. Generalized matrix inverses and the least squared error problem. Introduction to constrained optimality; convexity and duality; interior point methods. Introduction to dynamic optimization; existence theory, relaxed controls, the Pontryagin Maximum Principle. Sufficiency of the Maximum Principle.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Hannah Michalska (Winter)"
-        }
-    },
-    "ECSE 543": {
-        "prereqs": [
-            "ECSE 507"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>), (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-543\" target=\"_blank\">ECSE 543</a> Numerical Methods in Electrical Engineering (3 credits)",
-            "overview": "Electrical Engineering : DC resistor networks and sparse matrix methods. Nonlinear electric and magnetic circuits: curve-fitting; the Newton-Raphson method. Finite elements for electrostatics. Transient analysis of circuits: systems of Ordinary differential equations; stiff equations. Transient analysis of induced currents. Solution of algebraic eigenvalue problems. Scattering of electromagnetic waves: the boundary element method; numerical integration.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
         }
     },
     "ECSE 508": {
@@ -1994,20 +1979,6 @@ global.ecse_src = {
             "instructors": "Instructors: Mark Coates (Winter)"
         }
     },
-    "ECSE 528": {
-        "prereqs": [
-            "ECSE 518"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
-            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 519": {
         "prereqs": [],
         "coreqs": [],
@@ -2108,6 +2079,18 @@ global.ecse_src = {
             "notes": "<p>(3-0-9)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-527\" target=\"_blank\">ECSE 527</a> Optical Engineering (4 credits)",
             "overview": "Electrical Engineering : A structured introduction to modern optical engineering. Topics covered include the\npropagation of light through space, refraction, diffraction, polarization, lens systems, ray-tracing, aberrations, computer-aided design and optimization techniques, Gaussian beam analysis, micro-optics and computer generated\ndiffractive optical elements.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 528": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
+            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -2256,6 +2239,18 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Design, development, and evaluation of human-computer interfaces, with emphasis on usability, interaction paradigms, computer-mediated human activities, and implications to society. These issues are studied from a number of perspectives including that of the engineer and end-user. A team-based project applies knowledge and skills to the full life cycle of an interactive human-computer interface.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
+        }
+    },
+    "ECSE 543": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>), (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-543\" target=\"_blank\">ECSE 543</a> Numerical Methods in Electrical Engineering (3 credits)",
+            "overview": "Electrical Engineering : DC resistor networks and sparse matrix methods. Nonlinear electric and magnetic circuits: curve-fitting; the Newton-Raphson method. Finite elements for electrostatics. Transient analysis of circuits: systems of Ordinary differential equations; stiff equations. Transient analysis of induced currents. Solution of algebraic eigenvalue problems. Scattering of electromagnetic waves: the boundary element method; numerical integration.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
         }
     },
     "ECSE 544": {

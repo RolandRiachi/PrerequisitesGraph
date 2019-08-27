@@ -21,7 +21,8 @@ global.phys_src = {
             "PHYS 117",
             "PHYS 142",
             "PHYS 230",
-            "PHYS 251"
+            "PHYS 251",
+            "PHYS 253"
         ],
         "coreqs": [],
         "restricts": [
@@ -107,6 +108,7 @@ global.phys_src = {
             "PHYS 118",
             "PHYS 214",
             "PHYS 228",
+            "PHYS 232",
             "PHYS 241",
             "PHYS 260"
         ],
@@ -238,7 +240,7 @@ global.phys_src = {
         "prereqs": [
             "PHYS 232",
             "PHYS 331",
-            "PHYS 404",
+            "PHYS 357",
             "PHYS 446"
         ],
         "coreqs": [
@@ -255,7 +257,7 @@ global.phys_src = {
     },
     "PHYS 232": {
         "prereqs": [
-            "PHYS 329",
+            "PHYS 319",
             "PHYS 333",
             "PHYS 404",
             "PHYS 446"
@@ -299,8 +301,9 @@ global.phys_src = {
     },
     "PHYS 251": {
         "prereqs": [
+            "PHYS 271",
             "PHYS 351",
-            "PHYS 404",
+            "PHYS 357",
             "PHYS 446"
         ],
         "coreqs": [
@@ -317,7 +320,6 @@ global.phys_src = {
     },
     "PHYS 253": {
         "prereqs": [
-            "PHYS 329",
             "PHYS 362"
         ],
         "coreqs": [],
@@ -442,9 +444,7 @@ global.phys_src = {
         }
     },
     "PHYS 333": {
-        "prereqs": [
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -456,9 +456,7 @@ global.phys_src = {
         }
     },
     "PHYS 362": {
-        "prereqs": [
-            "PHYS 519"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
             "PHYS 333"
@@ -486,7 +484,9 @@ global.phys_src = {
         }
     },
     "PHYS 340": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 342"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -513,8 +513,7 @@ global.phys_src = {
     },
     "PHYS 350": {
         "prereqs": [
-            "PHYS 352",
-            "PHYS 519"
+            "PHYS 352"
         ],
         "coreqs": [],
         "restricts": [],
@@ -669,7 +668,7 @@ global.phys_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-439\" target=\"_blank\">PHYS 439</a> Majors Laboratory in Modern Physics (3 credits)",
             "overview": "Physics : Advanced level experiments in modern physics stressing quantum effects and some properties of condensed matter.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jack Childress David Hanna Dominic Ryan (Fall)"
+            "instructors": "Instructors: Jack Childress (Fall), David Hanna (Fall), Dominic Ryan (Fall)"
         }
     },
     "PHYS 446": {
@@ -747,7 +746,7 @@ global.phys_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-469\" target=\"_blank\">PHYS 469</a> Honours Laboratory in Modern Physics 2 (3 credits)",
             "overview": "Physics : Advanced level experiments in modern physics stressing quantum effects and some properties of condensed matter. Continuation of PHYS 359.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jack Childress David Hanna Dominic Ryan (Fall)"
+            "instructors": "Instructors: Jack Childress (Fall), David Hanna (Fall), Dominic Ryan (Fall)"
         }
     },
     "PHYS 478": {
@@ -1069,7 +1068,7 @@ global.phys_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-644\" target=\"_blank\">PHYS 644</a> Galaxies and Cosmology (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Adrian Liu Victoria Kaspi Daryl Haggard (Fall)"
+            "instructors": "Instructors: Adrian Liu (Fall), Victoria Kaspi (Fall), Daryl Haggard (Fall)"
         }
     },
     "PHYS 645": {

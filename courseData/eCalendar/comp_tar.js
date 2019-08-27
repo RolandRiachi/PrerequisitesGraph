@@ -12,8 +12,8 @@ global.comp_tar = {
         "restricts": [
             "COMP 250",
             "COMP 202",
-            "COMP 203",
-            "COMP 208"
+            "COMP 208",
+            "COMP 203"
         ]
     },
     "COMP 189": {
@@ -51,8 +51,8 @@ global.comp_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "COMP 250",
-            "COMP 208"
+            "COMP 208",
+            "COMP 250"
         ]
     },
     "COMP 204": {
@@ -93,7 +93,7 @@ global.comp_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> Computer Programming for Physical Sciences and\r Engineering\r (3 credits)",
             "overview": "Computer Science (Sci) : Programming and problem solving in a high level computer language: variables, expressions, types, functions, conditionals, loops, objects and classes. Introduction to algorithms such as searching and sorting. Modular software design, libraries, file input and output, debugging. Emphasis on applications in Physical Sciences\nand Engineering, such as root finding, numerical integration, diffusion, Monte Carlo methods.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Jonathan Campbell Deven Parekh (Fall)"
+            "instructors": "Instructors: Jonathan Campbell (Fall), Deven Parekh (Fall)"
         },
         "prereqs": [
             "MATH 141"
@@ -144,9 +144,9 @@ global.comp_tar = {
             "COMP 250"
         ],
         "coreqs": [
-            "MATH 363",
             "MATH 235",
-            "MATH 240"
+            "MATH 240",
+            "MATH 363"
         ],
         "restricts": [
             "COMP 252"
@@ -161,9 +161,9 @@ global.comp_tar = {
             "instructors": "Instructors: Luc P Devroye (Winter)"
         },
         "prereqs": [
-            "MATH 235",
             "MATH 240",
-            "COMP 250"
+            "COMP 250",
+            "MATH 235"
         ],
         "coreqs": [],
         "restricts": [
@@ -278,10 +278,10 @@ global.comp_tar = {
             "instructors": "Instructors: David Meger (Fall), David Meger (Winter)"
         },
         "prereqs": [
-            "MATH 223",
-            "MATH 240",
             "COMP 250",
-            "COMP 206"
+            "COMP 206",
+            "MATH 240",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": []
@@ -296,8 +296,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 250",
-            "COMP 208",
-            "COMP 206"
+            "COMP 206",
+            "COMP 208"
         ],
         "coreqs": [],
         "restricts": []
@@ -322,14 +322,14 @@ global.comp_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-350\" target=\"_blank\">COMP 350</a> Numerical Computing (3 credits)",
             "overview": "Computer Science (Sci) : Computer representation of numbers, IEEE Standard for Floating Point Representation, computer arithmetic and rounding errors. Numerical stability. Matrix computations and software systems. Polynomial interpolation. Least-squares approximation. Iterative methods for solving a nonlinear equation. Discretization methods for integration and differential equations.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Ivo Panayotov Sitao Luan (Fall)"
+            "instructors": "Instructors: Ivo Panayotov (Fall), Sitao Luan (Fall)"
         },
         "prereqs": [
             "COMP 250",
             "COMP 202",
-            "MATH 223",
+            "MATH 222",
             "COMP 208",
-            "MATH 222"
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": [
@@ -347,8 +347,8 @@ global.comp_tar = {
         "prereqs": [
             "COMP 252",
             "MATH 363",
-            "MATH 240",
             "MATH 235",
+            "MATH 240",
             "COMP 251"
         ],
         "coreqs": [],
@@ -503,9 +503,9 @@ global.comp_tar = {
             "instructors": "Instructors: Clark Verbrugge (Winter)"
         },
         "prereqs": [
-            "COMP 302",
             "COMP 310",
             "ECSE 427",
+            "COMP 302",
             "COMP 251"
         ],
         "coreqs": [],
@@ -537,8 +537,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 302",
             "COMP 206",
+            "COMP 302",
             "COMP 251"
         ],
         "coreqs": [],
@@ -570,8 +570,8 @@ global.comp_tar = {
             "instructors": "Instructors: Timothy O'Donnell (Fall)"
         },
         "prereqs": [
-            "MATH 240",
-            "COMP 250"
+            "COMP 250",
+            "MATH 240"
         ],
         "coreqs": [],
         "restricts": [
@@ -587,15 +587,15 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "MATH 203",
             "BIOL 309",
-            "COMP 251",
-            "MATH 323"
+            "MATH 323",
+            "MATH 203",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": [
-            "COMP 561",
-            "COMP 562"
+            "COMP 562",
+            "COMP 561"
         ]
     },
     "COMP 480": {
@@ -649,9 +649,9 @@ global.comp_tar = {
             "instructors": "Instructors: Clark Verbrugge (Fall)"
         },
         "prereqs": [
-            "COMP 361",
-            "MATH 223",
             "COMP 303",
+            "MATH 223",
+            "COMP 361",
             "COMP 251"
         ],
         "coreqs": [],
@@ -681,8 +681,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 302",
-            "COMP 330"
+            "COMP 330",
+            "COMP 302"
         ],
         "coreqs": [],
         "restricts": []
@@ -696,8 +696,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 302",
-            "COMP 330"
+            "COMP 330",
+            "COMP 302"
         ],
         "coreqs": [],
         "restricts": []
@@ -726,10 +726,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 360",
             "COMP 424",
             "COMP 206",
-            "MATH 323"
+            "MATH 323",
+            "COMP 360"
         ],
         "coreqs": [],
         "restricts": []
@@ -847,9 +847,9 @@ global.comp_tar = {
             "instructors": "Instructors: Claude Crepeau (Winter)"
         },
         "prereqs": [
-            "COMP 360",
             "MATH 323",
-            "COMP 362"
+            "COMP 362",
+            "COMP 360"
         ],
         "coreqs": [],
         "restricts": []
@@ -864,9 +864,9 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 252",
-            "ECSE 305",
+            "MATH 323",
             "COMP 251",
-            "MATH 323"
+            "ECSE 305"
         ],
         "coreqs": [],
         "restricts": [
@@ -879,12 +879,12 @@ global.comp_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-551\" target=\"_blank\">COMP 551</a> Applied Machine Learning (4 credits)",
             "overview": "Computer Science (Sci) : Selected topics in machine learning and data mining, including clustering, neural networks, support vector machines, decision trees. Methods include feature selection and dimensionality reduction, error estimation and empirical validation, algorithm design and parallelization, and handling of large data sets. Emphasis on good methods and practices for deployment of real systems.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany Mohsen Ravanbakhsh (Winter)"
+            "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany (Winter), Mohsen Ravanbakhsh (Winter)"
         },
         "prereqs": [
+            "MATH 323",
             "ECSE 205",
-            "ECSE 305",
-            "MATH 323"
+            "ECSE 305"
         ],
         "coreqs": [],
         "restricts": [
@@ -916,10 +916,10 @@ global.comp_tar = {
             "instructors": "Instructors: Adrian Roshan Vetta (Fall)"
         },
         "prereqs": [
-            "MATH 350",
-            "MATH 487",
             "MATH 454",
-            "COMP 362"
+            "COMP 362",
+            "MATH 487",
+            "MATH 350"
         ],
         "coreqs": [],
         "restricts": [
@@ -935,8 +935,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 350",
-            "COMP 362"
+            "COMP 362",
+            "MATH 350"
         ],
         "coreqs": [],
         "restricts": [
@@ -952,10 +952,10 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Fall)"
         },
         "prereqs": [
-            "COMP 250",
-            "MATH 223",
             "MATH 222",
-            "COMP 206"
+            "COMP 250",
+            "COMP 206",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": []
@@ -969,10 +969,10 @@ global.comp_tar = {
             "instructors": "Instructors: Kaleem Siddiqi (Fall)"
         },
         "prereqs": [
-            "COMP 360",
-            "MATH 223",
+            "MATH 222",
             "COMP 206",
-            "MATH 222"
+            "MATH 223",
+            "COMP 360"
         ],
         "coreqs": [],
         "restricts": []
@@ -986,10 +986,10 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Winter)"
         },
         "prereqs": [
-            "COMP 250",
-            "MATH 223",
             "MATH 222",
-            "COMP 206"
+            "COMP 250",
+            "COMP 206",
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": []
@@ -1019,10 +1019,10 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "MATH 203",
             "BIOL 309",
-            "COMP 251",
-            "MATH 323"
+            "MATH 323",
+            "MATH 203",
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -1071,8 +1071,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 417",
-            "COMP 566"
+            "COMP 566",
+            "MATH 417"
         ],
         "coreqs": [],
         "restricts": []
@@ -1097,7 +1097,7 @@ global.comp_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-596\" target=\"_blank\">COMP 596</a> Topics in Computer Science 3 (3 credits)",
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Reihaneh Rabbany (Fall), Brigitte Pientka Blake Richards (Winter)"
+            "instructors": "Instructors: Reihaneh Rabbany (Fall), Brigitte Pientka (Winter), Blake Richards (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1133,7 +1133,7 @@ global.comp_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-599\" target=\"_blank\">COMP 599</a> Topics in Computer Science 2 (4 credits)",
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Prakash Panangaden Derek Nowrouzezahrai (Fall)"
+            "instructors": "Instructors: Prakash Panangaden (Fall), Derek Nowrouzezahrai (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1234,10 +1234,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 512",
-            "COMP 421",
             "COMP 535",
-            "COMP 435"
+            "COMP 435",
+            "COMP 421",
+            "COMP 512"
         ],
         "coreqs": [],
         "restricts": []
@@ -1329,8 +1329,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 524",
-            "COMP 530"
+            "COMP 530",
+            "COMP 524"
         ],
         "coreqs": [],
         "restricts": []
@@ -1344,9 +1344,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "MATH 323",
             "MATH 324",
-            "COMP 350",
-            "MATH 323"
+            "COMP 350"
         ],
         "coreqs": [],
         "restricts": []
@@ -1388,11 +1388,11 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 424",
+            "ECSE 305",
             "MATH 323",
             "COMP 360",
-            "ECSE 305",
             "ECSE 526",
+            "COMP 424",
             "COMP 526"
         ],
         "coreqs": [],
