@@ -61,6 +61,34 @@ global.econ_src = {
             "instructors": "Instructors: Mayssun El-Attar Vilalta (Fall), Paul Dickinson (Fall), Eesha Sen Choudhury (Fall), Sara Hayati (Fall), Paul Dickinson (Winter)"
         }
     },
+    "ECON 230": {
+        "prereqs": [
+            "ECON 330D1",
+            "ECON 405",
+            "ECON 406",
+            "ECON 411",
+            "ECON 416",
+            "ECON 420",
+            "ECON 434",
+            "ECON 447",
+            "ECON 459",
+            "ECON 473",
+            "ECON 510",
+            "ECON 531",
+            "ECON 546"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECON 208"
+        ],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
+            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
+        }
+    },
     "ECON 209": {
         "prereqs": [
             "ECON 302",
@@ -80,6 +108,7 @@ global.econ_src = {
             "ECON 336",
             "ECON 341",
             "ECON 344",
+            "ECON 345",
             "ECON 347"
         ],
         "coreqs": [
@@ -92,6 +121,22 @@ global.econ_src = {
             "overview": "Economics (Arts) : A university-level introduction to national income determination, money and banking, inflation, unemployment and economic policy.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Paul Dickinson (Fall), Paul Dickinson (Winter), Ling Ling Zhang (Winter)"
+        }
+    },
+    "ECON 295": {
+        "prereqs": [
+            "ECON 345"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECON 209"
+        ],
+        "text": {
+            "notes": "<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-293\" target=\"_blank\">MGCR 293</a> </p>\n\n<p>Restriction: For B.Com. students</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">D2</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">D2</a>.</p>\n\n<p>Continuing Studies: requirement for CMA, CGA, I.C.B., the EA of AACI, and the CRA</p>\n\n<p>Continuing Studies: not open to full-time day students</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-295\" target=\"_blank\">ECON 295</a> Macroeconomic Policy (3 credits)",
+            "overview": "Economics (Arts) : This applied macroeconomics course focuses on current and recurrent macroeconomic issues important in understanding the public policy environment in which firms make their decisions. Topics include national accounts; national income determination; economic growth and fluctuations; money, monetary policy and financial markets; international trade and finance.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Moshe Lander (Fall), Mayssun El-Attar Vilalta (Winter)"
         }
     },
     "ECON 219": {
@@ -122,6 +167,7 @@ global.econ_src = {
         "prereqs": [
             "ECON 250D2",
             "ECON 306",
+            "ECON 345",
             "ECON 352D1",
             "ECON 423",
             "ECON 424",
@@ -149,10 +195,13 @@ global.econ_src = {
             "ECON 230D2",
             "ECON 306",
             "ECON 336",
+            "ECON 345",
             "ECON 348",
             "ECON 408",
             "ECON 423",
             "ECON 424",
+            "ECON 426",
+            "ECON 430",
             "ECON 581"
         ],
         "coreqs": [
@@ -194,11 +243,15 @@ global.econ_src = {
     "ECON 227": {
         "prereqs": [
             "ECON 337",
+            "ECON 406",
             "ECON 440",
-            "ECON 462"
+            "ECON 462",
+            "ECON 473"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "ECON 257D1"
+        ],
         "text": {
             "notes": "<p>You may not be able to receive credit for this course and other statistic courses. Be sure to check the Course Overlap section under Faculty Degree Requirements in the Arts or Science section of the Calendar.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227\" target=\"_blank\">ECON 227</a> Economic Statistics (6 credits)",
@@ -210,7 +263,9 @@ global.econ_src = {
     "ECON 227D1": {
         "prereqs": [
             "ECON 227D2",
-            "ECON 348"
+            "ECON 348",
+            "ECON 416",
+            "ECON 430"
         ],
         "coreqs": [],
         "restricts": [],
@@ -234,18 +289,6 @@ global.econ_src = {
             "overview": "Economics (Arts) : See ECON 227D1 for course description.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Kenneth MacKenzie (Winter)"
-        }
-    },
-    "ECON 230": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> Microeconomic Theory (6 credits)",
-            "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall), Hassan Benchekroun (Winter)"
         }
     },
     "ECON 230D2": {
@@ -281,6 +324,7 @@ global.econ_src = {
     "ECON 257D1": {
         "prereqs": [
             "ECON 257D2",
+            "ECON 430",
             "ECON 468"
         ],
         "coreqs": [
@@ -305,20 +349,6 @@ global.econ_src = {
             "overview": "Economics (Arts) : See ECON 257D1 for course description.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Saraswata Chaudhuri (Winter)"
-        }
-    },
-    "ECON 295": {
-        "prereqs": [
-            "ECON 345"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-293\" target=\"_blank\">MGCR 293</a> </p>\n\n<p>Restriction: For B.Com. students</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">D2</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">D2</a>.</p>\n\n<p>Continuing Studies: requirement for CMA, CGA, I.C.B., the EA of AACI, and the CRA</p>\n\n<p>Continuing Studies: not open to full-time day students</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-295\" target=\"_blank\">ECON 295</a> Macroeconomic Policy (3 credits)",
-            "overview": "Economics (Arts) : This applied macroeconomics course focuses on current and recurrent macroeconomic issues important in understanding the public policy environment in which firms make their decisions. Topics include national accounts; national income determination; economic growth and fluctuations; money, monetary policy and financial markets; international trade and finance.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Moshe Lander (Fall), Mayssun El-Attar Vilalta (Winter)"
         }
     },
     "ECON 302": {

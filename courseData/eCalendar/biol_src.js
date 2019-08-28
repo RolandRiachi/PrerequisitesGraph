@@ -81,6 +81,9 @@ global.biol_src = {
             "BIOL 205",
             "BIOL 300",
             "BIOL 303",
+            "BIOL 313",
+            "BIOL 314",
+            "BIOL 319",
             "BIOL 370",
             "BIOL 377",
             "BIOL 413"
@@ -97,9 +100,18 @@ global.biol_src = {
     },
     "BIOL 201": {
         "prereqs": [
+            "BIOL 300",
+            "BIOL 303",
+            "BIOL 313",
+            "BIOL 314",
+            "BIOL 316",
+            "BIOL 370",
+            "BIOL 377",
             "BIOL 413"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 205"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lecture, 1 hour optional tutorial</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/anat-212\" target=\"_blank\">ANAT 212</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/bioc-212\" target=\"_blank\">BIOC 212</a></p>\n",
@@ -111,14 +123,18 @@ global.biol_src = {
     },
     "BIOL 202": {
         "prereqs": [
+            "BIOL 313",
             "BIOL 324",
+            "BIOL 370",
             "BIOL 413",
             "BIOL 416",
             "BIOL 544",
             "BIOL 546",
             "BIOL 575"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 303"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter, Summer</p>\n\n<p>3 hours lecture, 1 hour optional tutorial</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/lsci-204\" target=\"_blank\">LSCI 204</a>.</p>\n",
@@ -130,12 +146,15 @@ global.biol_src = {
     },
     "BIOL 205": {
         "prereqs": [
+            "BIOL 304",
             "BIOL 307",
             "BIOL 335",
+            "BIOL 342",
             "BIOL 350",
             "BIOL 355",
             "BIOL 385",
             "BIOL 413",
+            "BIOL 418",
             "BIOL 427"
         ],
         "coreqs": [],
@@ -151,7 +170,11 @@ global.biol_src = {
     "BIOL 206": {
         "prereqs": [
             "BIOL 331",
+            "BIOL 334",
+            "BIOL 334D1",
+            "BIOL 334D2",
             "BIOL 432",
+            "BIOL 441",
             "BIOL 466",
             "BIOL 467",
             "BIOL 468",
@@ -186,13 +209,25 @@ global.biol_src = {
     "BIOL 215": {
         "prereqs": [
             "BIOL 304",
+            "BIOL 305",
             "BIOL 307",
+            "BIOL 308",
+            "BIOL 310",
             "BIOL 331",
+            "BIOL 334",
+            "BIOL 334D1",
+            "BIOL 334D2",
+            "BIOL 342",
             "BIOL 352",
             "BIOL 355",
+            "BIOL 377",
             "BIOL 413",
+            "BIOL 418",
             "BIOL 429",
             "BIOL 432",
+            "BIOL 441",
+            "BIOL 465",
+            "BIOL 540",
             "BIOL 553"
         ],
         "coreqs": [],
@@ -206,7 +241,9 @@ global.biol_src = {
         }
     },
     "BIOL 219": {
-        "prereqs": [],
+        "prereqs": [
+            "BIOL 319"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -239,7 +276,9 @@ global.biol_src = {
             "BIOL 575",
             "BIOL 588"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 303"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lecture</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a> and one of <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-201\" target=\"_blank\">BIOL 201</a> or ANAT/<a href=\"https://mcgill.ca/study/2019-2020/courses/bioc-212\" target=\"_blank\">BIOC 212</a>.</p>\n",
@@ -335,7 +374,9 @@ global.biol_src = {
             "BIOL 580",
             "BIOL 588"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 507"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lecture</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-102\" target=\"_blank\">PHYS 102</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a> or CEGEP Physics and one of the following: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-201\" target=\"_blank\">BIOL 201</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/anat-212\" target=\"_blank\">ANAT 212</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/bioc-212\" target=\"_blank\">BIOC 212</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-200\" target=\"_blank\">NSCI 200</a></p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/psyc-308\" target=\"_blank\">PSYC 308</a>.</p>\n",
@@ -349,7 +390,9 @@ global.biol_src = {
         "prereqs": [
             "BIOL 517"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "BIOL 507"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>2 hours lecture and 1 hour conference</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-205\" target=\"_blank\">BIOL 205</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> or permission</p>\n",
@@ -547,6 +590,22 @@ global.biol_src = {
             "overview": "Biology (Sci) : An introduction to freshwater and marine biology and ecology. Topics include structure and function of the major aquatic ecosystems and how these are affected by environmental change.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "BIOL 432": {
+        "prereqs": [
+            "BIOL 515"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "BIOL 342"
+        ],
+        "text": {
+            "notes": "<p>Fall</p>\n\n<p>2 hours lecture; 2 weekends at field station equivalent to 3 hours laboratory per week</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-206\" target=\"_blank\">BIOL 206</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> or permission of instructor.</p>\n\n<p>This course, involving two field weekends, has an additional fee of $332.72, which includes room and board and transportation. The fee is refundable during the period where a student can drop the course with full refund. The Department of Biology subsidizes a portion of the cost for this activity.</p>\n\n<p>Restrictions: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/envb-315\" target=\"_blank\">ENVB 315</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-432\" target=\"_blank\">BIOL 432</a> Limnology (3 credits)",
+            "overview": "Biology (Sci) : A study of the physical, chemical and biological properties of lakes and other inland waters, with emphasis on their functioning as systems.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Gregor Fussmann (Fall)"
         }
     },
     "BIOL 350": {
@@ -773,20 +832,6 @@ global.biol_src = {
             "overview": "Biology (Sci) : Field settings (Uganda, Kenya, and/or Tanzania) are used to impart training in ecological principles critical to tropical conservation with an emphasis on research design and field research exercises.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Lauren Chapman (Winter)"
-        }
-    },
-    "BIOL 432": {
-        "prereqs": [
-            "BIOL 515"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Fall</p>\n\n<p>2 hours lecture; 2 weekends at field station equivalent to 3 hours laboratory per week</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-206\" target=\"_blank\">BIOL 206</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-215\" target=\"_blank\">BIOL 215</a> or permission of instructor.</p>\n\n<p>This course, involving two field weekends, has an additional fee of $332.72, which includes room and board and transportation. The fee is refundable during the period where a student can drop the course with full refund. The Department of Biology subsidizes a portion of the cost for this activity.</p>\n\n<p>Restrictions: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/envb-315\" target=\"_blank\">ENVB 315</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-432\" target=\"_blank\">BIOL 432</a> Limnology (3 credits)",
-            "overview": "Biology (Sci) : A study of the physical, chemical and biological properties of lakes and other inland waters, with emphasis on their functioning as systems.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Gregor Fussmann (Fall)"
         }
     },
     "BIOL 434": {
@@ -1681,9 +1726,7 @@ global.biol_src = {
     "NSCI 410": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "NSCI 420D2"
-        ],
+        "restricts": [],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-200\" target=\"_blank\">NSCI 200</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-201\" target=\"_blank\">NSCI 201</a></p>\n\n<p>Restrictions: Only open to students registered in the B.Sc. Neuroscience Major. Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d1\" target=\"_blank\">NSCI 420D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d2\" target=\"_blank\">NSCI 420D2</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-410\" target=\"_blank\">NSCI 410</a> Independent Research 1 (6 credits)",
@@ -1692,10 +1735,23 @@ global.biol_src = {
             "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         }
     },
-    "NSCI 410D1": {
-        "prereqs": [
-            "NSCI 410D2"
+    "NSCI 420D2": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "NSCI 410",
+            "NSCI 410D1"
         ],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d1\" target=\"_blank\">NSCI 420D1</a></p>\n\n<p>Restrictions: Only open to students registered in the B.Sc. Neuroscience Major. Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-410\" target=\"_blank\">NSCI 410</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d1\" target=\"_blank\">NSCI 420D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d2\" target=\"_blank\">NSCI 420D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d2\" target=\"_blank\">NSCI 420D2</a> Independent Research 2 (4.5 credits)",
+            "overview": "Neuroscience : See NSCI 420D1 for course description.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
+        }
+    },
+    "NSCI 410D1": {
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1731,9 +1787,7 @@ global.biol_src = {
         }
     },
     "NSCI 420D1": {
-        "prereqs": [
-            "NSCI 420D2"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1742,18 +1796,6 @@ global.biol_src = {
             "overview": "Neuroscience : Independent laboratory research in neuroscience.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Joseph Alan Dent (Fall)"
-        }
-    },
-    "NSCI 420D2": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d1\" target=\"_blank\">NSCI 420D1</a></p>\n\n<p>Restrictions: Only open to students registered in the B.Sc. Neuroscience Major. Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-410\" target=\"_blank\">NSCI 410</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d1\" target=\"_blank\">NSCI 420D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d2\" target=\"_blank\">NSCI 420D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/nsci-420d2\" target=\"_blank\">NSCI 420D2</a> Independent Research 2 (4.5 credits)",
-            "overview": "Neuroscience : See NSCI 420D1 for course description.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         }
     },
     "NSCI 420N1": {

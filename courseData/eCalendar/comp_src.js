@@ -15,18 +15,22 @@ global.comp_src = {
         "prereqs": [
             "COMP 206",
             "COMP 251",
+            "COMP 252",
             "COMP 302",
             "COMP 303",
             "COMP 321",
             "COMP 322",
             "COMP 350",
             "COMP 361D1",
-            "COMP 445"
+            "COMP 445",
+            "COMP 557",
+            "COMP 559"
         ],
         "coreqs": [],
         "restricts": [
             "COMP 102",
-            "COMP 202"
+            "COMP 202",
+            "COMP 208"
         ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisites: Familiarity with a high level programming language and CEGEP level Math.</p>\n\n<p>Students with limited programming experience should take <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or equivalent before <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>. See <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Course Description for a list of topics.</p>\n",
@@ -43,7 +47,9 @@ global.comp_src = {
         ],
         "coreqs": [],
         "restricts": [
-            "COMP 102"
+            "COMP 102",
+            "COMP 204",
+            "COMP 208"
         ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
@@ -55,12 +61,14 @@ global.comp_src = {
     },
     "COMP 208": {
         "prereqs": [
-            "COMP 322"
+            "COMP 322",
+            "COMP 350"
         ],
         "coreqs": [],
         "restricts": [
             "COMP 102",
-            "COMP 202"
+            "COMP 202",
+            "COMP 204"
         ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> or equivalent.</p>\n\n<p>Restrictions: Credit can be given only for one of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a>. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-206\" target=\"_blank\">COMP 206</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students with sufficient math background and in (non-life) science or engineering fields.</p>\n",
@@ -97,7 +105,9 @@ global.comp_src = {
     "COMP 204": {
         "prereqs": [],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "COMP 208"
+        ],
         "text": {
             "notes": "<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-112\" target=\"_blank\">BIOL 112</a>. CEGEP level mathematics course.</p>\n\n<p>Restriction(s): Only one of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> can be taken for credit.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-206\" target=\"_blank\">COMP 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-364\" target=\"_blank\">COMP 364</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-204\" target=\"_blank\">COMP 204</a> Computer Programming for Life Sciences (3 credits)",
@@ -110,16 +120,18 @@ global.comp_src = {
         "prereqs": [
             "COMP 303",
             "COMP 307",
-            "COMP 321",
             "COMP 322",
             "COMP 361D1",
             "COMP 421",
+            "COMP 424",
             "COMP 526"
         ],
         "coreqs": [
             "COMP 273"
         ],
-        "restricts": [],
+        "restricts": [
+            "COMP 208"
+        ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-206\" target=\"_blank\">COMP 206</a> Introduction to Software Systems (3 credits)",
@@ -143,10 +155,19 @@ global.comp_src = {
     "COMP 251": {
         "prereqs": [
             "COMP 330",
+            "COMP 360",
+            "COMP 401",
+            "COMP 409",
+            "COMP 417",
             "COMP 421",
+            "COMP 424",
+            "COMP 462",
             "COMP 512",
+            "COMP 521",
             "COMP 522",
             "COMP 525",
+            "COMP 550",
+            "COMP 561",
             "COMP 621"
         ],
         "coreqs": [],
@@ -161,7 +182,6 @@ global.comp_src = {
     },
     "COMP 252": {
         "prereqs": [
-            "COMP 360",
             "COMP 362",
             "COMP 550"
         ],
@@ -205,6 +225,7 @@ global.comp_src = {
     },
     "COMP 302": {
         "prereqs": [
+            "COMP 409",
             "COMP 421",
             "COMP 520",
             "COMP 522",
@@ -226,7 +247,8 @@ global.comp_src = {
     "COMP 303": {
         "prereqs": [
             "COMP 521",
-            "COMP 529"
+            "COMP 529",
+            "COMP 533"
         ],
         "coreqs": [
             "COMP 307",
@@ -325,7 +347,10 @@ global.comp_src = {
         }
     },
     "COMP 350": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 540",
+            "COMP 642"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -337,7 +362,13 @@ global.comp_src = {
         }
     },
     "COMP 360": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 526",
+            "COMP 547",
+            "COMP 558",
+            "COMP 560",
+            "COMP 566"
+        ],
         "coreqs": [],
         "restricts": [
             "COMP 362"
@@ -378,7 +409,9 @@ global.comp_src = {
     },
     "COMP 362": {
         "prereqs": [
+            "COMP 547",
             "COMP 552",
+            "COMP 553",
             "COMP 554"
         ],
         "coreqs": [],
@@ -502,7 +535,9 @@ global.comp_src = {
         }
     },
     "COMP 421": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -569,7 +604,9 @@ global.comp_src = {
         }
     },
     "COMP 512": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 614"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -631,7 +668,9 @@ global.comp_src = {
         }
     },
     "COMP 524": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 627"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -655,7 +694,9 @@ global.comp_src = {
         }
     },
     "COMP 526": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 652"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -777,6 +818,20 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : An introduction to the computational modelling of natural language, including algorithms, formalisms, and applications. Computational morphology, language modelling, syntactic parsing, lexical and compositional semantics, and discourse analysis. Selected applications such as automatic summarization, machine translation, and speech processing. Machine learning techniques for natural language processing.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Jackie Cheung (Fall)"
+        }
+    },
+    "COMP 599": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "COMP 550"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: Permission of instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-599\" target=\"_blank\">COMP 599</a> Topics in Computer Science 2 (4 credits)",
+            "overview": "Computer Science (Sci) : Topics in computer science.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Prakash Panangaden (Fall), Derek Nowrouzezahrai (Fall)"
         }
     },
     "COMP 551": {
@@ -973,18 +1028,6 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Yue Li (Fall), Derek Nowrouzezahrai (Fall), Muthucumaru Maheswaran (Winter)"
-        }
-    },
-    "COMP 599": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: Permission of instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-599\" target=\"_blank\">COMP 599</a> Topics in Computer Science 2 (4 credits)",
-            "overview": "Computer Science (Sci) : Topics in computer science.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Prakash Panangaden (Fall), Derek Nowrouzezahrai (Fall)"
         }
     },
     "COMP 601": {

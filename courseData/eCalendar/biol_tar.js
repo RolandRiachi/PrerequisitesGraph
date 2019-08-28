@@ -52,8 +52,7 @@ global.biol_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "BIOL 115",
-            "AEBI 122"
+            "BIOL 115"
         ]
     },
     "BIOL 115": {
@@ -67,8 +66,8 @@ global.biol_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "BIOL 112",
-            "BIOL 111"
+            "BIOL 111",
+            "BIOL 112"
         ]
     },
     "BIOL 200": {
@@ -82,9 +81,7 @@ global.biol_tar = {
         "prereqs": [
             "BIOL 112"
         ],
-        "coreqs": [
-            "CHEM 212"
-        ],
+        "coreqs": [],
         "restricts": []
     },
     "BIOL 201": {
@@ -99,10 +96,7 @@ global.biol_tar = {
             "BIOL 200"
         ],
         "coreqs": [],
-        "restricts": [
-            "ANAT 212",
-            "BIOC 212"
-        ]
+        "restricts": []
     },
     "BIOL 202": {
         "text": {
@@ -116,9 +110,7 @@ global.biol_tar = {
             "BIOL 200"
         ],
         "coreqs": [],
-        "restricts": [
-            "LSCI 204"
-        ]
+        "restricts": []
     },
     "BIOL 205": {
         "text": {
@@ -129,12 +121,9 @@ global.biol_tar = {
             "instructors": "Instructors: Jon Sakata (Winter), Anna Hargreaves (Winter)"
         },
         "prereqs": [
-            "BIOL 200",
-            "PHYS 101"
+            "BIOL 200"
         ],
         "coreqs": [
-            "ANAT 212",
-            "BIOC 212",
             "BIOL 201"
         ],
         "restricts": []
@@ -177,9 +166,7 @@ global.biol_tar = {
             "BIOL 111"
         ],
         "coreqs": [],
-        "restricts": [
-            "ENVR 202"
-        ]
+        "restricts": []
     },
     "BIOL 219": {
         "text": {
@@ -190,23 +177,13 @@ global.biol_tar = {
             "instructors": "Instructors: Adam Hendricks (Fall), Jacalyn Vogel (Fall), Gary Brouhard (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
-            "PHYS 131",
             "PHYS 142",
-            "CHEM 120",
-            "MATH 141",
-            "CHEM 110",
-            "MATH 133",
-            "MATH 140",
-            "BIOL 112"
+            "BIOL 112",
+            "MATH 133"
         ],
-        "coreqs": [
-            "MATH 222"
-        ],
+        "coreqs": [],
         "restricts": [
-            "ANAT 212",
-            "BIEN 219",
             "BIOL 200",
-            "BIOC 212",
             "BIOL 201"
         ]
     },
@@ -222,9 +199,7 @@ global.biol_tar = {
             "BIOL 111"
         ],
         "coreqs": [],
-        "restricts": [
-            "PLNT 358"
-        ]
+        "restricts": []
     },
     "BIOL 300": {
         "text": {
@@ -235,9 +210,8 @@ global.biol_tar = {
             "instructors": "Instructors: Frieder Schöck (Fall), Nam Sung Moon (Fall)"
         },
         "prereqs": [
-            "BIOL 200",
-            "BIOC 212",
-            "BIOL 201"
+            "BIOL 201",
+            "BIOL 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -252,11 +226,7 @@ global.biol_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "BIOC 300",
-            "BIOC 220",
-            "BIOC 320"
-        ]
+        "restricts": []
     },
     "BIOL 303": {
         "text": {
@@ -267,17 +237,14 @@ global.biol_tar = {
             "instructors": "Instructors: Abigail Gerhold (Winter), Yong Rao (Winter), Daniel Dufort (Winter)"
         },
         "prereqs": [
-            "BIOL 200",
-            "BIOC 212",
-            "BIOL 201"
+            "BIOL 201",
+            "BIOL 200"
         ],
         "coreqs": [
             "BIOL 300",
             "BIOL 202"
         ],
-        "restricts": [
-            "ANAT 381"
-        ]
+        "restricts": []
     },
     "BIOL 304": {
         "text": {
@@ -289,7 +256,6 @@ global.biol_tar = {
         },
         "prereqs": [
             "BIOL 215",
-            "ENVR 202",
             "BIOL 205"
         ],
         "coreqs": [],
@@ -304,9 +270,7 @@ global.biol_tar = {
             "instructors": "Instructors: Hans Carl Larsson (Winter), Graham Bell (Winter), David M Green (Winter), Andrew Hendry (Winter), Virginie Millien (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 215",
-            "ENVR 202"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -320,17 +284,11 @@ global.biol_tar = {
             "instructors": "Instructors: Jon Sakata (Fall), Joseph Alan Dent (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
-            "ANAT 212",
-            "PHYS 142",
-            "BIOC 212",
-            "BIOL 201",
-            "NSCI 200",
-            "PHYS 102"
+            "PHYS 102",
+            "BIOL 201"
         ],
         "coreqs": [],
-        "restricts": [
-            "PSYC 308"
-        ]
+        "restricts": []
     },
     "BIOL 307": {
         "text": {
@@ -356,9 +314,7 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard (Fall)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 215",
-            "ENVR 202"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -384,9 +340,7 @@ global.biol_tar = {
             "instructors": "Instructors: Jennifer Sunday (Winter), Andrew Gonzalez (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
             "BIOL 215",
-            "ENVR 202",
             "MATH 112"
         ],
         "coreqs": [],
@@ -401,9 +355,7 @@ global.biol_tar = {
             "instructors": "Instructors: Stephanie Weber (Winter)"
         },
         "prereqs": [
-            "ANAT 212",
             "BIOL 200",
-            "BIOC 212",
             "BIOL 202",
             "BIOL 201"
         ],
@@ -419,10 +371,8 @@ global.biol_tar = {
             "instructors": "Instructors: David Dankort (Fall), Karen Elizabeth Christensen (Fall), Sonia Victoria Del Rincon (Fall), Loydie Majewska (Fall)"
         },
         "prereqs": [
-            "ANAT 212",
-            "BIOL 200",
-            "BIOC 212",
-            "BIOL 201"
+            "BIOL 201",
+            "BIOL 200"
         ],
         "coreqs": [],
         "restricts": []
@@ -436,8 +386,6 @@ global.biol_tar = {
             "instructors": "Instructors: Huanquan Zheng (Fall), Alanna Watt (Fall)"
         },
         "prereqs": [
-            "ANAT 212",
-            "BIOC 212",
             "BIOL 201"
         ],
         "coreqs": [],
@@ -452,17 +400,13 @@ global.biol_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
-            "PHYS 232",
-            "MATH 222",
             "BIOL 200",
-            "PHYS 230",
             "BIOL 219",
-            "PHYS 253"
+            "PHYS 253",
+            "MATH 222"
         ],
         "coreqs": [],
-        "restricts": [
-            "PHYS 319"
-        ]
+        "restricts": []
     },
     "BIOL 320": {
         "text": {
@@ -473,8 +417,7 @@ global.biol_tar = {
             "instructors": "Instructors: Sarah Woolley (Winter), Jon Sakata (Winter)"
         },
         "prereqs": [
-            "BIOL 306",
-            "NSCI 201"
+            "BIOL 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -502,8 +445,8 @@ global.biol_tar = {
             "instructors": "Instructors: Simon Reader (Fall), Rowan Barrett (Fall), Anna Hargreaves (Fall)"
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -517,10 +460,8 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard (Winter), Laura Nilson (Winter), Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 206",
-            "ENVR 202",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -534,10 +475,8 @@ global.biol_tar = {
             "instructors": "Instructors: Frederic Guichard (Winter), Laura Nilson (Winter), Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 206",
-            "ENVR 202",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -551,10 +490,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 206",
-            "ENVR 202",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -582,9 +519,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ENVR 200",
             "BIOL 215",
-            "ENVR 202",
             "BIOL 205"
         ],
         "coreqs": [],
@@ -604,10 +539,7 @@ global.biol_tar = {
             "BIOL 205"
         ],
         "coreqs": [],
-        "restricts": [
-            "ENTO 350",
-            "ENTO 330"
-        ]
+        "restricts": []
     },
     "BIOL 352": {
         "text": {
@@ -618,9 +550,7 @@ global.biol_tar = {
             "instructors": "Instructors: Hans Carl Larsson (Winter)"
         },
         "prereqs": [
-            "BIOL 215",
-            "ENVR 202",
-            "EPSC 233"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -638,9 +568,7 @@ global.biol_tar = {
             "BIOL 205"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 555"
-        ]
+        "restricts": []
     },
     "BIOL 370": {
         "text": {
@@ -651,10 +579,9 @@ global.biol_tar = {
             "instructors": "Instructors: Roberta M Palmour (Fall), John James Mitchell (Fall), John Brent Richards (Fall), Ioannis Trakadis (Fall), Carl Ernst (Fall), Asangla Ao (Fall), Jennifer Fitzpatrick (Fall), James Engert (Fall), Loydie Majewska (Fall), Yojiro Yamanaka (Fall)"
         },
         "prereqs": [
+            "BIOL 201",
             "BIOL 200",
-            "BIOC 212",
-            "BIOL 202",
-            "BIOL 201"
+            "BIOL 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -667,9 +594,7 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Brian Leung (Fall)"
         },
-        "prereqs": [
-            "MATH 112"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -682,10 +607,9 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "BIOL 201",
             "BIOL 200",
-            "BIOC 212",
-            "BIOL 215",
-            "BIOL 201"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -702,9 +626,7 @@ global.biol_tar = {
             "BIOL 205"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 485"
-        ]
+        "restricts": []
     },
     "BIOL 389": {
         "text": {
@@ -715,10 +637,7 @@ global.biol_tar = {
             "instructors": "Instructors: Alanna Watt (Winter), Joseph Alan Dent (Winter), Tomoko Oyama (Winter)"
         },
         "prereqs": [
-            "BIOL 306",
-            "NEUR 310",
-            "PHGY 311",
-            "NSCI 200"
+            "BIOL 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -732,16 +651,11 @@ global.biol_tar = {
             "instructors": "Instructors: Arnold Hayer (Fall)"
         },
         "prereqs": [
-            "ANAT 212",
-            "COMP 250",
-            "COMP 204",
             "COMP 202",
-            "MATH 222",
             "BIOL 200",
-            "BIOC 212",
             "BIOL 219",
-            "BIOL 201",
-            "CHEM 212"
+            "COMP 204",
+            "BIOL 201"
         ],
         "coreqs": [],
         "restricts": []
@@ -767,11 +681,11 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 205",
             "BIOL 200",
             "BIOL 215",
             "BIOL 202",
-            "BIOL 201"
+            "BIOL 201",
+            "BIOL 205"
         ],
         "coreqs": [],
         "restricts": []
@@ -785,8 +699,7 @@ global.biol_tar = {
             "instructors": "Instructors: Tomoko Oyama (Fall)"
         },
         "prereqs": [
-            "BIOL 306",
-            "COMP 202"
+            "BIOL 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -800,14 +713,12 @@ global.biol_tar = {
             "instructors": "Instructors: Daniel Dufort (Winter), Teruko Taketo-Hosotani (Winter)"
         },
         "prereqs": [
+            "BIOL 303",
             "BIOL 300",
-            "BIOL 202",
-            "BIOL 303"
+            "BIOL 202"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 516"
-        ]
+        "restricts": []
     },
     "BIOL 418": {
         "text": {
@@ -818,9 +729,7 @@ global.biol_tar = {
             "instructors": "Instructors: Anthony Ricciardi (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
             "BIOL 215",
-            "ENVR 202",
             "BIOL 205"
         ],
         "coreqs": [],
@@ -835,13 +744,11 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 305",
-            "BIOL 205"
+            "BIOL 205",
+            "BIOL 305"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 327"
-        ]
+        "restricts": []
     },
     "BIOL 428": {
         "text": {
@@ -855,8 +762,7 @@ global.biol_tar = {
             "BIOL 305"
         ],
         "coreqs": [
-            "BIOL 451",
-            "GEOG 451"
+            "BIOL 451"
         ],
         "restricts": []
     },
@@ -872,12 +778,9 @@ global.biol_tar = {
             "BIOL 215"
         ],
         "coreqs": [
-            "BIOL 451",
-            "GEOG 451"
+            "BIOL 451"
         ],
-        "restricts": [
-            "BIOL 329"
-        ]
+        "restricts": []
     },
     "BIOL 432": {
         "text": {
@@ -888,13 +791,11 @@ global.biol_tar = {
             "instructors": "Instructors: Gregor Fussmann (Fall)"
         },
         "prereqs": [
-            "BIOL 206",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "ENVB 315"
-        ]
+        "restricts": []
     },
     "BIOL 434": {
         "text": {
@@ -948,10 +849,8 @@ global.biol_tar = {
             "instructors": "Instructors: Neil Price (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 206",
-            "ENVR 202",
-            "BIOL 215"
+            "BIOL 215",
+            "BIOL 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -965,13 +864,8 @@ global.biol_tar = {
             "instructors": "Instructors: Lauren Chapman (Winter)"
         },
         "prereqs": [],
-        "coreqs": [
-            "ANTH 451",
-            "GEOG 451"
-        ],
-        "restricts": [
-            "NRSC 451"
-        ]
+        "coreqs": [],
+        "restricts": []
     },
     "BIOL 463": {
         "text": {
@@ -982,8 +876,7 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 305",
-            "WILD 350"
+            "BIOL 305"
         ],
         "coreqs": [],
         "restricts": []
@@ -997,9 +890,7 @@ global.biol_tar = {
             "instructors": "Instructors: Lauren Chapman (Fall), Andrew Gonzalez (Fall)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 215",
-            "ENVR 202"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -1017,9 +908,7 @@ global.biol_tar = {
             "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 477"
-        ]
+        "restricts": []
     },
     "BIOL 467": {
         "text": {
@@ -1034,9 +923,7 @@ global.biol_tar = {
             "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 478"
-        ]
+        "restricts": []
     },
     "BIOL 468": {
         "text": {
@@ -1051,10 +938,7 @@ global.biol_tar = {
             "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 471",
-            "BIOL 471D1"
-        ]
+        "restricts": []
     },
     "BIOL 468D1": {
         "text": {
@@ -1069,10 +953,7 @@ global.biol_tar = {
             "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 471",
-            "BIOL 471D1"
-        ]
+        "restricts": []
     },
     "BIOL 468D2": {
         "text": {
@@ -1101,10 +982,7 @@ global.biol_tar = {
             "BIOL 206"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 471",
-            "BIOL 471D1"
-        ]
+        "restricts": []
     },
     "BIOL 468N2": {
         "text": {
@@ -1116,10 +994,7 @@ global.biol_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "BIOL 471",
-            "BIOL 471D1"
-        ]
+        "restricts": []
     },
     "BIOL 469": {
         "text": {
@@ -1253,12 +1128,8 @@ global.biol_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "NEUR 310",
-            "PHGY 311",
             "BIOL 306",
-            "NSCI 201",
-            "BIOL 307",
-            "NSCI 200"
+            "BIOL 307"
         ],
         "restricts": []
     },
@@ -1283,8 +1154,7 @@ global.biol_tar = {
             "instructors": "Instructors: Andrew Gonzalez (Fall)"
         },
         "prereqs": [
-            "BIOL 308",
-            "GEOG 350"
+            "BIOL 308"
         ],
         "coreqs": [],
         "restricts": []
@@ -1298,16 +1168,10 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 306",
-            "NSCI 201",
-            "NEUR 310",
-            "PHGY 311"
+            "BIOL 306"
         ],
         "coreqs": [],
-        "restricts": [
-            "PSYC 514",
-            "BIOL 531"
-        ]
+        "restricts": []
     },
     "BIOL 515": {
         "text": {
@@ -1361,8 +1225,8 @@ global.biol_tar = {
             "instructors": "Instructors: Abigail Gerhold (Winter)"
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -1376,8 +1240,8 @@ global.biol_tar = {
             "instructors": "Instructors: Hugh Clarke (Fall), David Dankort (Fall)"
         },
         "prereqs": [
-            "BIOL 300",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 300"
         ],
         "coreqs": [],
         "restricts": []
@@ -1391,10 +1255,7 @@ global.biol_tar = {
             "instructors": "Instructors: Sarah Woolley (Winter), Tomoko Oyama (Winter)"
         },
         "prereqs": [
-            "BIOL 306",
-            "NSCI 201",
-            "PHGY 311",
-            "NSCI 200"
+            "BIOL 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -1408,8 +1269,8 @@ global.biol_tar = {
             "instructors": "Instructors: Donald Van Meyel (Winter), Artur Kania (Winter), Alyson Elise Fournier (Winter), Jean-Francois Cloutier (Winter), Edward Ruthazer (Winter)"
         },
         "prereqs": [
-            "BIOL 306",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 306"
         ],
         "coreqs": [],
         "restricts": []
@@ -1423,9 +1284,7 @@ global.biol_tar = {
             "instructors": "Instructors: Anthony Ricciardi (Winter)"
         },
         "prereqs": [
-            "ENVR 200",
-            "BIOL 215",
-            "ENVR 202"
+            "BIOL 215"
         ],
         "coreqs": [],
         "restricts": []
@@ -1454,9 +1313,9 @@ global.biol_tar = {
             "instructors": "Instructors: Siegfried Hekimi (Fall)"
         },
         "prereqs": [
+            "BIOL 303",
             "BIOL 300",
-            "BIOL 202",
-            "BIOL 303"
+            "BIOL 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -1470,9 +1329,7 @@ global.biol_tar = {
             "instructors": "Instructors: Jacalyn Vogel (Winter), Paul Francois (Winter), Rodrigo Reyes Lamothe (Winter), Stephanie Weber (Winter), Arnold Hayer (Winter), Abigail Gerhold (Winter)"
         },
         "prereqs": [
-            "CHEM 115",
-            "MATH 133",
-            "PHYS 142"
+            "MATH 133"
         ],
         "coreqs": [],
         "restricts": []
@@ -1486,16 +1343,10 @@ global.biol_tar = {
             "instructors": "Instructors: Catherine Potvin (Winter)"
         },
         "prereqs": [
-            "BIOL 215",
-            "MATH 203",
-            "HISP 218"
+            "BIOL 215"
         ],
         "coreqs": [
-            "ENVR 451",
-            "GEOG 404",
-            "AGRI 550",
-            "HIST 510",
-            "GEOG 498"
+            "ENVR 451"
         ],
         "restricts": []
     },
@@ -1561,8 +1412,8 @@ global.biol_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "BIOL 304",
-            "BIOL 303"
+            "BIOL 303",
+            "BIOL 304"
         ],
         "coreqs": [],
         "restricts": []
@@ -1693,9 +1544,7 @@ global.biol_tar = {
             "BIOL 301"
         ],
         "coreqs": [],
-        "restricts": [
-            "BINF 511"
-        ]
+        "restricts": []
     },
     "BIOL 594": {
         "text": {
@@ -1962,13 +1811,9 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "NSCI 420D1",
             "NSCI 420D2"
         ]
     },
@@ -1980,13 +1825,9 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Joseph Alan Dent (Fall)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "NSCI 420D1",
             "NSCI 420D2"
         ]
     },
@@ -1998,9 +1839,7 @@ global.biol_tar = {
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Joseph Alan Dent (Winter)"
         },
-        "prereqs": [
-            "NSCI 410D1"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -2012,10 +1851,7 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Joseph Alan Dent (Fall), Shelton Hendricks (Fall), Joseph Alan Dent (Winter)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -2027,14 +1863,9 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Joseph Alan Dent (Fall)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201"
-        ],
+        "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "NSCI 410"
-        ]
+        "restricts": []
     },
     "NSCI 420D2": {
         "text": {
@@ -2044,13 +1875,9 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Joseph Alan Dent (Fall), Joseph Alan Dent (Winter)"
         },
-        "prereqs": [
-            "NSCI 420D1"
-        ],
+        "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "NSCI 410"
-        ]
+        "restricts": []
     },
     "NSCI 420N1": {
         "text": {
@@ -2060,14 +1887,9 @@ global.biol_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201"
-        ],
+        "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "NSCI 410"
-        ]
+        "restricts": []
     },
     "NSCI 420N2": {
         "text": {
@@ -2089,18 +1911,9 @@ global.biol_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Monroe W Cohen (Fall), Joseph Alan Dent (Fall)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201",
-            "NSCI 300"
-        ],
-        "coreqs": [
-            "NSCI 400D2",
-            "NSCI 400D1"
-        ],
-        "restricts": [
-            "NSCI 430D2"
-        ]
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": []
     },
     "NSCI 430D2": {
         "text": {
@@ -2110,17 +1923,8 @@ global.biol_tar = {
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Monroe W Cohen (Winter), Joseph Alan Dent (Winter)"
         },
-        "prereqs": [
-            "NSCI 200",
-            "NSCI 201",
-            "NSCI 300"
-        ],
-        "coreqs": [
-            "NSCI 400D2",
-            "NSCI 400D1"
-        ],
-        "restricts": [
-            "NSCI 430D1"
-        ]
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": []
     }
 }

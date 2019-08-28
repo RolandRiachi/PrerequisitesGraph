@@ -6,7 +6,8 @@ global.phys_src = {
         ],
         "coreqs": [],
         "restricts": [
-            "PHYS 107"
+            "PHYS 107",
+            "PHYS 131"
         ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lectures; 2 hours laboratory; tutorial sessions</p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>, CEGEP objective 00UR or equivalent</p>\n\n<p>Laboratory sections have limited enrolment</p>\n",
@@ -45,7 +46,8 @@ global.phys_src = {
         ],
         "coreqs": [],
         "restricts": [
-            "PHYS 108"
+            "PHYS 108",
+            "PHYS 142"
         ],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lectures; 2 hours laboratory; tutorial sessions</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-101\" target=\"_blank\">PHYS 101</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-139\" target=\"_blank\">MATH 139</a> or higher level calculus course.</p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>, CEGEP objective 00UR or equivalent</p>\n\n<p>Laboratory sections have limited enrolment</p>\n",
@@ -53,6 +55,29 @@ global.phys_src = {
             "overview": "Physics : Electric field and potential. D.C. circuits and measurements. Capacitance. Magnetic field and induction. Electromagnetic waves and geometrical optics.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Nikolaos Provatas (Winter)"
+        }
+    },
+    "PHYS 142": {
+        "prereqs": [
+            "PHYS 118",
+            "PHYS 214",
+            "PHYS 228",
+            "PHYS 232",
+            "PHYS 241",
+            "PHYS 260",
+            "PHYS 340"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 102",
+            "PHYS 118"
+        ],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>3 hours lectures, 3 hours laboratory in alternate weeks; tutorial sessions</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or higher level calculus course.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-102\" target=\"_blank\">PHYS 102</a>, or who have taken CEGEP objective 00US or equivalent.</p>\n\n<p>Laboratory sections have limited enrolment</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a> Electromagnetism and Optics (4 credits)",
+            "overview": "Physics : The basic laws of electricity and magnetism; geometrical optics.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Tracy Webb (Winter)"
         }
     },
     "PHYS 107": {
@@ -101,27 +126,6 @@ global.phys_src = {
             "overview": "Physics : The laboratory component of PHYS 142.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Michael Hilke (Winter)"
-        }
-    },
-    "PHYS 142": {
-        "prereqs": [
-            "PHYS 118",
-            "PHYS 214",
-            "PHYS 228",
-            "PHYS 232",
-            "PHYS 241",
-            "PHYS 260"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "PHYS 118"
-        ],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>3 hours lectures, 3 hours laboratory in alternate weeks; tutorial sessions</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or higher level calculus course.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-102\" target=\"_blank\">PHYS 102</a>, or who have taken CEGEP objective 00US or equivalent.</p>\n\n<p>Laboratory sections have limited enrolment</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a> Electromagnetism and Optics (4 credits)",
-            "overview": "Physics : The basic laws of electricity and magnetism; geometrical optics.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Tracy Webb (Winter)"
         }
     },
     "PHYS 180": {
@@ -241,62 +245,21 @@ global.phys_src = {
             "PHYS 232",
             "PHYS 331",
             "PHYS 357",
+            "PHYS 432",
             "PHYS 446"
         ],
         "coreqs": [
             "PHYS 257"
         ],
-        "restricts": [],
+        "restricts": [
+            "PHYS 251"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: CEGEP Physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a></p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a> Dynamics of Simple Systems (3 credits)",
             "overview": "Physics : Translational motion under Newton's laws; forces, momentum, work/energy theorem. Special relativity; Lorentz transforms, relativistic mechanics, mass/energy equivalence. Topics in rotational dynamics. Noninertial frames.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Hong Guo (Fall)"
-        }
-    },
-    "PHYS 232": {
-        "prereqs": [
-            "PHYS 319",
-            "PHYS 333",
-            "PHYS 404",
-            "PHYS 446"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: CEGEP Physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>, and CEGEP chemistry or <a href=\"https://mcgill.ca/study/2019-2020/courses/chem-120\" target=\"_blank\">CHEM 120</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a>.</p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-253\" target=\"_blank\">PHYS 253</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a> Heat and Waves (3 credits)",
-            "overview": "Physics : The laws of thermodynamics and their consequences. Thermodynamics of P-V-T systems and simple heat engines. Free, driven, and damped harmonic oscillators. Coupled systems and normal modes. Fourier methods. Wave motion and dispersion. The wave equation.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Robert Rutledge (Winter)"
-        }
-    },
-    "PHYS 241": {
-        "prereqs": [
-            "PHYS 328",
-            "PHYS 339"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>2 hours lectures; 3 hours laboratory alternate weeks</p>\n\n<p>Prerequisite: CEGEP physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-241\" target=\"_blank\">PHYS 241</a> Signal Processing (3 credits)",
-            "overview": "Physics : Linear circuit elements, resonance, network theorems, diodes, transistors, amplifiers, feedback, integrated circuits.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Walter Reisner (Winter)"
-        }
-    },
-    "PHYS 242": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Fall</p>\n\n<p>2 hours lectures</p>\n\n<p>Prerequisites: CEGEP Physics, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> </p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-242\" target=\"_blank\">PHYS 242</a> Electricity and Magnetism (2 credits)",
-            "overview": "Physics : Properties of electromagnetic fields, dipole and quadropole fields and their interactions, chemical binding of molecules, electromagnetic properties of materials, Maxwell's equations and properties of electromagnetic waves, propagation of waves in media.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Hsin Cynthia Chiang (Fall)"
         }
     },
     "PHYS 251": {
@@ -309,7 +272,9 @@ global.phys_src = {
         "coreqs": [
             "PHYS 257"
         ],
-        "restricts": [],
+        "restricts": [
+            "PHYS 230"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: CEGEP physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a></p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a> Honours Classical Mechanics 1 (3 credits)",
@@ -318,18 +283,72 @@ global.phys_src = {
             "instructors": "Instructors: Charles Gale (Fall)"
         }
     },
+    "PHYS 232": {
+        "prereqs": [
+            "PHYS 329",
+            "PHYS 333",
+            "PHYS 446"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 253"
+        ],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: CEGEP Physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>, and CEGEP chemistry or <a href=\"https://mcgill.ca/study/2019-2020/courses/chem-120\" target=\"_blank\">CHEM 120</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a>.</p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-253\" target=\"_blank\">PHYS 253</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a> Heat and Waves (3 credits)",
+            "overview": "Physics : The laws of thermodynamics and their consequences. Thermodynamics of P-V-T systems and simple heat engines. Free, driven, and damped harmonic oscillators. Coupled systems and normal modes. Fourier methods. Wave motion and dispersion. The wave equation.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Robert Rutledge (Winter)"
+        }
+    },
     "PHYS 253": {
         "prereqs": [
+            "PHYS 329",
             "PHYS 362"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "PHYS 232"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: CEGEP physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-131\" target=\"_blank\">PHYS 131</a>, and CEGEP chemistry or <a href=\"https://mcgill.ca/study/2019-2020/courses/chem-120\" target=\"_blank\">CHEM 120</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a></p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-253\" target=\"_blank\">PHYS 253</a> Thermal Physics (3 credits)",
             "overview": "Physics : Energy, work, heat; first law. Temperature, entropy; second law. Absolute zero; third law. Equilibrium, equations of state, gases, liquids, solids, magnets; phase transitions.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Simon Caron-Huot (Fall)"
+        }
+    },
+    "PHYS 241": {
+        "prereqs": [
+            "PHYS 328",
+            "PHYS 339"
+        ],
+        "coreqs": [
+            "PHYS 321"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>2 hours lectures; 3 hours laboratory alternate weeks</p>\n\n<p>Prerequisite: CEGEP physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-241\" target=\"_blank\">PHYS 241</a> Signal Processing (3 credits)",
+            "overview": "Physics : Linear circuit elements, resonance, network theorems, diodes, transistors, amplifiers, feedback, integrated circuits.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Walter Reisner (Winter)"
+        }
+    },
+    "PHYS 242": {
+        "prereqs": [
+            "PHYS 342"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 340"
+        ],
+        "text": {
+            "notes": "<p>Fall</p>\n\n<p>2 hours lectures</p>\n\n<p>Prerequisites: CEGEP Physics, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a> </p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-242\" target=\"_blank\">PHYS 242</a> Electricity and Magnetism (2 credits)",
+            "overview": "Physics : Properties of electromagnetic fields, dipole and quadropole fields and their interactions, chemical binding of molecules, electromagnetic properties of materials, Maxwell's equations and properties of electromagnetic waves, propagation of waves in media.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Hsin Cynthia Chiang (Fall)"
         }
     },
     "PHYS 257": {
@@ -349,7 +368,9 @@ global.phys_src = {
     },
     "PHYS 258": {
         "prereqs": [],
-        "coreqs": [],
+        "coreqs": [
+            "PHYS 321"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>6 hours of laboratory and classroom work</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-257\" target=\"_blank\">PHYS 257</a> </p>\n",
@@ -420,7 +441,9 @@ global.phys_src = {
         }
     },
     "PHYS 329": {
-        "prereqs": [],
+        "prereqs": [
+            "PHYS 519"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -429,6 +452,39 @@ global.phys_src = {
             "overview": "Physics : This interdisciplinary course introduces Statistical Physics illustrated with modern biophysical applications. Principles covered include partition functions, Boltzmann distribution, bosons, fermions, Bose Einstein condensates, Ferni gases, chemical potential, thermodynamical forces, biochemical kinetics, and an introduction to noise and phase transitions in biology.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Paul Francois (Winter)"
+        }
+    },
+    "PHYS 333": {
+        "prereqs": [
+            "PHYS 519"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 329"
+        ],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a> </p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-362\" target=\"_blank\">PHYS 362</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-333\" target=\"_blank\">PHYS 333</a> Thermal and Statistical Physics (3 credits)",
+            "overview": "Physics : Introductory equilibrium statistical mechanics. Quantum states, probabilities, ensemble averages. Entropy, temperature, Boltzmann factor, chemical potential. Photons and phonons. Fermi-Dirac and Bose-Einstein distributions; applications.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: James M Cline (Winter)"
+        }
+    },
+    "PHYS 362": {
+        "prereqs": [
+            "PHYS 519"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 329",
+            "PHYS 333"
+        ],
+        "text": {
+            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-248\" target=\"_blank\">MATH 248</a> or equivalents, <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-253\" target=\"_blank\">PHYS 253</a>.</p>\n\n<p>Restriction: Honours students, or permission of the instructor</p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-333\" target=\"_blank\">PHYS 333</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-362\" target=\"_blank\">PHYS 362</a> Statistical Mechanics (3 credits)",
+            "overview": "Physics : Quantum states and ensemble averages. Fermi-Dirac, Bose-Einstein and Boltzmann distribution functions and their applications.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Martin Grant (Winter)"
         }
     },
     "PHYS 331": {
@@ -443,30 +499,18 @@ global.phys_src = {
             "instructors": "Instructors: Simon Caron-Huot (Winter)"
         }
     },
-    "PHYS 333": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a> </p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-362\" target=\"_blank\">PHYS 362</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-333\" target=\"_blank\">PHYS 333</a> Thermal and Statistical Physics (3 credits)",
-            "overview": "Physics : Introductory equilibrium statistical mechanics. Quantum states, probabilities, ensemble averages. Entropy, temperature, Boltzmann factor, chemical potential. Photons and phonons. Fermi-Dirac and Bose-Einstein distributions; applications.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: James M Cline (Winter)"
-        }
-    },
-    "PHYS 362": {
+    "PHYS 351": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "PHYS 333"
+            "PHYS 331"
         ],
         "text": {
-            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-248\" target=\"_blank\">MATH 248</a> or equivalents, <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-253\" target=\"_blank\">PHYS 253</a>.</p>\n\n<p>Restriction: Honours students, or permission of the instructor</p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-333\" target=\"_blank\">PHYS 333</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-362\" target=\"_blank\">PHYS 362</a> Statistical Mechanics (3 credits)",
-            "overview": "Physics : Quantum states and ensemble averages. Fermi-Dirac, Bose-Einstein and Boltzmann distribution functions and their applications.",
+            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a>.</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-451\" target=\"_blank\">PHYS 451</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-351\" target=\"_blank\">PHYS 351</a> Honours Classical Mechanics 2 (3 credits)",
+            "overview": "Physics : Rigid bodies, angular momentum, gyroscope, moment of inertia, principal axes, Euler's equations. Coupled oscillations and normal modes. Lagrangian mechanics and applications. Hamiltonian mechanics. Topics in advanced analytical mechanics.",
             "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Martin Grant (Winter)"
+            "instructors": "Instructors: Sang Yong Jeon (Winter)"
         }
     },
     "PHYS 339": {
@@ -485,7 +529,8 @@ global.phys_src = {
     },
     "PHYS 340": {
         "prereqs": [
-            "PHYS 342"
+            "PHYS 342",
+            "PHYS 519"
         ],
         "coreqs": [],
         "restricts": [],
@@ -495,6 +540,23 @@ global.phys_src = {
             "overview": "Physics : The electrostatic field and scalar potential. Dielectric properties of matter. Energy in the electrostatic field. Methods for solving problems in electrostatics. The magnetic field. Induction and inductance. Energy in the magnetic field. Magnetic properties of matter. Maxwell's equations. The dipole approximation.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Hong Guo (Fall)"
+        }
+    },
+    "PHYS 350": {
+        "prereqs": [
+            "PHYS 352",
+            "PHYS 519"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "PHYS 340"
+        ],
+        "text": {
+            "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-248\" target=\"_blank\">MATH 248</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-325\" target=\"_blank\">MATH 325</a>.</p>\n\n<p>Restriction: Honours students or permission of the instructor</p>\n\n<p>Restriction: Not open to students having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-340\" target=\"_blank\">PHYS 340</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-350\" target=\"_blank\">PHYS 350</a> Honours Electricity and Magnetism (3 credits)",
+            "overview": "Physics : Fundamental laws of electric and magnetic fields in both integral and differential form.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Jonathan Le Roy Sievers (Fall)"
         }
     },
     "PHYS 342": {
@@ -509,32 +571,6 @@ global.phys_src = {
             "overview": "Physics : Maxwell's equations. The wave equation. The electromagnetic wave, reflection, refraction, polarization. Guided waves. Transmission lines and wave guides. Vector potential. Radiation. The elemental dipole; the half-wave dipole; vertical dipole; folded dipoles; Yagi antennas. Accelerating charged particles.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Guillaume Gervais (Winter)"
-        }
-    },
-    "PHYS 350": {
-        "prereqs": [
-            "PHYS 352"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-248\" target=\"_blank\">MATH 248</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-325\" target=\"_blank\">MATH 325</a>.</p>\n\n<p>Restriction: Honours students or permission of the instructor</p>\n\n<p>Restriction: Not open to students having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-340\" target=\"_blank\">PHYS 340</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-350\" target=\"_blank\">PHYS 350</a> Honours Electricity and Magnetism (3 credits)",
-            "overview": "Physics : Fundamental laws of electric and magnetic fields in both integral and differential form.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jonathan Le Roy Sievers (Fall)"
-        }
-    },
-    "PHYS 351": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a>.</p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-451\" target=\"_blank\">PHYS 451</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-351\" target=\"_blank\">PHYS 351</a> Honours Classical Mechanics 2 (3 credits)",
-            "overview": "Physics : Rigid bodies, angular momentum, gyroscope, moment of inertia, principal axes, Euler's equations. Coupled oscillations and normal modes. Lagrangian mechanics and applications. Hamiltonian mechanics. Topics in advanced analytical mechanics.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Sang Yong Jeon (Winter)"
         }
     },
     "PHYS 352": {

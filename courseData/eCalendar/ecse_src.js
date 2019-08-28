@@ -4,9 +4,11 @@ global.ecse_src = {
             "ECSE 206",
             "ECSE 210",
             "ECSE 211",
+            "ECSE 251",
             "ECSE 310",
             "ECSE 322",
-            "ECSE 324"
+            "ECSE 324",
+            "ECSE 351"
         ],
         "coreqs": [],
         "restricts": [],
@@ -40,6 +42,8 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 310",
             "ECSE 408",
+            "ECSE 416",
+            "ECSE 446",
             "ECSE 508",
             "ECSE 509",
             "ECSE 512",
@@ -96,7 +100,9 @@ global.ecse_src = {
             "ECSE 412",
             "ECSE 414",
             "ECSE 436",
+            "ECSE 456",
             "ECSE 472",
+            "ECSE 476",
             "ECSE 504",
             "ECSE 517",
             "ECSE 529",
@@ -113,30 +119,6 @@ global.ecse_src = {
             "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a> Fundamentals of Signals and Systems (3 credits)",
             "overview": "Electrical Engineering : Review of complex functions. Discrete-and continuous-time signals, basic system properties. Linear time-invariant systems, convolution. Fourier series and Fourier transforms, frequency domain analysis, filtering, sampling. Laplace transforms and inversion, transfer functions, poles and zeros, solutions of linear constant-coefficient differential equations, transient and steady state response. Z-transforms.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 303": {
-        "prereqs": [
-            "ECSE 304",
-            "ECSE 305",
-            "ECSE 334",
-            "ECSE 405",
-            "ECSE 472",
-            "ECSE 517",
-            "ECSE 593",
-            "ECSE 597",
-            "ECSE 634"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 206"
-        ],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
-            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -172,11 +154,38 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECSE 303": {
+        "prereqs": [
+            "ECSE 304",
+            "ECSE 305",
+            "ECSE 334",
+            "ECSE 405",
+            "ECSE 472",
+            "ECSE 517",
+            "ECSE 593",
+            "ECSE 597",
+            "ECSE 634"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 206"
+        ],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-247\" target=\"_blank\">MATH 247</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-270\" target=\"_blank\">MATH 270</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-271\" target=\"_blank\">MATH 271</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-249\" target=\"_blank\">MATH 249</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-381\" target=\"_blank\">MATH 381</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-303\" target=\"_blank\">ECSE 303</a> Signals and Systems 1 (3 credits)",
+            "overview": "Electrical Engineering : Elementary continuous and discrete-time signals, impulse functions, basic properties of discrete and continuous linear time-invariant (LTI) systems, Fourier representation of continuous-time periodic and aperiodic signals, the Laplace transform, time and frequency analysis of continuous-time LTI systems, application of transform techniques to electric circuit analysis.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 210": {
         "prereqs": [
+            "ECSE 303",
+            "ECSE 306",
             "ECSE 307",
             "ECSE 330",
             "ECSE 331",
+            "ECSE 353",
             "ECSE 361",
             "ECSE 362"
         ],
@@ -214,6 +223,7 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 322",
             "ECSE 323",
+            "ECSE 443",
             "ECSE 450"
         ],
         "coreqs": [],
@@ -232,6 +242,7 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 310",
             "ECSE 324",
+            "ECSE 443",
             "ECSE 450"
         ],
         "coreqs": [],
@@ -244,40 +255,17 @@ global.ecse_src = {
             "instructors": "Instructors: Ioannis Psaromiligkos (Fall)"
         }
     },
-    "ECSE 323": {
-        "prereqs": [
-            "ECSE 421",
-            "ECSE 425",
-            "ECSE 426",
-            "ECSE 431",
-            "ECSE 436",
-            "ECSE 474",
-            "ECSE 530",
-            "ECSE 537",
-            "ECSE 541",
-            "ECSE 548",
-            "ECSE 549"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "ECSE 222"
-        ],
-        "text": {
-            "notes": "<p>(3-6-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-211\" target=\"_blank\">ECSE 211</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a></p>\n\n<p>Tutorials and lab hours assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-323\" target=\"_blank\">ECSE 323</a> Digital System Design (5 credits)",
-            "overview": "Electrical Engineering : Minimization and synthesis of combinational logic and finite state machines.Synthesis of synchronous and asynchronous sequential circuits. Principles of control design. Basic concepts in design for testability. Laboratory experiments involve the design and testing of FPGA based digital systems using CAD software and hardware description languages.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 322": {
         "prereqs": [
             "ECSE 414",
             "ECSE 421",
+            "ECSE 422",
             "ECSE 425",
+            "ECSE 427",
             "ECSE 436",
             "ECSE 456",
             "ECSE 474",
+            "ECSE 476",
             "ECSE 526",
             "ECSE 528",
             "ECSE 538",
@@ -298,8 +286,37 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECSE 323": {
+        "prereqs": [
+            "ECSE 421",
+            "ECSE 425",
+            "ECSE 426",
+            "ECSE 431",
+            "ECSE 436",
+            "ECSE 456",
+            "ECSE 474",
+            "ECSE 530",
+            "ECSE 537",
+            "ECSE 541",
+            "ECSE 548",
+            "ECSE 549"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 222"
+        ],
+        "text": {
+            "notes": "<p>(3-6-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-211\" target=\"_blank\">ECSE 211</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-221\" target=\"_blank\">ECSE 221</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a></p>\n\n<p>Tutorials and lab hours assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-323\" target=\"_blank\">ECSE 323</a> Digital System Design (5 credits)",
+            "overview": "Electrical Engineering : Minimization and synthesis of combinational logic and finite state machines.Synthesis of synchronous and asynchronous sequential circuits. Principles of control design. Basic concepts in design for testability. Laboratory experiments involve the design and testing of FPGA based digital systems using CAD software and hardware description languages.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 223": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 326"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -314,7 +331,10 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 354",
             "ECSE 362",
+            "ECSE 433",
+            "ECSE 443",
             "ECSE 472",
+            "ECSE 533",
             "ECSE 543",
             "ECSE 597"
         ],
@@ -328,8 +348,32 @@ global.ecse_src = {
             "instructors": "Instructors: Donald Peter Davis (Fall), Dennis Giannacopoulos (Winter)"
         }
     },
+    "ECSE 351": {
+        "prereqs": [
+            "ECSE 352",
+            "ECSE 361",
+            "ECSE 432",
+            "ECSE 443",
+            "ECSE 472",
+            "ECSE 533",
+            "ECSE 543",
+            "ECSE 597"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 251"
+        ],
+        "text": {
+            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a>.</p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> Electromagnetic Fields (3 credits)",
+            "overview": "Electrical Engineering : Maxwell's equations, electrostatics, magnetostatics and induction for power-frequency electrical engineering problems.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 291": {
         "prereqs": [
+            "ECSE 323",
             "ECSE 334",
             "ECSE 488",
             "ECSE 490",
@@ -370,7 +414,8 @@ global.ecse_src = {
     },
     "ECSE 307": {
         "prereqs": [
-            "ECSE 403"
+            "ECSE 403",
+            "ECSE 522"
         ],
         "coreqs": [],
         "restricts": [],
@@ -385,6 +430,7 @@ global.ecse_src = {
     "ECSE 308": {
         "prereqs": [
             "ECSE 408",
+            "ECSE 416",
             "ECSE 511",
             "ECSE 515",
             "ECSE 528",
@@ -429,6 +475,7 @@ global.ecse_src = {
     },
     "ECSE 316": {
         "prereqs": [
+            "ECSE 416",
             "ECSE 504",
             "ECSE 509",
             "ECSE 511",
@@ -454,7 +501,8 @@ global.ecse_src = {
             "ECSE 437",
             "ECSE 439",
             "ECSE 456",
-            "ECSE 476"
+            "ECSE 476",
+            "ECSE 539"
         ],
         "coreqs": [],
         "restricts": [],
@@ -470,9 +518,12 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 325",
             "ECSE 421",
+            "ECSE 422",
             "ECSE 425",
             "ECSE 436",
             "ECSE 444",
+            "ECSE 458D1",
+            "ECSE 458N1",
             "ECSE 526",
             "ECSE 528",
             "ECSE 532",
@@ -524,6 +575,8 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 334",
             "ECSE 431",
+            "ECSE 432",
+            "ECSE 443",
             "ECSE 456",
             "ECSE 465",
             "ECSE 472",
@@ -547,9 +600,14 @@ global.ecse_src = {
     },
     "ECSE 331": {
         "prereqs": [
+            "ECSE 433",
+            "ECSE 443",
             "ECSE 450",
+            "ECSE 458D1",
+            "ECSE 458N1",
             "ECSE 465",
             "ECSE 472",
+            "ECSE 533",
             "ECSE 543",
             "ECSE 597",
             "ECSE 635"
@@ -566,8 +624,10 @@ global.ecse_src = {
     },
     "ECSE 334": {
         "prereqs": [
+            "ECSE 434",
             "ECSE 435",
             "ECSE 450",
+            "ECSE 485",
             "ECSE 524",
             "ECSE 534",
             "ECSE 536",
@@ -608,29 +668,11 @@ global.ecse_src = {
             "instructors": "Instructors: Gordon W Roberts (Fall)"
         }
     },
-    "ECSE 351": {
-        "prereqs": [
-            "ECSE 352",
-            "ECSE 361",
-            "ECSE 472",
-            "ECSE 533",
-            "ECSE 543",
-            "ECSE 597"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-200\" target=\"_blank\">ECSE 200</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-264\" target=\"_blank\">MATH 264</a>.</p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> Electromagnetic Fields (3 credits)",
-            "overview": "Electrical Engineering : Maxwell's equations, electrostatics, magnetostatics and induction for power-frequency electrical engineering problems.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "ECSE 352": {
         "prereqs": [
             "ECSE 405",
             "ECSE 423",
+            "ECSE 430",
             "ECSE 450",
             "ECSE 451",
             "ECSE 519",
@@ -656,10 +698,13 @@ global.ecse_src = {
     },
     "ECSE 353": {
         "prereqs": [
+            "ECSE 443",
             "ECSE 450",
             "ECSE 524"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 443"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-210\" target=\"_blank\">ECSE 210</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-262\" target=\"_blank\">MATH 262</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-263\" target=\"_blank\">MATH 263</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
@@ -673,11 +718,13 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 405",
             "ECSE 423",
+            "ECSE 430",
             "ECSE 450",
             "ECSE 451",
             "ECSE 519",
             "ECSE 524",
             "ECSE 527",
+            "ECSE 535",
             "ECSE 540",
             "ECSE 547",
             "ECSE 571",
@@ -704,6 +751,7 @@ global.ecse_src = {
             "ECSE 466",
             "ECSE 468",
             "ECSE 486",
+            "ECSE 522",
             "ECSE 549",
             "ECSE 559",
             "ECSE 562",
@@ -728,6 +776,7 @@ global.ecse_src = {
             "ECSE 466",
             "ECSE 468",
             "ECSE 470",
+            "ECSE 522",
             "ECSE 549",
             "ECSE 559",
             "ECSE 562",
@@ -804,6 +853,7 @@ global.ecse_src = {
     "ECSE 404": {
         "prereqs": [],
         "coreqs": [
+            "ECSE 493",
             "ECSE 504"
         ],
         "restricts": [
@@ -864,7 +914,9 @@ global.ecse_src = {
             "ECSE 620",
             "ECSE 621"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 491"
+        ],
         "restricts": [
             "ECSE 408"
         ],
@@ -880,7 +932,9 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 523"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 490"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-206\" target=\"_blank\">ECSE 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a>.</p>\n\n<p>Tutorials assigned by instructor.</p>\n",
@@ -903,9 +957,15 @@ global.ecse_src = {
         }
     },
     "ECSE 414": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
+        "prereqs": [
+            "ECSE 518"
+        ],
+        "coreqs": [
+            "ECSE 489"
+        ],
+        "restricts": [
+            "ECSE 416"
+        ],
         "text": {
             "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-306\" target=\"_blank\">ECSE 306</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-414\" target=\"_blank\">ECSE 414</a> Introduction to Telecommunication Networks (3 credits)",
@@ -927,7 +987,9 @@ global.ecse_src = {
         }
     },
     "ECSE 416": {
-        "prereqs": [],
+        "prereqs": [
+            "ECSE 518"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -936,6 +998,20 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Architecture and protocols of contemporary networks; wired and wireless access systems; flow and congestion control; network optimization; randomized multiple access protocols; queueing disciplines; low-power wireless networks. Examples: Ethernet, TCP/IP, 802.11, 802.15.4. Lab experiments addressing routing protocols, TCP, queuing disciplines and quality-of-service, and network security.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Mark Coates (Fall)"
+        }
+    },
+    "ECSE 489": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 416"
+        ],
+        "text": {
+            "notes": "<p>(0-3-3)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-414\" target=\"_blank\">ECSE 414</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a>.</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-489\" target=\"_blank\">ECSE 489</a> Telecommunication Network Laboratory (2 credits)",
+            "overview": "Electrical Engineering : Practical insight into IP networking through hands on experience with network simulation software as well as common Internet monitoring and measurement tools. The experiments address MAC protocols, routing protocols, TCP, queuing disciplines and quality-of-service, network security and multimedia applications.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
     "ECSE 420": {
@@ -990,7 +1066,9 @@ global.ecse_src = {
     },
     "ECSE 423": {
         "prereqs": [],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 492"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
@@ -1016,7 +1094,9 @@ global.ecse_src = {
         "prereqs": [
             "ECSE 609"
         ],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 487"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-323\" target=\"_blank\">ECSE 323</a>) or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a></p>\n\n<p>Tutorials assigned by instructor.</p>\n",
@@ -1066,7 +1146,9 @@ global.ecse_src = {
     },
     "ECSE 430": {
         "prereqs": [],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 492"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a>) and <a href=\"https://mcgill.ca/study/2019-2020/courses/mime-262\" target=\"_blank\">MIME 262</a>.</p>\n\n<p>Tutorials assigned by instructor.</p>\n",
@@ -1097,8 +1179,12 @@ global.ecse_src = {
             "ECSE 675",
             "ECSE 678"
         ],
-        "coreqs": [],
-        "restricts": [],
+        "coreqs": [
+            "ECSE 485"
+        ],
+        "restricts": [
+            "ECSE 433"
+        ],
         "text": {
             "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-212\" target=\"_blank\">ECSE 212</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/mime-262\" target=\"_blank\">MIME 262</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-432\" target=\"_blank\">ECSE 432</a> Physical Basis: Transistor Devices (3 credits)",
@@ -1217,6 +1303,20 @@ global.ecse_src = {
             "instructors": "Instructors: Derek Nowrouzezahrai (Fall)"
         }
     },
+    "ECSE 546": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "ECSE 446"
+        ],
+        "text": {
+            "notes": "<p> (3-2-7)</p>\n\n<p>Restrictions: For graduate students in Electrical and Computer Engineering and undergraduate Honours Electrical Engineering students.</p>\n\n<p>Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-446\" target=\"_blank\">ECSE 446</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-546\" target=\"_blank\">ECSE 546</a> Advanced Image Synthesis (4 credits)",
+            "overview": "Electrical Engineering : Introduction to mathematical models of light transport and the numerical techniques used to generate realistic images in computer graphics. Offline (i.e., raytracing) and interactive (i.e., shader-based) techniques. Group project addressing important applied research problems.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Derek Nowrouzezahrai (Fall)"
+        }
+    },
     "ECSE 450": {
         "prereqs": [],
         "coreqs": [],
@@ -1231,7 +1331,9 @@ global.ecse_src = {
     },
     "ECSE 451": {
         "prereqs": [],
-        "coreqs": [],
+        "coreqs": [
+            "ECSE 488"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
@@ -1602,6 +1704,25 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECSE 533": {
+        "prereqs": [
+            "ECSE 519",
+            "ECSE 545",
+            "ECSE 573"
+        ],
+        "coreqs": [
+            "ECSE 485",
+            "ECSE 571"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-271\" target=\"_blank\">PHYS 271</a> and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-533\" target=\"_blank\">ECSE 533</a> Physical Basis of Semiconductor Devices (3 credits)",
+            "overview": "Electrical Engineering : Quantitative analysis of diodes and transistors. Semiconductor fundamentals, equilibrium and non-equilibrium carrier transport, and Fermi levels. PN junction diodes, the ideal diode, and diode switching. Bipolar Junction Transistors (BJT), physics of the ideal BJT, the Ebers-Moll model. Field effect transistors, metal-oxide semiconductor structures, static and dynamic behaviour, small-signal models.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ECSE 486": {
         "prereqs": [],
         "coreqs": [],
@@ -1640,14 +1761,18 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ECSE 489": {
-        "prereqs": [],
-        "coreqs": [],
+    "ECSE 528": {
+        "prereqs": [
+            "ECSE 518"
+        ],
+        "coreqs": [
+            "ECSE 489"
+        ],
         "restricts": [],
         "text": {
-            "notes": "<p>(0-3-3)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-414\" target=\"_blank\">ECSE 414</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a>.</p>\n\n<p>Lab hours assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-489\" target=\"_blank\">ECSE 489</a> Telecommunication Network Laboratory (2 credits)",
-            "overview": "Electrical Engineering : Practical insight into IP networking through hands on experience with network simulation software as well as common Internet monitoring and measurement tools. The experiments address MAC protocols, routing protocols, TCP, queuing disciplines and quality-of-service, network security and multimedia applications.",
+            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
+            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -1664,6 +1789,23 @@ global.ecse_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ECSE 512": {
+        "prereqs": [
+            "ECSE 523",
+            "ECSE 615"
+        ],
+        "coreqs": [
+            "ECSE 490"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-206\" target=\"_blank\">ECSE 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-316\" target=\"_blank\">ECSE 316</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-305\" target=\"_blank\">ECSE 305</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-205\" target=\"_blank\">ECSE 205</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-512\" target=\"_blank\">ECSE 512</a> Digital Signal Processing 1 (3 credits)",
+            "overview": "Electrical Engineering : Review of discrete-time transforms, sampling and quantization, frequency analysis. Structures for IIR and FIR filters, coefficient quantization, roundoff noise. The DFT, its properties, frequency analysis and filtering using DFT methods, the FFT and its implementation. Multirate processing, subsampling and interpolation, oversampling techniques.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Benoit Champagne (Fall)"
+        }
+    },
     "ECSE 491": {
         "prereqs": [],
         "coreqs": [],
@@ -1672,6 +1814,25 @@ global.ecse_src = {
             "notes": "<p>(0-3-3)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ccom-206\" target=\"_blank\">CCOM 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/edec-206\" target=\"_blank\">EDEC 206</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-291\" target=\"_blank\">ECSE 291</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a></p>\n\n<p>Limited Enrolment - 30 </p>\n\n<p>Lab hours assigned by instructor.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-491\" target=\"_blank\">ECSE 491</a> Communication Systems Laboratory (2 credits)",
             "overview": "Electrical Engineering : Experimental studies and simulation of analog and digital transmission techniques. Performance of AM and FM systems. FSK and PSK modulation techniques and spectra. Sampling of analog signals, PCM and TDM techniques.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 511": {
+        "prereqs": [
+            "ECSE 521",
+            "ECSE 610",
+            "ECSE 620",
+            "ECSE 621"
+        ],
+        "coreqs": [
+            "ECSE 491"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-316\" target=\"_blank\">ECSE 316</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-509\" target=\"_blank\">ECSE 509</a></p>\n\n<p>An advanced version of <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> </p>\n\n<p>Tutorials assigned by instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a> Introduction to Digital Communication (3 credits)",
+            "overview": "Electrical Engineering : Amplitude and angle modulation including AM, FM, FDM and television systems; introduction to random processes; sampling and quantization, PCM systems, TDM; digital modulation techniques, Maximum-Likelihood receivers, synchronization issues; elements of information theory including information sources, source coding and channel capacity.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -1686,6 +1847,54 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Hands-on experience of the physical layer of optical communications systems. Experiments involving optical fiber link characterization, laser measurements, beam divergence, coupling efficiency. Use of lasers, optical spectrum analyser, data generator, beam profiler, photodetectors, optical filters. Experiments are supported with simulation and analysis software.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 527": {
+        "prereqs": [],
+        "coreqs": [
+            "ECSE 492"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-9)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-527\" target=\"_blank\">ECSE 527</a> Optical Engineering (4 credits)",
+            "overview": "Electrical Engineering : A structured introduction to modern optical engineering. Topics covered include the\npropagation of light through space, refraction, diffraction, polarization, lens systems, ray-tracing, aberrations, computer-aided design and optimization techniques, Gaussian beam analysis, micro-optics and computer generated\ndiffractive optical elements.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 571": {
+        "prereqs": [
+            "ECSE 515"
+        ],
+        "coreqs": [
+            "ECSE 492"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-533\" target=\"_blank\">ECSE 533</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-571\" target=\"_blank\">ECSE 571</a> Optoelectronic Devices (3 credits)",
+            "overview": "Electrical Engineering : Physical basis of optoelectronic devices including Light Emitting Diodes, semiconductor optical amplifiers, semiconductor lasers, quantum well devices, and solid state lasers. Quantitative description of detectors, optical modulation, optical logic devices, optical interconnects, and optomechanical hardware. Throughout the course, photonic systems applications will be addressed.",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "ECSE 501": {
+        "prereqs": [
+            "ECSE 507",
+            "ECSE 516"
+        ],
+        "coreqs": [
+            "ECSE 493",
+            "ECSE 504"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-0-6)</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-500\" target=\"_blank\">ECSE 500</a> or permission of instructor</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a> Linear Systems (3 credits)",
+            "overview": "Electrical Engineering : Mathematical models of linear systems, fundamental solution and transition matrices, non-homogeneous linear equations, controllability and observability of linear systems, reachable subspaces, Cayley-Hamilton's Theorem, Kalman's controllability and observability rank conditions, minimal realizations, frequency response, invariant subspaces, finite and infinite horizon linear regulator problems, uniform, exponential, and input-output stability, the Lyapunov equation.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Marcello Colombino (Fall)"
         }
     },
     "ECSE 494": {
@@ -1771,23 +1980,6 @@ global.ecse_src = {
             "instructors": "Instructors: Hannah Michalska (Fall)"
         }
     },
-    "ECSE 501": {
-        "prereqs": [
-            "ECSE 507",
-            "ECSE 516"
-        ],
-        "coreqs": [
-            "ECSE 504"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-500\" target=\"_blank\">ECSE 500</a> or permission of instructor</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-501\" target=\"_blank\">ECSE 501</a> Linear Systems (3 credits)",
-            "overview": "Electrical Engineering : Mathematical models of linear systems, fundamental solution and transition matrices, non-homogeneous linear equations, controllability and observability of linear systems, reachable subspaces, Cayley-Hamilton's Theorem, Kalman's controllability and observability rank conditions, minimal realizations, frequency response, invariant subspaces, finite and infinite horizon linear regulator problems, uniform, exponential, and input-output stability, the Lyapunov equation.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Marcello Colombino (Fall)"
-        }
-    },
     "ECSE 504": {
         "prereqs": [],
         "coreqs": [],
@@ -1845,6 +2037,20 @@ global.ecse_src = {
             "instructors": "Instructors: Hannah Michalska (Winter)"
         }
     },
+    "ECSE 543": {
+        "prereqs": [
+            "ECSE 507"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>), (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a>)</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-543\" target=\"_blank\">ECSE 543</a> Numerical Methods in Electrical Engineering (3 credits)",
+            "overview": "Electrical Engineering : DC resistor networks and sparse matrix methods. Nonlinear electric and magnetic circuits: curve-fitting; the Newton-Raphson method. Finite elements for electrostatics. Transient analysis of circuits: systems of Ordinary differential equations; stiff equations. Transient analysis of induced currents. Solution of algebraic eigenvalue problems. Scattering of electromagnetic waves: the boundary element method; numerical integration.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
+        }
+    },
     "ECSE 508": {
         "prereqs": [],
         "coreqs": [],
@@ -1873,38 +2079,6 @@ global.ecse_src = {
             "instructors": "Instructors: Peter Edwin Caines (Winter)"
         }
     },
-    "ECSE 511": {
-        "prereqs": [
-            "ECSE 521",
-            "ECSE 610",
-            "ECSE 620",
-            "ECSE 621"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-316\" target=\"_blank\">ECSE 316</a>.</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-509\" target=\"_blank\">ECSE 509</a></p>\n\n<p>An advanced version of <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-411\" target=\"_blank\">ECSE 411</a> </p>\n\n<p>Tutorials assigned by instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-511\" target=\"_blank\">ECSE 511</a> Introduction to Digital Communication (3 credits)",
-            "overview": "Electrical Engineering : Amplitude and angle modulation including AM, FM, FDM and television systems; introduction to random processes; sampling and quantization, PCM systems, TDM; digital modulation techniques, Maximum-Likelihood receivers, synchronization issues; elements of information theory including information sources, source coding and channel capacity.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 512": {
-        "prereqs": [
-            "ECSE 523",
-            "ECSE 615"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-206\" target=\"_blank\">ECSE 206</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-316\" target=\"_blank\">ECSE 316</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-305\" target=\"_blank\">ECSE 305</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-205\" target=\"_blank\">ECSE 205</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-512\" target=\"_blank\">ECSE 512</a> Digital Signal Processing 1 (3 credits)",
-            "overview": "Electrical Engineering : Review of discrete-time transforms, sampling and quantization, frequency analysis. Structures for IIR and FIR filters, coefficient quantization, roundoff noise. The DFT, its properties, frequency analysis and filtering using DFT methods, the FFT and its implementation. Multirate processing, subsampling and interpolation, oversampling techniques.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Benoit Champagne (Fall)"
-        }
-    },
     "ECSE 513": {
         "prereqs": [],
         "coreqs": [],
@@ -1925,20 +2099,6 @@ global.ecse_src = {
             "notes": "<p>(3-1-5)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-571\" target=\"_blank\">ECSE 571</a> and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-316\" target=\"_blank\">ECSE 316</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-305\" target=\"_blank\">ECSE 305</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-205\" target=\"_blank\">ECSE 205</a>)</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-515\" target=\"_blank\">ECSE 515</a> Optical Fibre Communications (3 credits)",
             "overview": "Electrical Engineering : Optical fibre communication technology and principles of optical transport: modulation formats, signal propagation and impairments in optical fibres, sources of noise, amplification and regeneration, optical signal processing technologies, system design.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 571": {
-        "prereqs": [
-            "ECSE 515"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-533\" target=\"_blank\">ECSE 533</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-571\" target=\"_blank\">ECSE 571</a> Optoelectronic Devices (3 credits)",
-            "overview": "Electrical Engineering : Physical basis of optoelectronic devices including Light Emitting Diodes, semiconductor optical amplifiers, semiconductor lasers, quantum well devices, and solid state lasers. Quantitative description of detectors, optical modulation, optical logic devices, optical interconnects, and optomechanical hardware. Throughout the course, photonic systems applications will be addressed.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
@@ -1989,24 +2149,6 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Physics, design, synthesis, and fundamental properties of semiconductor nanostructures, quantum dots, nanowires, and nanotubes. Nanoscale confinement of radiation, properties of microcavities, whispering gallery modes, photonic crystals, strong vs. weak coupling, and Purcell effect. Quantum dot lasers, nanowire LEDs, and photonic crystal lasers. Nonclassical light sources. Solar cells and thermoelectric devices.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Songrui Zhao (Fall)"
-        }
-    },
-    "ECSE 533": {
-        "prereqs": [
-            "ECSE 519",
-            "ECSE 545",
-            "ECSE 573"
-        ],
-        "coreqs": [
-            "ECSE 571"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-271\" target=\"_blank\">PHYS 271</a> and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-533\" target=\"_blank\">ECSE 533</a> Physical Basis of Semiconductor Devices (3 credits)",
-            "overview": "Electrical Engineering : Quantitative analysis of diodes and transistors. Semiconductor fundamentals, equilibrium and non-equilibrium carrier transport, and Fermi levels. PN junction diodes, the ideal diode, and diode switching. Bipolar Junction Transistors (BJT), physics of the ideal BJT, the Ebers-Moll model. Field effect transistors, metal-oxide semiconductor structures, static and dynamic behaviour, small-signal models.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
     "ECSE 521": {
@@ -2069,30 +2211,6 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Design principles of autonomous agents, agent architectures, machine learning, neural networks, genetic algorithms, and multi-agent collaboration. The course includes a term project that consists of designing and implementing software agents that collaborate and compete in a simulated environment.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Jeremy Cooperstock (Winter)"
-        }
-    },
-    "ECSE 527": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-9)</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-352\" target=\"_blank\">ECSE 352</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-354\" target=\"_blank\">ECSE 354</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-527\" target=\"_blank\">ECSE 527</a> Optical Engineering (4 credits)",
-            "overview": "Electrical Engineering : A structured introduction to modern optical engineering. Topics covered include the\npropagation of light through space, refraction, diffraction, polarization, lens systems, ray-tracing, aberrations, computer-aided design and optimization techniques, Gaussian beam analysis, micro-optics and computer generated\ndiffractive optical elements.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 528": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-0-6)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-304\" target=\"_blank\">ECSE 304</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-308\" target=\"_blank\">ECSE 308</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-309\" target=\"_blank\">ECSE 309</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-528\" target=\"_blank\">ECSE 528</a> Telecommunication Network Architecture (3 credits)",
-            "overview": "Electrical Engineering : Introduction to the architecture of telecommunication networks; OSI Layer Model and Internet protocol stack; Peer-to-peer and overlay networks; basic queuing theory; congestion control and reliable data transfer; addressing and routing for unicast and multicast transmission; traffic scheduling and shaping; quality-of-service principles; multiple access protocols; streaming media and network security.",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
     "ECSE 529": {
@@ -2241,18 +2359,6 @@ global.ecse_src = {
             "instructors": "Instructors: Jeremy Cooperstock (Fall)"
         }
     },
-    "ECSE 543": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>(3-2-4)</p>\n\n<p>Prerequisites: (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-322\" target=\"_blank\">ECSE 322</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-324\" target=\"_blank\">ECSE 324</a>), (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-330\" target=\"_blank\">ECSE 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-331\" target=\"_blank\">ECSE 331</a>) and (<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-351\" target=\"_blank\">ECSE 351</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-251\" target=\"_blank\">ECSE 251</a>)</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-543\" target=\"_blank\">ECSE 543</a> Numerical Methods in Electrical Engineering (3 credits)",
-            "overview": "Electrical Engineering : DC resistor networks and sparse matrix methods. Nonlinear electric and magnetic circuits: curve-fitting; the Newton-Raphson method. Finite elements for electrostatics. Transient analysis of circuits: systems of Ordinary differential equations; stiff equations. Transient analysis of induced currents. Solution of algebraic eigenvalue problems. Scattering of electromagnetic waves: the boundary element method; numerical integration.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Dennis Giannacopoulos (Fall)"
-        }
-    },
     "ECSE 544": {
         "prereqs": [],
         "coreqs": [],
@@ -2277,18 +2383,6 @@ global.ecse_src = {
             "overview": "Electrical Engineering : Basic techniques in the fabrication of microelectronic circuits. Four-point probe, alloyed contacts, diffusion processes, ion implantation epitaxy, silicon dioxide, photolithography, selected diffusion and metallization, transistor fabrication, dry etching, monolithic integrated circuits, isolation, mask making, thin and thick film components, MOS gate voltage and integrated circuits.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "ECSE 546": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p> (3-2-7)</p>\n\n<p>Restrictions: For graduate students in Electrical and Computer Engineering and undergraduate Honours Electrical Engineering students.</p>\n\n<p>Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-446\" target=\"_blank\">ECSE 446</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-546\" target=\"_blank\">ECSE 546</a> Advanced Image Synthesis (4 credits)",
-            "overview": "Electrical Engineering : Introduction to mathematical models of light transport and the numerical techniques used to generate realistic images in computer graphics. Offline (i.e., raytracing) and interactive (i.e., shader-based) techniques. Group project addressing important applied research problems.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Derek Nowrouzezahrai (Fall)"
         }
     },
     "ECSE 547": {

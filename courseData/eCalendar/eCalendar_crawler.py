@@ -30,7 +30,7 @@ def links_to_courses(start):
 
     return results
 
-def course_info(link):
+def course_info(dict, link):
     '''
     Scrapes a McGill eCalendar course webpage for course overview, prerequisites, corequisites, restrictions, semester(s) the course is being offered, and the course's professor
     '''
@@ -69,7 +69,14 @@ def course_info(link):
         m - regex match object
         '''
         if m:
-            d[pcr + 's'] = list(set(re.findall(r'>(\w{4} \d\d\dD?1?D?2?)</a>', m[0])))
+            courses = list(set(re.findall(r'>(\w{4} \d\d\dD?1?D?2?)</a>', m[0])))
+
+            #Remove courses that don't exist
+            for c in courses:
+                if c not in dict:
+                    courses.remove(c)
+
+            d[pcr + 's'] = courses
         else:
             d[pcr + 's'] = []
 
@@ -119,7 +126,7 @@ def tar_to_src_dict(tar_dict):
     Convert dictionary with courses as targets into dictionary with courses as sources
     '''
 
-    out = dict()
+    out = {}
     def init_course(d, c):
         d[c] = {
         'prereqs': [],
@@ -142,52 +149,83 @@ def tar_to_src_dict(tar_dict):
                 if type(tar_dict[course][data]) == type(list()):
                     #Itereate over every course listed in first course's data
                     for c in tar_dict[course][data]:
-                        #If haven't seen c yet, add it to src_dict, copy over course info
-                        if c not in out:
-                            tar_text = tar_dict[c]['text']
-                            init_course(out, c)
-                            out[c]['text'] = tar_text
-
                         #Don't want to write wrong courses to dict
                         if c[:4] == course[:4]:
+                            #If haven't seen c yet, add it to src_dict, copy over course info
+                            if c not in out:
+                                init_course(out, c)
+                                out[c]['text'] = tar_dict[c]['text']
+
                             out[c][data].append(course)
         except KeyError:
-            print(c)
+            print(course, c)
         except:
             print(course)
             raise
 
-
     return out
 
-def to_js(sbj, start):
+def scrape_courses(sbj, start):
     '''
     Writes information scraped from course webpage to json format for web app to use
     '''
     course_links = links_to_courses(start)
-    tar_dict = {}
+    tar_dict = { link.split('/')[-1].upper().replace('-', ' ') : {} for link in course_links }
 
     for link in course_links:
-        # print(link)
         course_title = link.split('/')[-1].upper().replace('-', ' ')
-        tar_dict[course_title] = course_info(link)
+        tar_dict[course_title] = course_info(tar_dict, link)
         if course_title in tar_dict[course_title]['prereqs']: tar_dict[course_title]['prereqs'].remove(course_title)
         if course_title in tar_dict[course_title]['coreqs']: tar_dict[course_title]['coreqs'].remove(course_title)
         if course_title in tar_dict[course_title]['restricts']: tar_dict[course_title]['restricts'].remove(course_title)
 
-    with open(sbj + '_tar.js', 'w+') as t, open(sbj + '_src.js', 'w+') as s:
-        t.write('global.' + sbj + '_tar = ')
-        json.dump(tar_dict, t, ensure_ascii=False, indent=4)
+    return tar_dict
 
-        s.write('global.' + sbj + '_src = ')
-        json.dump(tar_to_src_dict(tar_dict), s, ensure_ascii=False, indent=4)
+def to_js(sbj, b, dict):
+    '''
+    Writes dictionary information to javascript variable
+    '''
+    with open(sbj + '_' + b + '.js', 'w+') as t:
+        t.write('global.' + sbj + '_' + b + ' = ')
+        json.dump(dict, t, ensure_ascii=False, indent=4)
+
+    # with open(sbj + '_tar.js', 'w+') as t, open(sbj + '_src.js', 'w+') as s:
+    #     t.write('global.' + sbj + '_tar = ')
+    #     json.dump(tar_dict, t, ensure_ascii=False, indent=4)
+    #
+    #     s.write('global.' + sbj + '_src = ')
+    #     json.dump(tar_to_src_dict(tar_dict), s, ensure_ascii=False, indent=4)
+
+def remove_courses(d):
+    def remove_pcr(c, pcr):
+        u = c[:4].lower()
+        try:
+            d[u][c]
+        except KeyError:
+            d[unit][course][pcr].remove(c)
+
+    for unit in d:
+        for course in d[unit]:
+            for p in d[unit][course]['prereqs']:
+                remove_pcr(p, 'prereqs')
+            for c in d[unit][course]['coreqs']:
+                remove_pcr(c, 'coreqs')
+            for r in d[unit][course]['restricts']:
+                remove_pcr(r, 'restricts')
 
 if __name__ == '__main__':
-    to_js('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
-    to_js('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
-    to_js('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
-    to_js('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
-    to_js('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
-    to_js('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
-    to_js('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
-    pass
+    all_courses = {}
+    all_courses['biol'] = scrape_courses('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
+    all_courses['comp'] = scrape_courses('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
+    all_courses['ecse'] = scrape_courses('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
+    all_courses['math'] = scrape_courses('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
+    all_courses['phys'] = scrape_courses('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
+    all_courses['econ'] = scrape_courses('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
+    all_courses['acct'] = scrape_courses('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
+
+    remove_courses(all_courses)
+
+    for k, v in all_courses.items():
+        to_js(k, 'tar', v)
+        print(k)
+        to_js(k, 'src', tar_to_src_dict(v))

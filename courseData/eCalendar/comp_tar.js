@@ -12,8 +12,7 @@ global.comp_tar = {
         "restricts": [
             "COMP 250",
             "COMP 202",
-            "COMP 208",
-            "COMP 203"
+            "COMP 208"
         ]
     },
     "COMP 189": {
@@ -51,8 +50,8 @@ global.comp_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "COMP 208",
-            "COMP 250"
+            "COMP 250",
+            "COMP 208"
         ]
     },
     "COMP 204": {
@@ -63,13 +62,11 @@ global.comp_tar = {
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Mathieu Blanchette (Fall), Yue Li (Winter)"
         },
-        "prereqs": [
-            "BIOL 112"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "COMP 208",
-            "COMP 202"
+            "COMP 202",
+            "COMP 208"
         ]
     },
     "COMP 206": {
@@ -95,17 +92,13 @@ global.comp_tar = {
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Jonathan Campbell (Fall), Deven Parekh (Fall)"
         },
-        "prereqs": [
-            "MATH 141"
-        ],
-        "coreqs": [
-            "MATH 133"
-        ],
+        "prereqs": [],
+        "coreqs": [],
         "restricts": [
             "COMP 250",
-            "COMP 204",
             "COMP 202",
-            "COMP 206"
+            "COMP 206",
+            "COMP 204"
         ]
     },
     "COMP 230": {
@@ -144,9 +137,7 @@ global.comp_tar = {
             "COMP 250"
         ],
         "coreqs": [
-            "MATH 235",
-            "MATH 240",
-            "MATH 363"
+            "MATH 235"
         ],
         "restricts": [
             "COMP 252"
@@ -161,9 +152,8 @@ global.comp_tar = {
             "instructors": "Instructors: Luc P Devroye (Winter)"
         },
         "prereqs": [
-            "MATH 240",
             "COMP 250",
-            "MATH 235"
+            "MATH 240"
         ],
         "coreqs": [],
         "restricts": [
@@ -279,9 +269,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 250",
-            "COMP 206",
             "MATH 240",
-            "MATH 223"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -296,8 +285,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 250",
-            "COMP 206",
-            "COMP 208"
+            "COMP 208",
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -327,14 +316,10 @@ global.comp_tar = {
         "prereqs": [
             "COMP 250",
             "COMP 202",
-            "MATH 222",
-            "COMP 208",
-            "MATH 223"
+            "COMP 208"
         ],
         "coreqs": [],
-        "restricts": [
-            "MATH 317"
-        ]
+        "restricts": []
     },
     "COMP 360": {
         "text": {
@@ -345,11 +330,9 @@ global.comp_tar = {
             "instructors": "Instructors: Hamed Hatami (Fall)"
         },
         "prereqs": [
-            "COMP 252",
+            "COMP 251",
             "MATH 363",
-            "MATH 235",
-            "MATH 240",
-            "COMP 251"
+            "COMP 252"
         ],
         "coreqs": [],
         "restricts": [
@@ -371,9 +354,7 @@ global.comp_tar = {
         "coreqs": [
             "COMP 303"
         ],
-        "restricts": [
-            "COMP 361"
-        ]
+        "restricts": []
     },
     "COMP 361D2": {
         "text": {
@@ -413,9 +394,7 @@ global.comp_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "BIOL 200"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -452,7 +431,6 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "BIOL 301",
             "COMP 251"
         ],
         "coreqs": [],
@@ -503,10 +481,9 @@ global.comp_tar = {
             "instructors": "Instructors: Clark Verbrugge (Winter)"
         },
         "prereqs": [
-            "COMP 310",
-            "ECSE 427",
+            "COMP 251",
             "COMP 302",
-            "COMP 251"
+            "COMP 310"
         ],
         "coreqs": [],
         "restricts": []
@@ -520,10 +497,9 @@ global.comp_tar = {
             "instructors": "Instructors: David Meger (Fall)"
         },
         "prereqs": [
+            "COMP 251",
             "ECSE 321",
-            "MATH 223",
-            "COMP 206",
-            "COMP 251"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -537,9 +513,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 206",
+            "COMP 251",
             "COMP 302",
-            "COMP 251"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -553,10 +529,8 @@ global.comp_tar = {
             "instructors": "Instructors: Jackie Cheung (Winter)"
         },
         "prereqs": [
-            "ECSE 321",
-            "COMP 206",
             "COMP 251",
-            "MATH 323"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -570,13 +544,10 @@ global.comp_tar = {
             "instructors": "Instructors: Timothy O'Donnell (Fall)"
         },
         "prereqs": [
-            "COMP 250",
-            "MATH 240"
+            "COMP 250"
         ],
         "coreqs": [],
-        "restricts": [
-            "LING 445"
-        ]
+        "restricts": []
     },
     "COMP 462": {
         "text": {
@@ -587,14 +558,11 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "BIOL 309",
-            "MATH 323",
-            "MATH 203",
-            "COMP 251"
+            "COMP 251",
+            "BIOL 309"
         ],
         "coreqs": [],
         "restricts": [
-            "COMP 562",
             "COMP 561"
         ]
     },
@@ -619,8 +587,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 310",
-            "COMP 251"
+            "COMP 251",
+            "COMP 310"
         ],
         "coreqs": [],
         "restricts": []
@@ -634,8 +602,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 273",
-            "COMP 302"
+            "COMP 302",
+            "COMP 273"
         ],
         "coreqs": [],
         "restricts": []
@@ -650,8 +618,6 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 303",
-            "MATH 223",
-            "COMP 361",
             "COMP 251"
         ],
         "coreqs": [],
@@ -666,8 +632,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 302",
-            "COMP 251"
+            "COMP 251",
+            "COMP 302"
         ],
         "coreqs": [],
         "restricts": []
@@ -726,10 +692,9 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "COMP 360",
             "COMP 424",
-            "COMP 206",
-            "MATH 323",
-            "COMP 360"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -746,9 +711,7 @@ global.comp_tar = {
             "COMP 302"
         ],
         "coreqs": [],
-        "restricts": [
-            "COMP 426"
-        ]
+        "restricts": []
     },
     "COMP 529": {
         "text": {
@@ -787,8 +750,6 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECSE 321",
-            "COMP 361",
             "COMP 303"
         ],
         "coreqs": [],
@@ -803,8 +764,7 @@ global.comp_tar = {
             "instructors": "Instructors: Xue Liu (Winter)"
         },
         "prereqs": [
-            "COMP 310",
-            "ECSE 427"
+            "COMP 310"
         ],
         "coreqs": [],
         "restricts": []
@@ -818,7 +778,6 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 327",
             "COMP 350"
         ],
         "coreqs": [],
@@ -834,9 +793,7 @@ global.comp_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "COMP 646"
-        ]
+        "restricts": []
     },
     "COMP 547": {
         "text": {
@@ -847,9 +804,8 @@ global.comp_tar = {
             "instructors": "Instructors: Claude Crepeau (Winter)"
         },
         "prereqs": [
-            "MATH 323",
-            "COMP 362",
-            "COMP 360"
+            "COMP 360",
+            "COMP 362"
         ],
         "coreqs": [],
         "restricts": []
@@ -864,9 +820,7 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 252",
-            "MATH 323",
-            "COMP 251",
-            "ECSE 305"
+            "COMP 251"
         ],
         "coreqs": [],
         "restricts": [
@@ -882,8 +836,6 @@ global.comp_tar = {
             "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany (Winter), Mohsen Ravanbakhsh (Winter)"
         },
         "prereqs": [
-            "MATH 323",
-            "ECSE 205",
             "ECSE 305"
         ],
         "coreqs": [],
@@ -903,9 +855,7 @@ global.comp_tar = {
             "COMP 362"
         ],
         "coreqs": [],
-        "restricts": [
-            "MATH 552"
-        ]
+        "restricts": []
     },
     "COMP 553": {
         "text": {
@@ -916,15 +866,10 @@ global.comp_tar = {
             "instructors": "Instructors: Adrian Roshan Vetta (Fall)"
         },
         "prereqs": [
-            "MATH 454",
-            "COMP 362",
-            "MATH 487",
-            "MATH 350"
+            "COMP 362"
         ],
         "coreqs": [],
-        "restricts": [
-            "MATH 553"
-        ]
+        "restricts": []
     },
     "COMP 554": {
         "text": {
@@ -935,13 +880,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 362",
-            "MATH 350"
+            "COMP 362"
         ],
         "coreqs": [],
-        "restricts": [
-            "COMP 692"
-        ]
+        "restricts": []
     },
     "COMP 557": {
         "text": {
@@ -952,10 +894,9 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Fall)"
         },
         "prereqs": [
-            "MATH 222",
             "COMP 250",
-            "COMP 206",
-            "MATH 223"
+            "MATH 223",
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -969,10 +910,9 @@ global.comp_tar = {
             "instructors": "Instructors: Kaleem Siddiqi (Fall)"
         },
         "prereqs": [
-            "MATH 222",
-            "COMP 206",
+            "COMP 360",
             "MATH 223",
-            "COMP 360"
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -986,10 +926,9 @@ global.comp_tar = {
             "instructors": "Instructors: Paul Kry (Winter)"
         },
         "prereqs": [
-            "MATH 222",
             "COMP 250",
-            "COMP 206",
-            "MATH 223"
+            "MATH 223",
+            "COMP 206"
         ],
         "coreqs": [],
         "restricts": []
@@ -1003,8 +942,6 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 343",
-            "COMP 431",
             "COMP 360"
         ],
         "coreqs": [],
@@ -1019,14 +956,11 @@ global.comp_tar = {
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         },
         "prereqs": [
-            "BIOL 309",
-            "MATH 323",
-            "MATH 203",
-            "COMP 251"
+            "COMP 251",
+            "BIOL 309"
         ],
         "coreqs": [],
         "restricts": [
-            "COMP 562",
             "COMP 462"
         ]
     },
@@ -1042,8 +976,8 @@ global.comp_tar = {
             "COMP 462"
         ],
         "coreqs": [
-            "COMP 561",
-            "COMP 462"
+            "COMP 462",
+            "COMP 561"
         ],
         "restricts": []
     },
@@ -1056,7 +990,6 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
             "COMP 360"
         ],
         "coreqs": [],
@@ -1071,8 +1004,7 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 566",
-            "MATH 417"
+            "COMP 566"
         ],
         "coreqs": [],
         "restricts": []
@@ -1235,9 +1167,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 535",
-            "COMP 435",
-            "COMP 421",
-            "COMP 512"
+            "COMP 512",
+            "COMP 421"
         ],
         "coreqs": [],
         "restricts": []
@@ -1314,8 +1245,8 @@ global.comp_tar = {
         },
         "prereqs": [
             "COMP 520",
-            "COMP 302",
-            "COMP 251"
+            "COMP 251",
+            "COMP 302"
         ],
         "coreqs": [],
         "restricts": []
@@ -1329,7 +1260,6 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "COMP 530",
             "COMP 524"
         ],
         "coreqs": [],
@@ -1344,9 +1274,8 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 323",
-            "MATH 324",
-            "COMP 350"
+            "COMP 350",
+            "MATH 324"
         ],
         "coreqs": [],
         "restricts": []
@@ -1388,12 +1317,10 @@ global.comp_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "COMP 526",
             "ECSE 305",
-            "MATH 323",
-            "COMP 360",
-            "ECSE 526",
             "COMP 424",
-            "COMP 526"
+            "COMP 360"
         ],
         "coreqs": [],
         "restricts": []

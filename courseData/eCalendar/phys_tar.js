@@ -24,9 +24,7 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 101"
         ],
-        "coreqs": [
-            "MATH 139"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 142"
         ]
@@ -104,9 +102,7 @@ global.phys_tar = {
             "instructors": "Instructors: Kenneth J Ragan (Fall)"
         },
         "prereqs": [],
-        "coreqs": [
-            "MATH 139"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 101"
         ]
@@ -122,9 +118,7 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 131"
         ],
-        "coreqs": [
-            "MATH 141"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 102"
         ]
@@ -139,9 +133,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 200"
-        ]
+        "restricts": []
     },
     "PHYS 181": {
         "text": {
@@ -165,10 +157,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 205",
-            "PHYS 204"
-        ]
+        "restricts": []
     },
     "PHYS 183": {
         "text": {
@@ -180,10 +169,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 204",
-            "PHYS 206"
-        ]
+        "restricts": []
     },
     "PHYS 184": {
         "text": {
@@ -209,11 +195,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "EPSC 182",
-            "ANAT 182",
-            "EPSC 186"
-        ]
+        "restricts": []
     },
     "PHYS 214": {
         "text": {
@@ -240,9 +222,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 225"
-        ]
+        "restricts": []
     },
     "PHYS 228": {
         "text": {
@@ -272,9 +252,7 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 131"
         ],
-        "coreqs": [
-            "MATH 222"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 251"
         ]
@@ -288,9 +266,8 @@ global.phys_tar = {
             "instructors": "Instructors: Robert Rutledge (Winter)"
         },
         "prereqs": [
-            "PHYS 230",
             "PHYS 142",
-            "CHEM 120"
+            "PHYS 230"
         ],
         "coreqs": [],
         "restricts": [
@@ -319,9 +296,7 @@ global.phys_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Hsin Cynthia Chiang (Fall)"
         },
-        "prereqs": [
-            "MATH 222"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -336,9 +311,7 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 131"
         ],
-        "coreqs": [
-            "MATH 222"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 230"
         ]
@@ -352,12 +325,9 @@ global.phys_tar = {
             "instructors": "Instructors: Simon Caron-Huot (Fall)"
         },
         "prereqs": [
-            "PHYS 131",
-            "CHEM 120"
+            "PHYS 131"
         ],
-        "coreqs": [
-            "MATH 222"
-        ],
+        "coreqs": [],
         "restricts": [
             "PHYS 232"
         ]
@@ -402,9 +372,7 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 142"
         ],
-        "coreqs": [
-            "MATH 222"
-        ],
+        "coreqs": [],
         "restricts": []
     },
     "PHYS 271": {
@@ -416,8 +384,7 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "PHYS 251",
-            "CIVE 281"
+            "PHYS 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -431,17 +398,13 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Wiseman (Winter)"
         },
         "prereqs": [
-            "PHYS 232",
-            "MATH 222",
-            "BIOL 200",
-            "PHYS 230",
             "BIOL 219",
-            "PHYS 253"
+            "PHYS 230",
+            "PHYS 253",
+            "PHYS 232"
         ],
         "coreqs": [],
-        "restricts": [
-            "BIOL 319"
-        ]
+        "restricts": []
     },
     "PHYS 321": {
         "text": {
@@ -452,8 +415,7 @@ global.phys_tar = {
             "instructors": "Instructors: Adrian Liu (Winter)"
         },
         "prereqs": [
-            "PHYS 257",
-            "COMP 208"
+            "PHYS 257"
         ],
         "coreqs": [
             "PHYS 241",
@@ -484,16 +446,13 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
-            "BIOL 219",
-            "PHYS 232",
             "PHYS 253",
-            "CHEM 345"
+            "PHYS 232"
         ],
         "coreqs": [],
         "restricts": [
-            "CHEM 365",
-            "PHYS 362",
-            "PHYS 333"
+            "PHYS 333",
+            "PHYS 362"
         ]
     },
     "PHYS 331": {
@@ -507,11 +466,8 @@ global.phys_tar = {
         "prereqs": [
             "PHYS 230"
         ],
-        "coreqs": [
-            "MATH 315"
-        ],
+        "coreqs": [],
         "restricts": [
-            "PHYS 451",
             "PHYS 351"
         ]
     },
@@ -554,15 +510,12 @@ global.phys_tar = {
             "instructors": "Instructors: Hong Guo (Fall)"
         },
         "prereqs": [
-            "MATH 222",
             "PHYS 142"
         ],
-        "coreqs": [
-            "MATH 314"
-        ],
+        "coreqs": [],
         "restricts": [
-            "PHYS 350",
-            "PHYS 242"
+            "PHYS 242",
+            "PHYS 350"
         ]
     },
     "PHYS 342": {
@@ -574,10 +527,8 @@ global.phys_tar = {
             "instructors": "Instructors: Guillaume Gervais (Winter)"
         },
         "prereqs": [
-            "PHYS 340",
-            "MATH 314",
-            "MATH 315",
-            "PHYS 242"
+            "PHYS 242",
+            "PHYS 340"
         ],
         "coreqs": [],
         "restricts": []
@@ -591,7 +542,6 @@ global.phys_tar = {
             "instructors": "Instructors: Jonathan Le Roy Sievers (Fall)"
         },
         "prereqs": [
-            "MATH 325",
             "MATH 248"
         ],
         "coreqs": [],
@@ -609,9 +559,7 @@ global.phys_tar = {
             "PHYS 251"
         ],
         "coreqs": [],
-        "restricts": [
-            "PHYS 451"
-        ]
+        "restricts": []
     },
     "PHYS 352": {
         "text": {
@@ -637,9 +585,7 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "PHYS 251",
-            "MATH 223",
-            "CIVE 281"
+            "PHYS 251"
         ],
         "coreqs": [],
         "restricts": []
@@ -667,8 +613,7 @@ global.phys_tar = {
             "instructors": "Instructors: Martin Grant (Winter)"
         },
         "prereqs": [
-            "PHYS 253",
-            "MATH 248"
+            "PHYS 253"
         ],
         "coreqs": [],
         "restricts": []
@@ -694,18 +639,14 @@ global.phys_tar = {
             "instructors": "Instructors: Nicolas Cowan (Fall)"
         },
         "prereqs": [
-            "PHYS 232",
-            "MATH 222",
-            "PHYS 230",
-            "PHYS 251",
             "MATH 315",
-            "MATH 325",
-            "PHYS 253"
+            "PHYS 230",
+            "PHYS 253",
+            "PHYS 232",
+            "PHYS 251"
         ],
         "coreqs": [],
-        "restricts": [
-            "ATOC 404"
-        ]
+        "restricts": []
     },
     "PHYS 413": {
         "text": {
@@ -716,7 +657,6 @@ global.phys_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 325",
             "MATH 315"
         ],
         "coreqs": [],
@@ -731,15 +671,11 @@ global.phys_tar = {
             "instructors": "Instructors: Eve J Lee (Winter)"
         },
         "prereqs": [
-            "MATH 315",
             "PHYS 230",
-            "MATH 314",
-            "MATH 223"
+            "MATH 314"
         ],
         "coreqs": [],
-        "restricts": [
-            "PHYS 332"
-        ]
+        "restricts": []
     },
     "PHYS 434": {
         "text": {
@@ -784,8 +720,8 @@ global.phys_tar = {
         },
         "prereqs": [
             "PHYS 230",
-            "PHYS 232",
-            "PHYS 251"
+            "PHYS 251",
+            "PHYS 232"
         ],
         "coreqs": [],
         "restricts": [
@@ -805,9 +741,7 @@ global.phys_tar = {
             "PHYS 446"
         ],
         "coreqs": [],
-        "restricts": [
-            "PHYS 436"
-        ]
+        "restricts": []
     },
     "PHYS 449": {
         "text": {
@@ -944,12 +878,11 @@ global.phys_tar = {
             "instructors": "Instructors: Paul Francois (Winter)"
         },
         "prereqs": [
-            "MATH 437",
-            "PHYS 340",
-            "PHYS 350",
             "PHYS 362",
+            "PHYS 333",
             "PHYS 329",
-            "PHYS 333"
+            "PHYS 340",
+            "PHYS 350"
         ],
         "coreqs": [],
         "restricts": []
@@ -1120,9 +1053,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 614"
-        ]
+        "restricts": []
     },
     "PHYS 633": {
         "text": {
@@ -1134,9 +1065,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 615"
-        ]
+        "restricts": []
     },
     "PHYS 634": {
         "text": {
@@ -1208,9 +1137,7 @@ global.phys_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": [
-            "PHYS 621"
-        ]
+        "restricts": []
     },
     "PHYS 657": {
         "text": {
