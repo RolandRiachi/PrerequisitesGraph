@@ -61,21 +61,31 @@ function autocomplete() {
 
       //for each item in the array
       for (i = 0; i < courses.length; i++) {
-        //Check if the text field value is a substring of the item
-        n = courses[i].toUpperCase().indexOf(val.toUpperCase());
-
+        //Match value to course code
+        n = courses[i][0].toUpperCase().indexOf(val.toUpperCase());
+        //Match value to course title
+        m = courses[i][1].toUpperCase().indexOf(val.toUpperCase());
         //Add 1 to include subtrings starting at beginning of item
-        if ( n + 1 ){
+        if ( n + 1 || m + 1 ){
           //create a DIV element for each matching element:
           item = document.createElement("div");
 
           //make the matching letters bold:
-          item.innerHTML = courses[i].substr(0, n);
-          item.innerHTML += "<strong>" + courses[i].substr(n, val.length) + "</strong>";
-          item.innerHTML += courses[i].substr(n + val.length);
+          if ( n + 1 ){
+            item.innerHTML = courses[i][0].substr(0, n);
+            item.innerHTML += "<strong>" + courses[i][0].substr(n, val.length) + "</strong>";
+            item.innerHTML += courses[i][0].substr(n + val.length);
+          } else item.innerHTML = courses[i][0];
 
           //insert a input field that will hold the current array item's value:
-          item.innerHTML += "<input type='hidden' value='" + courses[i] + "'>";
+          item.innerHTML += "<input type='hidden' value='" + courses[i][0] + "'>";
+          item.innerHTML += "<br>";
+
+          if ( m + 1 ){
+            item.innerHTML += courses[i][1].substr(0, m);
+            item.innerHTML += "<strong>" + courses[i][1].substr(m, val.length) + "</strong>";
+            item.innerHTML += courses[i][1].substr(m + val.length);
+          } else item.innerHTML += courses[i][1];
 
           //Insert the value for the complete text field when someone clicks on the item value (DIV element)
           item.addEventListener("click", function(e) {

@@ -219,13 +219,13 @@ def remove_courses(d):
 
 if __name__ == '__main__':
     all_courses = {}
+    all_courses['acct'] = scrape_courses('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
     all_courses['biol'] = scrape_courses('biol', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0286')
     all_courses['comp'] = scrape_courses('comp', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0155')
+    all_courses['econ'] = scrape_courses('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
     all_courses['ecse'] = scrape_courses('ecse', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0156')
     all_courses['math'] = scrape_courses('math', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0290')
     all_courses['phys'] = scrape_courses('phys', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0293')
-    all_courses['econ'] = scrape_courses('econ', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0101')
-    all_courses['acct'] = scrape_courses('acct', 'https://www.mcgill.ca/study/2019-2020/courses/search?sort_by=field_subject_code&f%5B0%5D=field_dept_code%3A0028')
 
     remove_courses(all_courses)
 
