@@ -10,8 +10,8 @@ require('./eCalendar/ecse_tar.js')
 require('./eCalendar/ecse_src.js')
 require('./eCalendar/econ_tar.js')
 require('./eCalendar/econ_src.js')
-require('./eCalendar/acct_tar.js')
-require('./eCalendar/acct_src.js')
+// require('./eCalendar/acct_tar.js')
+// require('./eCalendar/acct_src.js')
 
 global.departments = {
     'MATH': [math_tar, math_src],

@@ -69,7 +69,7 @@ def course_info(dict, link):
         m - regex match object
         '''
         if m:
-            courses = list(set(re.findall(r'>(\w{4} \d\d\dD?1?D?2?)</a>', m[0])))
+            courses = list(set(re.findall(r'>(\w{4} \d\d\dD?1?D?2?)</a>', m)))
 
             #Remove courses that don't exist
             for c in courses:
@@ -97,16 +97,20 @@ def course_info(dict, link):
         info['text']['notes'] = notes.replace('/study', 'https://mcgill.ca/study').replace('">', '" target="_blank">').replace('<li>', '').replace('</li>', '')
 
         #Prereqs
-        add_pcr(info, 'prereq', re.search('((?<=\. ).*)?Prerequisite\(?s?\)?: .*?((?=\.)|(?= </p>)|(?=</p>))', notes))
+        prereq_text = ''.join([ s[0] for s in re.findall('Prerequisite\(?s?\)?: (.*?)((?=\.)|(?= </p>)|(?=</p>))', notes) ])
+        add_pcr(info, 'prereq', prereq_text)
 
         #Coreqs
-        add_pcr(info, 'coreq', re.search('((?<=\. ).*)?Corequisite\(?s?\)?: .*((?=\.)|(?= </p>)|(?=</p>))', notes))
+        coreq_text = ''.join([ s[0] for s in re.findall('Corequisite\(?s?\)?: (.*)((?=\.)|(?= </p>)|(?=</p>))', notes) ])
+        add_pcr(info, 'coreq', coreq_text)
 
         #Restrictions
-        add_pcr(info, 'restrict', re.search('((?<=\. ).*)?Restriction\(?s?\)?: .*((?=\.)|(?= </p>)|(?=</p>))', notes))
+        restrict_text = ''.join([ s[0] for s in re.findall('Restriction\(?s?\)?: (.*)((?=\.)|(?= </p>)|(?=</p>))', notes) ])
+        add_pcr(info, 'restrict', restrict_text)
 
-        #Title
+        #Title (course code, course name, # of credits), course name
         title_words = re.search('<h1 id ="page-title" class=" ">\n?(.*?)</h1>', r.text)[1].strip().split(' ')
+        info['text']['name'] = ' '.join(title_words[2:-2])
         info['text']['title'] = ''.join([ '<a href="https://mcgill.ca', link, '" target="_blank">', title_words[0], ' ', title_words[1], '</a> ', ' '.join(title_words[2:]) ])
 
         #Overview
