@@ -34,7 +34,7 @@ global.acct_tar = {
             "instructors": "Instructors: Julia Scott (Fall)"
         },
         "prereqs": [
-            "MGCR 341"
+            "MGCR 211"
         ],
         "coreqs": [],
         "restricts": []
@@ -503,8 +503,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "ACCT 654",
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 653",
             "ACCT 664"
         ],
         "coreqs": [],
@@ -520,8 +520,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "ACCT 654",
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 653",
             "ACCT 664"
         ],
         "coreqs": [],
@@ -537,8 +537,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "ACCT 654",
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 653",
             "ACCT 664"
         ],
         "coreqs": [],
@@ -554,8 +554,8 @@ global.acct_tar = {
         },
         "prereqs": [
             "ACCT 654",
-            "ACCT 653",
             "ACCT 663",
+            "ACCT 653",
             "ACCT 664"
         ],
         "coreqs": [],
@@ -582,10 +582,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ACCT 685",
-            "ACCT 683",
             "ACCT 687",
-            "ACCT 689"
+            "ACCT 689",
+            "ACCT 683",
+            "ACCT 685"
         ],
         "coreqs": [
             "ACCT 699"
@@ -668,11 +668,11 @@ global.acct_tar = {
     },
     "BUSA 250": {
         "text": {
-            "notes": "<p>Restriction: Restricted to U0 Bcom students.</p>\n",
+            "notes": "<p>Restriction: Open to U0 and U1 B.Com. students.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-250\" target=\"_blank\">BUSA 250</a> Expressive Analysis for Management (3 credits)",
             "overview": "Business Admin : To develop skills with respect to analysis, writing and presentation.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Lindsay Holmgren (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Katarzyna Van Schaik (Fall), John Allaster (Fall), Julia Skelly (Fall), Lisa Banks (Fall), Emily Wilson (Fall), Craig Melhoff (Fall), Lindsay Holmgren (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -828,7 +828,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-434\" target=\"_blank\">BUSA 434</a> Topics in General Management (3 credits)",
             "overview": "Business Admin : Topics in management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Anita Nowak (Fall), Shoeb Hosain (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -965,10 +965,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
-            "INSY 662",
-            "MGSC 661",
-            "MGSC 660"
+            "ORGB 660",
+            "MGSC 660",
+            "INSY 661",
+            "MGSC 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -982,10 +982,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
+            "ORGB 660",
+            "MGSC 660",
             "INSY 662",
-            "BUSA 693",
-            "MGSC 661"
+            "INSY 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -999,10 +999,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
+            "ORGB 660",
+            "MGSC 660",
             "INSY 662",
-            "BUSA 693",
-            "MGSC 661"
+            "INSY 660"
         ],
         "coreqs": [],
         "restricts": []
@@ -1016,7 +1016,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
+            "MGCR 629",
             "MGCR 653"
         ],
         "coreqs": [],
@@ -1165,10 +1165,10 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650\" target=\"_blank\">BUSA 650</a> Internship (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         },
         "prereqs": [
-            "MGCR 650",
+            "MGCR 629",
             "MGCR 653"
         ],
         "coreqs": [],
@@ -1180,10 +1180,10 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650d1\" target=\"_blank\">BUSA 650D1</a> Internship (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         },
         "prereqs": [
-            "MGCR 650",
+            "MGCR 629",
             "MGCR 653"
         ],
         "coreqs": [],
@@ -1195,7 +1195,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650d2\" target=\"_blank\">BUSA 650D2</a> Internship (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1207,10 +1207,10 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-651\" target=\"_blank\">BUSA 651</a> Practicum (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         },
         "prereqs": [
-            "MGCR 650",
+            "MGCR 629",
             "MGCR 653"
         ],
         "coreqs": [],
@@ -1225,7 +1225,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 650",
+            "MGCR 629",
             "MGCR 653"
         ],
         "coreqs": [],
@@ -1552,10 +1552,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
-            "INSY 662",
+            "ORGB 660",
+            "MGSC 660",
             "INSY 661",
-            "MGSC 660"
+            "MGSC 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1713,10 +1713,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
-            "INSY 662",
-            "MGSC 661",
-            "MGSC 660"
+            "ORGB 660",
+            "MGSC 660",
+            "INSY 661",
+            "MGSC 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1730,10 +1730,10 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ORGB 661",
-            "INSY 662",
-            "MGSC 661",
-            "MGSC 660"
+            "ORGB 660",
+            "MGSC 660",
+            "INSY 661",
+            "MGSC 661"
         ],
         "coreqs": [],
         "restricts": []
@@ -1928,7 +1928,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-446\" target=\"_blank\">FINE 446</a> Behavioural Finance (3 credits)",
             "overview": "Finance : This course will focus on how, why and to what extent our \"humanness\" affects decision making pertaining to financial issues. Until Kahneman and Tversky came out with their landmark work, known as prospect theory, economics was based on the notion that individuals, companies, and even countries make decisions based on their financial self-interest. In fact this is one of the tenets of modern portfolio theory. Topics covered in the course include loss aversion, the disposition effect, the framing effect, and the endowment effect.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Jeffrey S D Tory (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1955,7 +1955,7 @@ global.acct_tar = {
             "instructors": "Instructors: Patrick Augustin (Fall), Daniel Andrei (Winter)"
         },
         "prereqs": [
-            "MGSC 372"
+            "MGCR 341"
         ],
         "coreqs": [],
         "restricts": []
@@ -1969,7 +1969,7 @@ global.acct_tar = {
             "instructors": "Instructors: Jan Edvard Ericsson (Fall)"
         },
         "prereqs": [
-            "MGSC 372"
+            "FINE 441"
         ],
         "coreqs": [],
         "restricts": []
@@ -2022,7 +2022,7 @@ global.acct_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "FINE 448"
+            "FINE 451"
         ],
         "restricts": []
     },
@@ -2047,7 +2047,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "FINE 482"
+            "FINE 441"
         ],
         "coreqs": [],
         "restricts": []
@@ -2145,7 +2145,7 @@ global.acct_tar = {
             "instructors": "Instructors: Vihang R Errunza (Fall)"
         },
         "prereqs": [
-            "FINE 443"
+            "MGCR 651"
         ],
         "coreqs": [],
         "restricts": []
@@ -2953,7 +2953,7 @@ global.acct_tar = {
             "instructors": "Instructors: Aria Teimourzadeh (Fall)"
         },
         "prereqs": [
-            "MGCR 331"
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": []
@@ -3131,8 +3131,8 @@ global.acct_tar = {
             "notes": "<p>Restriction(s): NOT OPEN TO STUDENTS WHO HAVE TAKEN <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-690\" target=\"_blank\">INSY 690</a> WHEN TOPIC WAS “INSIGHTS IN BIG DATA AND DATA ANALYTICS”</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-642\" target=\"_blank\">INSY 642</a> Techniques and Tools for Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Genevieve Bassellier (Fall)"
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Genevieve Bassellier (Fall), Aria Teimourzadeh (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3372,7 +3372,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/intg-201\" target=\"_blank\">INTG 201</a> Integrated Management Essentials 1 (3 credits)",
             "overview": "INTG : Essentials of management using an integrated approach. Three modules (managing money, managing people and managing information) cover fundamentals of accounting, finance, organizational behaviour and information systems; and illustrate how the effective management of human, financial and technological resources contributes to the success of an organization. Emphasizes an integrated approach to management, highlighting how organizations function as a whole and the importance of being able to work across functional and organizational boundaries.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Simon Blanchette (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3390,7 +3390,7 @@ global.acct_tar = {
         "coreqs": [],
         "restricts": [
             "MGCR 472",
-            "MGCR 352"
+            "MGCR 331"
         ]
     },
     "MGCR 211": {
@@ -3428,7 +3428,7 @@ global.acct_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "ECON 227"
+            "ECON 257"
         ]
     },
     "MGCR 273": {
@@ -3463,7 +3463,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
             "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Aria Teimourzadeh (Fall), Aria Teimourzadeh (Winter)"
+            "instructors": "Instructors: Aria Teimourzadeh (Fall), Stuart A Forman (Fall), Aria Teimourzadeh (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -3970,8 +3970,8 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 653",
-            "MGCR 629"
+            "MGCR 652",
+            "MGCR 651"
         ],
         "coreqs": [],
         "restricts": []
@@ -4141,8 +4141,8 @@ global.acct_tar = {
             "instructors": "Instructors: Daphne Demetry (Fall), Matthew Corritore (Fall), Gregory Bryan Vit (Winter)"
         },
         "prereqs": [
-            "MGCR 352",
-            "MGCR 211"
+            "MGCR 211",
+            "INTG 202"
         ],
         "coreqs": [],
         "restricts": []
@@ -5416,7 +5416,7 @@ global.acct_tar = {
             "instructors": "Instructors: Myung-Soo Jo (Fall), Emine Sarigollu (Winter)"
         },
         "prereqs": [
-            "MGCR 352"
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": []
@@ -5451,7 +5451,7 @@ global.acct_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mrkt-455\" target=\"_blank\">MRKT 455</a> Sales Management (3 credits)",
             "overview": "Marketing : Responsibilities of the sales manager as they relate to the sales force. These include the selection of process, training alternatives, compensation and incentive plans, supervision and evaluation and budgeting and forecasting. Case studies and discussions of sales force models are used.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Bruno Delorme (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -5490,7 +5490,7 @@ global.acct_tar = {
             "instructors": "Instructors: Hamid Etemad (Fall)"
         },
         "prereqs": [
-            "MGCR 352"
+            "MGCR 382"
         ],
         "coreqs": [],
         "restricts": []
@@ -5912,7 +5912,7 @@ global.acct_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MGCR 222"
+            "MGCR 271"
         ],
         "coreqs": [],
         "restricts": []
@@ -6286,7 +6286,7 @@ global.acct_tar = {
             "instructors": "Instructors: Saibal Ray (Winter)"
         },
         "prereqs": [
-            "RETL 402"
+            "MRKT 459"
         ],
         "coreqs": [],
         "restricts": []

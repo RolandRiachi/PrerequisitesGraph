@@ -40,25 +40,6 @@ global.comp_src = {
             "instructors": "Instructors: Michael Langer (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
-    "COMP 202": {
-        "prereqs": [
-            "COMP 206",
-            "COMP 350"
-        ],
-        "coreqs": [],
-        "restricts": [
-            "COMP 102",
-            "COMP 204",
-            "COMP 208"
-        ],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
-            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
-        }
-    },
     "COMP 208": {
         "prereqs": [
             "COMP 322",
@@ -76,6 +57,25 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : Programming and problem solving in a high level computer language: variables, expressions, types, functions, conditionals, loops, objects and classes. Introduction to algorithms such as searching and sorting. Modular software design, libraries, file input and output, debugging. Emphasis on applications in Physical Sciences\nand Engineering, such as root finding, numerical integration, diffusion, Monte Carlo methods.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Jonathan Campbell (Fall), Deven Parekh (Fall)"
+        }
+    },
+    "COMP 202": {
+        "prereqs": [
+            "COMP 206",
+            "COMP 350"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 102",
+            "COMP 204",
+            "COMP 208"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: a CEGEP level mathematics course</p>\n\n<p>Restrictions: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> cannot both be taken for credit. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> is intended as a general introductory course, while <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-208\" target=\"_blank\">COMP 208</a> is intended for students interested in scientific computation. <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> cannot be taken for credit with or after <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-202\" target=\"_blank\">COMP 202</a> Foundations of Programming (3 credits)",
+            "overview": "Computer Science (Sci) : Introduction to computer programming in a high level language: variables, expressions, primitive types, methods, conditionals, loops. Introduction to algorithms, data structures (arrays, strings), modular software design, libraries, file input/output, debugging, exception handling. Selected topics.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Elizabeth Patitsas (Fall), Giulia Alberini (Fall), Giulia Alberini (Winter)"
         }
     },
     "COMP 189": {
@@ -120,11 +120,16 @@ global.comp_src = {
         "prereqs": [
             "COMP 303",
             "COMP 307",
+            "COMP 321",
             "COMP 322",
             "COMP 361D1",
+            "COMP 417",
             "COMP 421",
             "COMP 424",
-            "COMP 526"
+            "COMP 526",
+            "COMP 557",
+            "COMP 558",
+            "COMP 559"
         ],
         "coreqs": [
             "COMP 273"
@@ -171,7 +176,9 @@ global.comp_src = {
             "COMP 621"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "COMP 252"
+        ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a></p>\n\n<p>Corequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-240\" target=\"_blank\">MATH 240</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-363\" target=\"_blank\">MATH 363</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a> uses mathematical proof techniques that are taught in the corequisite course(s). If possible, students should take the corequisite course prior to <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a> uses basic counting techniques (permutations and combinations) that are covered in <a href=\"https://mcgill.ca/study/2019-2020/courses/math-240\" target=\"_blank\">MATH 240</a> and 363, but not in <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a>. These techniques will be reviewed for the benefit of <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a> students.</p>\n\n<p>Restrictions: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a> Algorithms and Data Structures (3 credits)",
@@ -182,11 +189,14 @@ global.comp_src = {
     },
     "COMP 252": {
         "prereqs": [
+            "COMP 360",
             "COMP 362",
             "COMP 550"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "COMP 251"
+        ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-250\" target=\"_blank\">COMP 250</a> and either <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-240\" target=\"_blank\">MATH 240</a></p>\n\n<p>Restrictions: (1) Open only to students in Honours programs. (2) Students cannot receive credit for both <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a>.</p>\n\n<p><a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a> uses basic combinatorial counting methods that are covered in <a href=\"https://mcgill.ca/study/2019-2020/courses/math-240\" target=\"_blank\">MATH 240</a> but not in <a href=\"https://mcgill.ca/study/2019-2020/courses/math-235\" target=\"_blank\">MATH 235</a>. Students who are unfamiliar with these methods should speak with the instructor for guidance.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a> Honours Algorithms and Data Structures (3 credits)",
@@ -367,7 +377,8 @@ global.comp_src = {
             "COMP 547",
             "COMP 558",
             "COMP 560",
-            "COMP 566"
+            "COMP 566",
+            "COMP 652"
         ],
         "coreqs": [],
         "restricts": [
@@ -379,6 +390,25 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : Advanced algorithm design and analysis. Linear programming, complexity and NP-completeness, advanced algorithmic techniques.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Hamed Hatami (Fall)"
+        }
+    },
+    "COMP 362": {
+        "prereqs": [
+            "COMP 547",
+            "COMP 552",
+            "COMP 553",
+            "COMP 554"
+        ],
+        "coreqs": [],
+        "restricts": [
+            "COMP 360"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a></p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-360\" target=\"_blank\">COMP 360</a>.</p>\n\n<p>Note: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-362\" target=\"_blank\">COMP 362</a> can be used instead of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-360\" target=\"_blank\">COMP 360</a> to satisfy prerequisites.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-362\" target=\"_blank\">COMP 362</a> Honours Algorithm Design (3 credits)",
+            "overview": "Computer Science (Sci) : Basic algorithmic techniques, their applications and limitations. Problem complexity, how to deal with problems for which no efficient solutions are known.",
+            "terms": "Terms: Winter 2020",
+            "instructors": "Instructors: Bruce Alan Reed (Winter)"
         }
     },
     "COMP 361D1": {
@@ -405,23 +435,6 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : See COMP 361D1 for course description.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Jorg Andreas Kienzle (Winter)"
-        }
-    },
-    "COMP 362": {
-        "prereqs": [
-            "COMP 547",
-            "COMP 552",
-            "COMP 553",
-            "COMP 554"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-252\" target=\"_blank\">COMP 252</a></p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-360\" target=\"_blank\">COMP 360</a>.</p>\n\n<p>Note: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-362\" target=\"_blank\">COMP 362</a> can be used instead of <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-360\" target=\"_blank\">COMP 360</a> to satisfy prerequisites.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-362\" target=\"_blank\">COMP 362</a> Honours Algorithm Design (3 credits)",
-            "overview": "Computer Science (Sci) : Basic algorithmic techniques, their applications and limitations. Problem complexity, how to deal with problems for which no efficient solutions are known.",
-            "terms": "Terms: Winter 2020",
-            "instructors": "Instructors: Bruce Alan Reed (Winter)"
         }
     },
     "COMP 364": {
@@ -485,7 +498,9 @@ global.comp_src = {
         }
     },
     "COMP 402D1": {
-        "prereqs": [],
+        "prereqs": [
+            "COMP 402D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -550,7 +565,8 @@ global.comp_src = {
     },
     "COMP 424": {
         "prereqs": [
-            "COMP 526"
+            "COMP 526",
+            "COMP 652"
         ],
         "coreqs": [],
         "restricts": [],
@@ -582,11 +598,29 @@ global.comp_src = {
         "coreqs": [
             "COMP 564"
         ],
-        "restricts": [],
+        "restricts": [
+            "COMP 561"
+        ],
         "text": {
             "notes": "<p>3 hours</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-323\" target=\"_blank\">MATH 323</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-203\" target=\"_blank\">MATH 203</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-309\" target=\"_blank\">BIOL 309</a></p>\n\n<p>Restriction: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-562\" target=\"_blank\">COMP 562</a>.  Not open to students who are taking or have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-561\" target=\"_blank\">COMP 561</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-462\" target=\"_blank\">COMP 462</a> Computational Biology Methods (3 credits)",
             "overview": "Computer Science (Sci) : Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Mathieu Blanchette (Fall)"
+        }
+    },
+    "COMP 561": {
+        "prereqs": [],
+        "coreqs": [
+            "COMP 564"
+        ],
+        "restricts": [
+            "COMP 462"
+        ],
+        "text": {
+            "notes": "<p>4 hours</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-323\" target=\"_blank\">MATH 323</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-203\" target=\"_blank\">MATH 203</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-309\" target=\"_blank\">BIOL 309</a></p>\n\n<p>Restrictions: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-562\" target=\"_blank\">COMP 562</a>.  Not open to students who are taking or have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-462\" target=\"_blank\">COMP 462</a>.</p>\n\n<p>Note: Additional work will consist of assignments and of a substantial final project that will require to put in practice the concepts covered in the course.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-561\" target=\"_blank\">COMP 561</a> Computational Biology Methods and Research (4 credits)",
+            "overview": "Computer Science (Sci) : Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. An in-depth exploration of key research areas.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Mathieu Blanchette (Fall)"
         }
@@ -846,6 +880,20 @@ global.comp_src = {
             "instructors": "Instructors: William Hamilton (Fall), Reihaneh Rabbany (Winter), Mohsen Ravanbakhsh (Winter)"
         }
     },
+    "COMP 598": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [
+            "COMP 551"
+        ],
+        "text": {
+            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: Permission of instructor.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-598\" target=\"_blank\">COMP 598</a> Topics in Computer Science 1 (3 credits)",
+            "overview": "Computer Science (Sci) : Topics in computer science.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Yue Li (Fall), Derek Nowrouzezahrai (Fall), Muthucumaru Maheswaran (Winter)"
+        }
+    },
     "COMP 552": {
         "prereqs": [],
         "coreqs": [],
@@ -930,20 +978,6 @@ global.comp_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "COMP 561": {
-        "prereqs": [],
-        "coreqs": [
-            "COMP 564"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>4 hours</p>\n\n<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-251\" target=\"_blank\">COMP 251</a>, and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-323\" target=\"_blank\">MATH 323</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/math-203\" target=\"_blank\">MATH 203</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-309\" target=\"_blank\">BIOL 309</a></p>\n\n<p>Restrictions: Not open to students who have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-562\" target=\"_blank\">COMP 562</a>.  Not open to students who are taking or have taken <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-462\" target=\"_blank\">COMP 462</a>.</p>\n\n<p>Note: Additional work will consist of assignments and of a substantial final project that will require to put in practice the concepts covered in the course.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-561\" target=\"_blank\">COMP 561</a> Computational Biology Methods and Research (4 credits)",
-            "overview": "Computer Science (Sci) : Application of computer science techniques to problems arising in biology and medicine, techniques for modeling evolution, aligning molecular sequences, predicting structure of a molecule and other problems from computational biology. An in-depth exploration of key research areas.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Mathieu Blanchette (Fall)"
-        }
-    },
     "COMP 564": {
         "prereqs": [],
         "coreqs": [],
@@ -1016,18 +1050,6 @@ global.comp_src = {
             "overview": "Computer Science (Sci) : Topics in computer science.",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "COMP 598": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>3 hours</p>\n\n<p>Prerequisite: Permission of instructor.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-598\" target=\"_blank\">COMP 598</a> Topics in Computer Science 1 (3 credits)",
-            "overview": "Computer Science (Sci) : Topics in computer science.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Yue Li (Fall), Derek Nowrouzezahrai (Fall), Muthucumaru Maheswaran (Winter)"
         }
     },
     "COMP 601": {
@@ -1258,7 +1280,7 @@ global.comp_src = {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-424\" target=\"_blank\">COMP 424</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-526\" target=\"_blank\">COMP 526</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-526\" target=\"_blank\">ECSE 526</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/comp-360\" target=\"_blank\">COMP 360</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-323\" target=\"_blank\">MATH 323</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/ecse-305\" target=\"_blank\">ECSE 305</a>.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/comp-652\" target=\"_blank\">COMP 652</a> Machine Learning (4 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },

@@ -44,7 +44,8 @@ global.biol_src = {
     },
     "BIOL 112": {
         "prereqs": [
-            "BIOL 200"
+            "BIOL 200",
+            "BIOL 219"
         ],
         "coreqs": [],
         "restricts": [
@@ -86,10 +87,13 @@ global.biol_src = {
             "BIOL 319",
             "BIOL 370",
             "BIOL 377",
+            "BIOL 395",
             "BIOL 413"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "BIOL 219"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lecture, 1 hour optional tutorial</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-112\" target=\"_blank\">BIOL 112</a> or equivalent</p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/chem-212\" target=\"_blank\">CHEM 212</a> or equivalent</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a> Molecular Biology (3 credits)",
@@ -102,17 +106,21 @@ global.biol_src = {
         "prereqs": [
             "BIOL 300",
             "BIOL 303",
+            "BIOL 306",
             "BIOL 313",
             "BIOL 314",
             "BIOL 316",
             "BIOL 370",
             "BIOL 377",
+            "BIOL 395",
             "BIOL 413"
         ],
         "coreqs": [
             "BIOL 205"
         ],
-        "restricts": [],
+        "restricts": [
+            "BIOL 219"
+        ],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lecture, 1 hour optional tutorial</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/biol-200\" target=\"_blank\">BIOL 200</a>.</p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/anat-212\" target=\"_blank\">ANAT 212</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/bioc-212\" target=\"_blank\">BIOC 212</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/biol-201\" target=\"_blank\">BIOL 201</a> Cell Biology and Metabolism (3 credits)",
@@ -242,7 +250,8 @@ global.biol_src = {
     },
     "BIOL 219": {
         "prereqs": [
-            "BIOL 319"
+            "BIOL 319",
+            "BIOL 395"
         ],
         "coreqs": [],
         "restricts": [],
@@ -1823,7 +1832,9 @@ global.biol_src = {
         }
     },
     "NSCI 430D1": {
-        "prereqs": [],
+        "prereqs": [
+            "NSCI 430D2"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {

@@ -36,11 +36,11 @@ global.math_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MATH 150",
-            "MATH 139",
-            "MATH 140",
             "MATH 141",
-            "MATH 151"
+            "MATH 140",
+            "MATH 150",
+            "MATH 151",
+            "MATH 139"
         ]
     },
     "MATH 123": {
@@ -69,8 +69,8 @@ global.math_tar = {
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MATH 122",
-            "MATH 141"
+            "MATH 141",
+            "MATH 122"
         ]
     },
     "MATH 133": {
@@ -79,7 +79,7 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-133\" target=\"_blank\">MATH 133</a> Linear Algebra and Geometry (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Systems of linear equations, matrices, inverses, determinants; geometric vectors in three dimensions, dot product, cross product, lines and planes; introduction to vector spaces, linear dependence and independence, bases; quadratic loci in two and three dimensions.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Zayd Omar (Fall)"
+            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Zayd Omar (Fall), Michael Albanese (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -117,12 +117,13 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> Calculus 1 (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Review of functions and graphs. Limits, continuity, derivative. Differentiation of elementary functions. Antidifferentiation. Applications.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Sidney Trudeau (Fall), Isabella Negrini (Fall), Jérôme Fortier (Winter)"
+            "instructors": "Instructors: Sidney Trudeau (Fall), Isabella Negrini (Fall), Aled Walker (Fall), Jérôme Fortier (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
         "restricts": [
-            "MATH 139"
+            "MATH 139",
+            "MATH 122"
         ]
     },
     "MATH 141": {
@@ -165,7 +166,9 @@ global.math_tar = {
             "MATH 150"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 122"
+        ]
     },
     "MATH 180": {
         "text": {
@@ -251,9 +254,9 @@ global.math_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 236",
+            "MATH 251",
             "MATH 247",
-            "MATH 251"
+            "MATH 236"
         ]
     },
     "MATH 228": {
@@ -337,8 +340,8 @@ global.math_tar = {
             "instructors": "Instructors: Axel W Hundemer (Winter)"
         },
         "prereqs": [
-            "MATH 242",
-            "MATH 254"
+            "MATH 254",
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -355,7 +358,11 @@ global.math_tar = {
             "MATH 133"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 251",
+            "MATH 223",
+            "MATH 236"
+        ]
     },
     "MATH 248": {
         "text": {
@@ -370,7 +377,10 @@ global.math_tar = {
             "MATH 133"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 358",
+            "MATH 314"
+        ]
     },
     "MATH 249": {
         "text": {
@@ -381,11 +391,13 @@ global.math_tar = {
             "instructors": "Instructors: Jerome Vetois (Winter)"
         },
         "prereqs": [
-            "MATH 248",
-            "MATH 358"
+            "MATH 358",
+            "MATH 248"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 316"
+        ]
     },
     "MATH 251": {
         "text": {
@@ -428,8 +440,8 @@ global.math_tar = {
             "instructors": "Instructors: Pengfei Guan (Winter)"
         },
         "prereqs": [
-            "MATH 242",
-            "MATH 254"
+            "MATH 254",
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -440,11 +452,11 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-262\" target=\"_blank\">MATH 262</a> Intermediate Calculus (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Series and power series, including Taylor's theorem. Brief review of vector geometry. Vector functions and curves. Partial differentiation and differential calculus for vector valued functions. Unconstrained and constrained extremal problems. Multiple integrals including surface area and change of variables.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Vincent Létourneau (Fall), Charles Roth (Winter)"
+            "instructors": "Instructors: Rosalie Bélanger-Rioux (Fall), Vincent Létourneau (Fall), Ming Mei (Fall), Charles Roth (Winter)"
         },
         "prereqs": [
-            "MATH 133",
-            "MATH 141"
+            "MATH 141",
+            "MATH 133"
         ],
         "coreqs": [],
         "restricts": [
@@ -478,8 +490,8 @@ global.math_tar = {
             "instructors": "Instructors: Biji Wong (Fall), Jacques Claude Hurtubise (Fall), Rustum Choksi (Winter)"
         },
         "prereqs": [
-            "MATH 262",
-            "MATH 151"
+            "MATH 151",
+            "MATH 262"
         ],
         "coreqs": [
             "MATH 263"
@@ -532,8 +544,8 @@ global.math_tar = {
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 248",
-            "MATH 358"
+            "MATH 358",
+            "MATH 248"
         ]
     },
     "MATH 315": {
@@ -582,8 +594,8 @@ global.math_tar = {
             "instructors": "Instructors: Peter Bartello (Fall)"
         },
         "prereqs": [
-            "MATH 325",
             "MATH 263",
+            "MATH 325",
             "MATH 315"
         ],
         "coreqs": [],
@@ -599,8 +611,8 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 240",
-            "MATH 242",
-            "MATH 235"
+            "MATH 235",
+            "MATH 242"
         ],
         "coreqs": [],
         "restricts": []
@@ -614,10 +626,10 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 315",
-            "MATH 236",
             "MATH 223",
-            "MATH 314"
+            "MATH 314",
+            "MATH 236",
+            "MATH 315"
         ],
         "coreqs": [],
         "restricts": []
@@ -631,11 +643,11 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
-            "MATH 247",
-            "MATH 236",
             "MATH 248",
-            "MATH 314"
+            "MATH 247",
+            "MATH 223",
+            "MATH 314",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": []
@@ -652,7 +664,9 @@ global.math_tar = {
             "MATH 141"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 356"
+        ]
     },
     "MATH 324": {
         "text": {
@@ -682,7 +696,10 @@ global.math_tar = {
             "MATH 222"
         ],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "MATH 263",
+            "MATH 315"
+        ]
     },
     "MATH 326": {
         "text": {
@@ -710,9 +727,9 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
             "MATH 251",
             "MATH 247",
+            "MATH 223",
             "MATH 236"
         ],
         "coreqs": [],
@@ -741,8 +758,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 236",
-            "MATH 235"
+            "MATH 235",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": []
@@ -769,12 +786,12 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 240",
-            "MATH 242",
-            "MATH 235"
+            "MATH 235",
+            "MATH 242"
         ],
         "coreqs": [
-            "MATH 236",
-            "MATH 223"
+            "MATH 223",
+            "MATH 236"
         ],
         "restricts": [
             "MATH 350"
@@ -821,10 +838,10 @@ global.math_tar = {
             "instructors": "Instructors: Sergey Norin (Fall)"
         },
         "prereqs": [
+            "MATH 251",
             "MATH 240",
             "MATH 235",
-            "MATH 223",
-            "MATH 251"
+            "MATH 223"
         ],
         "coreqs": [],
         "restricts": [
@@ -886,15 +903,15 @@ global.math_tar = {
             "instructors": "Instructors: Pengfei Guan (Winter)"
         },
         "prereqs": [
-            "MATH 255",
             "MATH 222",
+            "MATH 251",
             "MATH 247",
-            "MATH 251"
+            "MATH 255"
         ],
         "coreqs": [],
         "restricts": [
-            "MATH 248",
-            "MATH 314"
+            "MATH 314",
+            "MATH 248"
         ]
     },
     "MATH 363": {
@@ -970,8 +987,8 @@ global.math_tar = {
             "MATH 315"
         ],
         "coreqs": [
-            "MATH 255",
-            "MATH 243"
+            "MATH 243",
+            "MATH 255"
         ],
         "restricts": []
     },
@@ -996,8 +1013,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 247",
-            "MATH 251"
+            "MATH 251",
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": []
@@ -1027,11 +1044,11 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 223",
-            "MATH 315",
             "MATH 323",
-            "MATH 236",
-            "MATH 314"
+            "MATH 315",
+            "MATH 223",
+            "MATH 314",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": []
@@ -1042,7 +1059,7 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-410\" target=\"_blank\">MATH 410</a> Majors Project (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : A supervised project.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Djivede Kelome (Fall), Russell Steele (Fall), Djivede Kelome (Winter)"
+            "instructors": "Instructors: Djivede Kelome (Fall), Russell Steele (Fall), Johanna Neslehova (Fall), Djivede Kelome (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1057,9 +1074,9 @@ global.math_tar = {
             "instructors": "Instructors: Van Quang Nguyen (Fall), Jacques Claude Hurtubise (Fall)"
         },
         "prereqs": [
-            "MATH 236",
             "MATH 223",
-            "MATH 314"
+            "MATH 314",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": [
@@ -1087,9 +1104,9 @@ global.math_tar = {
             "instructors": "Instructors: Yi Yang (Fall)"
         },
         "prereqs": [
-            "MATH 236",
             "MATH 324",
-            "MATH 223"
+            "MATH 223",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": [
@@ -1121,11 +1138,11 @@ global.math_tar = {
             "instructors": "Instructors: Djivede Kelome (Winter)"
         },
         "prereqs": [
-            "MATH 323",
-            "MATH 255",
+            "MATH 243",
             "MATH 133",
+            "MATH 323",
             "MATH 356",
-            "MATH 243"
+            "MATH 255"
         ],
         "coreqs": [],
         "restricts": []
@@ -1141,9 +1158,8 @@ global.math_tar = {
         "prereqs": [
             "MATH 325",
             "MATH 326",
-            "MATH 376",
             "MATH 315",
-            "COMP 208"
+            "MATH 376"
         ],
         "coreqs": [],
         "restricts": []
@@ -1201,9 +1217,9 @@ global.math_tar = {
             "instructors": "Instructors: Michael Pichot (Fall)"
         },
         "prereqs": [
-            "MATH 247",
+            "MATH 251",
             "MATH 235",
-            "MATH 251"
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": []
@@ -1231,10 +1247,10 @@ global.math_tar = {
             "instructors": "Instructors: Jacques Claude Hurtubise (Winter)"
         },
         "prereqs": [
-            "MATH 251",
-            "MATH 247",
             "MATH 358",
+            "MATH 251",
             "MATH 248",
+            "MATH 247",
             "MATH 314"
         ],
         "coreqs": [],
@@ -1305,11 +1321,11 @@ global.math_tar = {
             "instructors": "Instructors: Jessica Lin (Fall)"
         },
         "prereqs": [
+            "MATH 358",
             "MATH 325",
             "MATH 251",
-            "MATH 247",
-            "MATH 358",
-            "MATH 248"
+            "MATH 248",
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": []
@@ -1325,9 +1341,9 @@ global.math_tar = {
         "prereqs": [
             "MATH 325",
             "MATH 317",
-            "MATH 387",
             "MATH 315",
-            "MATH 263"
+            "MATH 263",
+            "MATH 387"
         ],
         "coreqs": [],
         "restricts": []
@@ -1338,7 +1354,7 @@ global.math_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/math-480\" target=\"_blank\">MATH 480</a> Honours Independent Study (3 credits)",
             "overview": "Mathematics &amp; Statistics (Sci) : Reading projects permitting independent study under the guidance of a staff member specializing in a subject where no appropriate course is available. Arrangements must be made with an instructor and the Chair before registration.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Johanna Neslehova (Fall), Johanna Neslehova (Winter)"
+            "instructors": "Instructors: Johanna Neslehova (Fall), Marcin Sabok (Fall), Johanna Neslehova (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -1353,8 +1369,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 255",
-            "MATH 251"
+            "MATH 251",
+            "MATH 255"
         ],
         "coreqs": [],
         "restricts": []
@@ -1368,9 +1384,9 @@ global.math_tar = {
             "instructors": "Instructors: Van Quang Nguyen (Fall), Jacques Claude Hurtubise (Fall)"
         },
         "prereqs": [
-            "MATH 236",
             "MATH 223",
-            "MATH 314"
+            "MATH 314",
+            "MATH 236"
         ],
         "coreqs": [],
         "restricts": [
@@ -1428,9 +1444,9 @@ global.math_tar = {
             "instructors": "Instructors: Yi Yang (Fall)"
         },
         "prereqs": [
-            "MATH 247",
+            "MATH 251",
             "MATH 357",
-            "MATH 251"
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": [
@@ -1447,8 +1463,7 @@ global.math_tar = {
         },
         "prereqs": [
             "MATH 325",
-            "MATH 376",
-            "COMP 204"
+            "MATH 376"
         ],
         "coreqs": [],
         "restricts": [
@@ -1479,8 +1494,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 323",
-            "MATH 324"
+            "MATH 324",
+            "MATH 323"
         ],
         "coreqs": [],
         "restricts": []
@@ -1509,9 +1524,9 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "MATH 251",
             "MATH 356",
-            "MATH 247",
-            "MATH 251"
+            "MATH 247"
         ],
         "coreqs": [],
         "restricts": [
@@ -1553,9 +1568,8 @@ global.math_tar = {
             "instructors": "Instructors: Adrian Roshan Vetta (Fall)"
         },
         "prereqs": [
-            "MATH 350",
-            "COMP 362",
-            "MATH 454"
+            "MATH 454",
+            "MATH 350"
         ],
         "coreqs": [],
         "restricts": []
@@ -1621,8 +1635,8 @@ global.math_tar = {
             "instructors": "Instructors: John A Toth (Fall)"
         },
         "prereqs": [
-            "MATH 454",
-            "MATH 455"
+            "MATH 455",
+            "MATH 454"
         ],
         "coreqs": [],
         "restricts": []
@@ -1650,8 +1664,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 564",
-            "MATH 466"
+            "MATH 466",
+            "MATH 564"
         ],
         "coreqs": [],
         "restricts": []
@@ -1750,9 +1764,9 @@ global.math_tar = {
             "instructors": "Instructors: Jean-Christophe Nave (Fall)"
         },
         "prereqs": [
-            "MATH 387",
+            "MATH 251",
             "MATH 247",
-            "MATH 251"
+            "MATH 387"
         ],
         "coreqs": [],
         "restricts": []
@@ -1766,8 +1780,8 @@ global.math_tar = {
             "instructors": "Instructors: Gantumur Tsogtgerel (Winter)"
         },
         "prereqs": [
-            "MATH 475",
-            "MATH 387"
+            "MATH 387",
+            "MATH 475"
         ],
         "coreqs": [],
         "restricts": []
@@ -1795,8 +1809,8 @@ global.math_tar = {
             "instructors": "Instructors: Gantumur Tsogtgerel (Winter)"
         },
         "prereqs": [
-            "MATH 580",
-            "MATH 455"
+            "MATH 455",
+            "MATH 580"
         ],
         "coreqs": [],
         "restricts": []
@@ -1824,8 +1838,8 @@ global.math_tar = {
             "instructors": "Instructors: Daniel Wise (Winter)"
         },
         "prereqs": [
-            "MATH 576",
-            "MATH 456"
+            "MATH 456",
+            "MATH 576"
         ],
         "coreqs": [],
         "restricts": []
@@ -1839,9 +1853,9 @@ global.math_tar = {
             "instructors": "Instructors: Dana Louis Addario-Berry (Fall)"
         },
         "prereqs": [
+            "MATH 243",
             "MATH 356",
-            "MATH 255",
-            "MATH 243"
+            "MATH 255"
         ],
         "coreqs": [],
         "restricts": []
@@ -1869,8 +1883,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 255",
-            "MATH 251"
+            "MATH 251",
+            "MATH 255"
         ],
         "coreqs": [],
         "restricts": [
@@ -1979,8 +1993,8 @@ global.math_tar = {
             "instructors": "Instructors: Jacques Claude Hurtubise (Fall), Brent Pym (Winter)"
         },
         "prereqs": [
-            "MATH 454",
-            "MATH 458"
+            "MATH 458",
+            "MATH 454"
         ],
         "coreqs": [],
         "restricts": []
@@ -2056,8 +2070,8 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 565",
             "MATH 564",
+            "MATH 565",
             "MATH 566"
         ],
         "coreqs": [],
@@ -2172,8 +2186,8 @@ global.math_tar = {
             "instructors": "Instructors: Yi Yang (Fall)"
         },
         "prereqs": [
-            "MATH 556",
-            "MATH 557"
+            "MATH 557",
+            "MATH 556"
         ],
         "coreqs": [],
         "restricts": []
@@ -2219,10 +2233,10 @@ global.math_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "MATH 423",
-            "MATH 523",
             "MATH 557",
-            "MATH 556"
+            "MATH 423",
+            "MATH 556",
+            "MATH 523"
         ],
         "coreqs": [],
         "restricts": []
@@ -2250,8 +2264,8 @@ global.math_tar = {
             "instructors": "Instructors: David B Wolfson (Fall)"
         },
         "prereqs": [
-            "MATH 556",
-            "MATH 557"
+            "MATH 557",
+            "MATH 556"
         ],
         "coreqs": [],
         "restricts": []

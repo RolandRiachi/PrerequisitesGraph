@@ -114,7 +114,9 @@ global.econ_src = {
         "coreqs": [
             "ECON 221"
         ],
-        "restricts": [],
+        "restricts": [
+            "ECON 295"
+        ],
         "text": {
             "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> or permission of the instructor </p>\n\n<p>Restriction: Not open to students who have taken or are taking <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-295\" target=\"_blank\">ECON 295</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330\" target=\"_blank\">ECON 330</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352\" target=\"_blank\">ECON 352</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a> Macroeconomic Analysis and Applications (3 credits)",
@@ -163,33 +165,6 @@ global.econ_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ECON 250D1": {
-        "prereqs": [
-            "ECON 250D2",
-            "ECON 306",
-            "ECON 345",
-            "ECON 352D1",
-            "ECON 423",
-            "ECON 424",
-            "ECON 426",
-            "ECON 450",
-            "ECON 452",
-            "ECON 453",
-            "ECON 454",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 221"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
-            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Licun Xue (Fall)"
-        }
-    },
     "ECON 230D1": {
         "prereqs": [
             "ECON 230D2",
@@ -214,6 +189,34 @@ global.econ_src = {
             "overview": "Economics (Arts) : The introductory course for Economics Major students in microeconomic theory. In depth and critical presentation of the theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution, welfare economics and the theory of general equilibrium.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Fabian Lange (Fall), Ling Ling Zhang (Fall)"
+        }
+    },
+    "ECON 250D1": {
+        "prereqs": [
+            "ECON 250D2",
+            "ECON 306",
+            "ECON 345",
+            "ECON 352D1",
+            "ECON 423",
+            "ECON 424",
+            "ECON 426",
+            "ECON 430",
+            "ECON 450",
+            "ECON 452",
+            "ECON 453",
+            "ECON 454",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 221"
+        ],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisites: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-140\" target=\"_blank\">MATH 140</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/math-141\" target=\"_blank\">MATH 141</a> or equivalent</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a> Introduction to Economic Theory: Honours (3 credits)",
+            "overview": "Economics (Arts) : An intermediate level microeconomics course. Includes theory of exchange, theory of consumer behaviour, theory of production and cost curves, theory of the firm, theory of distribution; general equilibrium and welfare economics. The assumptions underlying the traditional neo-classical approach to economic theory will be carefully specified.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Licun Xue (Fall)"
         }
     },
     "ECON 223": {
@@ -257,7 +260,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227\" target=\"_blank\">ECON 227</a> Economic Statistics (6 credits)",
             "overview": "Economics (Arts) : Distributions, averages, dispersions, sampling, testing, estimation, correlation, regression, index numbers, trends and seasonals.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Kenneth MacKenzie (Fall), Kenneth MacKenzie (Winter)"
+            "instructors": "Instructors: Kenneth MacKenzie (Fall), WenJing Cai (Fall), Kenneth MacKenzie (Winter)"
         }
     },
     "ECON 227D1": {
@@ -274,7 +277,7 @@ global.econ_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227d1\" target=\"_blank\">ECON 227D1</a> Economic Statistics (3 credits)",
             "overview": "Economics (Arts) : Distributions, averages, dispersions, sampling, testing, estimation, correlation, regression, index numbers, trends and seasonals.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Kenneth MacKenzie (Fall)"
+            "instructors": "Instructors: Kenneth MacKenzie (Fall), WenJing Cai (Fall)"
         }
     },
     "ECON 227D2": {
@@ -349,6 +352,46 @@ global.econ_src = {
             "overview": "Economics (Arts) : See ECON 257D1 for course description.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Saraswata Chaudhuri (Winter)"
+        }
+    },
+    "ECON 330D1": {
+        "prereqs": [
+            "ECON 330D2",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
+        "restricts": [
+            "ECON 295"
+        ],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a>. If a student has already taken 154-200 or 154-203 and 154-204 or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, it may be concurrently taken with <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> with the permission of the instructor</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> Macroeconomic Theory (3 credits)",
+            "overview": "Economics (Arts) : A review of basic economic concepts and tools with an in depth and critical presentation of the fundamental areas of macroeconomic theory. Topics include: the determination of output, employment and price level; money and banking and business cycles; stabilization policy; international finance and growth theory.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Daniel Barczyk (Fall), Francisco Alvarez-Cuadrado (Fall)"
+        }
+    },
+    "ECON 352D1": {
+        "prereqs": [
+            "ECON 352D2",
+            "ECON 450",
+            "ECON 452",
+            "ECON 581"
+        ],
+        "coreqs": [
+            "ECON 424"
+        ],
+        "restricts": [
+            "ECON 295"
+        ],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a></p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a></p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a> are successfully completed in consecutive terms</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> Macroeconomics - Honours (3 credits)",
+            "overview": "Economics (Arts) : Basic macroeconomic theory, emphasizing the Classical and Keynesian ideas for the short-run determination of output, employment, interest rates and prices in the economy. Elements of international economics, money and banking and growth theory. The structure of the Canadian economy.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Francisco Alvarez-Cuadrado (Fall)"
         }
     },
     "ECON 302": {
@@ -523,23 +566,6 @@ global.econ_src = {
             "instructors": "Instructors: Robin Thomas Naylor (Fall), Robin Thomas Naylor (Winter)"
         }
     },
-    "ECON 330D1": {
-        "prereqs": [
-            "ECON 330D2",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 424"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250\" target=\"_blank\">ECON 250</a>. If a student has already taken 154-200 or 154-203 and 154-204 or <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-208\" target=\"_blank\">ECON 208</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-209\" target=\"_blank\">ECON 209</a>, it may be concurrently taken with <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-230\" target=\"_blank\">ECON 230</a> with the permission of the instructor</p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a>.</p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d2\" target=\"_blank\">ECON 330D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-330d1\" target=\"_blank\">ECON 330D1</a> Macroeconomic Theory (3 credits)",
-            "overview": "Economics (Arts) : A review of basic economic concepts and tools with an in depth and critical presentation of the fundamental areas of macroeconomic theory. Topics include: the determination of output, employment and price level; money and banking and business cycles; stabilization policy; international finance and growth theory.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Daniel Barczyk (Fall), Francisco Alvarez-Cuadrado (Fall)"
-        }
-    },
     "ECON 330D2": {
         "prereqs": [],
         "coreqs": [],
@@ -684,25 +710,6 @@ global.econ_src = {
             "overview": "Economics (Arts) : Conceptual and mathematical models used to understand the spatial distribution of economic activity. Analysis of a variety of policy issues related to cities, such as urban transportation, pollution, housing, poverty, and crime.",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Nicolas Gendron-Carrier (Winter)"
-        }
-    },
-    "ECON 352D1": {
-        "prereqs": [
-            "ECON 352D2",
-            "ECON 450",
-            "ECON 452",
-            "ECON 581"
-        ],
-        "coreqs": [
-            "ECON 424"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d1\" target=\"_blank\">ECON 250D1</a>/<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-250d2\" target=\"_blank\">ECON 250D2</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-257d1\" target=\"_blank\">ECON 257D1</a></p>\n\n<p>Students must register for both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a></p>\n\n<p>No credit will be given for this course unless both <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d2\" target=\"_blank\">ECON 352D2</a> are successfully completed in consecutive terms</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-352d1\" target=\"_blank\">ECON 352D1</a> Macroeconomics - Honours (3 credits)",
-            "overview": "Economics (Arts) : Basic macroeconomic theory, emphasizing the Classical and Keynesian ideas for the short-run determination of output, employment, interest rates and prices in the economy. Elements of international economics, money and banking and growth theory. The structure of the Canadian economy.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Francisco Alvarez-Cuadrado (Fall)"
         }
     },
     "ECON 352D2": {

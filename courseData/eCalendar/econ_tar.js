@@ -75,9 +75,9 @@ global.econ_tar = {
         },
         "prereqs": [],
         "coreqs": [
-            "ECON 250D1",
             "ECON 230D1",
             "ECON 208",
+            "ECON 250D1",
             "ECON 209"
         ],
         "restricts": []
@@ -114,7 +114,7 @@ global.econ_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227\" target=\"_blank\">ECON 227</a> Economic Statistics (6 credits)",
             "overview": "Economics (Arts) : Distributions, averages, dispersions, sampling, testing, estimation, correlation, regression, index numbers, trends and seasonals.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Kenneth MacKenzie (Fall), Kenneth MacKenzie (Winter)"
+            "instructors": "Instructors: Kenneth MacKenzie (Fall), WenJing Cai (Fall), Kenneth MacKenzie (Winter)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -126,7 +126,7 @@ global.econ_tar = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/econ-227d1\" target=\"_blank\">ECON 227D1</a> Economic Statistics (3 credits)",
             "overview": "Economics (Arts) : Distributions, averages, dispersions, sampling, testing, estimation, correlation, regression, index numbers, trends and seasonals.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Kenneth MacKenzie (Fall)"
+            "instructors": "Instructors: Kenneth MacKenzie (Fall), WenJing Cai (Fall)"
         },
         "prereqs": [],
         "coreqs": [],
@@ -192,9 +192,7 @@ global.econ_tar = {
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Licun Xue (Fall)"
         },
-        "prereqs": [
-            "MATH 140"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -250,7 +248,11 @@ global.econ_tar = {
         },
         "prereqs": [],
         "coreqs": [],
-        "restricts": []
+        "restricts": [
+            "ECON 330D1",
+            "ECON 352D1",
+            "ECON 209"
+        ]
     },
     "ECON 302": {
         "text": {
@@ -321,9 +323,9 @@ global.econ_tar = {
             "instructors": "Instructors: Paul Dickinson (Fall)"
         },
         "prereqs": [
-            "ECON 250D1",
             "ECON 230D1",
             "ECON 208",
+            "ECON 250D1",
             "ECON 209"
         ],
         "coreqs": [],
@@ -618,10 +620,10 @@ global.econ_tar = {
         },
         "prereqs": [
             "ECON 230D1",
-            "ECON 250D1",
             "ECON 209",
+            "ECON 295",
             "ECON 208",
-            "ECON 295"
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -650,10 +652,10 @@ global.econ_tar = {
             "instructors": "Instructors: Nicolas Gendron-Carrier (Winter)"
         },
         "prereqs": [
-            "ECON 227D2",
+            "ECON 230D1",
             "ECON 230D2",
             "ECON 227D1",
-            "ECON 230D1"
+            "ECON 227D2"
         ],
         "coreqs": [],
         "restricts": []
@@ -724,8 +726,8 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 227",
-            "ECON 230"
+            "ECON 230",
+            "ECON 227"
         ],
         "coreqs": [],
         "restricts": []
@@ -781,8 +783,8 @@ global.econ_tar = {
             "instructors": "Instructors: Francesco Amodio (Winter)"
         },
         "prereqs": [
-            "ECON 227D1",
-            "ECON 230"
+            "ECON 230",
+            "ECON 227D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -810,8 +812,8 @@ global.econ_tar = {
             "instructors": "Instructors: Julian Vikan Karaguesian (Fall)"
         },
         "prereqs": [
-            "ECON 250D1",
-            "ECON 230D1"
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -825,12 +827,12 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 250D1",
-            "ECON 230D1"
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [
-            "ECON 352D1",
-            "ECON 330D1"
+            "ECON 330D1",
+            "ECON 352D1"
         ],
         "restricts": []
     },
@@ -843,8 +845,8 @@ global.econ_tar = {
             "instructors": "Instructors: Fabian Lange (Fall)"
         },
         "prereqs": [
-            "ECON 250D1",
-            "ECON 230D1"
+            "ECON 230D1",
+            "ECON 250D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -861,7 +863,6 @@ global.econ_tar = {
             "ECON 230D1",
             "ECON 257D1",
             "ECON 227D1",
-            "MATH 140",
             "ECON 250D1"
         ],
         "coreqs": [],
@@ -890,8 +891,8 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
-            "ECON 227",
-            "ECON 208"
+            "ECON 208",
+            "ECON 227"
         ],
         "coreqs": [],
         "restricts": []
@@ -921,8 +922,8 @@ global.econ_tar = {
         "prereqs": [
             "ECON 352D2",
             "ECON 250D1",
-            "ECON 250D2",
-            "ECON 352D1"
+            "ECON 352D1",
+            "ECON 250D2"
         ],
         "coreqs": [],
         "restricts": []
@@ -938,8 +939,8 @@ global.econ_tar = {
         "prereqs": [
             "ECON 352D2",
             "ECON 250D1",
-            "ECON 250D2",
-            "ECON 352D1"
+            "ECON 352D1",
+            "ECON 250D2"
         ],
         "coreqs": [],
         "restricts": []
@@ -1061,8 +1062,8 @@ global.econ_tar = {
             "instructors": "Instructors: Markus Poschke (Winter)"
         },
         "prereqs": [
-            "ECON 227",
-            "ECON 230"
+            "ECON 230",
+            "ECON 227"
         ],
         "coreqs": [],
         "restricts": []
@@ -1153,9 +1154,7 @@ global.econ_tar = {
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
-        "prereqs": [
-            "MATH 141"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": []
     },
@@ -1168,10 +1167,10 @@ global.econ_tar = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         },
         "prereqs": [
+            "ECON 230D1",
             "ECON 250D1",
             "ECON 352D1",
-            "ECON 330D1",
-            "ECON 230D1"
+            "ECON 330D1"
         ],
         "coreqs": [],
         "restricts": []
@@ -1667,8 +1666,8 @@ global.econ_tar = {
             "instructors": "Instructors: Russell Davidson (Fall)"
         },
         "prereqs": [
-            "ECON 620",
-            "ECON 610"
+            "ECON 610",
+            "ECON 620"
         ],
         "coreqs": [],
         "restricts": []
@@ -1829,9 +1828,9 @@ global.econ_tar = {
             "instructors": "Instructors: Saraswata Chaudhuri (Winter)"
         },
         "prereqs": [
-            "ECON 634",
             "ECON 641",
-            "ECON 662"
+            "ECON 662",
+            "ECON 634"
         ],
         "coreqs": [],
         "restricts": []

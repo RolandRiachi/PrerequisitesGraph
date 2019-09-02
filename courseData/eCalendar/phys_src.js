@@ -243,8 +243,10 @@ global.phys_src = {
     "PHYS 230": {
         "prereqs": [
             "PHYS 232",
+            "PHYS 319",
             "PHYS 331",
             "PHYS 357",
+            "PHYS 404",
             "PHYS 432",
             "PHYS 446"
         ],
@@ -267,6 +269,7 @@ global.phys_src = {
             "PHYS 271",
             "PHYS 351",
             "PHYS 357",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [
@@ -285,8 +288,10 @@ global.phys_src = {
     },
     "PHYS 232": {
         "prereqs": [
+            "PHYS 319",
             "PHYS 329",
             "PHYS 333",
+            "PHYS 404",
             "PHYS 446"
         ],
         "coreqs": [],
@@ -303,8 +308,10 @@ global.phys_src = {
     },
     "PHYS 253": {
         "prereqs": [
+            "PHYS 319",
             "PHYS 329",
-            "PHYS 362"
+            "PHYS 362",
+            "PHYS 404"
         ],
         "coreqs": [],
         "restricts": [
@@ -460,7 +467,8 @@ global.phys_src = {
         ],
         "coreqs": [],
         "restricts": [
-            "PHYS 329"
+            "PHYS 329",
+            "PHYS 362"
         ],
         "text": {
             "notes": "<p>Winter</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a> </p>\n\n<p>Restriction: Not open to students taking or having passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-362\" target=\"_blank\">PHYS 362</a></p>\n",
@@ -533,7 +541,9 @@ global.phys_src = {
             "PHYS 519"
         ],
         "coreqs": [],
-        "restricts": [],
+        "restricts": [
+            "PHYS 350"
+        ],
         "text": {
             "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisites: CEGEP physics or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-142\" target=\"_blank\">PHYS 142</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/math-222\" target=\"_blank\">MATH 222</a></p>\n\n<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/math-314\" target=\"_blank\">MATH 314</a></p>\n\n<p>Restriction: Not open to students who have passed <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-242\" target=\"_blank\">PHYS 242</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-350\" target=\"_blank\">PHYS 350</a></p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-340\" target=\"_blank\">PHYS 340</a> Majors Electricity and Magnetism (3 credits)",
@@ -601,6 +611,25 @@ global.phys_src = {
             "overview": "Physics : Experimental basis for quantum mechanics; wave-packets; uncertainty principle. Hilbert space formalism. Schrodinger equation: eigenvalues and eigenvectors: applications to 1-d problems including the infinite and finite potential wells and the harmonic oscillator. Tunneling. Time independent perturbation theory.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Tamar Pereg-Barnea (Fall)"
+        }
+    },
+    "PHYS 446": {
+        "prereqs": [
+            "PHYS 447"
+        ],
+        "coreqs": [
+            "PHYS 439"
+        ],
+        "restricts": [
+            "PHYS 357",
+            "PHYS 457"
+        ],
+        "text": {
+            "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a> </p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-357\" target=\"_blank\">PHYS 357</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-457\" target=\"_blank\">PHYS 457</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-446\" target=\"_blank\">PHYS 446</a> Majors Quantum Physics (3 credits)",
+            "overview": "Physics : de Broglie waves, Bohr atom. Schroedinger equation, wave functions, observables. One dimensional potentials. Schroedinger equation in three dimensions. Angular momentum, hydrogen atom. Spin, experimental consequences.",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Jack Childress (Fall)"
         }
     },
     "PHYS 359": {
@@ -705,22 +734,6 @@ global.phys_src = {
             "overview": "Physics : Advanced level experiments in modern physics stressing quantum effects and some properties of condensed matter.",
             "terms": "Terms: Fall 2019",
             "instructors": "Instructors: Jack Childress (Fall), David Hanna (Fall), Dominic Ryan (Fall)"
-        }
-    },
-    "PHYS 446": {
-        "prereqs": [
-            "PHYS 447"
-        ],
-        "coreqs": [
-            "PHYS 439"
-        ],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Fall</p>\n\n<p>3 hours lectures</p>\n\n<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-230\" target=\"_blank\">PHYS 230</a> and <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-232\" target=\"_blank\">PHYS 232</a>, or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-251\" target=\"_blank\">PHYS 251</a> </p>\n\n<p>Restriction: Not open to students taking or having taken <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-357\" target=\"_blank\">PHYS 357</a> or <a href=\"https://mcgill.ca/study/2019-2020/courses/phys-457\" target=\"_blank\">PHYS 457</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/phys-446\" target=\"_blank\">PHYS 446</a> Majors Quantum Physics (3 credits)",
-            "overview": "Physics : de Broglie waves, Bohr atom. Schroedinger equation, wave functions, observables. One dimensional potentials. Schroedinger equation in three dimensions. Angular momentum, hydrogen atom. Spin, experimental consequences.",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Jack Childress (Fall)"
         }
     },
     "PHYS 447": {

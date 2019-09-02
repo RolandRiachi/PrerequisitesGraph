@@ -45,18 +45,6 @@ global.acct_src = {
             "instructors": "Instructors: Julia Scott (Fall)"
         }
     },
-    "MGCR 341": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Continuing Studies: requirement for CMA, CGA, the EA of AACI, and the Institute of Internal Auditors</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a> Introduction to Finance (3 credits)",
-            "overview": "Management Core : An introduction to the principles, issues, and institutions of Finance. Topics include valuation, risk, capital investment, financial structure, cost of capital, working capital management, financial markets, and securities.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Vadim di Pietro (Fall), Vadim di Pietro (Winter), Sujata Madan (Winter)"
-        }
-    },
     "ACCT 361": {
         "prereqs": [
             "ACCT 362",
@@ -678,11 +666,11 @@ global.acct_src = {
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Restriction: Restricted to U0 Bcom students.</p>\n",
+            "notes": "<p>Restriction: Open to U0 and U1 B.Com. students.</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-250\" target=\"_blank\">BUSA 250</a> Expressive Analysis for Management (3 credits)",
             "overview": "Business Admin : To develop skills with respect to analysis, writing and presentation.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Lindsay Holmgren (Fall), Lindsay Holmgren (Winter)"
+            "instructors": "Instructors: Lindsay Holmgren (Fall), Katarzyna Van Schaik (Fall), John Allaster (Fall), Julia Skelly (Fall), Lisa Banks (Fall), Emily Wilson (Fall), Craig Melhoff (Fall), Lindsay Holmgren (Winter)"
         }
     },
     "BUSA 356": {
@@ -838,7 +826,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-434\" target=\"_blank\">BUSA 434</a> Topics in General Management (3 credits)",
             "overview": "Business Admin : Topics in management.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Anita Nowak (Fall), Shoeb Hosain (Winter)"
         }
     },
     "BUSA 435": {
@@ -973,54 +961,6 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "ORGB 661": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>**This course will be held on August 20, 27, Sep 9, 10, 16 &amp; 20.</p>\n\n<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a> Ethical Leadership and Leading Change (1.5 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "INSY 662": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a> Data Mining and Visualization (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Warut Khern-am-nuai (Fall)"
-        }
-    },
-    "MGSC 661": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a> Multivariate Statistical Analysis (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Juan Camilo Serpa (Fall)"
-        }
-    },
-    "MGSC 660": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a> Mathematical and Statistical Foundations for Analytics (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
     "BUSA 611": {
         "prereqs": [],
         "coreqs": [],
@@ -1028,21 +968,6 @@ global.acct_src = {
         "text": {
             "notes": "<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/busa-693\" target=\"_blank\">BUSA 693</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a></p>\n\n<p>Restriction(s): Students must obtain Instructor’s approval in writing before registering to this course.</p>\n\n<p>Before the instructor agrees to supervise the student, the student must submit a proposal form for approval.</p>\n\n<p>Data Handling Agreement/ Non-Disclosure Agreement must be signed by students</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-611\" target=\"_blank\">BUSA 611</a> Independent Studies in Analytics 1 (1.5 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "BUSA 693": {
-        "prereqs": [
-            "BUSA 611",
-            "BUSA 613"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a>.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-693\" target=\"_blank\">BUSA 693</a> Management Analytics Capstone (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
@@ -1070,32 +995,6 @@ global.acct_src = {
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
-        }
-    },
-    "MGCR 650": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Intensive course: 13 hours per week for 2 weeks, for a total of 26 contact hours.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a> Business Tools (2 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Mehmet Gumus (Fall), Philippe Levy (Fall)"
-        }
-    },
-    "MGCR 653": {
-        "prereqs": [
-            "MGCR 660"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Intensive course: 13 hours per week over 4 weeks for a total of 52 contact hours.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-653\" target=\"_blank\">MGCR 653</a> Markets and Globalization (4 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Corey Phelps (Fall), Demetrios Vakratsas (Fall), Francesca Carrieri (Fall), Corey Phelps (Winter)"
         }
     },
     "BUSA 615": {
@@ -1230,44 +1129,6 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGCR 629": {
-        "prereqs": [
-            "MGCR 660"
-        ],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-629\" target=\"_blank\">MGCR 629</a> Global Leadership (1 credit)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Saku Mantere (Fall)"
-        }
-    },
-    "MGCR 651": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a></p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651\" target=\"_blank\">MGCR 651</a> Managing Resources (4 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Benjamin Croitoru (Fall), Liette Lapointe (Fall), John-Paul Ferguson (Fall), Chantal Westgate (Fall)"
-        }
-    },
-    "MGCR 652": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a>.</p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652\" target=\"_blank\">MGCR 652</a> Value Creation (4 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe (Winter), Sujata Madan (Winter), Mehmet Gumus (Winter)"
-        }
-    },
     "BUSA 699": {
         "prereqs": [
             "BUSA 646"
@@ -1291,7 +1152,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650\" target=\"_blank\">BUSA 650</a> Internship (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         }
     },
     "BUSA 650D1": {
@@ -1303,7 +1164,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650d1\" target=\"_blank\">BUSA 650D1</a> Internship (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         }
     },
     "BUSA 650D2": {
@@ -1315,7 +1176,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-650d2\" target=\"_blank\">BUSA 650D2</a> Internship (3 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         }
     },
     "BUSA 651": {
@@ -1327,7 +1188,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-651\" target=\"_blank\">BUSA 651</a> Practicum (6 credits)",
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Alfred M Jaeger (Fall)"
         }
     },
     "BUSA 651D1": {
@@ -1666,18 +1527,6 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "INSY 661": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a> Database and Distributed Systems for Analytics (3 credits)",
-            "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Animesh Animesh (Fall)"
-        }
-    },
     "BUSA 685": {
         "prereqs": [],
         "coreqs": [],
@@ -1822,6 +1671,18 @@ global.acct_src = {
             "instructors": "Instructors: Nathalie Marie Duchesnay (Fall)"
         }
     },
+    "BUSA 693": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite(s): <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-660\" target=\"_blank\">INSY 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-662\" target=\"_blank\">MGSC 662</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-660\" target=\"_blank\">ORGB 660</a>, <a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a>.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/busa-693\" target=\"_blank\">BUSA 693</a> Management Analytics Capstone (6 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "BUSA 693N1": {
         "prereqs": [],
         "coreqs": [],
@@ -1943,7 +1804,10 @@ global.acct_src = {
         }
     },
     "FINE 441": {
-        "prereqs": [],
+        "prereqs": [
+            "FINE 449",
+            "FINE 480"
+        ],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -1967,9 +1831,7 @@ global.acct_src = {
         }
     },
     "FINE 443": {
-        "prereqs": [
-            "FINE 547"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2013,7 +1875,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/fine-446\" target=\"_blank\">FINE 446</a> Behavioural Finance (3 credits)",
             "overview": "Finance : This course will focus on how, why and to what extent our \"humanness\" affects decision making pertaining to financial issues. Until Kahneman and Tversky came out with their landmark work, known as prospect theory, economics was based on the notion that individuals, companies, and even countries make decisions based on their financial self-interest. In fact this is one of the tenets of modern portfolio theory. Topics covered in the course include loss aversion, the disposition effect, the framing effect, and the endowment effect.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Jeffrey S D Tory (Fall)"
         }
     },
     "FINE 447": {
@@ -2030,9 +1892,7 @@ global.acct_src = {
     },
     "FINE 448": {
         "prereqs": [],
-        "coreqs": [
-            "FINE 455"
-        ],
+        "coreqs": [],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-372\" target=\"_blank\">MGSC 372</a> or equivalent and <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a>.</p>\n",
@@ -2040,18 +1900,6 @@ global.acct_src = {
             "overview": "Finance : The course will concentrate on both the analytical and practical aspects of investments in options and futures. The first part of the course concentrates on option and futures valuation, considering both discrete and continuous time models. The second part of the course concentrates on the practical aspects of options and futures trading.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Patrick Augustin (Fall), Daniel Andrei (Winter)"
-        }
-    },
-    "MGSC 372": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a></p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-372\" target=\"_blank\">MGSC 372</a> Advanced Business Statistics (3 credits)",
-            "overview": "Management Science : A practical managerial approach to advanced simple and multiple regression analysis, with application in finance, economics and business, including a review of probability theory, an introduction to methods of least squares and maximum likelihood estimation, autoregressive forecasting models and analysis of variance.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Brian E Smith (Fall), Brian E Smith (Winter)"
         }
     },
     "FINE 449": {
@@ -2080,7 +1928,9 @@ global.acct_src = {
     },
     "FINE 451": {
         "prereqs": [],
-        "coreqs": [],
+        "coreqs": [
+            "FINE 455"
+        ],
         "restricts": [],
         "text": {
             "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/fine-441\" target=\"_blank\">FINE 441</a></p>\n",
@@ -2139,9 +1989,7 @@ global.acct_src = {
         }
     },
     "FINE 482": {
-        "prereqs": [
-            "FINE 480"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
@@ -2908,18 +2756,6 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGCR 211": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Continuing Studies: requirement for CMA, CGA, the EA of AACI, and the Institute of Internal Auditors</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-211\" target=\"_blank\">MGCR 211</a> Introduction to Financial Accounting (3 credits)",
-            "overview": "Management Core : The role of financial accounting in the reporting of the financial performance of a business. The principles, components and uses of financial accounting and reporting from a user's perspective, including the recording of accounting transactions and events, the examination of the elements of financial statements, the preparation of financial statements and the analysis of financial results.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Seunghwan Oh (Fall), Hongping Tan (Fall), Philippe Levy (Fall), Dongyoung Lee (Winter)"
-        }
-    },
     "INSY 333": {
         "prereqs": [],
         "coreqs": [],
@@ -3050,18 +2886,6 @@ global.acct_src = {
             "overview": "Information Systems : Introduction to the methods and tools for analyzing business data to improve business decision-making, focusing on extracting business intelligence by analyzing data and online content for various business applications.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Aria Teimourzadeh (Fall)"
-        }
-    },
-    "MGCR 331": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Prerequisite (Continuing Studies): <a href=\"https://mcgill.ca/study/2019-2020/courses/cmsc-101\" target=\"_blank\">CMSC 101</a> Mathematical Tools for Management Professionals or equivalent Basic computer skills including DOS, Spreadsheets and Word-processing and Database.</p>\n\n<p>Restriction: Fall sections restricted to BCom students</p>\n\n<p>Continuing Studies: requirement for the Institute of Internal Auditors, CMA, CGA</p>\n\n<p>A special seminar will be available to those students who do not possess the above basic computer skills, at the students' own expense.</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
-            "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Aria Teimourzadeh (Fall), Aria Teimourzadeh (Winter)"
         }
     },
     "INSY 444": {
@@ -3240,8 +3064,8 @@ global.acct_src = {
             "notes": "<p>Restriction(s): NOT OPEN TO STUDENTS WHO HAVE TAKEN <a href=\"https://mcgill.ca/study/2019-2020/courses/insy-690\" target=\"_blank\">INSY 690</a> WHEN TOPIC WAS “INSIGHTS IN BIG DATA AND DATA ANALYTICS”</p>\n",
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-642\" target=\"_blank\">INSY 642</a> Techniques and Tools for Analytics (3 credits)",
             "overview": "Administered by: Graduate Studies",
-            "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: Genevieve Bassellier (Fall)"
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Genevieve Bassellier (Fall), Aria Teimourzadeh (Winter)"
         }
     },
     "INSY 645": {
@@ -3290,6 +3114,30 @@ global.acct_src = {
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "INSY 661": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-661\" target=\"_blank\">INSY 661</a> Database and Distributed Systems for Analytics (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Animesh Animesh (Fall)"
+        }
+    },
+    "INSY 662": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/insy-662\" target=\"_blank\">INSY 662</a> Data Mining and Visualization (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Warut Khern-am-nuai (Fall)"
         }
     },
     "INSY 670": {
@@ -3457,7 +3305,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/intg-201\" target=\"_blank\">INTG 201</a> Integrated Management Essentials 1 (3 credits)",
             "overview": "INTG : Essentials of management using an integrated approach. Three modules (managing money, managing people and managing information) cover fundamentals of accounting, finance, organizational behaviour and information systems; and illustrate how the effective management of human, financial and technological resources contributes to the success of an organization. Emphasizes an integrated approach to management, highlighting how organizations function as a whole and the importance of being able to work across functional and organizational boundaries.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Simon Blanchette (Fall)"
         }
     },
     "INTG 202": {
@@ -3472,28 +3320,16 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
-    "MGCR 472": {
+    "MGCR 211": {
         "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
-            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Requirement for the Canadian Institute of Management</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
-            "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
+            "notes": "<p>Continuing Studies: requirement for CMA, CGA, the EA of AACI, and the Institute of Internal Auditors</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-211\" target=\"_blank\">MGCR 211</a> Introduction to Financial Accounting (3 credits)",
+            "overview": "Management Core : The role of financial accounting in the reporting of the financial performance of a business. The principles, components and uses of financial accounting and reporting from a user's perspective, including the recording of accounting transactions and events, the examination of the elements of financial statements, the preparation of financial statements and the analysis of financial results.",
             "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter), Rim Hariss (Winter)"
-        }
-    },
-    "MGCR 352": {
-        "prereqs": [],
-        "coreqs": [],
-        "restricts": [],
-        "text": {
-            "notes": "<p>Continuing Studies: requirement for the Institute of Internal Auditors, and the Canadian Institute of Management</p>\n",
-            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-352\" target=\"_blank\">MGCR 352</a> Principles of Marketing (3 credits)",
-            "overview": "Management Core : Introduction to marketing principles, focusing on problem solving and decision making. Topics include: the marketing concept; marketing strategies; buyer behaviour; Canadian demographics; internal and external constraints; product; promotion; distribution; price. Lectures, text material and case studies.",
-            "terms": "Terms: Fall 2019, Winter 2020",
-            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu (Winter), Nathan Yang (Winter), Emine Sarigollu (Winter)"
+            "instructors": "Instructors: Seunghwan Oh (Fall), Hongping Tan (Fall), Philippe Levy (Fall), Dongyoung Lee (Winter)"
         }
     },
     "MGCR 222": {
@@ -3544,6 +3380,42 @@ global.acct_src = {
             "instructors": "Instructors: Taweewan Sidthidet (Fall), K Sheikholeslami Salmasi (Fall), Tariq Nizami (Fall)"
         }
     },
+    "MGCR 331": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite (Continuing Studies): <a href=\"https://mcgill.ca/study/2019-2020/courses/cmsc-101\" target=\"_blank\">CMSC 101</a> Mathematical Tools for Management Professionals or equivalent Basic computer skills including DOS, Spreadsheets and Word-processing and Database.</p>\n\n<p>Restriction: Fall sections restricted to BCom students</p>\n\n<p>Continuing Studies: requirement for the Institute of Internal Auditors, CMA, CGA</p>\n\n<p>A special seminar will be available to those students who do not possess the above basic computer skills, at the students' own expense.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-331\" target=\"_blank\">MGCR 331</a> Information Systems (3 credits)",
+            "overview": "Management Core : Introduction to principles and concepts of information systems in organizations. Topics include information technology, transaction processing systems, decision support systems, database and systems development. Students are required to have background preparation on basic micro computer skills including spreadsheet and word-processing.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Aria Teimourzadeh (Fall), Stuart A Forman (Fall), Aria Teimourzadeh (Winter)"
+        }
+    },
+    "MGCR 341": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Corequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Continuing Studies: requirement for CMA, CGA, the EA of AACI, and the Institute of Internal Auditors</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-341\" target=\"_blank\">MGCR 341</a> Introduction to Finance (3 credits)",
+            "overview": "Management Core : An introduction to the principles, issues, and institutions of Finance. Topics include valuation, risk, capital investment, financial structure, cost of capital, working capital management, financial markets, and securities.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Vadim di Pietro (Fall), Vadim di Pietro (Winter), Sujata Madan (Winter)"
+        }
+    },
+    "MGCR 352": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Continuing Studies: requirement for the Institute of Internal Auditors, and the Canadian Institute of Management</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-352\" target=\"_blank\">MGCR 352</a> Principles of Marketing (3 credits)",
+            "overview": "Management Core : Introduction to marketing principles, focusing on problem solving and decision making. Topics include: the marketing concept; marketing strategies; buyer behaviour; Canadian demographics; internal and external constraints; product; promotion; distribution; price. Lectures, text material and case studies.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Hamid Etemad (Fall), Hee Ryung Kim (Fall), Robert H S Soroka (Fall), Yi Lu (Winter), Nathan Yang (Winter), Emine Sarigollu (Winter)"
+        }
+    },
     "MGCR 360": {
         "prereqs": [],
         "coreqs": [],
@@ -3578,6 +3450,18 @@ global.acct_src = {
             "overview": "Management Core : An integrative and interdisciplinary introduction to strategy formation and execution. Concepts, tools, and practical application to understand how firms leverage resources and capabilities to gain competitive advantage in dynamic, contemporary industries.  Strategic positioning, organizational design, and managerial action for the long-term success of businesses and positive social and ecological outcomes.",
             "terms": "Terms: Fall 2019, Winter 2020",
             "instructors": "Instructors: Matthew Corritore (Fall), Donald Melville (Fall), Karl James Moore (Fall), Gregory Bryan Vit (Fall), Kwangjun An (Winter), Gregory Bryan Vit (Winter)"
+        }
+    },
+    "MGCR 472": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a> or equivalent</p>\n\n<p>Requirement for the Canadian Institute of Management</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-472\" target=\"_blank\">MGCR 472</a> Operations Management (3 credits)",
+            "overview": "Management Core : Design, planning, establishment, control, and improvement of the activities/processes that create a firm's final products and/or services. The interaction of operations with other business areas will also be discussed. Topics include forecasting, product and process design, waiting lines, capacity planning, inventory management and total quality management.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Shanling Li (Fall), Malleswara Talla (Fall), Yichuan (Daniel), Ding (Winter), Rim Hariss (Winter)"
         }
     },
     "MGCR 610": {
@@ -3856,6 +3740,18 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "MGCR 629": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-629\" target=\"_blank\">MGCR 629</a> Global Leadership (1 credit)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Saku Mantere (Fall)"
+        }
+    },
     "MGCR 640": {
         "prereqs": [],
         "coreqs": [],
@@ -3892,6 +3788,32 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "MGCR 650": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Intensive course: 13 hours per week for 2 weeks, for a total of 26 contact hours.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a> Business Tools (2 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Mehmet Gumus (Fall), Philippe Levy (Fall)"
+        }
+    },
+    "MGCR 651": {
+        "prereqs": [
+            "MGCR 660"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a></p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-651\" target=\"_blank\">MGCR 651</a> Managing Resources (4 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Benjamin Croitoru (Fall), Liette Lapointe (Fall), John-Paul Ferguson (Fall), Chantal Westgate (Fall)"
+        }
+    },
     "MGCR 651D1": {
         "prereqs": [],
         "coreqs": [],
@@ -3916,6 +3838,20 @@ global.acct_src = {
             "instructors": "Instructors: Liette Lapointe (Fall), Chantal Westgate (Fall), Benjamin Croitoru (Fall)"
         }
     },
+    "MGCR 652": {
+        "prereqs": [
+            "MGCR 660"
+        ],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-650\" target=\"_blank\">MGCR 650</a>.</p>\n\n<p>Intensive course: 7.5 hours per week, over 7 weeks for a total of 52 contact hours.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-652\" target=\"_blank\">MGCR 652</a> Value Creation (4 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Liette Lapointe (Fall), Sujata Madan (Fall), Demetrios Vakratsas (Fall), Mehmet Gumus (Fall), Liette Lapointe (Winter), Sujata Madan (Winter), Mehmet Gumus (Winter)"
+        }
+    },
     "MGCR 652D1": {
         "prereqs": [],
         "coreqs": [],
@@ -3938,6 +3874,18 @@ global.acct_src = {
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Liette Lapointe (Winter), Sujata Madan (Winter), Mehmet Gumus (Winter)"
+        }
+    },
+    "MGCR 653": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Intensive course: 13 hours per week over 4 weeks for a total of 52 contact hours.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-653\" target=\"_blank\">MGCR 653</a> Markets and Globalization (4 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Corey Phelps (Fall), Demetrios Vakratsas (Fall), Francesca Carrieri (Fall), Corey Phelps (Winter)"
         }
     },
     "MGCR 660": {
@@ -4612,6 +4560,18 @@ global.acct_src = {
             "instructors": "Instructors: Corey Phelps (Fall)"
         }
     },
+    "MGSC 372": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>Prerequisite: <a href=\"https://mcgill.ca/study/2019-2020/courses/mgcr-271\" target=\"_blank\">MGCR 271</a></p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-372\" target=\"_blank\">MGSC 372</a> Advanced Business Statistics (3 credits)",
+            "overview": "Management Science : A practical managerial approach to advanced simple and multiple regression analysis, with application in finance, economics and business, including a review of probability theory, an introduction to methods of least squares and maximum likelihood estimation, autoregressive forecasting models and analysis of variance.",
+            "terms": "Terms: Fall 2019, Winter 2020",
+            "instructors": "Instructors: Brian E Smith (Fall), Brian E Smith (Winter)"
+        }
+    },
     "MGSC 373": {
         "prereqs": [],
         "coreqs": [],
@@ -4874,6 +4834,30 @@ global.acct_src = {
             "overview": "Administered by: Graduate Studies",
             "terms": "Terms: Winter 2020",
             "instructors": "Instructors: Shoeb Hosain (Winter)"
+        }
+    },
+    "MGSC 660": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-660\" target=\"_blank\">MGSC 660</a> Mathematical and Statistical Foundations for Analytics (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
+    "MGSC 661": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mgsc-661\" target=\"_blank\">MGSC 661</a> Multivariate Statistical Analysis (3 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: Fall 2019",
+            "instructors": "Instructors: Juan Camilo Serpa (Fall)"
         }
     },
     "MGSC 662": {
@@ -5389,7 +5373,7 @@ global.acct_src = {
             "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/mrkt-455\" target=\"_blank\">MRKT 455</a> Sales Management (3 credits)",
             "overview": "Marketing : Responsibilities of the sales manager as they relate to the sales force. These include the selection of process, training alternatives, compensation and incentive plans, supervision and evaluation and budgeting and forecasting. Case studies and discussions of sales force models are used.",
             "terms": "Terms: Fall 2019",
-            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+            "instructors": "Instructors: Bruno Delorme (Fall)"
         }
     },
     "MRKT 456": {
@@ -6040,6 +6024,18 @@ global.acct_src = {
             "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
         }
     },
+    "ORGB 661": {
+        "prereqs": [],
+        "coreqs": [],
+        "restricts": [],
+        "text": {
+            "notes": "<p>**This course will be held on August 20, 27, Sep 9, 10, 16 &amp; 20.</p>\n\n<p>**Due to the intensive nature of this course, the standard add/drop and withdrawal deadlines do not apply. Course Add is the second lecture day.</p>\n\n<p>**No web drop allowed.</p>\n\n<p>**Web withdrawal not applicable.</p>\n",
+            "title": "<a href=\"https://mcgill.ca/study/2019-2020/courses/orgb-661\" target=\"_blank\">ORGB 661</a> Ethical Leadership and Leading Change (1.5 credits)",
+            "overview": "Administered by: Graduate Studies",
+            "terms": "Terms: This course is not scheduled for the 2019-2020 academic year.",
+            "instructors": "Instructors: There are no professors associated with this course for the 2019-2020 academic year."
+        }
+    },
     "ORGB 671": {
         "prereqs": [],
         "coreqs": [],
@@ -6185,9 +6181,7 @@ global.acct_src = {
         }
     },
     "RETL 402": {
-        "prereqs": [
-            "RETL 407"
-        ],
+        "prereqs": [],
         "coreqs": [],
         "restricts": [],
         "text": {
